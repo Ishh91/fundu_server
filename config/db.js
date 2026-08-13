@@ -328,6 +328,9 @@ export const connectDB = async () => {
       tls: true,
       tlsAllowInvalidCertificates: true,
       serverSelectionTimeoutMS: 5000,
+      // Do NOT auto-sync indexes — we manage sparse unique indexes manually
+      // via server/utils/fixUserIndexes.js to avoid overwriting them.
+      autoIndex: false,
     });
     console.log('Connected to MongoDB successfully.');
     await seedDatabase();
