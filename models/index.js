@@ -10,6 +10,7 @@ import { Review } from './Review.js';
 import { SupportTicket } from './SupportTicket.js';
 import { DeliveryAgent } from './DeliveryAgent.js';
 import { MasterPhone } from './MasterPhone.js';
+import { SiteContent } from './SiteContent.js';
 
 export {
   User,
@@ -24,6 +25,7 @@ export {
   SupportTicket,
   DeliveryAgent,
   MasterPhone,
+  SiteContent,
 };
 
 export const TABLE_MODELS = {
@@ -40,6 +42,8 @@ export const TABLE_MODELS = {
   delivery_agents: DeliveryAgent,
   master_phones: MasterPhone,
   phones: MasterPhone,
+  site_content: SiteContent,
+  banners: SiteContent,
 };
 
 export const getModel = (table) => {
