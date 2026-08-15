@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import { createSchema } from './baseSchema.js';
 
 const repairBookingSchema = createSchema({
-  user_id: { type: String, required: true },
+  user_id: { type: String, default: null },
   brand: { type: String, required: true },
   model: { type: String, required: true },
   problem: { type: String, required: true },
@@ -12,7 +12,6 @@ const repairBookingSchema = createSchema({
   final_cost: { type: Number, default: null },
   status: {
     type: String,
-    enum: ['pending', 'assigned', 'picked_up', 'in_repair', 'repaired', 'delivered', 'cancelled'],
     default: 'pending',
   },
   pickup_address: { type: String, default: null },

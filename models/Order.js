@@ -2,14 +2,13 @@ import mongoose from 'mongoose';
 import { createSchema } from './baseSchema.js';
 
 const orderSchema = createSchema({
-  user_id: { type: String, required: true },
+  user_id: { type: String, default: null },
   product_id: { type: String, default: null },
   spare_part_id: { type: String, default: null },
   quantity: { type: Number, default: 1 },
   total_amount: { type: Number, required: true },
   status: {
     type: String,
-    enum: ['pending', 'assigned', 'packed', 'dispatched', 'in_transit', 'delivered', 'cancelled'],
     default: 'pending',
   },
   payment_method: { type: String, default: 'cod' },

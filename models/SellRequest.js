@@ -2,12 +2,12 @@ import mongoose from 'mongoose';
 import { createSchema } from './baseSchema.js';
 
 const sellRequestSchema = createSchema({
-  user_id: { type: String, required: true },
+  user_id: { type: String, default: null },
   brand: { type: String, required: true },
   model: { type: String, required: true },
   ram: { type: String, default: null },
   storage: { type: String, default: null },
-  condition: { type: String, required: true },
+  condition: { type: String, default: 'Good' },
   imei: { type: String, default: null },
   imei_photo: { type: String, default: null },
   device_photos: {
@@ -29,7 +29,6 @@ const sellRequestSchema = createSchema({
   final_price: { type: Number, default: null },
   status: {
     type: String,
-    enum: ['pending', 'assigned', 'inspected', 'picked_up', 'paid', 'completed', 'cancelled'],
     default: 'pending',
   },
   pickup_address: { type: String, default: null },

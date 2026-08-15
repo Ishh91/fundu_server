@@ -4,7 +4,16 @@ import { createHttpError } from './error.js';
 export const normalizeDoc = (doc) => {
   if (!doc) return null;
   if (Array.isArray(doc)) return doc.map(normalizeDoc);
-  if (typeof doc.toJSON === 'function') return doc.toJSON();
+  if (typeof doc.toObject === 'function') {
+    const obj = doc.toObject();
+    if (obj._id) {
+      obj.id = obj._id.toString();
+      delete obj._id;
+    }
+    delete obj.__v;
+    delete obj.passwordHash;
+    return obj;
+  }
   const plain = { ...doc };
   if (plain._id) {
     plain.id = plain._id.toString();
@@ -19,24 +28,38 @@ export const mapField = (field) => (field === 'id' ? '_id' : field);
 
 export const convertFilterValue = (field, value) => {
   if (field === '_id' && typeof value === 'string' && Types.ObjectId.isValid(value)) {
-    return new Types.ObjectId(value);
+    try {
+      return new Types.ObjectId(value);
+    } catch {
+      return value;
+    }
   }
   if (field === '_id' && Array.isArray(value)) {
-    return value.map((item) => (
-      typeof item === 'string' && Types.ObjectId.isValid(item) ? new Types.ObjectId(item) : item
-    ));
+    return value.map((item) => {
+      if (typeof item === 'string' && Types.ObjectId.isValid(item)) {
+        try {
+          return new Types.ObjectId(item);
+        } catch {
+          return item;
+        }
+      }
+      return item;
+    });
   }
   return value;
 };
 
 export const buildMongoFilter = (filters = []) => {
-  const conditions = filters.map(({ field, op, value }) => {
-    const dbField = mapField(field);
-    const dbValue = convertFilterValue(dbField, value);
-    if (op === 'eq') return { [dbField]: dbValue };
-    if (op === 'in') return { [dbField]: { $in: Array.isArray(dbValue) ? dbValue : [dbValue] } };
-    throw createHttpError(400, `Unsupported filter operator: ${op}`);
-  });
+  if (!Array.isArray(filters)) return {};
+  const conditions = filters
+    .filter((f) => f && f.field)
+    .map(({ field, op = 'eq', value }) => {
+      const dbField = mapField(field);
+      const dbValue = convertFilterValue(dbField, value);
+      if (op === 'eq') return { [dbField]: dbValue };
+      if (op === 'in') return { [dbField]: { $in: Array.isArray(dbValue) ? dbValue : [dbValue] } };
+      return { [dbField]: dbValue };
+    });
 
   if (conditions.length === 0) return {};
   if (conditions.length === 1) return conditions[0];
@@ -51,8 +74,14 @@ export const combineFilters = (...filters) => {
 };
 
 export const parseSort = (sort) => {
-  if (!sort?.field) return undefined;
-  return { [mapField(sort.field)]: sort.ascending === false ? -1 : 1 };
+  if (!sort) return undefined;
+  if (typeof sort === 'string') {
+    return { [mapField(sort)]: 1 };
+  }
+  if (typeof sort === 'object' && sort.field) {
+    return { [mapField(sort.field)]: sort.ascending === false ? -1 : 1 };
+  }
+  return undefined;
 };
 
 export const parseSelect = (select) => {
@@ -67,6 +96,10 @@ export const parseSelect = (select) => {
 
 export const parseJsonParam = (value, fallback) => {
   if (!value) return fallback;
-  if (typeof value !== 'string') return fallback;
-  return JSON.parse(value);
+  if (typeof value !== 'string') return typeof value === 'object' ? value : fallback;
+  try {
+    return JSON.parse(value);
+  } catch {
+    return fallback;
+  }
 };

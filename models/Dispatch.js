@@ -5,7 +5,7 @@ const dispatchSchema = createSchema({
   order_id: { type: String, required: true },
   delivery_person_name: { type: String, required: true },
   delivery_person_phone: { type: String, required: true },
-  status: { type: String, enum: ['dispatched', 'in_transit', 'delivered', 'returned'], default: 'dispatched' },
+  status: { type: String, default: 'dispatched' },
   notes: { type: String, default: null },
   dispatched_at: { type: String, default: () => new Date().toISOString() },
   delivered_at: { type: String, default: null },
