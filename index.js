@@ -19,6 +19,8 @@ const allowedOrigins = [
   'http://localhost:4000',
   'https://fundu52.vercel.app',
   'https://fundu.onrender.com',
+  'https://thefundu.com',
+  'https://www.thefundu.com',
   process.env.CLIENT_ORIGIN,
 ].filter(Boolean);
 
@@ -28,10 +30,15 @@ app.use(cors({
     if (/^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origin)) {
       return callback(null, true);
     }
-    if (allowedOrigins.includes(origin) || /\.vercel\.app$/.test(origin) || /\.onrender\.com$/.test(origin)) {
-      return callback(null, true);
+    if (
+      allowedOrigins.includes(origin) ||
+      /\.vercel\.app$/.test(origin) ||
+      /\.onrender\.com$/.test(origin) ||
+      /thefundu\.com$/.test(origin)
+    ) {
+      return callback(null, origin);
     }
-    callback(null, true);
+    callback(null, origin);
   },
   credentials: true,
 }));
@@ -41,7 +48,12 @@ app.use(parseAuth);
 
 app.use('/api', apiRoutes);
 
-app.use((error, _req, res, _next) => {
+app.use((error, req, res, _next) => {
+  const origin = req.headers.origin;
+  if (origin) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+    res.setHeader('Access-Control-Allow-Credentials', 'true');
+  }
   const status = error.status || 500;
   res.status(status).json({
     error: {
