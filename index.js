@@ -14,32 +14,23 @@ dotenv.config({ path: path.resolve(__dirname, '..', '.env') });
 
 const app = express();
 const PORT = Number(process.env.PORT || 4000);
-const allowedOrigins = [
-  'http://localhost:5173',
-  'http://localhost:4000',
-  'https://fundu52.vercel.app',
-  'https://fundu.onrender.com',
-  'https://thefundu.com',
-  'https://www.thefundu.com',
-  process.env.CLIENT_ORIGIN,
-].filter(Boolean);
+// Universal Bulletproof CORS & OPTIONS Preflight Handler
+app.use((req, res, next) => {
+  const origin = req.headers.origin || '*';
+  res.setHeader('Access-Control-Allow-Origin', origin);
+  res.setHeader('Access-Control-Allow-Credentials', 'true');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-Requested-With, Accept, Origin, Range');
+  res.setHeader('Access-Control-Expose-Headers', 'Content-Range, X-Total-Count');
+
+  if (req.method === 'OPTIONS') {
+    return res.status(204).end();
+  }
+  next();
+});
 
 app.use(cors({
-  origin: (origin, callback) => {
-    if (!origin) return callback(null, true);
-    if (/^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origin)) {
-      return callback(null, true);
-    }
-    if (
-      allowedOrigins.includes(origin) ||
-      /\.vercel\.app$/.test(origin) ||
-      /\.onrender\.com$/.test(origin) ||
-      /thefundu\.com$/.test(origin)
-    ) {
-      return callback(null, origin);
-    }
-    callback(null, origin);
-  },
+  origin: true,
   credentials: true,
 }));
 
