@@ -115,20 +115,38 @@ router.post('/otp/verify', async (req, res, next) => {
    ────────────────────────────────────────────────────────────── */
 router.post('/register', async (req, res, next) => {
   try {
-    const { email, password, fullName, phone } = req.body;
+    const { email, password, fullName, phone, role, businessName, creditLimit, gstNumber } = req.body;
     if (!email || !password || !fullName || !phone) {
       throw createHttpError(400, 'Full name, email, phone, and password are required.');
     }
 
-    const existing = await User.findOne({ email: String(email).toLowerCase().trim() });
-    if (existing) throw createHttpError(409, 'An account with this email already exists.');
+    const cleanEmail = String(email).toLowerCase().trim();
+    const cleanPhone = normalisePhone(phone);
+
+    if (!isValidPhone(cleanPhone)) {
+      throw createHttpError(400, 'Please enter a valid 10-digit mobile number.');
+    }
+
+    const existingEmail = await User.findOne({ email: cleanEmail });
+    if (existingEmail) {
+      throw createHttpError(409, 'An account with this email address already exists. Duplicate email is not permitted.');
+    }
+
+    const existingPhone = await User.findOne({ phone: cleanPhone });
+    if (existingPhone) {
+      throw createHttpError(409, 'An account with this mobile number already exists. Duplicate mobile number is not permitted.');
+    }
 
     const user = await User.create({
-      email: String(email).toLowerCase().trim(),
+      email: cleanEmail,
       passwordHash: await bcrypt.hash(String(password), 10),
       full_name: String(fullName).trim(),
-      phone: String(phone).trim(),
-      role: 'customer',
+      phone: cleanPhone,
+      role: role || 'customer',
+      business_name: businessName || null,
+      credit_limit: creditLimit ? Number(creditLimit) : 200000,
+      gst_number: gstNumber || null,
+      is_verified: true,
     });
 
     res.status(201).json({
