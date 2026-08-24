@@ -28,6 +28,9 @@ const userSchema = createSchema({
   gst_number: { type: String, default: null },
   is_verified: { type: Boolean, default: false },
   avatar_url: { type: String, default: null },
+  credit_limit: { type: Number, default: 0 },
+  outstanding_balance: { type: Number, default: 0 },
+  is_b2b_approved: { type: Boolean, default: false },
 }, {
   timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' },
   // Disable auto-index: we manage sparse unique indexes manually via fixUserIndexes.js

@@ -22,6 +22,10 @@ const orderSchema = createSchema({
   delivery_person_name: { type: String, default: null },
   delivery_person_phone: { type: String, default: null },
   estimated_arrival_time: { type: String, default: null },
+  items: { type: Array, default: [] },
+  customer_notes: { type: String, default: null },
+  admin_reply: { type: String, default: null },
+  support_messages: { type: Array, default: [] },
   tracking_id: {
     type: String,
     default: () => `ORD${Math.random().toString(36).slice(2, 8).toUpperCase()}`,

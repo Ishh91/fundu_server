@@ -1,5 +1,5 @@
 import { Types } from 'mongoose';
-import { getModel, Order, User } from '../models/index.js';
+import { getModel, Order, User, VendorLedger, WholesaleOrder, WholesaleInventory } from '../models/index.js';
 import { createHttpError } from '../utils/error.js';
 import {
   buildMongoFilter,
@@ -10,6 +10,7 @@ import {
 } from '../utils/dbHelpers.js';
 import { isAdmin, isWholesaler, requireAuth } from '../middleware/auth.js';
 import { autoAssignDeliveryAgent } from './dispatchService.js';
+import { triggerEventNotification } from './notificationService.js';
 
 export const getReadScope = async (table, auth, filters) => {
   const baseFilter = buildMongoFilter(filters);
@@ -48,7 +49,18 @@ export const getReadScope = async (table, auth, filters) => {
     case 'phones':
     case 'site_content':
     case 'banners':
+    case 'wholesale_inventories':
+    case 'wholesale_inventory':
       return baseFilter;
+    case 'wholesale_orders':
+      if (!auth?.sub) return baseFilter;
+      if (isAdmin(auth)) return baseFilter;
+      return combineFilters(baseFilter, { vendor_id: auth.sub });
+    case 'vendor_ledgers':
+    case 'vendor_ledger':
+      if (!auth?.sub) return baseFilter;
+      if (isAdmin(auth)) return baseFilter;
+      return combineFilters(baseFilter, { vendor_id: auth.sub });
     case 'support_tickets':
       if (!auth?.sub) return baseFilter;
       return isAdmin(auth) ? baseFilter : combineFilters(baseFilter, { user_id: auth.sub });
@@ -86,6 +98,19 @@ export const getWriteScope = async (table, auth, filters) => {
         : { user_id: auth.sub };
       return combineFilters(baseFilter, userMatch);
     }
+    case 'wholesale_orders':
+      requireAuth(auth);
+      if (isAdmin(auth)) return baseFilter;
+      return combineFilters(baseFilter, { vendor_id: auth.sub });
+    case 'wholesale_inventories':
+    case 'wholesale_inventory':
+      requireAuth(auth);
+      return baseFilter;
+    case 'vendor_ledgers':
+    case 'vendor_ledger':
+      requireAuth(auth);
+      if (!isAdmin(auth)) throw createHttpError(403, 'Admin access required.');
+      return baseFilter;
     case 'sell_price_configs':
     case 'delivery_agents':
     case 'master_phones':
@@ -134,6 +159,19 @@ export const preparePayload = (table, action, input, auth) => {
         payload.seller_id = auth.sub;
         if (action === 'insert' || action === 'upsert') payload.is_approved = false;
       }
+      return payload;
+    case 'wholesale_inventories':
+    case 'wholesale_inventory':
+      return payload;
+    case 'wholesale_orders':
+      requireAuth(auth);
+      if (!isAdmin(auth) && !payload.vendor_id) {
+        payload.vendor_id = auth.sub;
+      }
+      return payload;
+    case 'vendor_ledgers':
+    case 'vendor_ledger':
+      requireAuth(auth);
       return payload;
     case 'sell_requests':
     case 'repair_bookings':
@@ -282,8 +320,99 @@ export const insertIntoTable = async (table, { auth, values, single }) => {
     throw createHttpError(400, 'Profiles are created through auth registration.');
   }
 
+  // Handle B2B Wholesale Order processing before insert
+  if (table === 'wholesale_orders') {
+    for (const order of preparedItems) {
+      if (order.payment_method === 'credit' && order.vendor_id) {
+        try {
+          const vendor = await User.findById(order.vendor_id);
+          if (vendor) {
+            const balanceBefore = vendor.outstanding_balance || 0;
+            const balanceAfter = balanceBefore + (order.total_amount || 0);
+            await User.findByIdAndUpdate(vendor._id, { outstanding_balance: balanceAfter });
+
+            // Record in VendorLedger
+            await VendorLedger.create({
+              vendor_id: vendor._id.toString(),
+              vendor_name: vendor.business_name || vendor.full_name || order.vendor_name,
+              type: 'credit_purchase',
+              amount: order.total_amount,
+              balance_before: balanceBefore,
+              balance_after: balanceAfter,
+              reference_order_id: order.id || 'B2B_PURCHASE',
+              payment_mode: 'Fundu Credit (Khata)',
+              notes: `Credit order placed for ${order.items?.length || 1} device(s)`,
+            });
+          }
+        } catch (err) {
+          console.warn('Notice processing wholesale credit ledger:', err);
+        }
+      }
+
+      // Mark purchased inventory items as sold / decrease stock
+      if (Array.isArray(order.items)) {
+        for (const it of order.items) {
+          if (it.inventory_id) {
+            try {
+              await WholesaleInventory.findByIdAndUpdate(it.inventory_id, { status: 'sold', $inc: { stock: -1 } });
+            } catch (e) {
+              console.warn('Notice updating wholesale inventory status:', e);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Handle Vendor Ledger entries (e.g. Cash repayment from vendor)
+  if (table === 'vendor_ledgers' || table === 'vendor_ledger') {
+    for (const ledger of preparedItems) {
+      if (ledger.type === 'cash_repayment' && ledger.vendor_id) {
+        try {
+          const vendor = await User.findById(ledger.vendor_id);
+          if (vendor) {
+            const balanceBefore = vendor.outstanding_balance || 0;
+            const balanceAfter = Math.max(0, balanceBefore - (ledger.amount || 0));
+            ledger.balance_before = balanceBefore;
+            ledger.balance_after = balanceAfter;
+            await User.findByIdAndUpdate(vendor._id, { outstanding_balance: balanceAfter });
+          }
+        } catch (err) {
+          console.warn('Notice updating vendor balance on cash repayment:', err);
+        }
+      } else if (ledger.type === 'credit_limit_set' && ledger.vendor_id) {
+        try {
+          await User.findByIdAndUpdate(ledger.vendor_id, { credit_limit: ledger.amount, is_b2b_approved: true });
+        } catch (err) {
+          console.warn('Notice updating vendor credit limit:', err);
+        }
+      }
+    }
+  }
+
   const docs = await Model.insertMany(preparedItems);
   const normalized = normalizeDoc(docs);
+
+  // Background Automated Notification Triggers
+  try {
+    const docList = Array.isArray(normalized) ? normalized : [normalized];
+    for (const doc of docList) {
+      if (table === 'orders') {
+        triggerEventNotification('order_created', doc);
+      } else if (table === 'sell_requests') {
+        triggerEventNotification('sell_request_created', doc);
+      } else if (table === 'repair_bookings') {
+        triggerEventNotification('repair_created', doc);
+      } else if (table === 'wholesale_orders') {
+        triggerEventNotification('wholesale_order_created', doc);
+      } else if (table === 'vendor_ledgers' || table === 'vendor_ledger') {
+        triggerEventNotification('vendor_ledger_updated', doc);
+      }
+    }
+  } catch (notifErr) {
+    console.warn('Notification trigger notice:', notifErr);
+  }
+
   return single ? normalized[0] ?? null : normalized;
 };
 
@@ -292,14 +421,34 @@ export const updateTable = async (table, { auth, filters, values, single }) => {
   const scope = await getWriteScope(table, auth, filters);
   const payload = preparePayload(table, 'update', values, auth);
 
+  let updatedDoc = null;
   if (single) {
     const doc = await Model.findOneAndUpdate(scope, payload, { new: true, runValidators: false });
-    return normalizeDoc(doc);
+    updatedDoc = normalizeDoc(doc);
+  } else {
+    await Model.updateMany(scope, payload, { runValidators: false });
+    const docs = await Model.find(scope);
+    updatedDoc = normalizeDoc(docs);
   }
 
-  await Model.updateMany(scope, payload, { runValidators: false });
-  const docs = await Model.find(scope);
-  return normalizeDoc(docs);
+  // Background Status Change Notifications
+  try {
+    const docList = Array.isArray(updatedDoc) ? updatedDoc : [updatedDoc];
+    for (const doc of docList) {
+      if (doc) {
+        if (table === 'orders') {
+          if (doc.status === 'dispatched') triggerEventNotification('order_dispatched', doc);
+          else if (doc.status === 'delivered') triggerEventNotification('order_delivered', doc);
+        } else if (table === 'sell_requests') {
+          if (doc.status === 'completed' || doc.status === 'picked_up') triggerEventNotification('sell_request_completed', doc);
+        }
+      }
+    }
+  } catch (e) {
+    console.warn('Notice on status change notification:', e);
+  }
+
+  return updatedDoc;
 };
 
 export const upsertTable = async (table, { auth, values, single }) => {

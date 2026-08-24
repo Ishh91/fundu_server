@@ -11,6 +11,9 @@ import { SupportTicket } from './SupportTicket.js';
 import { DeliveryAgent } from './DeliveryAgent.js';
 import { MasterPhone } from './MasterPhone.js';
 import { SiteContent } from './SiteContent.js';
+import { WholesaleInventory } from './WholesaleInventory.js';
+import { WholesaleOrder } from './WholesaleOrder.js';
+import { VendorLedger } from './VendorLedger.js';
 
 export {
   User,
@@ -26,6 +29,9 @@ export {
   DeliveryAgent,
   MasterPhone,
   SiteContent,
+  WholesaleInventory,
+  WholesaleOrder,
+  VendorLedger,
 };
 
 export const TABLE_MODELS = {
@@ -44,6 +50,11 @@ export const TABLE_MODELS = {
   phones: MasterPhone,
   site_content: SiteContent,
   banners: SiteContent,
+  wholesale_inventories: WholesaleInventory,
+  wholesale_inventory: WholesaleInventory,
+  wholesale_orders: WholesaleOrder,
+  vendor_ledgers: VendorLedger,
+  vendor_ledger: VendorLedger,
 };
 
 export const getModel = (table) => {

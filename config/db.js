@@ -310,6 +310,20 @@ export const seedDatabase = async () => {
     console.log(`Created default wholesaler user: ${wholesalerEmail}`);
   }
 
+  const riderEmail = 'rider@fundu.in';
+  const rider = await User.findOne({ email: riderEmail });
+  if (!rider) {
+    await User.create({
+      email: riderEmail,
+      passwordHash: await bcrypt.hash('Rider@123456', 10),
+      full_name: 'Rohit Verma (Lucknow Fleet)',
+      phone: '+919839122345',
+      role: 'delivery',
+      is_verified: true,
+    });
+    console.log(`Created default delivery rider user: ${riderEmail}`);
+  }
+
   await ensureAgentsSeeded();
   await ensureMasterPhonesSeeded();
 };
