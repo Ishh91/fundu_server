@@ -31,8 +31,14 @@ export const getReadScope = async (table, auth, filters) => {
       if (!auth?.sub) return baseFilter;
       if (isAdmin(auth)) return baseFilter;
       const userMatch = Types.ObjectId.isValid(auth.sub)
-        ? { $or: [{ user_id: auth.sub }, { user_id: new Types.ObjectId(auth.sub) }] }
-        : { user_id: auth.sub };
+        ? {
+            $or: [
+              { user_id: auth.sub },
+              { user_id: new Types.ObjectId(auth.sub) },
+              { assigned_vendor_id: auth.sub },
+            ],
+          }
+        : { $or: [{ user_id: auth.sub }, { assigned_vendor_id: auth.sub }] };
       return combineFilters(baseFilter, userMatch);
     }
     case 'sell_price_configs':
@@ -94,8 +100,14 @@ export const getWriteScope = async (table, auth, filters) => {
       if (!auth?.sub) return baseFilter;
       if (isAdmin(auth)) return baseFilter;
       const userMatch = Types.ObjectId.isValid(auth.sub)
-        ? { $or: [{ user_id: auth.sub }, { user_id: new Types.ObjectId(auth.sub) }] }
-        : { user_id: auth.sub };
+        ? {
+            $or: [
+              { user_id: auth.sub },
+              { user_id: new Types.ObjectId(auth.sub) },
+              { assigned_vendor_id: auth.sub },
+            ],
+          }
+        : { $or: [{ user_id: auth.sub }, { assigned_vendor_id: auth.sub }] };
       return combineFilters(baseFilter, userMatch);
     }
     case 'wholesale_orders':
@@ -241,7 +253,31 @@ export const queryTable = async (table, { auth, filters, sort, select, single, l
   }
 
   const docs = await query;
-  return normalizeDoc(docs);
+  const normalized = normalizeDoc(docs);
+
+  // Auto-enrich customer contact info for sell_requests, repair_bookings, orders if missing
+  if ((table === 'sell_requests' || table === 'repair_bookings' || table === 'orders') && normalized) {
+    const list = Array.isArray(normalized) ? normalized : [normalized];
+    const userIds = [...new Set(list.map((d) => d.user_id).filter((id) => id && !id.startsWith('guest_')))];
+    if (userIds.length > 0) {
+      try {
+        const users = await User.find({ _id: { $in: userIds } }).select('_id full_name phone email');
+        const userMap = new Map(users.map((u) => [u._id.toString(), u]));
+        for (const item of list) {
+          if (item.user_id && userMap.has(item.user_id)) {
+            const u = userMap.get(item.user_id);
+            if (!item.customer_name) item.customer_name = u.full_name || item.delivery_name || item.pickup_person_name;
+            if (!item.customer_phone) item.customer_phone = u.phone || item.delivery_phone || item.pickup_person_phone;
+            if (!item.customer_email) item.customer_email = u.email;
+          }
+        }
+      } catch (e) {
+        // silent fallback
+      }
+    }
+  }
+
+  return normalized;
 };
 
 export const insertIntoTable = async (table, { auth, values, single }) => {
@@ -251,6 +287,20 @@ export const insertIntoTable = async (table, { auth, values, single }) => {
 
   for (const item of items) {
     const prepared = preparePayload(table, 'insert', item, auth);
+
+    // Auto-populate customer contact details from Auth Profile
+    if (auth?.sub && (table === 'sell_requests' || table === 'repair_bookings' || table === 'orders')) {
+      try {
+        const u = await User.findById(auth.sub);
+        if (u) {
+          if (!prepared.customer_name) prepared.customer_name = u.full_name || prepared.delivery_name;
+          if (!prepared.customer_phone) prepared.customer_phone = u.phone || prepared.delivery_phone;
+          if (!prepared.customer_email) prepared.customer_email = u.email;
+        }
+      } catch (err) {
+        // silent fallback
+      }
+    }
 
     // Auto-assign delivery / pickup executive for Lucknow
     if (table === 'sell_requests' && !prepared.assigned_agent_id) {
@@ -431,7 +481,7 @@ export const updateTable = async (table, { auth, filters, values, single }) => {
     updatedDoc = normalizeDoc(docs);
   }
 
-  // Background Status Change Notifications
+  // Background Status Change & Vendor Commission / Credit Ledger Updates
   try {
     const docList = Array.isArray(updatedDoc) ? updatedDoc : [updatedDoc];
     for (const doc of docList) {
@@ -441,6 +491,80 @@ export const updateTable = async (table, { auth, filters, values, single }) => {
           else if (doc.status === 'delivered') triggerEventNotification('order_delivered', doc);
         } else if (table === 'sell_requests') {
           if (doc.status === 'completed' || doc.status === 'picked_up') triggerEventNotification('sell_request_completed', doc);
+          
+          // Vendor Mobile Buyback & 10% Commission Ledger Logic
+          if ((doc.vendor_quote_status === 'user_accepted' || doc.status === 'completed') && doc.assigned_vendor_id && doc.vendor_quote_price) {
+            const vendor = await User.findById(doc.assigned_vendor_id);
+            if (vendor) {
+              const buybackPrice = Number(doc.vendor_quote_price) || 0;
+              const commissionAmount = Math.round(buybackPrice * 0.10);
+              const totalDebited = buybackPrice;
+
+              const balanceBefore = vendor.outstanding_balance || 0;
+              const balanceAfter = balanceBefore + totalDebited;
+
+              await User.findByIdAndUpdate(vendor._id, { outstanding_balance: balanceAfter });
+
+              // Record Vendor Ledgers (Buyback payout + 10% commission record)
+              await VendorLedger.create({
+                vendor_id: vendor._id.toString(),
+                vendor_name: vendor.business_name || vendor.full_name,
+                type: 'sell_buyback_payout',
+                amount: buybackPrice,
+                balance_before: balanceBefore,
+                balance_after: balanceAfter,
+                reference_order_id: doc.id || doc._id?.toString(),
+                payment_mode: 'Website Limit Credit',
+                notes: `Purchased user phone (${doc.brand} ${doc.model}) via website credit limit.`,
+              });
+
+              await VendorLedger.create({
+                vendor_id: vendor._id.toString(),
+                vendor_name: vendor.business_name || vendor.full_name,
+                type: 'sell_commission_fee',
+                amount: commissionAmount,
+                balance_before: balanceAfter,
+                balance_after: balanceAfter,
+                reference_order_id: doc.id || doc._id?.toString(),
+                payment_mode: '10% Platform Commission',
+                notes: `10% Platform commission fee on mobile buyback ₹${buybackPrice}.`,
+              });
+            }
+          }
+        } else if (table === 'repair_bookings') {
+          // Vendor Repair Quotation & 10% Commission Ledger Logic
+          if ((doc.quotation_status === 'user_accepted' || doc.quotation_status === 'paid' || doc.status === 'paid') && doc.assigned_vendor_id && doc.vendor_quotation_amount) {
+            const vendor = await User.findById(doc.assigned_vendor_id);
+            if (vendor) {
+              const totalRepairCost = Number(doc.vendor_quotation_amount) || 0;
+              const commissionAmount = Math.round(totalRepairCost * 0.10);
+              const vendorEarning = totalRepairCost - commissionAmount;
+
+              await VendorLedger.create({
+                vendor_id: vendor._id.toString(),
+                vendor_name: vendor.business_name || vendor.full_name,
+                type: 'repair_earning',
+                amount: vendorEarning,
+                balance_before: vendor.outstanding_balance || 0,
+                balance_after: vendor.outstanding_balance || 0,
+                reference_order_id: doc.id || doc._id?.toString(),
+                payment_mode: 'User Website Payment',
+                notes: `Earned 90% (₹${vendorEarning}) for repairing ${doc.brand} ${doc.model} (${doc.problem}).`,
+              });
+
+              await VendorLedger.create({
+                vendor_id: vendor._id.toString(),
+                vendor_name: vendor.business_name || vendor.full_name,
+                type: 'repair_commission_fee',
+                amount: commissionAmount,
+                balance_before: vendor.outstanding_balance || 0,
+                balance_after: vendor.outstanding_balance || 0,
+                reference_order_id: doc.id || doc._id?.toString(),
+                payment_mode: '10% Platform Commission',
+                notes: `10% Platform commission fee on repair job ₹${totalRepairCost}.`,
+              });
+            }
+          }
         }
       }
     }

@@ -3,6 +3,9 @@ import { createSchema } from './baseSchema.js';
 
 const sellRequestSchema = createSchema({
   user_id: { type: String, default: null },
+  customer_name: { type: String, default: null },
+  customer_phone: { type: String, default: null },
+  customer_email: { type: String, default: null },
   brand: { type: String, required: true },
   model: { type: String, required: true },
   ram: { type: String, default: null },
@@ -42,6 +45,14 @@ const sellRequestSchema = createSchema({
   estimated_arrival_time: { type: String, default: null },
   payout_method: { type: String, default: 'UPI / Spot Cash' },
   payout_details: { type: String, default: null },
+  assigned_vendor_id: { type: String, default: null },
+  forwarded_to_vendor: { type: Boolean, default: false },
+  vendor_quote_price: { type: Number, default: null },
+  vendor_notes: { type: String, default: null },
+  vendor_quote_status: { type: String, default: 'none' }, // 'none', 'pending_inspection', 'quoted', 'user_accepted', 'user_rejected', 'completed'
+  commission_percent: { type: Number, default: 10 },
+  commission_amount: { type: Number, default: null },
+  paid_via_vendor_limit: { type: Boolean, default: false },
 }, { timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' } });
 
 export const SellRequest = mongoose.models.SellRequest || mongoose.model('SellRequest', sellRequestSchema);

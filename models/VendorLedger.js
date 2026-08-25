@@ -6,7 +6,16 @@ const vendorLedgerSchema = createSchema({
   vendor_name: { type: String, default: null },
   type: {
     type: String,
-    enum: ['credit_purchase', 'cash_repayment', 'credit_limit_set', 'credit_adjustment'],
+    enum: [
+      'credit_purchase',
+      'cash_repayment',
+      'credit_limit_set',
+      'credit_adjustment',
+      'sell_buyback_payout',
+      'sell_commission_fee',
+      'repair_earning',
+      'repair_commission_fee',
+    ],
     required: true,
   },
   amount: { type: Number, required: true },

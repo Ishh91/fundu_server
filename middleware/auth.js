@@ -5,7 +5,8 @@ import { normalizeDoc } from '../utils/dbHelpers.js';
 export const getJwtSecret = () => process.env.JWT_SECRET || 'change-this-jwt-secret';
 
 export const isAdmin = (auth) => auth?.role === 'admin';
-export const isWholesaler = (auth) => auth?.role === 'wholesaler';
+export const isVendor = (auth) => auth?.role === 'vendor' || auth?.role === 'wholesaler';
+export const isWholesaler = isVendor;
 
 export const requireAuth = (auth) => {
   if (!auth?.sub) {

@@ -3,6 +3,9 @@ import { createSchema } from './baseSchema.js';
 
 const orderSchema = createSchema({
   user_id: { type: String, default: null },
+  customer_name: { type: String, default: null },
+  customer_phone: { type: String, default: null },
+  customer_email: { type: String, default: null },
   product_id: { type: String, default: null },
   spare_part_id: { type: String, default: null },
   quantity: { type: Number, default: 1 },

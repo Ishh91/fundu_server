@@ -23,8 +23,9 @@ const userSchema = createSchema({
     trim: true,
     // index managed manually (sparse unique) — see fixUserIndexes.js
   },
-  role: { type: String, enum: ['customer', 'wholesaler', 'admin'], default: 'customer' },
+  role: { type: String, enum: ['customer', 'vendor', 'wholesaler', 'admin'], default: 'customer' },
   business_name: { type: String, default: null },
+  vendor_location: { type: String, default: null },
   gst_number: { type: String, default: null },
   is_verified: { type: Boolean, default: false },
   avatar_url: { type: String, default: null },
