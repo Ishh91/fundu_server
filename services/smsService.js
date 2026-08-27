@@ -28,6 +28,10 @@ export const sendOtp = async (phone, otp) => {
 
   const provider = process.env.SMS_PROVIDER;
 
+  if (provider === 'fast2sms') {
+    return sendViaFast2SMS(phone, otp);
+  }
+
   if (provider === 'msg91') {
     return sendViaMSG91(phone, otp);
   }
@@ -116,6 +120,41 @@ async function sendViaTwilio(phone, otp) {
     const data = await res.json().catch(() => null);
     if (!res.ok) {
       return { sent: false, error: data?.message || 'Twilio send failed.' };
+    }
+
+    return { sent: true };
+  } catch (err) {
+    return { sent: false, error: err.message };
+  }
+}
+
+/* ── Fast2SMS (India) ────────────────────────────────────────── */
+async function sendViaFast2SMS(phone, otp) {
+  try {
+    const apiKey = process.env.SMS_API_KEY || process.env.FAST2SMS_API_KEY;
+    if (!apiKey) {
+      console.warn('[Fast2SMS] Missing SMS_API_KEY in .env. Falling back to dev mode.');
+      return { sent: true, devOtp: otp };
+    }
+
+    const normalized = String(phone).replace(/\D/g, '').slice(-10);
+
+    const res = await fetch('https://www.fast2sms.com/dev/bulkV2', {
+      method: 'POST',
+      headers: {
+        authorization: apiKey,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        route: 'otp',
+        variables_values: otp,
+        numbers: normalized,
+      }),
+    });
+
+    const data = await res.json().catch(() => null);
+    if (!res.ok || data?.return === false) {
+      return { sent: false, error: data?.message || 'Fast2SMS send failed.' };
     }
 
     return { sent: true };
