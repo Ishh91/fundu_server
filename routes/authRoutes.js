@@ -34,8 +34,9 @@ router.post('/otp/send', async (req, res, next) => {
       throw createHttpError(400, 'Please enter a valid 10-digit Indian mobile number.');
     }
 
-    // 60-second resend cooldown
-    if (hasActiveOtp(phone)) {
+    // 60-second resend cooldown (enforced in production only)
+    const isDevMode = process.env.OTP_DEV_MODE === 'true' || process.env.SMS_PROVIDER === 'console' || !process.env.SMS_PROVIDER;
+    if (!isDevMode && hasActiveOtp(phone)) {
       const ttl = otpTtlSeconds(phone);
       if (ttl > 540) { // OTP was created <60 seconds ago (600 - 60 = 540)
         throw createHttpError(429, `Please wait ${600 - ttl} seconds before requesting a new OTP.`);
