@@ -3,8 +3,8 @@ import { Resend } from 'resend';
 
 const router = Router();
 
-// Initialize Resend API client
-const RESEND_API_KEY = process.env.VITE_RESEND_API_KEY || process.env.RESEND_API_KEY || 're_KbvdQsQU_4tMuhvtG4yB2xqmPLAfdGCwq';
+// Initialize Resend API client from environment
+const RESEND_API_KEY = process.env.RESEND_API_KEY || process.env.VITE_RESEND_API_KEY || '';
 const resend = new Resend(RESEND_API_KEY);
 
 /**
