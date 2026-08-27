@@ -139,7 +139,8 @@ async function sendViaFast2SMS(phone, otp) {
 
     const normalized = String(phone).replace(/\D/g, '').slice(-10);
 
-    const res = await fetch('https://www.fast2sms.com/dev/bulkV2', {
+    // Try OTP route first
+    let res = await fetch('https://www.fast2sms.com/dev/bulkV2', {
       method: 'POST',
       headers: {
         authorization: apiKey,
@@ -152,11 +153,34 @@ async function sendViaFast2SMS(phone, otp) {
       }),
     });
 
-    const data = await res.json().catch(() => null);
+    let data = await res.json().catch(() => null);
+
+    // Fallback to Quick SMS route if OTP route requires template ID
     if (!res.ok || data?.return === false) {
+      console.log('[Fast2SMS] OTP route notice, trying Quick SMS route...');
+      res = await fetch('https://www.fast2sms.com/dev/bulkV2', {
+        method: 'POST',
+        headers: {
+          authorization: apiKey,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          route: 'q',
+          message: `Your Fundu OTP is ${otp}. Valid for 10 mins. Do not share.`,
+          language: 'english',
+          flash: '0',
+          numbers: normalized,
+        }),
+      });
+      data = await res.json().catch(() => null);
+    }
+
+    if (!res.ok || data?.return === false) {
+      console.warn('⚠️ [Fast2SMS Notice]:', data?.message || 'Send failed');
       return { sent: false, error: data?.message || 'Fast2SMS send failed.' };
     }
 
+    console.log(`📱 [Fast2SMS Real SMS Dispatched] To: +91 ${normalized} → OTP: ${otp}`);
     return { sent: true };
   } catch (err) {
     return { sent: false, error: err.message };
