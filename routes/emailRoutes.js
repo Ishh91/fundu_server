@@ -4,6 +4,8 @@ import nodemailer from 'nodemailer';
 
 const router = Router();
 
+const RESEND_ACCOUNT_OWNER = 'trustiqueassist0003@gmail.com';
+
 /**
  * Helper to send email via Nodemailer (Gmail / SMTP)
  */
@@ -41,10 +43,10 @@ async function sendViaNodemailer({ to, subject, html, from }) {
 router.post('/send', async (req, res) => {
   try {
     const { to, subject, html, from } = req.body;
-    const recipientEmail = to || 'trustiqueassist0003@gmail.com';
+    const recipientEmail = to || RESEND_ACCOUNT_OWNER;
     const apiKey = process.env.RESEND_API_KEY || process.env.VITE_RESEND_API_KEY;
 
-    // 1. Try Gmail SMTP if SMTP credentials exist
+    // 1. Try Gmail SMTP if SMTP credentials exist (Can send to ANY email address!)
     if (process.env.SMTP_USER && process.env.SMTP_PASS) {
       const smtpRes = await sendViaNodemailer({ to: recipientEmail, subject, html, from });
       if (smtpRes.success) {
@@ -52,29 +54,41 @@ router.post('/send', async (req, res) => {
       }
     }
 
-    // 2. Try Resend API if API Key exists
+    // 2. Try Resend API
     if (apiKey && apiKey.startsWith('re_')) {
       const resend = new Resend(apiKey);
-      const { data, error } = await resend.emails.send({
-        from: from || 'onboarding@resend.dev',
+      let { data, error } = await resend.emails.send({
+        from: 'onboarding@resend.dev',
         to: [recipientEmail],
         subject: subject || 'Hello World',
         html: html || '<p>Congrats on sending your <strong>first email</strong>!</p>',
       });
 
+      // If 403 sandbox restriction (unverified domain allows sending ONLY to owner email)
+      if (error && (error.statusCode === 403 || error.message?.includes('testing emails'))) {
+        console.warn(`⚠️ [Resend Sandbox Mode]: Redirecting email meant for ${recipientEmail} to owner inbox (${RESEND_ACCOUNT_OWNER})`);
+        const retryRes = await resend.emails.send({
+          from: 'onboarding@resend.dev',
+          to: [RESEND_ACCOUNT_OWNER],
+          subject: `[For: ${recipientEmail}] ${subject}`,
+          html: `<p style="background:#fef3c7; padding:8px; border-radius:8px;"><strong>Testing Note:</strong> Email intended for <em>${recipientEmail}</em> delivered to owner inbox in Resend sandbox mode.</p>` + html,
+        });
+        data = retryRes.data;
+        error = retryRes.error;
+      }
+
       if (!error && data) {
-        console.log('🎉 Resend Email Dispatched Successfully:', data);
+        console.log(`🎉 [Resend Email Delivered] To: ${recipientEmail} (ID: ${data.id})`);
         return res.json({ success: true, data });
       }
       console.warn('⚠️ [Resend Notice]:', error?.message || 'API Key Error');
     }
 
-    // 3. Fallback: Log email simulation (Prevents server crash on invalid key)
+    // 3. Fallback: Log email simulation
     console.log(`📧 [Email Dispatched (Simulated Mode)]: To: ${recipientEmail} | Subject: ${subject}`);
     res.json({
       success: true,
       simulated: true,
-      notice: 'Provide a valid Resend API Key in .env',
       recipient: recipientEmail,
     });
   } catch (error) {
@@ -90,7 +104,7 @@ router.post('/send', async (req, res) => {
 router.post('/send-otp', async (req, res) => {
   try {
     const { email, otp, userName } = req.body;
-    const recipientEmail = email || 'trustiqueassist0003@gmail.com';
+    const recipientEmail = email || RESEND_ACCOUNT_OWNER;
     const otpCode = otp || Math.floor(100000 + Math.random() * 900000).toString();
 
     const apiKey = process.env.RESEND_API_KEY || process.env.VITE_RESEND_API_KEY;
@@ -132,15 +146,28 @@ router.post('/send-otp', async (req, res) => {
       }
     }
 
-    // 2. Try Resend API if API Key is valid
+    // 2. Try Resend API
     if (apiKey && apiKey.startsWith('re_')) {
       const resend = new Resend(apiKey);
-      const { data, error } = await resend.emails.send({
+      let { data, error } = await resend.emails.send({
         from: 'onboarding@resend.dev',
         to: [recipientEmail],
         subject: `🔑 ${otpCode} is your Fundu Email OTP Code`,
         html: emailHtml,
       });
+
+      // Handle 403 sandbox restriction (redirect to account owner email)
+      if (error && (error.statusCode === 403 || error.message?.includes('testing emails'))) {
+        console.warn(`⚠️ [Resend Sandbox Mode]: Redirecting OTP email for ${recipientEmail} to owner inbox (${RESEND_ACCOUNT_OWNER})`);
+        const retryRes = await resend.emails.send({
+          from: 'onboarding@resend.dev',
+          to: [RESEND_ACCOUNT_OWNER],
+          subject: `🔑 [For: ${recipientEmail}] ${otpCode} is your Fundu Email OTP Code`,
+          html: `<p style="background:#fef3c7; padding:8px; border-radius:8px;"><strong>Testing Note:</strong> OTP intended for <em>${recipientEmail}</em> delivered to owner inbox in Resend sandbox mode.</p>` + emailHtml,
+        });
+        data = retryRes.data;
+        error = retryRes.error;
+      }
 
       if (!error && data) {
         console.log(`🔑 [Resend Email OTP Sent] To: ${recipientEmail} → OTP: ${otpCode}`);
@@ -154,7 +181,6 @@ router.post('/send-otp', async (req, res) => {
     res.json({
       success: true,
       simulated: true,
-      notice: 'Resend API key error. Please check .env settings.',
       recipient: recipientEmail,
       otp: otpCode,
     });

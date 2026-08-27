@@ -1,19 +1,22 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
-import cors from 'cors';
 import dotenv from 'dotenv';
-import express from 'express';
-import { connectDB } from './config/db.js';
-import { parseAuth } from './middleware/auth.js';
-import apiRoutes from './routes/index.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Load .env FIRST before importing any routes or services
 dotenv.config({ path: path.resolve(__dirname, '..', '.env') });
+
+import express from 'express';
+import cors from 'cors';
+import { connectDB } from './config/db.js';
+import { parseAuth } from './middleware/auth.js';
+import apiRoutes from './routes/index.js';
 
 const app = express();
 const PORT = Number(process.env.PORT || 4000);
+
 // Universal Bulletproof CORS & OPTIONS Preflight Handler
 app.use((req, res, next) => {
   const origin = req.headers.origin || '*';
@@ -29,32 +32,33 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(cors({
-  origin: true,
-  credentials: true,
-}));
+app.use(cors({ origin: true, credentials: true }));
+app.use(express.json({ limit: '10mb' }));
+app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
-app.use(express.json({ limit: '2mb' }));
 app.use(parseAuth);
-
 app.use('/api', apiRoutes);
 
-app.use((error, req, res, _next) => {
-  const origin = req.headers.origin;
-  if (origin) {
-    res.setHeader('Access-Control-Allow-Origin', origin);
-    res.setHeader('Access-Control-Allow-Credentials', 'true');
-  }
-  const status = error.status || 500;
+app.get('/health', (_req, res) => {
+  res.json({ status: 'ok', service: 'fundu-api', time: new Date().toISOString() });
+});
+
+app.use((err, _req, res, _next) => {
+  console.error('Unhandled server error:', err);
+  const status = err.status || err.statusCode || 500;
   res.status(status).json({
-    error: {
-      message: error.message || 'Internal server error',
-    },
+    error: err.message || 'Internal Server Error',
   });
 });
 
-await connectDB();
+async function startServer() {
+  await connectDB();
+  app.listen(PORT, () => {
+    console.log(`Backend server running on http://localhost:${PORT}`);
+  });
+}
 
-app.listen(PORT, () => {
-  console.log(`Backend server running on http://localhost:${PORT}`);
+startServer().catch((err) => {
+  console.error('Failed to start server:', err);
+  process.exit(1);
 });
