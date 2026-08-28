@@ -26,7 +26,7 @@ async function sendViaNodemailer({ to, subject, html, from }) {
   });
 
   const info = await transporter.sendMail({
-    from: from || `"Fundu Dispatch" <${smtpUser}>`,
+    from: from || `"Fundu Account Verification" <${smtpUser}>`,
     to: Array.isArray(to) ? to.join(', ') : to,
     subject: subject,
     html: html,
@@ -38,7 +38,7 @@ async function sendViaNodemailer({ to, subject, html, from }) {
 
 /**
  * POST /api/email/send
- * Send email via Resend API or Gmail SMTP fallback
+ * General Email Dispatcher
  */
 router.post('/send', async (req, res) => {
   try {
@@ -46,9 +46,11 @@ router.post('/send', async (req, res) => {
     const recipientEmail = to || RESEND_ACCOUNT_OWNER;
     const apiKey = process.env.RESEND_API_KEY || process.env.VITE_RESEND_API_KEY;
 
-    // 1. Try Gmail SMTP if SMTP credentials exist (Can send to ANY email address!)
+    const sender = from || '"Fundu Account Verification" <trustiqueassist0003@gmail.com>';
+
+    // 1. Try Gmail SMTP if SMTP credentials exist
     if (process.env.SMTP_USER && process.env.SMTP_PASS) {
-      const smtpRes = await sendViaNodemailer({ to: recipientEmail, subject, html, from });
+      const smtpRes = await sendViaNodemailer({ to: recipientEmail, subject, html, from: sender });
       if (smtpRes.success) {
         return res.json(smtpRes);
       }
@@ -58,17 +60,17 @@ router.post('/send', async (req, res) => {
     if (apiKey && apiKey.startsWith('re_')) {
       const resend = new Resend(apiKey);
       let { data, error } = await resend.emails.send({
-        from: 'onboarding@resend.dev',
+        from: 'Fundu Verification <onboarding@resend.dev>',
         to: [recipientEmail],
-        subject: subject || 'Hello World',
-        html: html || '<p>Congrats on sending your <strong>first email</strong>!</p>',
+        subject: subject || 'Fundu Verification Code',
+        html: html || '<p>Welcome to Fundu!</p>',
       });
 
-      // If 403 sandbox restriction (unverified domain allows sending ONLY to owner email)
+      // Handle 403 sandbox restriction
       if (error && (error.statusCode === 403 || error.message?.includes('testing emails'))) {
         console.warn(`⚠️ [Resend Sandbox Mode]: Redirecting email meant for ${recipientEmail} to owner inbox (${RESEND_ACCOUNT_OWNER})`);
         const retryRes = await resend.emails.send({
-          from: 'onboarding@resend.dev',
+          from: 'Fundu Verification <onboarding@resend.dev>',
           to: [RESEND_ACCOUNT_OWNER],
           subject: `[For: ${recipientEmail}] ${subject}`,
           html: `<p style="background:#fef3c7; padding:8px; border-radius:8px;"><strong>Testing Note:</strong> Email intended for <em>${recipientEmail}</em> delivered to owner inbox in Resend sandbox mode.</p>` + html,
@@ -112,34 +114,37 @@ router.post('/send-otp', async (req, res) => {
     const emailHtml = `
       <div style="font-family: Arial, sans-serif; padding: 24px; color: #0f172a; max-width: 520px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 20px; background-color: #ffffff;">
         <div style="background-color: #0f172a; padding: 20px; border-radius: 14px; text-align: center; color: white;">
-          <h2 style="margin: 0; color: #14b8a6; font-size: 22px; font-weight: 900;">FUNDU SECURITY CODE</h2>
-          <p style="margin: 4px 0 0; font-size: 12px; color: #94a3b8;">Resend / Gmail Email Verification</p>
+          <h2 style="margin: 0; color: #14b8a6; font-size: 22px; font-weight: 900; letter-spacing: 1px;">FUNDU ACCOUNT VERIFICATION</h2>
+          <p style="margin: 4px 0 0; font-size: 12px; color: #94a3b8;">Lucknow Doorstep Security & Account Activation</p>
         </div>
 
         <div style="padding: 24px 0; text-align: center;">
           <p style="font-size: 15px; color: #334155; margin-bottom: 20px;">
-            Hi <strong>${userName || 'User'}</strong>, use the 6-digit verification code below to complete your registration or login:
+            Hi <strong>${userName || 'User'}</strong>, welcome to Fundu! Use the 6-digit security code below to complete your verification:
           </p>
 
-          <div style="background-color: #f0fdf4; border: 2px dashed #22c55e; padding: 18px; border-radius: 16px; display: inline-block; margin: 10px 0;">
-            <span style="font-family: monospace; font-size: 36px; font-weight: 900; letter-spacing: 8px; color: #15803d;">
+          <div style="background-color: #f0fdf4; border: 2px dashed #22c55e; padding: 18px 28px; border-radius: 16px; display: inline-block; margin: 10px 0;">
+            <span style="font-family: monospace; font-size: 38px; font-weight: 900; letter-spacing: 8px; color: #15803d;">
               ${otpCode}
             </span>
           </div>
 
           <p style="font-size: 12px; color: #64748b; margin-top: 20px;">
-            ⏰ This code is valid for 10 minutes. Do not share this OTP code with anyone.
+            ⏰ This verification code is valid for 10 minutes. Do not share this OTP code with anyone.
           </p>
         </div>
       </div>
     `;
 
+    const senderHeader = '"Fundu Account Verification" <trustiqueassist0003@gmail.com>';
+
     // 1. Try Gmail SMTP if configured
     if (process.env.SMTP_USER && process.env.SMTP_PASS) {
       const smtpRes = await sendViaNodemailer({
         to: recipientEmail,
-        subject: `🔑 ${otpCode} is your Fundu Email OTP Code`,
+        subject: `Fundu Verification Code: ${otpCode}`,
         html: emailHtml,
+        from: senderHeader,
       });
       if (smtpRes.success) {
         return res.json({ success: true, otp: otpCode, data: smtpRes.data });
@@ -150,20 +155,19 @@ router.post('/send-otp', async (req, res) => {
     if (apiKey && apiKey.startsWith('re_')) {
       const resend = new Resend(apiKey);
       let { data, error } = await resend.emails.send({
-        from: 'onboarding@resend.dev',
+        from: 'Fundu Verification <onboarding@resend.dev>',
         to: [recipientEmail],
-        subject: `🔑 ${otpCode} is your Fundu Email OTP Code`,
+        subject: `Fundu Verification Code: ${otpCode}`,
         html: emailHtml,
       });
 
-      // Handle 403 sandbox restriction (redirect to account owner email)
       if (error && (error.statusCode === 403 || error.message?.includes('testing emails'))) {
         console.warn(`⚠️ [Resend Sandbox Mode]: Redirecting OTP email for ${recipientEmail} to owner inbox (${RESEND_ACCOUNT_OWNER})`);
         const retryRes = await resend.emails.send({
-          from: 'onboarding@resend.dev',
+          from: 'Fundu Verification <onboarding@resend.dev>',
           to: [RESEND_ACCOUNT_OWNER],
-          subject: `🔑 [For: ${recipientEmail}] ${otpCode} is your Fundu Email OTP Code`,
-          html: `<p style="background:#fef3c7; padding:8px; border-radius:8px;"><strong>Testing Note:</strong> OTP intended for <em>${recipientEmail}</em> delivered to owner inbox in Resend sandbox mode.</p>` + emailHtml,
+          subject: `[For: ${recipientEmail}] Fundu Verification Code: ${otpCode}`,
+          html: `<p style="background:#fef3c7; padding:8px; border-radius:8px;"><strong>Testing Note:</strong> Verification OTP intended for <em>${recipientEmail}</em> delivered to owner inbox in Resend sandbox mode.</p>` + emailHtml,
         });
         data = retryRes.data;
         error = retryRes.error;
