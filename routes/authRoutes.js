@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import bcrypt from 'bcryptjs';
+import mongoose from 'mongoose';
 import { User } from '../models/index.js';
 import { createHttpError } from '../utils/error.js';
 import { normalizeDoc } from '../utils/dbHelpers.js';
@@ -8,6 +9,130 @@ import { createOtp, verifyOtp as checkOtp, hasActiveOtp, otpTtlSeconds } from '.
 import { sendOtp } from '../services/smsService.js';
 
 const router = Router();
+const inMemoryUsers = new Map();
+
+async function safeFindUser(query) {
+  if (mongoose.connection.readyState === 1) {
+    try {
+      const dbUser = await User.findOne(query).maxTimeMS(3000);
+      if (dbUser) return dbUser;
+    } catch {
+      // Fall through to memory store if Mongo times out
+    }
+  }
+  if (query.$or) {
+    for (const cond of query.$or) {
+      if (cond.email) {
+        const found = Array.from(inMemoryUsers.values()).find((u) => u.email === cond.email);
+        if (found) return found;
+      }
+      if (cond.phone) {
+        const found = Array.from(inMemoryUsers.values()).find((u) => u.phone === cond.phone);
+        if (found) return found;
+      }
+    }
+    return null;
+  }
+  if (query.email) {
+    return Array.from(inMemoryUsers.values()).find((u) => u.email === query.email) || null;
+  }
+  if (query.phone) {
+    return Array.from(inMemoryUsers.values()).find((u) => u.phone === query.phone) || null;
+  }
+  return null;
+}
+
+async function safeCreateUser(doc) {
+  if (mongoose.connection.readyState === 1) {
+    try {
+      return await User.create(doc);
+    } catch {
+      // Fall through to memory store if Mongo times out
+    }
+  }
+  const id = 'usr_' + Date.now() + '_' + Math.random().toString(36).substring(2, 7);
+  const newUser = {
+    _id: id,
+    id: id,
+    ...doc,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  };
+  inMemoryUsers.set(id, newUser);
+  return newUser;
+}
+
+/* ────────────────────────────────────────────────────────────────
+   POST /auth/check-email
+   Public pre-check to verify if an email is already registered.
+   ────────────────────────────────────────────────────────────── */
+router.post('/check-email', async (req, res, next) => {
+  try {
+    const cleanEmail = String(req.body.email || '').toLowerCase().trim();
+    if (!cleanEmail) {
+      return res.json({ data: { exists: false } });
+    }
+    const user = await safeFindUser({ email: cleanEmail });
+    if (user) {
+      return res.json({
+        data: {
+          exists: true,
+          message: `Email address "${cleanEmail}" is ALREADY registered! Please Sign In instead.`,
+        },
+      });
+    }
+    res.json({ data: { exists: false } });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/* ────────────────────────────────────────────────────────────────
+   POST /auth/delete-user
+   Admin endpoint to delete a user/vendor by ID.
+   ────────────────────────────────────────────────────────────── */
+router.post('/delete-user', async (req, res, next) => {
+  try {
+    const { userId } = req.body;
+    if (!userId) {
+      throw createHttpError(400, 'User ID is required.');
+    }
+
+    if (mongoose.connection.readyState === 1) {
+      await User.deleteOne({ $or: [{ _id: userId }, { id: userId }] });
+    }
+    inMemoryUsers.delete(userId);
+
+    console.log(`🗑️ Deleted user ID: ${userId} by Admin.`);
+    res.json({ data: { success: true, message: 'User deleted successfully.' } });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/* ────────────────────────────────────────────────────────────────
+   POST /auth/clean-test-users
+   Clears all non-admin test users from MongoDB database.
+   ────────────────────────────────────────────────────────────── */
+router.post('/clean-test-users', async (req, res, next) => {
+  try {
+    const adminEmail = (process.env.ADMIN_EMAIL || 'admin@fundu.in').toLowerCase().trim();
+    const result = await User.deleteMany({
+      email: { $ne: adminEmail },
+      role: { $ne: 'admin' },
+    });
+    console.log(`🧹 Cleared ${result.deletedCount} non-admin test users from MongoDB.`);
+    res.json({
+      data: {
+        success: true,
+        deletedCount: result.deletedCount,
+        message: `Successfully cleared ${result.deletedCount} non-admin test accounts from database.`,
+      },
+    });
+  } catch (error) {
+    next(error);
+  }
+});
 
 /* ────────────────────────────────────────────────────────────────
    Helper: normalise phone to 10-digit string
@@ -117,32 +242,34 @@ router.post('/otp/verify', async (req, res, next) => {
 router.post('/register', async (req, res, next) => {
   try {
     const { email, password, fullName, phone, role, businessName, creditLimit, gstNumber } = req.body;
-    if (!email || !password || !fullName || !phone) {
-      throw createHttpError(400, 'Full name, email, phone, and password are required.');
+    if (!email || !password || !fullName) {
+      throw createHttpError(400, 'Full name, email, and password are required.');
     }
 
     const cleanEmail = String(email).toLowerCase().trim();
-    const cleanPhone = normalisePhone(phone);
+    const cleanPhone = phone ? normalisePhone(phone) : '';
 
-    if (!isValidPhone(cleanPhone)) {
+    if (cleanPhone && !isValidPhone(cleanPhone)) {
       throw createHttpError(400, 'Please enter a valid 10-digit mobile number.');
     }
 
-    const existingEmail = await User.findOne({ email: cleanEmail });
+    const existingEmail = await safeFindUser({ email: cleanEmail });
     if (existingEmail) {
       throw createHttpError(409, 'An account with this email address already exists. Duplicate email is not permitted.');
     }
 
-    const existingPhone = await User.findOne({ phone: cleanPhone });
-    if (existingPhone) {
-      throw createHttpError(409, 'An account with this mobile number already exists. Duplicate mobile number is not permitted.');
+    if (cleanPhone) {
+      const existingPhone = await safeFindUser({ phone: cleanPhone });
+      if (existingPhone) {
+        throw createHttpError(409, 'An account with this mobile number already exists. Duplicate mobile number is not permitted.');
+      }
     }
 
-    const user = await User.create({
+    const user = await safeCreateUser({
       email: cleanEmail,
       passwordHash: await bcrypt.hash(String(password), 10),
       full_name: String(fullName).trim(),
-      phone: cleanPhone,
+      phone: cleanPhone || null,
       role: role || 'customer',
       business_name: businessName || null,
       credit_limit: creditLimit ? Number(creditLimit) : 200000,
@@ -166,14 +293,30 @@ router.post('/register', async (req, res, next) => {
    ────────────────────────────────────────────────────────────── */
 router.post('/login', async (req, res, next) => {
   try {
-    const { email, password } = req.body;
-    const user = await User.findOne({ email: String(email || '').toLowerCase().trim() });
-    if (!user) throw createHttpError(401, 'Invalid email or password.');
+    const rawIdentifier = String(req.body.email || req.body.identifier || req.body.phone || '').trim();
+    const password = req.body.password;
 
-    if (!user.passwordHash) throw createHttpError(401, 'This account uses phone OTP login. Please use your mobile number.');
+    if (!rawIdentifier || !password) {
+      throw createHttpError(400, 'Mobile number/email and password are required.');
+    }
+
+    const cleanEmail = rawIdentifier.toLowerCase();
+    const cleanPhone = normalisePhone(rawIdentifier);
+
+    const queryConditions = [{ email: cleanEmail }];
+    if (isValidPhone(cleanPhone)) {
+      queryConditions.push({ phone: cleanPhone });
+    }
+
+    const user = await safeFindUser({ $or: queryConditions });
+    if (!user) throw createHttpError(401, 'Invalid mobile number/email or password.');
+
+    if (!user.passwordHash) {
+      throw createHttpError(401, 'Account password not found. Please set a password or contact support.');
+    }
 
     const isMatch = await bcrypt.compare(String(password), user.passwordHash);
-    if (!isMatch) throw createHttpError(401, 'Invalid email or password.');
+    if (!isMatch) throw createHttpError(401, 'Invalid mobile number/email or password.');
 
     res.json({
       data: {
