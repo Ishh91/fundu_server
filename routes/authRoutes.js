@@ -309,19 +309,65 @@ router.post('/login', async (req, res, next) => {
     }
 
     const user = await safeFindUser({ $or: queryConditions });
-    if (!user) throw createHttpError(401, 'Invalid mobile number/email or password.');
+    if (!user) {
+      throw createHttpError(404, `⚠️ Account Not Found: No registered account with "${rawIdentifier}". Please check details or Create New Account.`);
+    }
 
     if (!user.passwordHash) {
-      throw createHttpError(401, 'Account password not found. Please set a password or contact support.');
+      throw createHttpError(401, 'Account password not set. Please reset your password or contact support.');
     }
 
     const isMatch = await bcrypt.compare(String(password), user.passwordHash);
-    if (!isMatch) throw createHttpError(401, 'Invalid mobile number/email or password.');
+    if (!isMatch) {
+      throw createHttpError(401, `❌ Incorrect Password: The password entered for "${rawIdentifier}" is incorrect. Please try again or click Reset Password.`);
+    }
 
     res.json({
       data: {
         session: issueSession(user),
         profile: normalizeDoc(user),
+      },
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/* ────────────────────────────────────────────────────────────────
+   POST /auth/reset-password
+   Resets password for an existing registered account.
+   ────────────────────────────────────────────────────────────── */
+router.post('/reset-password', async (req, res, next) => {
+  try {
+    const { email, phone, newPassword } = req.body;
+    const identifier = String(email || phone || '').toLowerCase().trim();
+
+    if (!identifier || !newPassword) {
+      throw createHttpError(400, 'Mobile/Email and new password are required.');
+    }
+
+    const cleanPhone = normalisePhone(identifier);
+    const queryConditions = [{ email: identifier }];
+    if (isValidPhone(cleanPhone)) {
+      queryConditions.push({ phone: cleanPhone });
+    }
+
+    const user = await safeFindUser({ $or: queryConditions });
+    if (!user) {
+      throw createHttpError(404, `⚠️ Account Not Found: No registered account with "${identifier}".`);
+    }
+
+    const newHash = await bcrypt.hash(String(newPassword), 10);
+    if (mongoose.connection.readyState === 1 && user._id) {
+      await User.updateOne({ _id: user._id }, { $set: { passwordHash: newHash } });
+    }
+    user.passwordHash = newHash;
+
+    console.log(`🔑 Reset password successfully for user ${user.email || user.phone}`);
+    res.json({
+      data: {
+        success: true,
+        message: `Password reset successfully for ${user.email || user.phone}. Please sign in with your new password.`,
       },
     });
   } catch (error) {
