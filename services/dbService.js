@@ -71,6 +71,8 @@ export const getReadScope = async (table, auth, filters) => {
       if (isAdmin(auth)) return baseFilter;
       return combineFilters(baseFilter, { vendor_id: auth.sub });
     case 'support_tickets':
+    case 'contact_messages':
+    case 'contact_queries':
       if (!auth?.sub) return baseFilter;
       return isAdmin(auth) ? baseFilter : combineFilters(baseFilter, { user_id: auth.sub });
     case 'reviews':
@@ -138,8 +140,9 @@ export const getWriteScope = async (table, auth, filters) => {
     case 'banners':
       return baseFilter;
     case 'support_tickets':
-      if (!auth?.sub) return baseFilter;
-      return isAdmin(auth) ? baseFilter : combineFilters(baseFilter, { user_id: auth.sub });
+    case 'contact_messages':
+    case 'contact_queries':
+      return baseFilter;
     case 'reviews':
       if (isAdmin(auth)) return baseFilter;
       return baseFilter;

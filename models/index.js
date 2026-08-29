@@ -45,6 +45,8 @@ export const TABLE_MODELS = {
   dispatches: Dispatch,
   reviews: Review,
   support_tickets: SupportTicket,
+  contact_messages: SupportTicket,
+  contact_queries: SupportTicket,
   delivery_agents: DeliveryAgent,
   master_phones: MasterPhone,
   phones: MasterPhone,
