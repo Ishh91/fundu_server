@@ -54,6 +54,10 @@ export const buildMongoFilter = (filters = []) => {
   const conditions = filters
     .filter((f) => f && f.field)
     .map(({ field, op = 'eq', value }) => {
+      if ((field === 'id' || field === '_id') && typeof value === 'string' && !Types.ObjectId.isValid(value)) {
+        if (op === 'eq') return { $or: [{ id: value }, { _id: null }] };
+        if (op === 'in') return { $or: [{ id: { $in: Array.isArray(value) ? value : [value] } }] };
+      }
       const dbField = mapField(field);
       const dbValue = convertFilterValue(dbField, value);
       if (op === 'eq') return { [dbField]: dbValue };

@@ -17,9 +17,12 @@ export const getReadScope = async (table, auth, filters) => {
 
   switch (table) {
     case 'profiles':
-      requireAuth(auth);
-      const profileId = Types.ObjectId.isValid(auth.sub) ? new Types.ObjectId(auth.sub) : auth.sub;
-      return isAdmin(auth) ? baseFilter : combineFilters(baseFilter, { _id: profileId });
+      if (isAdmin(auth)) return baseFilter;
+      if (auth?.sub) {
+        const profileId = Types.ObjectId.isValid(auth.sub) ? new Types.ObjectId(auth.sub) : auth.sub;
+        return combineFilters(baseFilter, { $or: [{ _id: profileId }, { id: auth.sub }] });
+      }
+      return baseFilter;
     case 'products':
     case 'spare_parts':
       if (isAdmin(auth)) return baseFilter;
@@ -248,11 +251,22 @@ export const queryTable = async (table, { auth, filters, sort, select, single, l
   if (typeof limit === 'number' && limit > 0) query = query.limit(limit);
 
   if (single) {
-    const doc = await Model.findOne(scope).sort(sortConfig).select(selectConfig);
-    return normalizeDoc(doc);
+    try {
+      const doc = await Model.findOne(scope).sort(sortConfig).select(selectConfig);
+      return normalizeDoc(doc);
+    } catch (e) {
+      console.warn(`Notice querying single ${table}:`, e?.message || e);
+      return null;
+    }
   }
 
-  const docs = await query;
+  let docs = [];
+  try {
+    docs = await query;
+  } catch (e) {
+    console.warn(`Notice querying ${table}:`, e?.message || e);
+    return [];
+  }
   const normalized = normalizeDoc(docs);
 
   // Auto-enrich customer contact info for sell_requests, repair_bookings, orders if missing
