@@ -2,6 +2,7 @@ import mongoose from 'mongoose';
 import { createSchema } from './baseSchema.js';
 
 const userSchema = createSchema({
+  id: { type: String, required: false },
   // Email is optional — phone-OTP users will simply not have this field.
   // Sparse unique index allows multiple documents without email.
   // IMPORTANT: do NOT set default: null — sparse indexes skip missing fields,

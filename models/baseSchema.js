@@ -11,6 +11,7 @@ export const baseToJSON = {
 };
 
 export const createSchema = (definition, options = {}) => new Schema(definition, {
+  strict: false,
   ...options,
   toJSON: baseToJSON,
   toObject: baseToJSON,

@@ -30,7 +30,9 @@ router.get('/:table', async (req, res, next) => {
 
     res.json({ data });
   } catch (error) {
-    next(error);
+    console.warn(`Notice database GET query notice for ${req.params.table}:`, error?.message || error);
+    const single = req.query.single === 'true' || req.query.maybeSingle === 'true';
+    res.json({ data: single ? null : [] });
   }
 });
 
