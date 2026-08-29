@@ -381,20 +381,35 @@ router.post('/reset-password', async (req, res, next) => {
 router.get('/me', async (req, res, next) => {
   try {
     requireAuth(req.auth);
-    const user = await User.findById(req.auth.sub);
+    const sub = req.auth?.sub;
+    if (!sub) throw createHttpError(401, 'Invalid session token.');
+
+    const isObjId = mongoose.Types.ObjectId.isValid(sub);
+    const query = isObjId ? { $or: [{ _id: sub }, { id: sub }] } : { id: sub };
+
+    let user = await safeFindUser(query);
+    if (!user && isObjId) {
+      try {
+        user = await User.findById(sub);
+      } catch {
+        // Ignore cast error
+      }
+    }
+
     if (!user) throw createHttpError(401, 'Session expired. Please sign in again.');
 
+    const normUser = normalizeDoc(user);
     res.json({
       data: {
         session: {
           access_token: req.headers.authorization?.slice(7) || '',
           user: {
-            id: user.id,
-            email: user.email,
-            role: user.role,
+            id: normUser.id || user.id || sub,
+            email: normUser.email || user.email || '',
+            role: normUser.role || user.role || 'customer',
           },
         },
-        profile: normalizeDoc(user),
+        profile: normUser,
       },
     });
   } catch (error) {
