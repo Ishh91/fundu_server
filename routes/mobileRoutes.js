@@ -302,6 +302,28 @@ router.get('/mobile/search', async (req, res) => {
 });
 
 /**
+ * Query devices by brand or search term
+ * GET /api/mobile/devices?brand=oneplus&page=1
+ */
+router.get('/mobile/devices', async (req, res) => {
+  try {
+    const query = typeof req.query.query === 'string' ? req.query.query.trim() : '';
+    const brand = typeof req.query.brand === 'string' ? req.query.brand.trim() : '';
+    const page = Math.max(Number(req.query.page) || 1, 1);
+
+    const result = await fetchMobileApiSearch(query || brand, brand, page);
+    return res.json({
+      data: result.devices,
+      total: result.total,
+      page: result.page,
+      provider: 'https://mobileapi.dev/',
+    });
+  } catch (error) {
+    return res.status(500).json({ error: { message: error.message } });
+  }
+});
+
+/**
  * Get Device by ID from https://mobileapi.dev/devices/{id}/
  * GET /api/mobile/devices/:id
  */
