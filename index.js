@@ -17,22 +17,41 @@ import apiRoutes from './routes/index.js';
 const app = express();
 const PORT = Number(process.env.PORT || 4000);
 
-// Universal Bulletproof CORS & OPTIONS Preflight Handler
+// Bulletproof Universal CORS Middleware (Always set headers first)
 app.use((req, res, next) => {
-  const origin = req.headers.origin || '*';
-  res.setHeader('Access-Control-Allow-Origin', origin);
+  const requestOrigin = req.headers.origin;
+  
+  // Set CORS headers for all origins including production domain
+  if (requestOrigin) {
+    res.setHeader('Access-Control-Allow-Origin', requestOrigin);
+  } else {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+  }
+
   res.setHeader('Access-Control-Allow-Credentials', 'true');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-Requested-With, Accept, Origin, Range');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-Requested-With, Accept, Origin, Range, x-custom-header, apikey');
   res.setHeader('Access-Control-Expose-Headers', 'Content-Range, X-Total-Count');
 
+  // Handle browser OPTIONS preflight requests cleanly
   if (req.method === 'OPTIONS') {
     return res.status(204).end();
   }
   next();
 });
 
-app.use(cors({ origin: true, credentials: true }));
+// Configure cors module with origin fallback function
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      // Allow requests with no origin (like mobile apps, curl, server-to-server) or any origin
+      callback(null, origin || '*');
+    },
+    credentials: true,
+    optionsSuccessStatus: 204,
+  })
+);
+
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
@@ -43,8 +62,13 @@ app.get('/health', (_req, res) => {
   res.json({ status: 'ok', service: 'fundu-api', time: new Date().toISOString() });
 });
 
-app.use((err, _req, res, _next) => {
+// Global Error Handler with guaranteed CORS headers on failure
+app.use((err, req, res, _next) => {
   console.error('Unhandled server error:', err);
+  const requestOrigin = req.headers.origin || '*';
+  res.setHeader('Access-Control-Allow-Origin', requestOrigin);
+  res.setHeader('Access-Control-Allow-Credentials', 'true');
+
   const status = err.status || err.statusCode || 500;
   res.status(status).json({
     error: err.message || 'Internal Server Error',
