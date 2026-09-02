@@ -1,5 +1,5 @@
 import { Types } from 'mongoose';
-import { getModel, Order, User, VendorLedger, WholesaleOrder, WholesaleInventory } from '../models/index.js';
+import { getModel, Order, User, VendorLedger, WholesaleOrder, WholesaleInventory, Product } from '../models/index.js';
 import { createHttpError } from '../utils/error.js';
 import {
   buildMongoFilter,
@@ -431,6 +431,28 @@ export const insertIntoTable = async (table, { auth, values, single }) => {
     }
   }
 
+  // Handle Consumer Order stock reduction
+  if (table === 'orders') {
+    for (const order of preparedItems) {
+      if (Array.isArray(order.items)) {
+        for (const it of order.items) {
+          const pId = it.product_id || it.id || it._id;
+          const qty = Math.max(Number(it.quantity) || 1, 1);
+          if (pId) {
+            try {
+              await Product.findOneAndUpdate(
+                { $or: [{ _id: Types.ObjectId.isValid(pId) ? new Types.ObjectId(pId) : null }, { id: pId }] },
+                { $inc: { stock: -qty } }
+              );
+            } catch (err) {
+              console.warn('Notice updating product stock for order:', err);
+            }
+          }
+        }
+      }
+    }
+  }
+
   // Handle Vendor Ledger entries (e.g. Cash repayment from vendor)
   if (table === 'vendor_ledgers' || table === 'vendor_ledger') {
     for (const ledger of preparedItems) {
@@ -506,6 +528,25 @@ export const updateTable = async (table, { auth, filters, values, single }) => {
         if (table === 'orders') {
           if (doc.status === 'dispatched') triggerEventNotification('order_dispatched', doc);
           else if (doc.status === 'delivered') triggerEventNotification('order_delivered', doc);
+          else if (doc.status === 'cancelled') {
+            // Restore inventory stock for cancelled order items
+            if (Array.isArray(doc.items)) {
+              for (const it of doc.items) {
+                const pId = it.product_id || it.id || it._id;
+                const qty = Math.max(Number(it.quantity) || 1, 1);
+                if (pId) {
+                  try {
+                    await Product.findOneAndUpdate(
+                      { $or: [{ _id: Types.ObjectId.isValid(pId) ? new Types.ObjectId(pId) : null }, { id: pId }] },
+                      { $inc: { stock: qty } }
+                    );
+                  } catch (err) {
+                    console.warn('Notice restoring stock for cancelled order:', err);
+                  }
+                }
+              }
+            }
+          }
         } else if (table === 'sell_requests') {
           if (doc.status === 'completed' || doc.status === 'picked_up') triggerEventNotification('sell_request_completed', doc);
           
