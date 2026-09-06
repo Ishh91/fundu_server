@@ -172,7 +172,7 @@ router.post('/otp/send', async (req, res, next) => {
     const result = await sendOtp(phone, otp);
 
     if (!result.sent) {
-      throw createHttpError(500, `Failed to send OTP: ${result.error || 'Unknown error.'}`);
+      throw createHttpError(400, result.error || 'Failed to send OTP SMS.');
     }
 
     const response = { message: `OTP sent to +91 ${phone}.` };
