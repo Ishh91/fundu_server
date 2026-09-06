@@ -84,29 +84,40 @@ async function sendViaMSG91(phone, otp) {
 async function sendViaTwilio(phone, otp) {
   try {
     const accountSid = (process.env.TWILIO_ACCOUNT_SID || '').trim();
-    const apiKey = (process.env.TWILIO_API_KEY_SID || process.env.TWILIO_ACCOUNT_SID || '').trim();
-    const apiSecret = (process.env.TWILIO_API_KEY_SECRET || process.env.TWILIO_AUTH_TOKEN || '').trim();
+    // Prioritize API Key if both SID and SECRET are explicitly set, otherwise use Account SID + Auth Token
+    const hasApiKey =
+      process.env.TWILIO_API_KEY_SID &&
+      process.env.TWILIO_API_KEY_SECRET &&
+      process.env.TWILIO_API_KEY_SECRET !== process.env.TWILIO_AUTH_TOKEN;
+
+    const authUser = hasApiKey
+      ? process.env.TWILIO_API_KEY_SID.trim()
+      : accountSid;
+    const authPass = hasApiKey
+      ? process.env.TWILIO_API_KEY_SECRET.trim()
+      : (process.env.TWILIO_AUTH_TOKEN || '').trim();
+
     const from = (process.env.TWILIO_FROM_NUMBER || '').trim();
 
     const normalized = String(phone).replace(/\D/g, '');
     const to = normalized.startsWith('91') ? `+${normalized}` : `+91${normalized}`;
 
     // Graceful fallback if credentials are placeholder
-    if (!accountSid || !apiKey || !apiSecret || apiSecret === 'your_twilio_auth_token_here') {
-      console.warn(`\n⚠️ [TWILIO] Missing or placeholder TWILIO_AUTH_TOKEN/API_SECRET in .env!`);
+    if (!accountSid || !authUser || !authPass || authPass.includes('your_twilio')) {
+      console.warn(`\n⚠️ [TWILIO] Missing or placeholder TWILIO credentials in .env!`);
       console.log(`🔑 [OTP DEV FALLBACK] Phone: ${to} → OTP: ${otp}\n`);
       return { sent: true, devOtp: otp };
     }
 
     const params = new URLSearchParams({
       To: to,
-      From: from || '+15005550006',
+      From: from,
       Body: `Your Fundu OTP is ${otp}. Valid for 10 minutes. Do not share it with anyone.`,
     });
 
-    const creds = Buffer.from(`${apiKey}:${apiSecret}`).toString('base64');
+    const creds = Buffer.from(`${authUser}:${authPass}`).toString('base64');
 
-    console.log(`[TWILIO] Sending SMS to ${to} via Key: ${apiKey} (Account: ${accountSid})...`);
+    console.log(`[TWILIO] Sending SMS to ${to} (Account: ${accountSid})...`);
 
     const res = await fetch(
       `https://api.twilio.com/2010-04-01/Accounts/${accountSid}/Messages.json`,
