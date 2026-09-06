@@ -138,12 +138,22 @@ async function sendViaTwilio(phone, otp) {
       if (data?.code === 572006) {
         console.warn(`\nℹ️ [TWILIO TRIAL RESTRICTION]: Twilio trial accounts require an upgraded project to send custom OTP text to India (+91). Upgrade at https://console.twilio.com/billing to remove template limits.`);
       }
-      // If trial account error or authentication failure, log OTP to console for seamless developer experience
-      console.log(`🔑 [OTP DEV FALLBACK] Phone: ${to} → OTP: ${otp}\n`);
+      if (data?.code === 572002) {
+        console.warn(`\n⚠️ [TWILIO UNVERIFIED NUMBER]: Destination number ${to} is not verified in your Twilio trial account. Add it to Verified Caller IDs or upgrade your account.`);
+      }
+
+      if (process.env.OTP_DEV_MODE === 'true') {
+        console.log(`🔑 [OTP DEV FALLBACK] Phone: ${to} → OTP: ${otp}\n`);
+        return {
+          sent: true,
+          devOtp: otp,
+          warning: data?.message || 'Twilio send failed, used dev fallback.',
+        };
+      }
+
       return {
-        sent: true,
-        devOtp: otp,
-        warning: data?.message || 'Twilio send failed, used dev fallback.',
+        sent: false,
+        error: data?.message || 'Twilio SMS delivery failed.',
       };
     }
 
@@ -151,7 +161,10 @@ async function sendViaTwilio(phone, otp) {
     return { sent: true, sid: data?.sid };
   } catch (err) {
     console.error(`❌ [TWILIO EXCEPTION]:`, err.message);
-    return { sent: true, devOtp: otp };
+    if (process.env.OTP_DEV_MODE === 'true') {
+      return { sent: true, devOtp: otp };
+    }
+    return { sent: false, error: err.message };
   }
 }
 

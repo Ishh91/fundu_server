@@ -177,8 +177,8 @@ router.post('/otp/send', async (req, res, next) => {
 
     const response = { message: `OTP sent to +91 ${phone}.` };
 
-    // In dev mode, expose OTP in response for testing convenience
-    if (result.devOtp) {
+    // Only expose devOtp if OTP_DEV_MODE is explicitly true
+    if (process.env.OTP_DEV_MODE === 'true' && result.devOtp) {
       response.devOtp = result.devOtp;
     }
 
