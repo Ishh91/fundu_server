@@ -135,6 +135,9 @@ async function sendViaTwilio(phone, otp) {
 
     if (!res.ok) {
       console.error(`❌ [TWILIO ERROR] Status ${res.status}: ${data?.message || 'Twilio send failed.'} (Code: ${data?.code})`);
+      if (data?.code === 572006) {
+        console.warn(`\nℹ️ [TWILIO TRIAL RESTRICTION]: Twilio trial accounts require an upgraded project to send custom OTP text to India (+91). Upgrade at https://console.twilio.com/billing to remove template limits.`);
+      }
       // If trial account error or authentication failure, log OTP to console for seamless developer experience
       console.log(`🔑 [OTP DEV FALLBACK] Phone: ${to} → OTP: ${otp}\n`);
       return {
