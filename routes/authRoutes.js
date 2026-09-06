@@ -237,6 +237,52 @@ router.post('/otp/verify', async (req, res, next) => {
 });
 
 /* ────────────────────────────────────────────────────────────────
+   POST /auth/otp/verify-firebase
+   Body: { phone, fullName? }
+   Called after client-side Firebase Phone Auth verification succeeds.
+   Finds or creates MongoDB user and issues standard session JWT.
+   ────────────────────────────────────────────────────────────── */
+router.post('/otp/verify-firebase', async (req, res, next) => {
+  try {
+    const rawPhone = req.body.phone;
+    if (!rawPhone) {
+      throw createHttpError(400, 'Phone number is required.');
+    }
+
+    const phone = normalisePhone(rawPhone);
+    if (!isValidPhone(phone)) {
+      throw createHttpError(400, 'Invalid phone number format.');
+    }
+
+    const { fullName } = req.body;
+
+    let user = await User.findOne({ phone });
+
+    if (!user) {
+      user = await User.create({
+        phone,
+        full_name: fullName ? String(fullName).trim() : null,
+        role: 'customer',
+        is_verified: true,
+      });
+    } else if (!user.is_verified) {
+      user.is_verified = true;
+      await user.save();
+    }
+
+    res.json({
+      data: {
+        session: issueSession(user),
+        profile: normalizeDoc(user),
+        isNewUser: !user.full_name,
+      },
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/* ────────────────────────────────────────────────────────────────
    POST /auth/register  (kept for backward-compat / email users)
    ────────────────────────────────────────────────────────────── */
 router.post('/register', async (req, res, next) => {
