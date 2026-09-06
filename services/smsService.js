@@ -99,8 +99,8 @@ async function sendViaTwilio(phone, otp) {
 
     const from = (process.env.TWILIO_FROM_NUMBER || '').trim();
 
-    const normalized = String(phone).replace(/\D/g, '');
-    const to = normalized.startsWith('91') ? `+${normalized}` : `+91${normalized}`;
+    const raw = String(phone).replace(/\D/g, '');
+    const to = raw.length === 10 ? `+91${raw}` : (raw.length === 12 && raw.startsWith('91') ? `+${raw}` : `+${raw}`);
 
     // Graceful fallback if credentials are placeholder
     if (!accountSid || !authUser || !authPass || authPass.includes('your_twilio')) {
