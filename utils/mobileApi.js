@@ -25,7 +25,7 @@ export const setCachedValue = (key, value) => {
 };
 
 export const getMobileApiKey = () => {
-  return process.env.MOBILE_API_KEY || '6ea85fdde9ef054e9d3cc4458e1b5b601e9a6463';
+  return process.env.MOBILE_API_KEY || '796f49e7850dc08f17c66c42f687e00d46ec2ba0';
 };
 
 export const getMobileApiBase = () => {
@@ -186,10 +186,10 @@ export const formatMobileApiDevice = (d, brandFallback = '') => {
     baseResale = 18000;
   }
 
-  let imageUrl = 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80';
+  let imageUrl = '';
   if (d.image_b64) {
     imageUrl = `data:image/jpeg;base64,${d.image_b64}`;
-  } else if (d.image_url) {
+  } else if (d.image_url && !d.image_url.includes('unsplash.com')) {
     imageUrl = d.image_url;
   }
 
@@ -326,7 +326,8 @@ export const fetchMobileApiSearch = async (rawName, rawBrand = '', page = 1) => 
 
   try {
     const params = { page };
-    if (name) params.name = name;
+    const effectiveName = name || (brand ? (brand.toLowerCase() === 'apple' ? 'iPhone' : (brand.toLowerCase() === 'samsung' ? 'Galaxy' : brand)) : '');
+    if (effectiveName) params.name = effectiveName;
     if (brand && brand !== 'All') params.manufacturer = brand;
 
     const payload = await mobileApiRequest('/devices/search/', params);
