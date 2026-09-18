@@ -262,7 +262,7 @@ router.get('/mobile/brands', async (_req, res, next) => {
 router.get('/mobile/autocomplete', async (req, res) => {
   try {
     const query = typeof req.query.q === 'string' ? req.query.q.trim() : '';
-    const limit = Math.min(Number(req.query.limit) || 10, 50);
+    const limit = Math.min(Number(req.query.limit) || 30, 50);
 
     if (!query || query.length < 2) {
       return res.json({ data: [] });

@@ -274,28 +274,64 @@ const searchLocalIndianCatalog = (name = '', brand = '') => {
 };
 
 
+const BRAND_AUTOCOMPLETE_ALIASES = {
+  apple: 'iPhone',
+  iphone: 'iPhone',
+  samsung: 'Galaxy',
+  galaxy: 'Galaxy',
+  google: 'Pixel',
+  pixel: 'Pixel',
+  nothing: 'Phone',
+  motorola: 'Moto',
+  moto: 'Moto',
+  xiaomi: 'Xiaomi',
+  redmi: 'Redmi',
+  poco: 'Poco',
+  realme: 'Realme',
+  vivo: 'Vivo',
+  oppo: 'Oppo',
+  iqoo: 'iQOO',
+};
+
+const NON_PHONE_PATTERNS = /\b(macbook|mac mini|imac|watch|band|earbuds|airpods|headphone|pencil|keyboard|charger|case|cover|tv|display|monitor|speaker)\b/i;
+
 /**
  * High-level helper: Autocomplete device names from https://mobileapi.dev/devices/autocomplete/
  */
-export const fetchMobileApiAutocomplete = async (query, limit = 10) => {
+export const fetchMobileApiAutocomplete = async (query, limit = 25) => {
   if (!query || query.trim().length < 2) return [];
   const normalized = normalizePhoneQuery(query);
-  const searchTerm = normalized.name || query.trim();
+  const rawTerm = (normalized.name || query.trim()).toLowerCase();
+  const effectiveTerm = BRAND_AUTOCOMPLETE_ALIASES[rawTerm] || normalized.name || query.trim();
 
-  const cacheKey = `mobileapi:autocomplete:${searchTerm.toLowerCase()}:${limit}`;
+  const cacheKey = `mobileapi:autocomplete:${effectiveTerm.toLowerCase()}:${limit}`;
   const cached = getCachedValue(cacheKey, 1000 * 60 * 60 * 12);
   if (cached) return cached;
 
   try {
     const payload = await mobileApiRequest('/devices/autocomplete/', {
-      q: searchTerm,
-      limit,
+      q: effectiveTerm,
+      limit: Math.max(limit, 25),
     });
 
-    const results = Array.isArray(payload) ? payload : (payload?.value || []);
-    if (results.length > 0) {
-      setCachedValue(cacheKey, results);
-      return results;
+    const rawResults = Array.isArray(payload) ? payload : (payload?.value || []);
+    if (rawResults.length > 0) {
+      // Filter out accessories, non-phone products, and mismatched brands
+      const filtered = rawResults
+        .filter((item) => {
+          const text = `${item.name || ''} ${item.full_name || ''}`;
+          if (NON_PHONE_PATTERNS.test(text)) return false;
+          if (rawTerm === 'samsung' && !/samsung/i.test(`${item.brand || ''} ${item.full_name || ''}`)) return false;
+          if ((rawTerm === 'apple' || rawTerm === 'iphone') && !/apple|iphone/i.test(`${item.brand || ''} ${item.full_name || ''}`)) return false;
+          return true;
+        })
+        .slice(0, limit);
+
+
+      if (filtered.length > 0) {
+        setCachedValue(cacheKey, filtered);
+        return filtered;
+      }
     }
   } catch (err) {
     console.warn('[MobileAPI Autocomplete Error]:', err.message);
@@ -311,6 +347,7 @@ export const fetchMobileApiAutocomplete = async (query, limit = 10) => {
 
   return local;
 };
+
 
 /**
  * High-level helper: Search devices on https://mobileapi.dev/devices/search/
