@@ -21,6 +21,17 @@ export const sendOtp = async (phone, otp) => {
 
   const provider = process.env.SMS_PROVIDER;
 
+  if (provider === 'firebase') {
+    // Firebase Phone Auth is primarily handled directly in the browser via Firebase Client SDK.
+    // If the client dispatched to the backend, try Fast2SMS as server backup if configured, otherwise succeed gracefully.
+    if (process.env.SMS_API_KEY || process.env.FAST2SMS_API_KEY) {
+      console.log(`[SMS: Firebase Primary] Backend fallback requested. Dispatching backup via Fast2SMS...`);
+      return sendViaFast2SMS(phone, otp);
+    }
+    console.log(`[SMS: Firebase Mode] Phone: ${phone} → OTP: ${otp}`);
+    return { sent: true, devOtp: otp };
+  }
+
   if (provider === 'fast2sms') {
     return sendViaFast2SMS(phone, otp);
   }
@@ -30,7 +41,17 @@ export const sendOtp = async (phone, otp) => {
   }
 
   if (provider === 'twilio') {
-    return sendViaTwilio(phone, otp);
+    const twilioRes = await sendViaTwilio(phone, otp);
+    if (twilioRes.sent) return twilioRes;
+
+    // Fallback to Fast2SMS if Twilio fails (e.g., Twilio trial restriction on Indian numbers)
+    if (process.env.SMS_API_KEY || process.env.FAST2SMS_API_KEY) {
+      console.warn(`[SMS] Twilio delivery failed (${twilioRes.error || 'unknown'}). Falling back to Fast2SMS...`);
+      const fastRes = await sendViaFast2SMS(phone, otp);
+      if (fastRes.sent) return fastRes;
+    }
+
+    return twilioRes;
   }
 
   console.warn(`[SMS] Unknown provider "${provider}". Falling back to dev mode.`);
