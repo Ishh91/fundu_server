@@ -22,7 +22,7 @@ const deliveryAgentSchema = createSchema({
   total_completed: { type: Number, default: 0 },
   is_active: { type: Boolean, default: true },
   avatar_url: { type: String, default: null },
-  current_locality: { type: String, default: 'Gomti Nagar, Lucknow' },
+  current_locality: { type: String, default: 'Gomti Nagar' },
 }, { timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' } });
 
 export const DeliveryAgent = mongoose.models.DeliveryAgent || mongoose.model('DeliveryAgent', deliveryAgentSchema);

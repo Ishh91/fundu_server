@@ -38,7 +38,7 @@ const seedProducts = [
     original_price: 79900,
     discount_percent: 33,
     warranty_months: 6,
-    description: 'Superb condition iPhone 14 with A15 Bionic chip and advanced dual-camera system. Fully tested & certified in Lucknow.',
+    description: 'Superb condition iPhone 14 with A15 Bionic chip and advanced dual-camera system. Fully tested & certified at your doorstep.',
     is_approved: true,
     is_featured: true,
     stock: 4,

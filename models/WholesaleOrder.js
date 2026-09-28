@@ -22,7 +22,7 @@ const wholesaleOrderSchema = createSchema({
   payment_status: { type: String, enum: ['paid', 'credit_due', 'partially_paid'], default: 'paid' },
   status: { type: String, enum: ['pending', 'confirmed', 'dispatched', 'delivered', 'cancelled'], default: 'pending' },
   notes: { type: String, default: null },
-  delivery_address: { type: String, default: 'Lucknow Hub Pickup' },
+  delivery_address: { type: String, default: 'Service Hub Pickup' },
   dispatch_details: {
     dispatched_at: { type: String, default: null },
     delivered_at: { type: String, default: null },

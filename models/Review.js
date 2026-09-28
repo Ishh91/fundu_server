@@ -8,7 +8,7 @@ const reviewSchema = createSchema({
   rating: { type: Number, required: true, min: 1, max: 5 },
   comment: { type: String, required: true },
   reviewer_name: { type: String, required: true },
-  location: { type: String, default: 'Lucknow' },
+  location: { type: String, default: 'Doorstep Service' },
   is_approved: { type: Boolean, default: false },
 }, { timestamps: { createdAt: 'created_at', updatedAt: false } });
 

@@ -8,7 +8,7 @@ export const DEFAULT_LUCKNOW_AGENTS = [
     email: 'rohit.delivery@fundu.in',
     status: 'available',
     zones: ['Gomti Nagar', 'Indira Nagar', 'Chinhat', 'Polytechnic', 'Vibhuti Khand'],
-    current_locality: 'Gomti Nagar, Lucknow',
+    current_locality: 'Gomti Nagar',
     vehicle_type: 'Hero Splendor (UP 32 AB 1234)',
     rating: 4.9,
     current_orders_count: 0,
@@ -21,7 +21,7 @@ export const DEFAULT_LUCKNOW_AGENTS = [
     email: 'amit.delivery@fundu.in',
     status: 'available',
     zones: ['Hazratganj', 'Mahanagar', 'Aliganj', 'Nirala Nagar', 'Hussainganj', 'Butler Colony'],
-    current_locality: 'Hazratganj, Lucknow',
+    current_locality: 'Hazratganj',
     vehicle_type: 'Honda Activa (UP 32 CD 5678)',
     rating: 4.8,
     current_orders_count: 0,
@@ -34,7 +34,7 @@ export const DEFAULT_LUCKNOW_AGENTS = [
     email: 'vikas.delivery@fundu.in',
     status: 'available',
     zones: ['Aliganj', 'Jankipuram', 'Vikas Nagar', 'Kalyanpur', 'Tedhi Pulia', 'Kapoorthala'],
-    current_locality: 'Aliganj, Lucknow',
+    current_locality: 'Aliganj',
     vehicle_type: 'Bajaj Pulsar (UP 32 EF 9012)',
     rating: 4.9,
     current_orders_count: 0,
@@ -47,7 +47,7 @@ export const DEFAULT_LUCKNOW_AGENTS = [
     email: 'praveen.delivery@fundu.in',
     status: 'available',
     zones: ['Alambagh', 'Charbagh', 'Krishna Nagar', 'Ashiyana', 'Sarojini Nagar', 'Telibagh', 'Singar Nagar'],
-    current_locality: 'Alambagh, Lucknow',
+    current_locality: 'Alambagh',
     vehicle_type: 'TVS Raider (UP 32 GH 3456)',
     rating: 4.7,
     current_orders_count: 0,
@@ -60,7 +60,7 @@ export const DEFAULT_LUCKNOW_AGENTS = [
     email: 'mohit.delivery@fundu.in',
     status: 'available',
     zones: ['Gomti Nagar Extension', 'Shaheed Path', 'Sushant Golf City', 'Arjunganj', 'Ahimamau'],
-    current_locality: 'Gomti Nagar Extension, Lucknow',
+    current_locality: 'Gomti Nagar Extension',
     vehicle_type: 'Yamaha FZ (UP 32 JK 7890)',
     rating: 4.8,
     current_orders_count: 0,
@@ -115,7 +115,7 @@ export const autoAssignDeliveryAgent = async ({ area, fullAddress, slot, date, t
         }
       }
 
-      // 2. Fallback to least loaded available agent in Lucknow
+      // 2. Fallback to least loaded available agent at your doorstep
       if (!candidate) {
         candidate = availableAgents[0];
       }
