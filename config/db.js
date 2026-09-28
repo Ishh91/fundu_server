@@ -287,7 +287,7 @@ export const seedDatabase = async () => {
     await User.create({
       email: adminEmail,
       passwordHash: await bcrypt.hash(adminPassword, 10),
-      full_name: 'Fundu Admin (Lucknow)',
+      full_name: 'Fundu Admin',
       phone: '+919876543210',
       role: 'admin',
       is_verified: true,
@@ -316,7 +316,7 @@ export const seedDatabase = async () => {
     await User.create({
       email: riderEmail,
       passwordHash: await bcrypt.hash('Rider@123456', 10),
-      full_name: 'Rohit Verma (Lucknow Fleet)',
+      full_name: 'Rohit Verma (Delivery Fleet)',
       phone: '+919839122345',
       role: 'delivery',
       is_verified: true,

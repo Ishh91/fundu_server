@@ -125,7 +125,7 @@ router.post('/send-otp', async (req, res) => {
       <div style="font-family: Arial, sans-serif; padding: 24px; color: #0f172a; max-width: 520px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 20px; background-color: #ffffff;">
         <div style="background-color: #0f172a; padding: 20px; border-radius: 14px; text-align: center; color: white;">
           <h2 style="margin: 0; color: #14b8a6; font-size: 22px; font-weight: 900; letter-spacing: 1px;">FUNDU ACCOUNT VERIFICATION</h2>
-          <p style="margin: 4px 0 0; font-size: 12px; color: #94a3b8;">Lucknow Doorstep Security & Account Activation</p>
+          <p style="margin: 4px 0 0; font-size: 12px; color: #94a3b8;">Doorstep Security & Account Activation</p>
         </div>
 
         <div style="padding: 24px 0; text-align: center;">

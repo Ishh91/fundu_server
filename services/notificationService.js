@@ -1,6 +1,6 @@
 /**
  * Fundu Automated Notification Engine (Email & WhatsApp)
- * Exclusively designed for Lucknow doorstep delivery & pickup operations.
+ * Exclusively designed for doorstep delivery & pickup operations.
  */
 
 // Dev mode / Provider configuration
@@ -104,7 +104,7 @@ export const sendWhatsAppNotification = async ({ phone, message }) => {
 };
 
 /**
- * Event-Driven Notification Handlers with Clear Subjects & Lucknow Localized Copy
+ * Event-Driven Notification Handlers with Clear Subjects & Localized Copy
  */
 export const triggerEventNotification = async (eventType, payload) => {
   try {
@@ -164,7 +164,7 @@ export const triggerEventNotification = async (eventType, payload) => {
           </div>
         `;
 
-        const waText = `🚚 *Fundu — Order Dispatched!*\n\nHi ${name}, your order *#${orderId}* is OUT FOR DELIVERY!\n\n👤 *Agent:* ${agentName} (${agentPhone})\n⏱ *ETA:* ${eta}\n\nPlease be available at your Lucknow doorstep.`;
+        const waText = `🚚 *Fundu — Order Dispatched!*\n\nHi ${name}, your order *#${orderId}* is OUT FOR DELIVERY!\n\n👤 *Agent:* ${agentName} (${agentPhone})\n⏱ *ETA:* ${eta}\n\nPlease be available at your doorstep.`;
 
         if (payload.delivery_email) {
           await sendEmail({ to: payload.delivery_email, subject, html: emailHtml });
@@ -286,7 +286,7 @@ export const triggerEventNotification = async (eventType, payload) => {
         const paymentMode = payload.payment_method === 'credit' ? 'Fundu Credit (Khata)' : 'Spot Cash';
 
         const subject = `[Fundu B2B] Wholesale Order #${orderId} Confirmed (${paymentMode})`;
-        const waText = `📦 *Fundu B2B Lucknow — Order Confirmed!*\n\nHello *${name}*,\nWholesale Order *#${orderId}* for *${total}* is confirmed.\n\n💳 *Payment:* ${paymentMode}\n🏢 *Pickup Point:* Fundu Central Hub\n\nYour ledger has been updated automatically.`;
+        const waText = `📦 *Fundu B2B — Order Confirmed!*\n\nHello *${name}*,\nWholesale Order *#${orderId}* for *${total}* is confirmed.\n\n💳 *Payment:* ${paymentMode}\n🏢 *Pickup Point:* Fundu Central Hub\n\nYour ledger has been updated automatically.`;
 
         if (payload.vendor_phone) {
           await sendWhatsAppNotification({ phone: payload.vendor_phone, message: waText });

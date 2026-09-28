@@ -319,7 +319,7 @@ export const insertIntoTable = async (table, { auth, values, single }) => {
       }
     }
 
-    // Auto-assign delivery / pickup executive for Lucknow
+    // Auto-assign delivery / pickup executive
     if (table === 'sell_requests' && !prepared.assigned_agent_id) {
       try {
         const assigned = await autoAssignDeliveryAgent({

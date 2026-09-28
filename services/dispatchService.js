@@ -1,7 +1,7 @@
 import { DeliveryAgent } from '../models/DeliveryAgent.js';
 import { Dispatch } from '../models/Dispatch.js';
 
-export const DEFAULT_LUCKNOW_AGENTS = [
+export const DEFAULT_DOORSTEP_AGENTS = [
   {
     name: 'Rohit Verma',
     phone: '+91 98391 22345',
@@ -73,8 +73,8 @@ export const ensureAgentsSeeded = async () => {
   try {
     const count = await DeliveryAgent.countDocuments();
     if (count === 0) {
-      await DeliveryAgent.insertMany(DEFAULT_LUCKNOW_AGENTS);
-      console.log('Seeded default Lucknow delivery field executives.');
+      await DeliveryAgent.insertMany(DEFAULT_DOORSTEP_AGENTS);
+      console.log('Seeded default delivery field executives.');
     }
   } catch (err) {
     console.warn('Notice seeding delivery agents:', err.message);
