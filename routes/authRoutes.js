@@ -88,6 +88,35 @@ router.post('/check-email', async (req, res, next) => {
 });
 
 /* ────────────────────────────────────────────────────────────────
+   POST /auth/check-phone
+   Public pre-check to verify if a mobile number is already registered.
+   ────────────────────────────────────────────────────────────── */
+router.post('/check-phone', async (req, res, next) => {
+  try {
+    const rawPhone = req.body.phone;
+    if (!rawPhone) {
+      return res.json({ data: { exists: false } });
+    }
+    const cleanPhone = normalisePhone(rawPhone);
+    if (!isValidPhone(cleanPhone)) {
+      return res.json({ data: { exists: false } });
+    }
+    const user = await safeFindUser({ phone: cleanPhone });
+    if (user) {
+      return res.json({
+        data: {
+          exists: true,
+          message: `Account with mobile number +91 ${cleanPhone} exists.`,
+        },
+      });
+    }
+    res.json({ data: { exists: false } });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/* ────────────────────────────────────────────────────────────────
    POST /auth/delete-user
    Admin endpoint to delete a user/vendor by ID.
    ────────────────────────────────────────────────────────────── */
@@ -238,7 +267,7 @@ router.post('/otp/verify', async (req, res, next) => {
 
 /* ────────────────────────────────────────────────────────────────
    POST /auth/otp/verify-firebase
-   Body: { phone, fullName? }
+   Body: { phone, fullName?, email? }
    Called after client-side Firebase Phone Auth verification succeeds.
    Finds or creates MongoDB user and issues standard session JWT.
    ────────────────────────────────────────────────────────────── */
@@ -255,18 +284,38 @@ router.post('/otp/verify-firebase', async (req, res, next) => {
     }
 
     const { fullName } = req.body;
+    const cleanEmail = req.body.email ? String(req.body.email).toLowerCase().trim() : null;
 
-    let user = await User.findOne({ phone });
+    let user;
+
+    if (cleanEmail) {
+      // Find matching user with BOTH phone and this specific email
+      user = await User.findOne({ phone, email: cleanEmail });
+    } else {
+      // Find user by phone
+      user = await User.findOne({ phone });
+    }
 
     if (!user) {
+      if (cleanEmail) {
+        const existingEmail = await User.findOne({ email: cleanEmail });
+        if (existingEmail) {
+          throw createHttpError(409, 'This email address is already registered with another account.');
+        }
+      }
+
       user = await User.create({
         phone,
+        email: cleanEmail,
         full_name: fullName ? String(fullName).trim() : null,
         role: 'customer',
         is_verified: true,
       });
     } else if (!user.is_verified) {
       user.is_verified = true;
+      if (cleanEmail && !user.email) {
+        user.email = cleanEmail;
+      }
       await user.save();
     }
 
@@ -283,39 +332,50 @@ router.post('/otp/verify-firebase', async (req, res, next) => {
 });
 
 /* ────────────────────────────────────────────────────────────────
-   POST /auth/register  (kept for backward-compat / email users)
+   POST /auth/register
+   Phone is MANDATORY. Email is OPTIONAL (kept for record).
+   If phone is already registered with another email, a new distinct
+   user record is created for the new email.
    ────────────────────────────────────────────────────────────── */
 router.post('/register', async (req, res, next) => {
   try {
     const { email, password, fullName, phone, role, businessName, creditLimit, gstNumber } = req.body;
-    if (!email || !password || !fullName) {
-      throw createHttpError(400, 'Full name, email, and password are required.');
+    if (!fullName) {
+      throw createHttpError(400, 'Full name is required.');
     }
 
-    const cleanEmail = String(email).toLowerCase().trim();
     const cleanPhone = phone ? normalisePhone(phone) : '';
-
-    if (cleanPhone && !isValidPhone(cleanPhone)) {
-      throw createHttpError(400, 'Please enter a valid 10-digit mobile number.');
+    if (!cleanPhone || !isValidPhone(cleanPhone)) {
+      throw createHttpError(400, 'A valid 10-digit mobile number is mandatory.');
     }
 
-    const existingEmail = await safeFindUser({ email: cleanEmail });
-    if (existingEmail) {
-      throw createHttpError(409, 'An account with this email address already exists. Duplicate email is not permitted.');
+    const cleanEmail = email ? String(email).toLowerCase().trim() : null;
+    if (cleanEmail && !cleanEmail.includes('@')) {
+      throw createHttpError(400, 'Please enter a valid email address.');
     }
 
-    if (cleanPhone) {
-      const existingPhone = await safeFindUser({ phone: cleanPhone });
-      if (existingPhone) {
-        throw createHttpError(409, 'An account with this mobile number already exists. Duplicate mobile number is not permitted.');
+    if (cleanEmail) {
+      // Check if this exact email is already used by another account
+      const existingEmail = await safeFindUser({ email: cleanEmail });
+      if (existingEmail) {
+        throw createHttpError(409, 'This email address is already registered. Please use another email or Sign In.');
+      }
+    } else {
+      // If no email provided, check if a phone-only user with no email already exists
+      const existingNoEmail = await User.findOne({
+        phone: cleanPhone,
+        $or: [{ email: null }, { email: { $exists: false } }, { email: '' }],
+      });
+      if (existingNoEmail) {
+        throw createHttpError(409, 'An account with this mobile number already exists. Please Sign In.');
       }
     }
 
     const user = await safeCreateUser({
       email: cleanEmail,
-      passwordHash: await bcrypt.hash(String(password), 10),
+      passwordHash: password ? await bcrypt.hash(String(password), 10) : null,
       full_name: String(fullName).trim(),
-      phone: cleanPhone || null,
+      phone: cleanPhone,
       role: role || 'customer',
       business_name: businessName || null,
       credit_limit: creditLimit ? Number(creditLimit) : 200000,
