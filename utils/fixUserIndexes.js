@@ -32,30 +32,39 @@ try {
   const indexes = await collection.indexes();
   console.log('Current indexes:', indexes.map((i) => `${i.name} (unique=${i.unique}, sparse=${i.sparse})`));
 
-  // Drop the old non-sparse email unique index if it exists
-  const emailIdx = indexes.find((i) => i.key?.email !== undefined && !i.sparse);
+  // Clean up any existing documents with email: null or empty string
+  const unsetRes = await collection.updateMany(
+    { $or: [{ email: null }, { email: '' }] },
+    { $unset: { email: '' } }
+  );
+  console.log(`✓ Unset null/empty email on ${unsetRes.modifiedCount} documents.`);
+
+  // Drop existing email index
+  const emailIdx = indexes.find((i) => i.key?.email !== undefined);
   if (emailIdx) {
     await collection.dropIndex(emailIdx.name);
-    console.log(`✓ Dropped old email index: ${emailIdx.name}`);
-  } else {
-    console.log('✓ No problematic email index found (already migrated or never created).');
+    console.log(`✓ Dropped email index: ${emailIdx.name}`);
   }
 
-  // Drop old non-sparse phone unique index if it exists
-  const phoneIdx = indexes.find((i) => i.key?.phone !== undefined && !i.sparse);
+  // Drop existing phone index
+  const phoneIdx = indexes.find((i) => i.key?.phone !== undefined);
   if (phoneIdx) {
     await collection.dropIndex(phoneIdx.name);
-    console.log(`✓ Dropped old phone index: ${phoneIdx.name}`);
-  } else {
-    console.log('✓ No problematic phone index found.');
+    console.log(`✓ Dropped phone index: ${phoneIdx.name}`);
   }
 
-  // Re-create correct sparse unique indexes
-  await collection.createIndex({ email: 1 }, { unique: true, sparse: true, background: true });
-  console.log('✓ Created sparse unique index on email');
+  // Create partialFilterExpression unique indexes so null or missing fields never clash
+  await collection.createIndex(
+    { email: 1 },
+    { unique: true, partialFilterExpression: { email: { $type: 'string' } }, background: true }
+  );
+  console.log('✓ Created unique partial index on email (only applies when email is a string)');
 
-  await collection.createIndex({ phone: 1 }, { unique: true, sparse: true, background: true });
-  console.log('✓ Created sparse unique index on phone');
+  await collection.createIndex(
+    { phone: 1 },
+    { unique: true, partialFilterExpression: { phone: { $type: 'string' } }, background: true }
+  );
+  console.log('✓ Created unique partial index on phone (only applies when phone is a string)');
 
   const finalIndexes = await collection.indexes();
   console.log('\nFinal indexes:', finalIndexes.map((i) => `${i.name} (unique=${i.unique}, sparse=${i.sparse})`));
