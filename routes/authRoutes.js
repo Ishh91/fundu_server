@@ -264,8 +264,8 @@ router.post('/otp/send', async (req, res, next) => {
       smsSent,
     };
 
-    // Include devOtp in dev/test or when SMS provider fallback is simulated
-    if (process.env.OTP_DEV_MODE === 'true' || isDevMode || !smsSent || process.env.SMS_PROVIDER === 'firebase') {
+    // Only expose devOtp if OTP_DEV_MODE is explicitly true
+    if (process.env.OTP_DEV_MODE === 'true') {
       response.devOtp = otp;
     }
 
@@ -376,7 +376,7 @@ router.post('/otp/verify-firebase', async (req, res, next) => {
 
       user = await User.create({
         phone,
-        email: cleanEmail,
+        email: cleanEmail || undefined,
         full_name: fullName ? String(fullName).trim() : null,
         role: 'customer',
         is_verified: true,
