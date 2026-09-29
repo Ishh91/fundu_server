@@ -160,13 +160,20 @@ export const preparePayload = (table, action, input, auth) => {
     case 'profiles':
       requireAuth(auth);
       if (!isAdmin(auth)) {
-        return {
+        const out = {
           full_name: payload.full_name ?? null,
           phone: payload.phone ?? null,
           business_name: payload.business_name ?? null,
           avatar_url: payload.avatar_url ?? null,
           updated_at: payload.updated_at ?? new Date().toISOString(),
         };
+        if (payload.email !== undefined) {
+          const cleanEmail = String(payload.email || '').toLowerCase().trim();
+          if (cleanEmail) {
+            out.email = cleanEmail;
+          }
+        }
+        return out;
       }
       return payload;
     case 'products':
