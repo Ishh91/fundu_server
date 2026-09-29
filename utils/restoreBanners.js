@@ -8,7 +8,7 @@ dotenv.config({ path: path.resolve(__dirname, '..', '..', '.env') });
 
 async function run() {
   const uri = process.env.MONGODB_URI;
-  await mongoose.connect(uri);
+  await mongoose.connect(uri, { dbName: process.env.MONGODB_DB_NAME || 'fundu' });
 
   const defaults = [
     {
