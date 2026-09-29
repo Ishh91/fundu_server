@@ -7,6 +7,7 @@ import { normalizeDoc } from '../utils/dbHelpers.js';
 import { issueSession, requireAuth } from '../middleware/auth.js';
 import { createOtp, verifyOtp as checkOtp, hasActiveOtp, otpTtlSeconds } from '../utils/otpStore.js';
 import { sendOtp } from '../services/smsService.js';
+import { sendViaNodemailer } from './emailRoutes.js';
 
 const router = Router();
 const inMemoryUsers = new Map();
@@ -177,15 +178,22 @@ const isValidPhone = (phone) => /^\d{10}$/.test(phone);
 
 /* ────────────────────────────────────────────────────────────────
    POST /auth/otp/send
-   Body: { phone }
+   Body: { phone, email?, fullName? }
    Rate-limited to once per 60 seconds per number.
+   Sends OTP via SMS and also via Email if email is provided (optional).
    ────────────────────────────────────────────────────────────── */
 router.post('/otp/send', async (req, res, next) => {
   try {
     const phone = normalisePhone(req.body.phone);
+    const cleanEmail = req.body.email ? String(req.body.email).toLowerCase().trim() : null;
+    const fullName = req.body.fullName ? String(req.body.fullName).trim() : 'User';
 
     if (!isValidPhone(phone)) {
       throw createHttpError(400, 'Please enter a valid 10-digit Indian mobile number.');
+    }
+
+    if (cleanEmail && !cleanEmail.includes('@')) {
+      throw createHttpError(400, 'Please enter a valid email address.');
     }
 
     // 60-second resend cooldown (enforced in production only)
@@ -198,17 +206,67 @@ router.post('/otp/send', async (req, res, next) => {
     }
 
     const otp = createOtp(phone);
-    const result = await sendOtp(phone, otp);
+    let smsSent = false;
+    let smsError = null;
 
-    if (!result.sent) {
-      throw createHttpError(400, result.error || 'Failed to send OTP SMS.');
+    try {
+      const result = await sendOtp(phone, otp);
+      smsSent = Boolean(result.sent);
+      if (!result.sent) smsError = result.error;
+    } catch (err) {
+      smsError = err.message;
     }
 
-    const response = { message: `OTP sent to +91 ${phone}.` };
+    // If email is provided (optional), send the exact same OTP to their email inbox
+    let emailSent = false;
+    if (cleanEmail) {
+      try {
+        const mailRes = await sendViaNodemailer({
+          to: cleanEmail,
+          subject: `Fundu Verification Code: ${otp}`,
+          html: `
+            <div style="font-family: Arial, sans-serif; padding: 24px; color: #0f172a; max-width: 480px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 16px;">
+              <div style="background-color: #0f172a; padding: 20px; border-radius: 12px; text-align: center; color: white;">
+                <h2 style="margin: 0; color: #38bdf8;">Fundu Security</h2>
+                <p style="margin: 4px 0 0; font-size: 12px; color: #94a3b8;">Account Verification</p>
+              </div>
+              <div style="padding: 20px 0;">
+                <p>Hi <strong>${fullName}</strong>,</p>
+                <p>Your verification OTP code for Fundu registration is:</p>
+                <div style="background-color: #f8fafc; border: 2px dashed #cbd5e1; border-radius: 12px; padding: 16px; text-align: center; margin: 20px 0;">
+                  <span style="font-family: monospace; font-size: 32px; font-weight: bold; color: #0284c7; letter-spacing: 8px;">${otp}</span>
+                </div>
+                <p style="font-size: 12px; color: #64748b;">This code expires in 10 minutes. Do not share it with anyone.</p>
+              </div>
+            </div>
+          `,
+          from: `"Fundu Verification" <${process.env.SMTP_USER || 'trustiqueassist0003@gmail.com'}>`,
+        });
+        emailSent = Boolean(mailRes.success);
+      } catch (err) {
+        console.error('⚠️ [Email OTP Error]:', err?.message || err);
+      }
+    }
 
-    // Only expose devOtp if OTP_DEV_MODE is explicitly true
-    if (process.env.OTP_DEV_MODE === 'true' && result.devOtp) {
-      response.devOtp = result.devOtp;
+    // If both failed in strict prod mode, report error; otherwise proceed smoothly
+    if (!smsSent && !emailSent && process.env.NODE_ENV === 'production' && !isDevMode) {
+      throw createHttpError(400, smsError || 'Failed to send OTP. Please try again.');
+    }
+
+    let message = `OTP sent to +91 ${phone}.`;
+    if (emailSent && cleanEmail) {
+      message = `OTP sent to +91 ${phone} and ${cleanEmail}.`;
+    }
+
+    const response = {
+      message,
+      emailSent,
+      smsSent,
+    };
+
+    // Include devOtp in dev/test or when SMS provider fallback is simulated
+    if (process.env.OTP_DEV_MODE === 'true' || isDevMode || !smsSent || process.env.SMS_PROVIDER === 'firebase') {
+      response.devOtp = otp;
     }
 
     res.json({ data: response });
@@ -219,13 +277,13 @@ router.post('/otp/send', async (req, res, next) => {
 
 /* ────────────────────────────────────────────────────────────────
    POST /auth/otp/verify
-   Body: { phone, otp, fullName? }
-   Auto-creates account on first login.
+   Body: { phone, otp, fullName?, email?, password? }
+   Auto-creates account on first login or updates missing info.
    ────────────────────────────────────────────────────────────── */
 router.post('/otp/verify', async (req, res, next) => {
   try {
     const phone = normalisePhone(req.body.phone);
-    const { otp, fullName } = req.body;
+    const { otp, fullName, email, password } = req.body;
 
     if (!isValidPhone(phone)) {
       throw createHttpError(400, 'Invalid phone number.');
@@ -238,18 +296,30 @@ router.post('/otp/verify', async (req, res, next) => {
     const { valid, reason } = checkOtp(phone, String(otp).trim());
     if (!valid) throw createHttpError(400, reason);
 
+    const cleanEmail = email ? String(email).toLowerCase().trim() : null;
+
     // Find or create user
-    let user = await User.findOne({ phone });
+    let user = null;
+    if (cleanEmail) {
+      user = await User.findOne({ $or: [{ phone }, { email: cleanEmail }] });
+    } else {
+      user = await User.findOne({ phone });
+    }
 
     if (!user) {
       user = await User.create({
         phone,
+        email: cleanEmail || null,
         full_name: fullName ? String(fullName).trim() : null,
+        passwordHash: password ? await bcrypt.hash(String(password), 10) : null,
         role: 'customer',
         is_verified: true,
       });
-    } else if (!user.is_verified) {
-      user.is_verified = true;
+    } else {
+      if (!user.is_verified) user.is_verified = true;
+      if (fullName && !user.full_name) user.full_name = String(fullName).trim();
+      if (cleanEmail && !user.email) user.email = cleanEmail;
+      if (password && !user.passwordHash) user.passwordHash = await bcrypt.hash(String(password), 10);
       await user.save();
     }
 

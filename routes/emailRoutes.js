@@ -9,7 +9,7 @@ const RESEND_ACCOUNT_OWNER = 'trustiqueassist0003@gmail.com';
 /**
  * Helper to send email via Nodemailer (Gmail / SMTP)
  */
-async function sendViaNodemailer({ to, subject, html, from }) {
+export async function sendViaNodemailer({ to, subject, html, from }) {
   const smtpUser = process.env.SMTP_USER || process.env.GMAIL_USER;
   const smtpPass = process.env.SMTP_PASS || process.env.GMAIL_APP_PASSWORD;
 
