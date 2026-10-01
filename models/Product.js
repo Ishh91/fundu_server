@@ -8,7 +8,7 @@ const productSchema = createSchema({
   ram: { type: String, default: null },
   storage: { type: String, default: null },
   color: { type: String, default: null },
-  condition: { type: String, enum: ['Excellent', 'Good', 'Fair'], required: true },
+  condition: { type: String, default: 'Excellent' },
   price: { type: Number, required: true },
   original_price: { type: Number, default: null },
   discount_percent: { type: Number, default: 0 },
