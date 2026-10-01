@@ -45,6 +45,8 @@ export const getReadScope = async (table, auth, filters) => {
       return combineFilters(baseFilter, userMatch);
     }
     case 'sell_price_configs':
+    case 'repair_price_configs':
+    case 'repair_catalogs':
       return isAdmin(auth) ? baseFilter : combineFilters(baseFilter, { is_active: true });
     case 'dispatches': {
       if (!auth?.sub) return baseFilter;
@@ -129,6 +131,8 @@ export const getWriteScope = async (table, auth, filters) => {
       if (!isAdmin(auth)) throw createHttpError(403, 'Admin access required.');
       return baseFilter;
     case 'sell_price_configs':
+    case 'repair_price_configs':
+    case 'repair_catalogs':
     case 'delivery_agents':
     case 'master_phones':
     case 'phones':
@@ -210,6 +214,13 @@ export const preparePayload = (table, action, input, auth) => {
       requireAuth(auth);
       if (!isAdmin(auth)) throw createHttpError(403, 'Admin access required.');
       payload.storage = payload.storage ? String(payload.storage).trim() : null;
+      return payload;
+    case 'repair_price_configs':
+    case 'repair_catalogs':
+      requireAuth(auth);
+      if (!isAdmin(auth)) throw createHttpError(403, 'Admin access required.');
+      if (payload.brand) payload.brand = String(payload.brand).trim();
+      if (payload.model) payload.model = String(payload.model).trim();
       return payload;
     case 'delivery_agents':
     case 'master_phones':
@@ -656,6 +667,18 @@ export const upsertTable = async (table, { auth, values, single }) => {
       const doc = await Model.findOneAndUpdate({ key: payload.key }, payload, { new: true, upsert: true, runValidators: false });
       return normalizeDoc(doc);
     }
+  }
+
+  if (table === 'repair_price_configs' || table === 'repair_catalogs') {
+    const Model = getModel(table);
+    const payload = preparePayload(table, 'upsert', values, auth);
+    const match = {
+      product_type: payload.product_type || 'smartphone',
+      brand: new RegExp(`^${payload.brand?.trim()}$`, 'i'),
+      model: new RegExp(`^${payload.model?.trim()}$`, 'i'),
+    };
+    const doc = await Model.findOneAndUpdate(match, payload, { new: true, upsert: true, runValidators: false, setDefaultsOnInsert: true });
+    return normalizeDoc(doc);
   }
 
   return insertIntoTable(table, { auth, values, single });

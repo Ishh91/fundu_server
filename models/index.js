@@ -14,6 +14,7 @@ import { SiteContent } from './SiteContent.js';
 import { WholesaleInventory } from './WholesaleInventory.js';
 import { WholesaleOrder } from './WholesaleOrder.js';
 import { VendorLedger } from './VendorLedger.js';
+import { RepairPriceCatalog } from './RepairPriceCatalog.js';
 
 export {
   User,
@@ -22,6 +23,7 @@ export {
   SellRequest,
   SellPriceConfig,
   RepairBooking,
+  RepairPriceCatalog,
   Order,
   Dispatch,
   Review,
@@ -40,6 +42,8 @@ export const TABLE_MODELS = {
   spare_parts: SparePart,
   sell_requests: SellRequest,
   sell_price_configs: SellPriceConfig,
+  repair_price_configs: RepairPriceCatalog,
+  repair_catalogs: RepairPriceCatalog,
   repair_bookings: RepairBooking,
   orders: Order,
   dispatches: Dispatch,
