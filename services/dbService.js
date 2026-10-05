@@ -11,6 +11,7 @@ import {
 import { isAdmin, isWholesaler, requireAuth } from '../middleware/auth.js';
 import { autoAssignDeliveryAgent } from './dispatchService.js';
 import { triggerEventNotification } from './notificationService.js';
+import { quotePhone } from '../../fundu_phone_quote.mjs';
 
 export const getReadScope = async (table, auth, filters) => {
   const baseFilter = buildMongoFilter(filters);
@@ -202,7 +203,49 @@ export const preparePayload = (table, action, input, auth) => {
     case 'vendor_ledger':
       requireAuth(auth);
       return payload;
-    case 'sell_requests':
+    case 'sell_requests': {
+      if (auth?.sub) {
+        payload.user_id = auth.sub;
+      } else if (!payload.user_id) {
+        payload.user_id = `guest_${Date.now()}`;
+      }
+
+      // Server-side quote validation & audit enforcement (do not trust client-supplied prices)
+      if (payload.brand && payload.model) {
+        const quoteInputs = {
+          brand: payload.brand,
+          model: payload.model,
+          storage: payload.storage || '128 GB',
+          powers_on: payload.can_make_calls !== false && payload.diagnostics?.screen_touch !== false,
+          activation_lock_cleared: payload.activation_lock_cleared !== false,
+          ownership_verified: payload.ownership_verified !== false,
+          liquid_damage: payload.liquid_damage === true,
+          cosmetic_condition: payload.body_condition || payload.condition || 'good',
+          screen_condition: payload.screen_condition || 'flawless',
+          body_condition: payload.body_condition || 'flawless',
+          battery_health: payload.diagnostics?.battery_health || 'healthy',
+          defects: Array.isArray(payload.defects) ? payload.defects : [],
+          accessories: Array.isArray(payload.accessories) ? payload.accessories : [],
+          under_warranty: payload.under_warranty === true,
+        };
+
+        const serverQuote = quotePhone(quoteInputs);
+        if (serverQuote.status === 'quoted') {
+          payload.estimated_price = serverQuote.offerAmount;
+          payload.valuation_price = serverQuote.offerAmount;
+          payload.policy_version = serverQuote.policyVersion;
+          payload.quote_id = serverQuote.quoteId;
+          payload.condition_summary = serverQuote.conditionSummary;
+        } else if (serverQuote.status === 'requires_manual_review') {
+          payload.status = 'requires_manual_review';
+          payload.estimated_price = null;
+          payload.valuation_price = null;
+          payload.review_reason = serverQuote.reason;
+          payload.notes = (payload.notes ? `${payload.notes} | ` : '') + `Routed to manual inspection: ${serverQuote.message}`;
+        }
+      }
+      return payload;
+    }
     case 'repair_bookings':
       if (auth?.sub) {
         payload.user_id = auth.sub;

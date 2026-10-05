@@ -322,4 +322,88 @@ router.post('/bulk-sync', async (_req, res) => {
   }
 });
 
+import {
+  createPhoneQuote,
+  processInspectionMismatch,
+  FUNDU_POLICY,
+  FUNDU_SERVICE_LOCALITIES,
+} from '../services/quoteService.js';
+import { SellRequest as SellRequestModel } from '../models/SellRequest.js';
+
+/**
+ * Generate official Fundu buyback quote
+ * POST /api/phones/quote
+ */
+router.post('/quote', async (req, res) => {
+  try {
+    const quote = await createPhoneQuote(req.body);
+    return res.json({ data: quote });
+  } catch (error) {
+    return res.status(500).json({ error: { message: error.message } });
+  }
+});
+
+/**
+ * Get active policy info & supported service areas
+ * GET /api/phones/quote/policy
+ */
+router.get('/quote/policy', (_req, res) => {
+  return res.json({
+    data: {
+      version: FUNDU_POLICY.version,
+      effectiveDate: FUNDU_POLICY.effectiveDate,
+      supportedLocalities: FUNDU_SERVICE_LOCALITIES,
+      disclaimer: 'All quotes are conditional estimates subject to physical doorstep inspection.',
+    },
+  });
+});
+
+/**
+ * Physical Doorstep Inspection recalculation & mismatch detection
+ * POST /api/phones/quote/inspect
+ */
+router.post('/quote/inspect', async (req, res) => {
+  try {
+    const { quoteId, sellRequestId, inspectedAnswers } = req.body;
+    const result = await processInspectionMismatch(quoteId, inspectedAnswers, sellRequestId);
+    return res.json({ data: result });
+  } catch (error) {
+    return res.status(400).json({ error: { message: error.message } });
+  }
+});
+
+/**
+ * Seller accepts or declines revised offer
+ * POST /api/phones/quote/accept-revised
+ */
+router.post('/quote/accept-revised', async (req, res) => {
+  try {
+    const { sellRequestId, accept } = req.body;
+    if (!sellRequestId) {
+      return res.status(400).json({ error: { message: 'sellRequestId is required' } });
+    }
+
+    const doc = await SellRequestModel.findById(sellRequestId);
+    if (!doc) {
+      return res.status(404).json({ error: { message: 'Sell request not found' } });
+    }
+
+    if (accept) {
+      doc.vendor_quote_status = 'user_accepted';
+      doc.status = 'completed';
+      doc.final_price = doc.vendor_quote_price || doc.estimated_price;
+      await doc.save();
+      return res.json({ data: normalizeDoc(doc), message: 'Revised offer accepted. Payment dispatched.' });
+    } else {
+      doc.vendor_quote_status = 'user_rejected';
+      doc.status = 'cancelled';
+      await doc.save();
+      return res.json({ data: normalizeDoc(doc), message: 'Revised offer declined. Device return initiated.' });
+    }
+  } catch (error) {
+    return res.status(500).json({ error: { message: error.message } });
+  }
+});
+
 export default router;
+
