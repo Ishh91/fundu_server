@@ -3,7 +3,7 @@ import { mobileCache, getCachedValue, setCachedValue } from './mobileApi.js';
 
 export const CASHIFY_BRANDS = [
   'Apple', 'Samsung', 'OnePlus', 'Xiaomi', 'Realme', 'Vivo', 'Oppo',
-  'Motorola', 'Google', 'Nothing', 'Poco', 'Redmi', 'iQOO', 'Asus', 'Nokia', 'Infinix', 'Tecno'
+  'Motorola', 'Google', 'Nothing', 'Poco', 'Redmi', 'iQOO', 'Asus', 'Nokia', 'Infinix', 'Tecno', 'Lenovo'
 ];
 
 /**
