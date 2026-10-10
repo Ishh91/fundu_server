@@ -13,6 +13,7 @@ const router = Router();
 
 router.get('/:table', async (req, res, next) => {
   try {
+    res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
     const filters = parseJsonParam(req.query.filters, []);
     const sort = parseJsonParam(req.query.sort, null);
     const select = typeof req.query.select === 'string' ? req.query.select : '*';
