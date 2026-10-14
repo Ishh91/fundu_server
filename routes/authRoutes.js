@@ -31,6 +31,11 @@ async function safeFindUser(query) {
         const found = Array.from(inMemoryUsers.values()).find((u) => u.phone === cond.phone);
         if (found) return found;
       }
+      if (cond._id || cond.id) {
+        const idVal = String(cond._id || cond.id);
+        const found = Array.from(inMemoryUsers.values()).find((u) => String(u._id) === idVal || String(u.id) === idVal);
+        if (found) return found;
+      }
     }
     return null;
   }
@@ -39,6 +44,10 @@ async function safeFindUser(query) {
   }
   if (query.phone) {
     return Array.from(inMemoryUsers.values()).find((u) => u.phone === query.phone) || null;
+  }
+  if (query._id || query.id) {
+    const idVal = String(query._id || query.id);
+    return Array.from(inMemoryUsers.values()).find((u) => String(u._id) === idVal || String(u.id) === idVal) || null;
   }
   return null;
 }
@@ -298,36 +307,40 @@ router.post('/otp/verify', async (req, res, next) => {
 
     const cleanEmail = email ? String(email).toLowerCase().trim() : null;
 
-    // Find or create user
-    let user = null;
-    if (cleanEmail) {
-      user = await User.findOne({ $or: [{ phone }, { email: cleanEmail }] });
-    } else {
-      user = await User.findOne({ phone });
+    // Find existing user by phone or email
+    let user = await safeFindUser({ phone });
+    if (!user && cleanEmail) {
+      user = await safeFindUser({ email: cleanEmail });
     }
 
+    let isNewUser = false;
+
     if (!user) {
-      user = await User.create({
+      isNewUser = true;
+      user = await safeCreateUser({
         phone,
         email: cleanEmail || null,
-        full_name: fullName ? String(fullName).trim() : null,
+        full_name: fullName ? String(fullName).trim() : `User ${phone.slice(-4)}`,
         passwordHash: password ? await bcrypt.hash(String(password), 10) : null,
         role: 'customer',
         is_verified: true,
       });
     } else {
+      isNewUser = false;
       if (!user.is_verified) user.is_verified = true;
-      if (fullName && !user.full_name) user.full_name = String(fullName).trim();
+      if (fullName && (!user.full_name || user.full_name.startsWith('User '))) {
+        user.full_name = String(fullName).trim();
+      }
       if (cleanEmail && !user.email) user.email = cleanEmail;
       if (password && !user.passwordHash) user.passwordHash = await bcrypt.hash(String(password), 10);
-      await user.save();
+      if (typeof user.save === 'function') await user.save();
     }
 
     res.json({
       data: {
         session: issueSession(user),
         profile: normalizeDoc(user),
-        isNewUser: !user.full_name,
+        isNewUser,
       },
     });
   } catch (error) {
@@ -356,44 +369,47 @@ router.post('/otp/verify-firebase', async (req, res, next) => {
     const { fullName } = req.body;
     const cleanEmail = req.body.email ? String(req.body.email).toLowerCase().trim() : null;
 
-    let user;
-
-    if (cleanEmail) {
-      // Find matching user with BOTH phone and this specific email
-      user = await User.findOne({ phone, email: cleanEmail });
-    } else {
-      // Find user by phone
-      user = await User.findOne({ phone });
+    // Find existing user by primary phone, or email
+    let user = await safeFindUser({ phone });
+    if (!user && cleanEmail) {
+      user = await safeFindUser({ email: cleanEmail });
     }
 
+    let isNewUser = false;
+
     if (!user) {
+      isNewUser = true;
       if (cleanEmail) {
-        const existingEmail = await User.findOne({ email: cleanEmail });
+        const existingEmail = await safeFindUser({ email: cleanEmail });
         if (existingEmail) {
           throw createHttpError(409, 'This email address is already registered with another account.');
         }
       }
 
-      user = await User.create({
+      user = await safeCreateUser({
         phone,
         email: cleanEmail || undefined,
-        full_name: fullName ? String(fullName).trim() : null,
+        full_name: fullName ? String(fullName).trim() : `User ${phone.slice(-4)}`,
         role: 'customer',
         is_verified: true,
       });
-    } else if (!user.is_verified) {
-      user.is_verified = true;
+    } else {
+      isNewUser = false;
+      if (!user.is_verified) user.is_verified = true;
+      if (fullName && (!user.full_name || user.full_name.startsWith('User '))) {
+        user.full_name = String(fullName).trim();
+      }
       if (cleanEmail && !user.email) {
         user.email = cleanEmail;
       }
-      await user.save();
+      if (typeof user.save === 'function') await user.save();
     }
 
     res.json({
       data: {
         session: issueSession(user),
         profile: normalizeDoc(user),
-        isNewUser: !user.full_name,
+        isNewUser,
       },
     });
   } catch (error) {
@@ -404,8 +420,6 @@ router.post('/otp/verify-firebase', async (req, res, next) => {
 /* ────────────────────────────────────────────────────────────────
    POST /auth/register
    Phone is MANDATORY. Email is OPTIONAL (kept for record).
-   If phone is already registered with another email, a new distinct
-   user record is created for the new email.
    ────────────────────────────────────────────────────────────── */
 router.post('/register', async (req, res, next) => {
   try {
@@ -424,20 +438,17 @@ router.post('/register', async (req, res, next) => {
       throw createHttpError(400, 'Please enter a valid email address.');
     }
 
+    // Check if an account already exists with this phone
+    const existingPhone = await safeFindUser({ phone: cleanPhone });
+    if (existingPhone) {
+      throw createHttpError(409, 'An account with this mobile number already exists. Please Sign In.');
+    }
+
     if (cleanEmail) {
       // Check if this exact email is already used by another account
       const existingEmail = await safeFindUser({ email: cleanEmail });
       if (existingEmail) {
         throw createHttpError(409, 'This email address is already registered. Please use another email or Sign In.');
-      }
-    } else {
-      // If no email provided, check if a phone-only user with no email already exists
-      const existingNoEmail = await User.findOne({
-        phone: cleanPhone,
-        $or: [{ email: null }, { email: { $exists: false } }, { email: '' }],
-      });
-      if (existingNoEmail) {
-        throw createHttpError(409, 'An account with this mobile number already exists. Please Sign In.');
       }
     }
 
