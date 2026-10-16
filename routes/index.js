@@ -4,6 +4,7 @@ import dbRoutes from './dbRoutes.js';
 import mobileRoutes from './mobileRoutes.js';
 import phoneRoutes from './phoneRoutes.js';
 import emailRoutes from './emailRoutes.js';
+import whatsappRoutes from './whatsappRoutes.js';
 
 const router = Router();
 
@@ -12,5 +13,6 @@ router.use('/', mobileRoutes);
 router.use('/auth', authRoutes);
 router.use('/db', dbRoutes);
 router.use('/email', emailRoutes);
+router.use('/whatsapp', whatsappRoutes);
 
 export default router;
