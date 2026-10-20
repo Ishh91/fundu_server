@@ -20,6 +20,7 @@ import {
   fetchCashifyValuation,
 } from '../utils/cashifyApi.js';
 import { seedDatabase } from '../config/db.js';
+import { resolveDeviceImage } from '../services/deviceImageService.js';
 
 const router = Router();
 
@@ -295,6 +296,39 @@ router.get('/mobile/search', async (req, res) => {
       total: result.total,
       page: result.page,
       provider: 'https://mobileapi.dev/',
+    });
+  } catch (error) {
+    return res.status(500).json({ error: { message: error.message } });
+  }
+});
+
+/**
+ * Dynamic Device Image Resolver: Option A (MobileAPI.dev) with Option B (RapidAPI GSM Arena) Backup
+ * GET /api/device-image?brand=Apple&model=iPhone+15+Pro
+ */
+router.get('/device-image', async (req, res) => {
+  try {
+    const brand = typeof req.query.brand === 'string' ? req.query.brand.trim() : '';
+    const model = typeof req.query.model === 'string' ? req.query.model.trim() : '';
+
+    if (!brand && !model) {
+      return res.status(400).json({ error: { message: 'Brand or model parameter is required' } });
+    }
+
+    const resolved = await resolveDeviceImage(brand, model);
+    if (resolved && resolved.imageUrl) {
+      return res.json({
+        success: true,
+        imageUrl: resolved.imageUrl,
+        source: resolved.source,
+        title: resolved.title || `${brand} ${model}`,
+        deviceId: resolved.deviceId || null,
+      });
+    }
+
+    return res.json({
+      success: false,
+      message: 'No exact studio render found in Option A or Option B',
     });
   } catch (error) {
     return res.status(500).json({ error: { message: error.message } });
