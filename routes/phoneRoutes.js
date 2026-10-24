@@ -29,8 +29,10 @@ router.get('/search', async (req, res) => {
     }
     if (query && query.trim()) {
       const q = query.trim();
+      const flexPattern = q.split(/\s+/).map((part) => part.replace(/[^a-zA-Z0-9]/g, '')).filter(Boolean).join('\\s*');
+      const searchRegex = new RegExp(flexPattern || q, 'i');
       filter.$or = [
-        { model: new RegExp(q, 'i') },
+        { model: searchRegex },
         { brand: new RegExp(q, 'i') },
         { popular_tag: new RegExp(q, 'i') },
         { processor: new RegExp(q, 'i') },

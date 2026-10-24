@@ -6554,49 +6554,46 @@
   {
     "brand": "OnePlus",
     "model": "Nord CE 3",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
-    "default_mrp": 22125,
-    "base_resale_value": 14750,
+    "default_mrp": 26999,
+    "base_resale_value": 14650,
     "image_url": "https://api.mobileapi.dev/devices/374/thumb.png",
-    "popular_tag": "OnePlus Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
+    "popular_tag": "Never Settle",
+    "processor": "Snapdragon 782G 5G",
+    "camera_spec": "50MP Sony IMX890 OIS + 8MP Ultra-wide + 2MP Macro",
+    "battery_spec": "5000 mAh 80W SUPERVOOC",
+    "display_spec": "6.7\" 120Hz Fluid AMOLED FHD+",
+    "is_5g": true,
     "is_active": true
   },
   {
     "brand": "OnePlus",
     "model": "Nord CE 3 Lite",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
-    "default_mrp": 15150,
-    "base_resale_value": 10100,
+    "default_mrp": 19999,
+    "base_resale_value": 10150,
     "image_url": "https://api.mobileapi.dev/devices/16320/thumb.png",
-    "popular_tag": "OnePlus Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
+    "popular_tag": "Larger Than Life",
+    "processor": "Snapdragon 695 5G",
+    "camera_spec": "108MP Main Camera + 3x Lossless Zoom",
+    "battery_spec": "5000 mAh 67W SUPERVOOC",
+    "display_spec": "6.72\" 120Hz FHD+ LCD",
+    "is_5g": true,
     "is_active": true
   },
   {
@@ -6629,22 +6626,20 @@
     "release_year": 2022,
     "ram_options": [
       "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
-    "default_mrp": 14910,
-    "base_resale_value": 9940,
+    "default_mrp": 18999,
+    "base_resale_value": 10040,
     "image_url": "https://api.mobileapi.dev/devices/815/thumb.png",
-    "popular_tag": "OnePlus Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
+    "popular_tag": "A Little More Than You Expect",
+    "processor": "Snapdragon 695 5G",
+    "camera_spec": "64MP Triple Camera",
+    "battery_spec": "5000 mAh 33W Fast Charge",
+    "display_spec": "6.59\" 120Hz FHD+ Display",
+    "is_5g": true,
     "is_active": true
   },
   {
@@ -30365,6 +30360,394 @@
     "battery_spec": "5000 mAh 67W SUPERVOOC",
     "display_spec": "6.72\" 120Hz FHD+ LCD",
     "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "model": "OnePlus Nord CE 5",
+    "release_year": 2025,
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "default_mrp": 28999,
+    "base_resale_value": 18500,
+    "image_url": "https://api.mobileapi.dev/devices/809/thumb.png",
+    "popular_tag": "Next-Gen Nord CE Series",
+    "processor": "Snapdragon 7+ Gen 3",
+    "camera_spec": "50MP Sony OIS Triple Camera",
+    "battery_spec": "5500 mAh 100W SUPERVOOC",
+    "display_spec": "6.74\" 120Hz 1.5K AMOLED",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "model": "Nord CE 5",
+    "release_year": 2025,
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "default_mrp": 28999,
+    "base_resale_value": 18500,
+    "image_url": "https://api.mobileapi.dev/devices/809/thumb.png",
+    "popular_tag": "Next-Gen Nord CE Series",
+    "processor": "Snapdragon 7+ Gen 3",
+    "camera_spec": "50MP Sony OIS Triple Camera",
+    "battery_spec": "5500 mAh 100W SUPERVOOC",
+    "display_spec": "6.74\" 120Hz 1.5K AMOLED",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "model": "OnePlus Nord CE 2 Lite",
+    "release_year": 2022,
+    "ram_options": [
+      "6GB",
+      "8GB"
+    ],
+    "storage_options": [
+      "128GB"
+    ],
+    "default_mrp": 18999,
+    "base_resale_value": 10040,
+    "image_url": "https://api.mobileapi.dev/devices/815/thumb.png",
+    "popular_tag": "A Little More Than You Expect",
+    "processor": "Snapdragon 695 5G",
+    "camera_spec": "64MP Triple Camera",
+    "battery_spec": "5000 mAh 33W Fast Charge",
+    "display_spec": "6.59\" 120Hz FHD+ Display",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "model": "OnePlus Nord 6",
+    "release_year": 2025,
+    "ram_options": [
+      "8GB",
+      "12GB",
+      "16GB"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB",
+      "512GB"
+    ],
+    "default_mrp": 36999,
+    "base_resale_value": 24500,
+    "image_url": "https://api.mobileapi.dev/devices/809/thumb.png",
+    "popular_tag": "Future Flagship Killer",
+    "processor": "Snapdragon 8s Gen 4",
+    "camera_spec": "50MP Sony LYT-700 OIS Dual Camera",
+    "battery_spec": "5500 mAh 100W SUPERVOOC",
+    "display_spec": "6.74\" 120Hz 1.5K AMOLED Display",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "model": "Nord 6",
+    "release_year": 2025,
+    "ram_options": [
+      "8GB",
+      "12GB",
+      "16GB"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB",
+      "512GB"
+    ],
+    "default_mrp": 36999,
+    "base_resale_value": 24500,
+    "image_url": "https://api.mobileapi.dev/devices/809/thumb.png",
+    "popular_tag": "Future Flagship Killer",
+    "processor": "Snapdragon 8s Gen 4",
+    "camera_spec": "50MP Sony LYT-700 OIS Dual Camera",
+    "battery_spec": "5500 mAh 100W SUPERVOOC",
+    "display_spec": "6.74\" 120Hz 1.5K AMOLED Display",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "model": "OnePlus Nord 5",
+    "release_year": 2025,
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "default_mrp": 32999,
+    "base_resale_value": 21500,
+    "image_url": "https://api.mobileapi.dev/devices/809/thumb.png",
+    "popular_tag": "All-Metal Construction",
+    "processor": "Snapdragon 7+ Gen 3",
+    "camera_spec": "50MP Sony LYT OIS Camera",
+    "battery_spec": "5500 mAh 100W SUPERVOOC",
+    "display_spec": "6.74\" 120Hz AMOLED",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "model": "Nord 5",
+    "release_year": 2025,
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "default_mrp": 32999,
+    "base_resale_value": 21500,
+    "image_url": "https://api.mobileapi.dev/devices/809/thumb.png",
+    "popular_tag": "All-Metal Construction",
+    "processor": "Snapdragon 7+ Gen 3",
+    "camera_spec": "50MP Sony LYT OIS Camera",
+    "battery_spec": "5500 mAh 100W SUPERVOOC",
+    "display_spec": "6.74\" 120Hz AMOLED",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 11X Pro",
+    "release_year": 2021,
+    "ram_options": [
+      "8GB"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "default_mrp": 39999,
+    "base_resale_value": 13500,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi11x-pro.jpg",
+    "popular_tag": "Snapdragon 888 108MP Flagship",
+    "processor": "Snapdragon 888 5G",
+    "camera_spec": "108MP Samsung HM2 Triple Camera",
+    "battery_spec": "4520 mAh 33W Fast Charge",
+    "display_spec": "6.67\" E4 AMOLED 120Hz HDR10+",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "11X Pro",
+    "release_year": 2021,
+    "ram_options": [
+      "8GB"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "default_mrp": 39999,
+    "base_resale_value": 13500,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi11x-pro.jpg",
+    "popular_tag": "Snapdragon 888 108MP Flagship",
+    "processor": "Snapdragon 888 5G",
+    "camera_spec": "108MP Samsung HM2 Triple Camera",
+    "battery_spec": "4520 mAh 33W Fast Charge",
+    "display_spec": "6.67\" E4 AMOLED 120Hz HDR10+",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S26 FE",
+    "release_year": 2026,
+    "ram_options": [
+      "8GB"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "default_mrp": 59999,
+    "base_resale_value": 38000,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-fe.jpg",
+    "popular_tag": "Galaxy AI Fan Edition 2026",
+    "processor": "Exynos 2500 / Snapdragon 8 Gen 4",
+    "camera_spec": "50MP OIS Triple Camera",
+    "battery_spec": "4700 mAh Fast Charging",
+    "display_spec": "6.7\" Dynamic AMOLED 2X 120Hz",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S26 FE",
+    "release_year": 2026,
+    "ram_options": [
+      "8GB"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "default_mrp": 59999,
+    "base_resale_value": 38000,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-fe.jpg",
+    "popular_tag": "Galaxy AI Fan Edition 2026",
+    "processor": "Exynos 2500 / Snapdragon 8 Gen 4",
+    "camera_spec": "50MP OIS Triple Camera",
+    "battery_spec": "4700 mAh Fast Charging",
+    "display_spec": "6.7\" Dynamic AMOLED 2X 120Hz",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Flip 8",
+    "release_year": 2026,
+    "ram_options": [
+      "12GB"
+    ],
+    "storage_options": [
+      "256GB",
+      "512GB"
+    ],
+    "default_mrp": 119999,
+    "base_resale_value": 62000,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip6.jpg",
+    "popular_tag": "Next-Gen Flex Window Foldable",
+    "processor": "Snapdragon 8 Gen 5 for Galaxy",
+    "camera_spec": "50MP Dual OIS FlexCam",
+    "battery_spec": "4300 mAh Super Fast Charging",
+    "display_spec": "6.7\" Foldable Dynamic AMOLED 2X + 4.0\" Cover Display",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip 8",
+    "release_year": 2026,
+    "ram_options": [
+      "12GB"
+    ],
+    "storage_options": [
+      "256GB",
+      "512GB"
+    ],
+    "default_mrp": 119999,
+    "base_resale_value": 62000,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip6.jpg",
+    "popular_tag": "Next-Gen Flex Window Foldable",
+    "processor": "Snapdragon 8 Gen 5 for Galaxy",
+    "camera_spec": "50MP Dual OIS FlexCam",
+    "battery_spec": "4300 mAh Super Fast Charging",
+    "display_spec": "6.7\" Foldable Dynamic AMOLED 2X + 4.0\" Cover Display",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Fold 8",
+    "release_year": 2026,
+    "ram_options": [
+      "12GB",
+      "16GB"
+    ],
+    "storage_options": [
+      "256GB",
+      "512GB",
+      "1TB"
+    ],
+    "default_mrp": 174999,
+    "base_resale_value": 88000,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold6.jpg",
+    "popular_tag": "Titanium Ultra-Thin Book Foldable",
+    "processor": "Snapdragon 8 Gen 5 for Galaxy",
+    "camera_spec": "200MP + 50MP Periscope + 12MP Ultra-wide Triple OIS",
+    "battery_spec": "5000 mAh 45W Fast Charging",
+    "display_spec": "7.6\" Main QXGA+ Dynamic AMOLED 2X + 6.3\" Cover AMOLED",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold 8",
+    "release_year": 2026,
+    "ram_options": [
+      "12GB",
+      "16GB"
+    ],
+    "storage_options": [
+      "256GB",
+      "512GB",
+      "1TB"
+    ],
+    "default_mrp": 174999,
+    "base_resale_value": 88000,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold6.jpg",
+    "popular_tag": "Titanium Ultra-Thin Book Foldable",
+    "processor": "Snapdragon 8 Gen 5 for Galaxy",
+    "camera_spec": "200MP + 50MP Periscope + 12MP Ultra-wide Triple OIS",
+    "battery_spec": "5000 mAh 45W Fast Charging",
+    "display_spec": "7.6\" Main QXGA+ Dynamic AMOLED 2X + 6.3\" Cover AMOLED",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A8",
+    "release_year": 2018,
+    "ram_options": [
+      "4GB"
+    ],
+    "storage_options": [
+      "32GB",
+      "64GB"
+    ],
+    "default_mrp": 31990,
+    "base_resale_value": 4800,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a8-2018.jpg",
+    "popular_tag": "Dual Front Camera Infinity Display",
+    "processor": "Exynos 7885 Octa",
+    "camera_spec": "16MP Rear + 16MP+8MP Dual Front",
+    "battery_spec": "3000 mAh Fast Charging",
+    "display_spec": "5.6\" Super AMOLED FHD+ Infinity Display",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A8",
+    "release_year": 2018,
+    "ram_options": [
+      "4GB"
+    ],
+    "storage_options": [
+      "32GB",
+      "64GB"
+    ],
+    "default_mrp": 31990,
+    "base_resale_value": 4800,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a8-2018.jpg",
+    "popular_tag": "Dual Front Camera Infinity Display",
+    "processor": "Exynos 7885 Octa",
+    "camera_spec": "16MP Rear + 16MP+8MP Dual Front",
+    "battery_spec": "3000 mAh Fast Charging",
+    "display_spec": "5.6\" Super AMOLED FHD+ Infinity Display",
+    "is_5g": false,
     "is_active": true
   }
 ]
