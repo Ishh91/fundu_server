@@ -39,7 +39,7 @@ function getCatalogPhone(brand, model) {
 
     const cleanNorm = (s) => (s || '')
       .toLowerCase()
-      .replace(/^(xiaomi\s+|redmi\s+|mi\s+)+/gi, '')
+      .replace(/^(xiaomi\s+|redmi\s+|mi\s+|samsung\s+|galaxy\s+)+/gi, '')
       .replace(/\bplus\b/gi, '+')
       .replace(/\s*\+\s*/g, '+')
       .replace(/[\s-]+/g, '');
@@ -49,17 +49,29 @@ function getCatalogPhone(brand, model) {
     // 1. Exact match first
     let match = catalog.find((p) => {
       if (!isBrandMatch(p.brand, bNorm)) return false;
-      const pStripped = cleanNorm(p.model);
-      return pStripped === stripped;
+      return cleanNorm(p.model) === stripped;
     });
 
     if (match) return match;
 
-    // 2. Fallback substring match
+    // 2. 5G suffix-agnostic exact match (e.g. S23 matching S23 5G)
+    const strippedNo5g = stripped.replace(/5g$/g, '');
+    match = catalog.find((p) => {
+      if (!isBrandMatch(p.brand, bNorm)) return false;
+      const pStripped = cleanNorm(p.model);
+      return pStripped.replace(/5g$/g, '') === strippedNo5g;
+    });
+
+    if (match) return match;
+
+    // 3. Fallback substring match with modifier guard (prevents base S23 matching S23 Ultra)
+    const modifiers = ['ultra', 'pro', 'max', '+', 'fe', 'lite', 'mini', 'neo', 'prime', 'civi', 'turbo'];
     return catalog.find((p) => {
       if (!isBrandMatch(p.brand, bNorm)) return false;
       const pStripped = cleanNorm(p.model);
-      if (stripped.includes('5g') !== pStripped.includes('5g')) return false;
+      for (const mod of modifiers) {
+        if (stripped.includes(mod) !== pStripped.includes(mod)) return false;
+      }
       return pStripped.includes(stripped) || stripped.includes(pStripped);
     });
   } catch {
