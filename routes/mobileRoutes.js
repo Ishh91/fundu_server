@@ -21,6 +21,7 @@ import {
 } from '../utils/cashifyApi.js';
 import { seedDatabase } from '../config/db.js';
 import { resolveDeviceImage } from '../services/deviceImageService.js';
+import { INDIAN_MARKET_PHONES_LAST_10_YEARS } from '../config/seedPhones.js';
 
 const router = Router();
 
@@ -177,13 +178,36 @@ const FALLBACK_MODELS = {
 };
 
 function getFallbackModels(brand, query) {
-  const list = FALLBACK_MODELS[brand.toLowerCase()] ?? [
+  const bLower = (brand || '').toLowerCase().trim();
+  const qLower = (query || '').toLowerCase().trim();
+
+  // 1. Pull matching models from comprehensive catalog
+  const catalogMatches = INDIAN_MARKET_PHONES_LAST_10_YEARS.filter((p) => {
+    const pBrand = p.brand.toLowerCase();
+    let matchBrand = pBrand === bLower;
+    if (!matchBrand) {
+      if (bLower === 'xiaomi' && (pBrand === 'redmi' || pBrand === 'poco')) matchBrand = true;
+      if (bLower === 'vivo' && pBrand === 'iqoo') matchBrand = true;
+      if (bLower === 'motorola' && pBrand === 'moto') matchBrand = true;
+      if (bLower === 'apple' && (pBrand === 'apple' || /iphone/i.test(p.model))) matchBrand = true;
+    }
+    if (!matchBrand) return false;
+    if (qLower) return p.model.toLowerCase().includes(qLower);
+    return true;
+  }).map((p) => ({
+    name: p.model,
+    storages: p.storage_options || ['128GB', '256GB'],
+  }));
+
+  if (catalogMatches.length > 0) return catalogMatches;
+
+  const list = FALLBACK_MODELS[bLower] ?? [
     { name: `${brand} Phone Model 1`, storages: ['128GB', '256GB'] },
     { name: `${brand} Phone Model 2`, storages: ['128GB', '256GB'] },
   ];
 
-  if (!query) return list;
-  return list.filter((m) => m.name.toLowerCase().includes(query.toLowerCase()));
+  if (!qLower) return list;
+  return list.filter((m) => m.name.toLowerCase().includes(qLower));
 }
 
 /**

@@ -314,7 +314,7 @@ router.post('/custom', async (req, res) => {
  */
 router.post('/bulk-sync', async (_req, res) => {
   try {
-    await ensureMasterPhonesSeeded();
+    await ensureMasterPhonesSeeded(true);
     const count = await MasterPhone.countDocuments();
     return res.json({ message: 'Catalog synced successfully', count });
   } catch (error) {
