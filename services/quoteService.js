@@ -39,7 +39,7 @@ function getCatalogPhone(brand, model) {
 
     const cleanNorm = (s) => (s || '')
       .toLowerCase()
-      .replace(/^(xiaomi\s+|redmi\s+|mi\s+|samsung\s+|galaxy\s+)+/gi, '')
+      .replace(/^(xiaomi\s+|redmi\s+|mi\s+|samsung\s+|galaxy\s+|oppo\s+)+/gi, '')
       .replace(/\bplus\b/gi, '+')
       .replace(/\s*\+\s*/g, '+')
       .replace(/[\s-]+/g, '');
