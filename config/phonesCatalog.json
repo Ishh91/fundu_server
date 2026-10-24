@@ -11375,24 +11375,26 @@
     "model": "11 Pro+ 5G",
     "release_year": 2023,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
     "default_mrp": 27999,
-    "base_resale_value": 9450,
+    "base_resale_value": 14500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-pro-plus.jpg",
-    "popular_tag": "Realme Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
+    "popular_tag": "200MP OIS SuperZoom Camera",
+    "processor": "Dimensity 7050 5G",
+    "camera_spec": "200MP Samsung ISOCELL HP3 OIS",
+    "battery_spec": "5000 mAh 100W SUPERVOOC",
+    "display_spec": "6.7\" 120Hz Curved Vision AMOLED",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "series": "Realme Number Series",
+    "storage": "256 GB",
+    "price": 14500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-pro-plus.jpg"
   },
   {
     "brand": "Realme",
@@ -30747,6 +30749,1377 @@
     "camera_spec": "16MP Rear + 16MP+8MP Dual Front",
     "battery_spec": "3000 mAh Fast Charging",
     "display_spec": "5.6\" Super AMOLED FHD+ Infinity Display",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Apple",
+    "series": "Apple iPad & Tablet Series",
+    "model": "iPad Pro 13",
+    "release_year": 2024,
+    "storage": "256 GB",
+    "storage_options": [
+      "256GB",
+      "512GB",
+      "1TB",
+      "2TB"
+    ],
+    "ram_options": [
+      "8GB",
+      "16GB"
+    ],
+    "default_mrp": 129900,
+    "base_resale_value": 92900,
+    "price": 92900,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "popular_tag": "M4 OLED Flagship Tablet",
+    "processor": "Apple M4 Chip",
+    "camera_spec": "12MP Wide + LiDAR Scanner",
+    "battery_spec": "38.99 Wh Lithium-Polymer",
+    "display_spec": "13.0\" Ultra Retina XDR Tandem OLED 120Hz",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Apple",
+    "series": "Apple iPad & Tablet Series",
+    "model": "iPad 10.9",
+    "release_year": 2022,
+    "storage": "64 GB",
+    "storage_options": [
+      "64GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "4GB"
+    ],
+    "default_mrp": 39900,
+    "base_resale_value": 29000,
+    "price": 29000,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-109-2022.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-109-2022.jpg",
+    "popular_tag": "All-Screen Liquid Retina",
+    "processor": "Apple A14 Bionic",
+    "camera_spec": "12MP Wide + 12MP Ultra Wide Front",
+    "battery_spec": "28.6 Wh Lithium-Polymer",
+    "display_spec": "10.9\" Liquid Retina IPS Display",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "series": "OnePlus 10 Series",
+    "model": "OnePlus 10R 5G",
+    "release_year": 2022,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "default_mrp": 38999,
+    "base_resale_value": 13450,
+    "price": 13450,
+    "image": "https://api.mobileapi.dev/devices/16344/thumb.png",
+    "image_url": "https://api.mobileapi.dev/devices/16344/thumb.png",
+    "popular_tag": "150W SUPERVOOC Endurance",
+    "processor": "MediaTek Dimensity 8100-MAX",
+    "camera_spec": "50MP Sony IMX766 OIS Triple Camera",
+    "battery_spec": "5000 mAh 80W/150W SUPERVOOC",
+    "display_spec": "6.7\" 120Hz Fluid AMOLED HDR10+",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "series": "OnePlus 10 Series",
+    "model": "10R 5G",
+    "release_year": 2022,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "default_mrp": 38999,
+    "base_resale_value": 13450,
+    "price": 13450,
+    "image": "https://api.mobileapi.dev/devices/16344/thumb.png",
+    "image_url": "https://api.mobileapi.dev/devices/16344/thumb.png",
+    "popular_tag": "150W SUPERVOOC Endurance",
+    "processor": "MediaTek Dimensity 8100-MAX",
+    "camera_spec": "50MP Sony IMX766 OIS Triple Camera",
+    "battery_spec": "5000 mAh 80W/150W SUPERVOOC",
+    "display_spec": "6.7\" 120Hz Fluid AMOLED HDR10+",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "series": "OnePlus 8 & 7 Series",
+    "model": "OnePlus 8 5G UW",
+    "release_year": 2020,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "default_mrp": 41999,
+    "base_resale_value": 10450,
+    "price": 10450,
+    "image": "https://api.mobileapi.dev/devices/16348/thumb.png",
+    "image_url": "https://api.mobileapi.dev/devices/16348/thumb.png",
+    "popular_tag": "Verizon Ultra Wideband mmWave",
+    "processor": "Snapdragon 865 5G",
+    "camera_spec": "48MP Sony IMX586 Triple Camera",
+    "battery_spec": "4300 mAh Warp Charge 30T",
+    "display_spec": "6.55\" 90Hz Fluid AMOLED FHD+",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "series": "OnePlus 8 & 7 Series",
+    "model": "8 5G UW",
+    "release_year": 2020,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "default_mrp": 41999,
+    "base_resale_value": 10450,
+    "price": 10450,
+    "image": "https://api.mobileapi.dev/devices/16348/thumb.png",
+    "image_url": "https://api.mobileapi.dev/devices/16348/thumb.png",
+    "popular_tag": "Verizon Ultra Wideband mmWave",
+    "processor": "Snapdragon 865 5G",
+    "camera_spec": "48MP Sony IMX586 Triple Camera",
+    "battery_spec": "4300 mAh Warp Charge 30T",
+    "display_spec": "6.55\" 90Hz Fluid AMOLED FHD+",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Google",
+    "series": "Google Pixel Series",
+    "model": "Google Pixel 10",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "12GB"
+    ],
+    "default_mrp": 79999,
+    "base_resale_value": 44500,
+    "price": 44500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-9.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-9.jpg",
+    "popular_tag": "Next-Gen Tensor G5 AI Flagship",
+    "processor": "Google Tensor G5 (3nm TSMC)",
+    "camera_spec": "50MP Dual Pixel OIS + 48MP Ultra-wide",
+    "battery_spec": "4700 mAh Fast Wireless Charging",
+    "display_spec": "6.3\" Actua OLED 120Hz 2700nits",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Google",
+    "series": "Google Pixel Series",
+    "model": "Pixel 10",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "12GB"
+    ],
+    "default_mrp": 79999,
+    "base_resale_value": 44500,
+    "price": 44500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-9.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-9.jpg",
+    "popular_tag": "Next-Gen Tensor G5 AI Flagship",
+    "processor": "Google Tensor G5 (3nm TSMC)",
+    "camera_spec": "50MP Dual Pixel OIS + 48MP Ultra-wide",
+    "battery_spec": "4700 mAh Fast Wireless Charging",
+    "display_spec": "6.3\" Actua OLED 120Hz 2700nits",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Realme",
+    "series": "Realme Number Series",
+    "model": "Realme 11 Pro+ 5G",
+    "release_year": 2023,
+    "storage": "256 GB",
+    "storage_options": [
+      "256GB"
+    ],
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "default_mrp": 27999,
+    "base_resale_value": 14500,
+    "price": 14500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-pro-plus.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-pro-plus.jpg",
+    "popular_tag": "200MP OIS SuperZoom Camera",
+    "processor": "Dimensity 7050 5G",
+    "camera_spec": "200MP Samsung ISOCELL HP3 OIS",
+    "battery_spec": "5000 mAh 100W SUPERVOOC",
+    "display_spec": "6.7\" 120Hz Curved Vision AMOLED",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Realme",
+    "series": "Realme Number Series",
+    "model": "Realme 12 Plus",
+    "release_year": 2024,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "8GB"
+    ],
+    "default_mrp": 20999,
+    "base_resale_value": 12800,
+    "price": 12800,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-12-plus-5g.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-12-plus-5g.jpg",
+    "popular_tag": "Sony LYT-600 OIS Master Camera",
+    "processor": "Dimensity 7050 5G",
+    "camera_spec": "50MP Sony LYT-600 OIS + 8MP UW",
+    "battery_spec": "5000 mAh 67W SUPERVOOC",
+    "display_spec": "6.67\" 120Hz AMOLED Rainwater Touch",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Realme",
+    "series": "Realme Number Series",
+    "model": "12 Plus",
+    "release_year": 2024,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "8GB"
+    ],
+    "default_mrp": 20999,
+    "base_resale_value": 12800,
+    "price": 12800,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-12-plus-5g.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-12-plus-5g.jpg",
+    "popular_tag": "Sony LYT-600 OIS Master Camera",
+    "processor": "Dimensity 7050 5G",
+    "camera_spec": "50MP Sony LYT-600 OIS + 8MP UW",
+    "battery_spec": "5000 mAh 67W SUPERVOOC",
+    "display_spec": "6.67\" 120Hz AMOLED Rainwater Touch",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Realme",
+    "series": "Realme Narzo Series",
+    "model": "Realme Narzo 80 Lite 5G",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "6GB",
+      "8GB"
+    ],
+    "default_mrp": 14999,
+    "base_resale_value": 9500,
+    "price": 9500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-70-pro-5g.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-70-pro-5g.jpg",
+    "popular_tag": "5G Speed Pioneer",
+    "processor": "MediaTek Dimensity 6300 5G",
+    "camera_spec": "50MP AI Dual Camera",
+    "battery_spec": "5000 mAh 45W Fast Charging",
+    "display_spec": "6.72\" 120Hz Dynamic Display",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Realme",
+    "series": "Realme Narzo Series",
+    "model": "Narzo 80 Lite 5G",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "6GB",
+      "8GB"
+    ],
+    "default_mrp": 14999,
+    "base_resale_value": 9500,
+    "price": 9500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-70-pro-5g.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-70-pro-5g.jpg",
+    "popular_tag": "5G Speed Pioneer",
+    "processor": "MediaTek Dimensity 6300 5G",
+    "camera_spec": "50MP AI Dual Camera",
+    "battery_spec": "5000 mAh 45W Fast Charging",
+    "display_spec": "6.72\" 120Hz Dynamic Display",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Realme",
+    "series": "Realme Narzo Series",
+    "model": "Realme Narzo 80 Lite 4G",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB"
+    ],
+    "ram_options": [
+      "4GB",
+      "6GB"
+    ],
+    "default_mrp": 11999,
+    "base_resale_value": 7800,
+    "price": 7800,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-70-pro-5g.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-70-pro-5g.jpg",
+    "popular_tag": "Super Endurance 4G",
+    "processor": "Helio G85 Octa-Core",
+    "camera_spec": "50MP Clear Camera",
+    "battery_spec": "5000 mAh 33W Charging",
+    "display_spec": "6.74\" 90Hz Eye Comfort LCD",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Realme",
+    "series": "Realme Narzo Series",
+    "model": "Narzo 80 Lite 4G",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB"
+    ],
+    "ram_options": [
+      "4GB",
+      "6GB"
+    ],
+    "default_mrp": 11999,
+    "base_resale_value": 7800,
+    "price": 7800,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-70-pro-5g.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-70-pro-5g.jpg",
+    "popular_tag": "Super Endurance 4G",
+    "processor": "Helio G85 Octa-Core",
+    "camera_spec": "50MP Clear Camera",
+    "battery_spec": "5000 mAh 33W Charging",
+    "display_spec": "6.74\" 90Hz Eye Comfort LCD",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Realme",
+    "series": "Realme C Series",
+    "model": "Realme C19",
+    "release_year": 2020,
+    "storage": "64 GB",
+    "storage_options": [
+      "64GB",
+      "128GB"
+    ],
+    "ram_options": [
+      "4GB",
+      "6GB"
+    ],
+    "default_mrp": 8999,
+    "base_resale_value": 5500,
+    "price": 5500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-c15.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c15.jpg",
+    "popular_tag": "Massive Battery Budget Champion",
+    "processor": "Snapdragon 460",
+    "camera_spec": "13MP Quad Camera",
+    "battery_spec": "6000 mAh Mega Battery",
+    "display_spec": "6.5\" Mini-Drop HD+ Display",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Realme",
+    "series": "Realme C Series",
+    "model": "C19",
+    "release_year": 2020,
+    "storage": "64 GB",
+    "storage_options": [
+      "64GB",
+      "128GB"
+    ],
+    "ram_options": [
+      "4GB",
+      "6GB"
+    ],
+    "default_mrp": 8999,
+    "base_resale_value": 5500,
+    "price": 5500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-c15.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c15.jpg",
+    "popular_tag": "Massive Battery Budget Champion",
+    "processor": "Snapdragon 460",
+    "camera_spec": "13MP Quad Camera",
+    "battery_spec": "6000 mAh Mega Battery",
+    "display_spec": "6.5\" Mini-Drop HD+ Display",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Xiaomi",
+    "series": "Xiaomi Poco Series",
+    "model": "Xiaomi Poco F7",
+    "release_year": 2025,
+    "storage": "256 GB",
+    "storage_options": [
+      "256GB",
+      "512GB"
+    ],
+    "ram_options": [
+      "12GB",
+      "16GB"
+    ],
+    "default_mrp": 39999,
+    "base_resale_value": 26500,
+    "price": 26500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-f6.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-f6.jpg",
+    "popular_tag": "Snapdragon 8s Gen 4 Beast",
+    "processor": "Snapdragon 8s Gen 4 (4nm)",
+    "camera_spec": "50MP Sony IMX906 OIS + 8MP UW",
+    "battery_spec": "5500 mAh 90W HyperCharge",
+    "display_spec": "6.67\" 1.5K CrystalRes 120Hz Flow AMOLED",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Xiaomi",
+    "series": "Xiaomi Poco Series",
+    "model": "Poco F7",
+    "release_year": 2025,
+    "storage": "256 GB",
+    "storage_options": [
+      "256GB",
+      "512GB"
+    ],
+    "ram_options": [
+      "12GB",
+      "16GB"
+    ],
+    "default_mrp": 39999,
+    "base_resale_value": 26500,
+    "price": 26500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-f6.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-f6.jpg",
+    "popular_tag": "Snapdragon 8s Gen 4 Beast",
+    "processor": "Snapdragon 8s Gen 4 (4nm)",
+    "camera_spec": "50MP Sony IMX906 OIS + 8MP UW",
+    "battery_spec": "5500 mAh 90W HyperCharge",
+    "display_spec": "6.67\" 1.5K CrystalRes 120Hz Flow AMOLED",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Xiaomi",
+    "series": "Xiaomi Poco Series",
+    "model": "Xiaomi Poco X7",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "default_mrp": 23999,
+    "base_resale_value": 16500,
+    "price": 16500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x6.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x6.jpg",
+    "popular_tag": "Extreme Speed Mid-Range",
+    "processor": "Dimensity 7300-Ultra (4nm)",
+    "camera_spec": "50MP OIS Triple Camera",
+    "battery_spec": "5100 mAh 67W Turbo Charge",
+    "display_spec": "6.67\" 120Hz Flow AMOLED 1.5K",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Xiaomi",
+    "series": "Xiaomi Poco Series",
+    "model": "Poco X7",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "default_mrp": 23999,
+    "base_resale_value": 16500,
+    "price": 16500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x6.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x6.jpg",
+    "popular_tag": "Extreme Speed Mid-Range",
+    "processor": "Dimensity 7300-Ultra (4nm)",
+    "camera_spec": "50MP OIS Triple Camera",
+    "battery_spec": "5100 mAh 67W Turbo Charge",
+    "display_spec": "6.67\" 120Hz Flow AMOLED 1.5K",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Xiaomi",
+    "series": "Xiaomi Poco Series",
+    "model": "Xiaomi Poco M7 Plus",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB"
+    ],
+    "ram_options": [
+      "6GB",
+      "8GB"
+    ],
+    "default_mrp": 16999,
+    "base_resale_value": 11200,
+    "price": 11200,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m6-plus.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m6-plus.jpg",
+    "popular_tag": "108MP Glass Back 5G",
+    "processor": "Snapdragon 4 Gen 2 AE",
+    "camera_spec": "108MP 3x In-Sensor Zoom Camera",
+    "battery_spec": "5030 mAh 33W Fast Charge",
+    "display_spec": "6.79\" 120Hz FHD+ Display",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Xiaomi",
+    "series": "Xiaomi Poco Series",
+    "model": "Poco M7 Plus",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB"
+    ],
+    "ram_options": [
+      "6GB",
+      "8GB"
+    ],
+    "default_mrp": 16999,
+    "base_resale_value": 11200,
+    "price": 11200,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m6-plus.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m6-plus.jpg",
+    "popular_tag": "108MP Glass Back 5G",
+    "processor": "Snapdragon 4 Gen 2 AE",
+    "camera_spec": "108MP 3x In-Sensor Zoom Camera",
+    "battery_spec": "5030 mAh 33W Fast Charge",
+    "display_spec": "6.79\" 120Hz FHD+ Display",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Xiaomi",
+    "series": "Xiaomi Poco Series",
+    "model": "Xiaomi Poco M8",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "6GB",
+      "8GB"
+    ],
+    "default_mrp": 18999,
+    "base_resale_value": 12500,
+    "price": 12500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m6-pro.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m6-pro.jpg",
+    "popular_tag": "Next-Gen M Series Powerhouse",
+    "processor": "Snapdragon 4s Gen 2",
+    "camera_spec": "50MP AI Dual Camera",
+    "battery_spec": "5160 mAh 45W Fast Charging",
+    "display_spec": "6.8\" 120Hz AdaptiveSync LCD",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Xiaomi",
+    "series": "Xiaomi Poco Series",
+    "model": "Poco M8",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "6GB",
+      "8GB"
+    ],
+    "default_mrp": 18999,
+    "base_resale_value": 12500,
+    "price": 12500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m6-pro.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m6-pro.jpg",
+    "popular_tag": "Next-Gen M Series Powerhouse",
+    "processor": "Snapdragon 4s Gen 2",
+    "camera_spec": "50MP AI Dual Camera",
+    "battery_spec": "5160 mAh 45W Fast Charging",
+    "display_spec": "6.8\" 120Hz AdaptiveSync LCD",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Xiaomi",
+    "series": "Xiaomi Poco Series",
+    "model": "Xiaomi Poco C75",
+    "release_year": 2024,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "6GB",
+      "8GB"
+    ],
+    "default_mrp": 10999,
+    "base_resale_value": 7800,
+    "price": 7800,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-c65.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-c65.jpg",
+    "popular_tag": "Huge 6.88\" 120Hz Display",
+    "processor": "MediaTek Helio G81-Ultra",
+    "camera_spec": "50MP AI Main Camera",
+    "battery_spec": "5160 mAh 18W Fast Charging",
+    "display_spec": "6.88\" 120Hz Cinema Display",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Xiaomi",
+    "series": "Xiaomi Poco Series",
+    "model": "Poco C75",
+    "release_year": 2024,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "6GB",
+      "8GB"
+    ],
+    "default_mrp": 10999,
+    "base_resale_value": 7800,
+    "price": 7800,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-c65.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-c65.jpg",
+    "popular_tag": "Huge 6.88\" 120Hz Display",
+    "processor": "MediaTek Helio G81-Ultra",
+    "camera_spec": "50MP AI Main Camera",
+    "battery_spec": "5160 mAh 18W Fast Charging",
+    "display_spec": "6.88\" 120Hz Cinema Display",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Xiaomi",
+    "series": "Xiaomi Poco Series",
+    "model": "Xiaomi Poco M2",
+    "release_year": 2020,
+    "storage": "64 GB",
+    "storage_options": [
+      "64GB",
+      "128GB"
+    ],
+    "ram_options": [
+      "6GB"
+    ],
+    "default_mrp": 12999,
+    "base_resale_value": 4900,
+    "price": 4900,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m2.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m2.jpg",
+    "popular_tag": "6GB RAM Value King",
+    "processor": "MediaTek Helio G80",
+    "camera_spec": "13MP Quad Camera",
+    "battery_spec": "5000 mAh 18W Fast Charging",
+    "display_spec": "6.53\" FHD+ IPS LCD",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Xiaomi",
+    "series": "Xiaomi Poco Series",
+    "model": "Poco M2",
+    "release_year": 2020,
+    "storage": "64 GB",
+    "storage_options": [
+      "64GB",
+      "128GB"
+    ],
+    "ram_options": [
+      "6GB"
+    ],
+    "default_mrp": 12999,
+    "base_resale_value": 4900,
+    "price": 4900,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m2.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m2.jpg",
+    "popular_tag": "6GB RAM Value King",
+    "processor": "MediaTek Helio G80",
+    "camera_spec": "13MP Quad Camera",
+    "battery_spec": "5000 mAh 18W Fast Charging",
+    "display_spec": "6.53\" FHD+ IPS LCD",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Xiaomi",
+    "series": "Redmi Series",
+    "model": "Poco Redmi 11 Prime",
+    "release_year": 2022,
+    "storage": "64 GB",
+    "storage_options": [
+      "64GB",
+      "128GB"
+    ],
+    "ram_options": [
+      "4GB",
+      "6GB"
+    ],
+    "default_mrp": 12999,
+    "base_resale_value": 6400,
+    "price": 6400,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-11-prime.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-11-prime.jpg",
+    "popular_tag": "Helio G99 Gaming Performance",
+    "processor": "MediaTek Helio G99 (6nm)",
+    "camera_spec": "50MP AI Triple Camera",
+    "battery_spec": "5000 mAh 18W Fast Charging",
+    "display_spec": "6.58\" 90Hz FHD+ AdaptiveSync",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "series": "iQOO Flagship Series",
+    "model": "iQOO 15",
+    "release_year": 2025,
+    "storage": "256 GB",
+    "storage_options": [
+      "256GB",
+      "512GB"
+    ],
+    "ram_options": [
+      "12GB",
+      "16GB"
+    ],
+    "default_mrp": 69999,
+    "base_resale_value": 48000,
+    "price": 48000,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-13.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-13.jpg",
+    "popular_tag": "Snapdragon 8 Elite Gaming Beast",
+    "processor": "Snapdragon 8 Elite Gen 2",
+    "camera_spec": "50MP Sony VCS OIS Triple 50MP Camera",
+    "battery_spec": "6150 mAh 120W FlashCharge",
+    "display_spec": "6.82\" 2K 144Hz LTPO AMOLED 4500nits",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "series": "iQOO Neo Series",
+    "model": "iQOO Neo 9 SE",
+    "release_year": 2024,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "default_mrp": 31999,
+    "base_resale_value": 21500,
+    "price": 21500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-neo9.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-neo9.jpg",
+    "popular_tag": "Flagship Killer Gaming Edition",
+    "processor": "Snapdragon 8 Gen 2 / 8s Gen 3",
+    "camera_spec": "50MP Sony IMX920 OIS",
+    "battery_spec": "5160 mAh 120W FlashCharge",
+    "display_spec": "6.78\" 144Hz 1.5K LTPO AMOLED",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "series": "iQOO Neo Series",
+    "model": "iQOO Neo 10R",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "default_mrp": 34999,
+    "base_resale_value": 24000,
+    "price": 24000,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-neo9-pro.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-neo9-pro.jpg",
+    "popular_tag": "High Frame Rate Racing Edition",
+    "processor": "Dimensity 9300+ / 9400",
+    "camera_spec": "50MP Sony LYT OIS Camera",
+    "battery_spec": "5500 mAh 120W FlashCharge",
+    "display_spec": "6.78\" 144Hz 1.5K AMOLED",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "series": "iQOO Z Series",
+    "model": "iQOO Z11",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "default_mrp": 25999,
+    "base_resale_value": 17500,
+    "price": 17500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z9-turbo.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z9-turbo.jpg",
+    "popular_tag": "Turbocharged Performance King",
+    "processor": "Snapdragon 7+ Gen 3 / 8s Gen 3",
+    "camera_spec": "50MP Sony OIS Camera",
+    "battery_spec": "6000 mAh 80W FlashCharge",
+    "display_spec": "6.78\" 144Hz AMOLED Display",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "series": "iQOO Z Series",
+    "model": "iQOO Z11x 5G",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "6GB",
+      "8GB"
+    ],
+    "default_mrp": 17999,
+    "base_resale_value": 12500,
+    "price": 12500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z9x.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z9x.jpg",
+    "popular_tag": "Monster 6000mAh Battery",
+    "processor": "Snapdragon 6 Gen 1 5G",
+    "camera_spec": "50MP Ultra-Clear Camera",
+    "battery_spec": "6000 mAh 44W FlashCharge",
+    "display_spec": "6.72\" 120Hz FHD+ Sunlight Display",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "series": "iQOO Z Series",
+    "model": "iQOO Z11 Lite",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB"
+    ],
+    "ram_options": [
+      "4GB",
+      "6GB"
+    ],
+    "default_mrp": 13999,
+    "base_resale_value": 9500,
+    "price": 9500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z9-lite.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z9-lite.jpg",
+    "popular_tag": "Affordable 5G Gaming",
+    "processor": "MediaTek Dimensity 6300",
+    "camera_spec": "50MP Sony AI Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.56\" 90Hz Eye Protection Display",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "series": "iQOO Z Series",
+    "model": "iQOO Z10",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "default_mrp": 22999,
+    "base_resale_value": 15500,
+    "price": 15500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z9.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z9.jpg",
+    "popular_tag": "Brighter 120Hz AMOLED 5G",
+    "processor": "MediaTek Dimensity 7200 5G",
+    "camera_spec": "50MP Sony IMX882 OIS",
+    "battery_spec": "5000 mAh 44W FlashCharge",
+    "display_spec": "6.67\" 120Hz AMOLED 1800nits",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "series": "iQOO Z Series",
+    "model": "iQOO Z10R",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "default_mrp": 24999,
+    "base_resale_value": 16800,
+    "price": 16800,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z9-turbo.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z9-turbo.jpg",
+    "popular_tag": "Gaming Turbo Edition",
+    "processor": "Snapdragon 7+ Gen 3",
+    "camera_spec": "50MP OIS Dual Camera",
+    "battery_spec": "6000 mAh 80W FlashCharge",
+    "display_spec": "6.78\" 144Hz AMOLED",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "series": "iQOO Z Series",
+    "model": "iQOO Z10x",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB"
+    ],
+    "ram_options": [
+      "6GB",
+      "8GB"
+    ],
+    "default_mrp": 16999,
+    "base_resale_value": 11500,
+    "price": 11500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z9x.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z9x.jpg",
+    "popular_tag": "Slim 6000mAh Power King",
+    "processor": "Snapdragon 6 Gen 1",
+    "camera_spec": "50MP Dual Camera",
+    "battery_spec": "6000 mAh 44W FlashCharge",
+    "display_spec": "6.72\" 120Hz Sunlight Display",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "series": "iQOO Z Series",
+    "model": "iQOO Z10 Lite",
+    "release_year": 2025,
+    "storage": "128 GB",
+    "storage_options": [
+      "128GB"
+    ],
+    "ram_options": [
+      "4GB",
+      "6GB"
+    ],
+    "default_mrp": 12999,
+    "base_resale_value": 8800,
+    "price": 8800,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z9-lite.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z9-lite.jpg",
+    "popular_tag": "Sony 50MP IP64 5G",
+    "processor": "Dimensity 6300 5G",
+    "camera_spec": "50MP Sony AI Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.56\" 90Hz Display",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Lenovo",
+    "series": "Lenovo Phab Series",
+    "model": "Lenovo Phab 2",
+    "release_year": 2016,
+    "storage": "32 GB",
+    "storage_options": [
+      "32GB"
+    ],
+    "ram_options": [
+      "3GB"
+    ],
+    "default_mrp": 11999,
+    "base_resale_value": 3200,
+    "price": 3200,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-phab2.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-phab2.jpg",
+    "popular_tag": "6.4\" HD Screen Cinema Phablet",
+    "processor": "MediaTek MT8735 Quad-Core",
+    "camera_spec": "13MP Fast Focus Camera",
+    "battery_spec": "4050 mAh Battery",
+    "display_spec": "6.4\" HD IPS Display with Dolby Atmos",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Lenovo",
+    "series": "Lenovo Phab Series",
+    "model": "Phab 2",
+    "release_year": 2016,
+    "storage": "32 GB",
+    "storage_options": [
+      "32GB"
+    ],
+    "ram_options": [
+      "3GB"
+    ],
+    "default_mrp": 11999,
+    "base_resale_value": 3200,
+    "price": 3200,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-phab2.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-phab2.jpg",
+    "popular_tag": "6.4\" HD Screen Cinema Phablet",
+    "processor": "MediaTek MT8735 Quad-Core",
+    "camera_spec": "13MP Fast Focus Camera",
+    "battery_spec": "4050 mAh Battery",
+    "display_spec": "6.4\" HD IPS Display with Dolby Atmos",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Lenovo",
+    "series": "Lenovo Moto Series",
+    "model": "Lenovo Moto M",
+    "release_year": 2016,
+    "storage": "32 GB",
+    "storage_options": [
+      "32GB",
+      "64GB"
+    ],
+    "ram_options": [
+      "3GB",
+      "4GB"
+    ],
+    "default_mrp": 15999,
+    "base_resale_value": 2900,
+    "price": 2900,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-moto-m.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-moto-m.jpg",
+    "popular_tag": "Full Metal Body Dolby Atmos",
+    "processor": "MediaTek Helio P15 Octa-Core",
+    "camera_spec": "16MP PDAF Dual-CCT Flash",
+    "battery_spec": "3050 mAh 10W Rapid Charge",
+    "display_spec": "5.5\" FHD IPS Display",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Lenovo",
+    "series": "Lenovo Moto Series",
+    "model": "Moto M",
+    "release_year": 2016,
+    "storage": "32 GB",
+    "storage_options": [
+      "32GB",
+      "64GB"
+    ],
+    "ram_options": [
+      "3GB",
+      "4GB"
+    ],
+    "default_mrp": 15999,
+    "base_resale_value": 2900,
+    "price": 2900,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-moto-m.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-moto-m.jpg",
+    "popular_tag": "Full Metal Body Dolby Atmos",
+    "processor": "MediaTek Helio P15 Octa-Core",
+    "camera_spec": "16MP PDAF Dual-CCT Flash",
+    "battery_spec": "3050 mAh 10W Rapid Charge",
+    "display_spec": "5.5\" FHD IPS Display",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Lenovo",
+    "series": "Lenovo Legacy Series",
+    "model": "Lenovo 3GC101",
+    "release_year": 2011,
+    "storage": "16 GB",
+    "storage_options": [
+      "16GB"
+    ],
+    "ram_options": [
+      "2GB"
+    ],
+    "default_mrp": 5999,
+    "base_resale_value": 1500,
+    "price": 1500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k9-note.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k9-note.jpg",
+    "popular_tag": "Classic Lenovo Smartphone",
+    "processor": "Single-Core Mobile Processor",
+    "camera_spec": "5MP Rear Camera",
+    "battery_spec": "1500 mAh Battery",
+    "display_spec": "4.0\" Color Display",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Lenovo",
+    "series": "Lenovo Legacy Series",
+    "model": "3GC101",
+    "release_year": 2011,
+    "storage": "16 GB",
+    "storage_options": [
+      "16GB"
+    ],
+    "ram_options": [
+      "2GB"
+    ],
+    "default_mrp": 5999,
+    "base_resale_value": 1500,
+    "price": 1500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k9-note.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k9-note.jpg",
+    "popular_tag": "Classic Lenovo Smartphone",
+    "processor": "Single-Core Mobile Processor",
+    "camera_spec": "5MP Rear Camera",
+    "battery_spec": "1500 mAh Battery",
+    "display_spec": "4.0\" Color Display",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Lenovo",
+    "series": "Lenovo Legacy Series",
+    "model": "Lenovo 3GW100",
+    "release_year": 2011,
+    "storage": "16 GB",
+    "storage_options": [
+      "16GB"
+    ],
+    "ram_options": [
+      "2GB"
+    ],
+    "default_mrp": 5999,
+    "base_resale_value": 1500,
+    "price": 1500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k9-note.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k9-note.jpg",
+    "popular_tag": "Classic Lenovo Smartphone",
+    "processor": "Single-Core Mobile Processor",
+    "camera_spec": "5MP Rear Camera",
+    "battery_spec": "1500 mAh Battery",
+    "display_spec": "4.0\" Color Display",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Lenovo",
+    "series": "Lenovo Legacy Series",
+    "model": "3GW100",
+    "release_year": 2011,
+    "storage": "16 GB",
+    "storage_options": [
+      "16GB"
+    ],
+    "ram_options": [
+      "2GB"
+    ],
+    "default_mrp": 5999,
+    "base_resale_value": 1500,
+    "price": 1500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k9-note.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k9-note.jpg",
+    "popular_tag": "Classic Lenovo Smartphone",
+    "processor": "Single-Core Mobile Processor",
+    "camera_spec": "5MP Rear Camera",
+    "battery_spec": "1500 mAh Battery",
+    "display_spec": "4.0\" Color Display",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Lenovo",
+    "series": "Lenovo Legacy Series",
+    "model": "Lenovo 3GW101",
+    "release_year": 2011,
+    "storage": "16 GB",
+    "storage_options": [
+      "16GB"
+    ],
+    "ram_options": [
+      "2GB"
+    ],
+    "default_mrp": 5999,
+    "base_resale_value": 1500,
+    "price": 1500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k9-note.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k9-note.jpg",
+    "popular_tag": "Classic Lenovo Smartphone",
+    "processor": "Single-Core Mobile Processor",
+    "camera_spec": "5MP Rear Camera",
+    "battery_spec": "1500 mAh Battery",
+    "display_spec": "4.0\" Color Display",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Lenovo",
+    "series": "Lenovo Legacy Series",
+    "model": "3GW101",
+    "release_year": 2011,
+    "storage": "16 GB",
+    "storage_options": [
+      "16GB"
+    ],
+    "ram_options": [
+      "2GB"
+    ],
+    "default_mrp": 5999,
+    "base_resale_value": 1500,
+    "price": 1500,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k9-note.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k9-note.jpg",
+    "popular_tag": "Classic Lenovo Smartphone",
+    "processor": "Single-Core Mobile Processor",
+    "camera_spec": "5MP Rear Camera",
+    "battery_spec": "1500 mAh Battery",
+    "display_spec": "4.0\" Color Display",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Lenovo",
+    "series": "Lenovo Legacy Series",
+    "model": "Lenovo P650WG",
+    "release_year": 2010,
+    "storage": "16 GB",
+    "storage_options": [
+      "16GB"
+    ],
+    "ram_options": [
+      "2GB"
+    ],
+    "default_mrp": 5499,
+    "base_resale_value": 1400,
+    "price": 1400,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k9-note.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k9-note.jpg",
+    "popular_tag": "Classic Dual-SIM Mobile",
+    "processor": "Standard Mobile Processor",
+    "camera_spec": "3.2MP Camera",
+    "battery_spec": "1150 mAh Battery",
+    "display_spec": "3.2\" Touch Display",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Lenovo",
+    "series": "Lenovo Legacy Series",
+    "model": "P650WG",
+    "release_year": 2010,
+    "storage": "16 GB",
+    "storage_options": [
+      "16GB"
+    ],
+    "ram_options": [
+      "2GB"
+    ],
+    "default_mrp": 5499,
+    "base_resale_value": 1400,
+    "price": 1400,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k9-note.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k9-note.jpg",
+    "popular_tag": "Classic Dual-SIM Mobile",
+    "processor": "Standard Mobile Processor",
+    "camera_spec": "3.2MP Camera",
+    "battery_spec": "1150 mAh Battery",
+    "display_spec": "3.2\" Touch Display",
     "is_5g": false,
     "is_active": true
   }
