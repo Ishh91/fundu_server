@@ -30168,5 +30168,203 @@
     "display_spec": "AMOLED Display",
     "is_5g": true,
     "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "model": "6T McLaren",
+    "release_year": 2018,
+    "ram_options": [
+      "10GB"
+    ],
+    "storage_options": [
+      "256GB"
+    ],
+    "default_mrp": 50999,
+    "base_resale_value": 12500,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-6t-mclaren.jpg",
+    "popular_tag": "Salute to Speed • 10GB RAM",
+    "processor": "Snapdragon 845",
+    "camera_spec": "16MP + 20MP Dual OIS McLaren Edition",
+    "battery_spec": "3700 mAh Warp Charge 30",
+    "display_spec": "6.41\" Optic AMOLED FHD+",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "model": "OnePlus 6T McLaren",
+    "release_year": 2018,
+    "ram_options": [
+      "10GB"
+    ],
+    "storage_options": [
+      "256GB"
+    ],
+    "default_mrp": 50999,
+    "base_resale_value": 12500,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-6t-mclaren.jpg",
+    "popular_tag": "Salute to Speed • 10GB RAM",
+    "processor": "Snapdragon 845",
+    "camera_spec": "16MP + 20MP Dual OIS McLaren Edition",
+    "battery_spec": "3700 mAh Warp Charge 30",
+    "display_spec": "6.41\" Optic AMOLED FHD+",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "model": "13s",
+    "release_year": 2025,
+    "ram_options": [
+      "12GB",
+      "16GB"
+    ],
+    "storage_options": [
+      "256GB",
+      "512GB"
+    ],
+    "default_mrp": 64999,
+    "base_resale_value": 34999,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-13.jpg",
+    "popular_tag": "Flagship Killer 2025",
+    "processor": "Snapdragon 8 Gen 3 / Elite",
+    "camera_spec": "50MP Sony LYT OIS + 50MP Ultra-wide Hasselblad",
+    "battery_spec": "5800 mAh 100W SuperVOOC",
+    "display_spec": "6.78\" 1.5K 120Hz LTPO AMOLED",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "model": "OnePlus 13s",
+    "release_year": 2025,
+    "ram_options": [
+      "12GB",
+      "16GB"
+    ],
+    "storage_options": [
+      "256GB",
+      "512GB"
+    ],
+    "default_mrp": 64999,
+    "base_resale_value": 34999,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-13.jpg",
+    "popular_tag": "Flagship Killer 2025",
+    "processor": "Snapdragon 8 Gen 3 / Elite",
+    "camera_spec": "50MP Sony LYT OIS + 50MP Ultra-wide Hasselblad",
+    "battery_spec": "5800 mAh 100W SuperVOOC",
+    "display_spec": "6.78\" 1.5K 120Hz LTPO AMOLED",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "model": "7T Pro McLaren Edition",
+    "release_year": 2019,
+    "ram_options": [
+      "12GB"
+    ],
+    "storage_options": [
+      "256GB"
+    ],
+    "default_mrp": 58999,
+    "base_resale_value": 14500,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-7t-pro.jpg",
+    "popular_tag": "McLaren Papaya Orange Accent",
+    "processor": "Snapdragon 855+",
+    "camera_spec": "48MP Triple OIS Pop-up Camera",
+    "battery_spec": "4085 mAh Warp Charge 30T",
+    "display_spec": "6.67\" 90Hz Fluid AMOLED QHD+",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "model": "OnePlus 7T Pro McLaren Edition",
+    "release_year": 2019,
+    "ram_options": [
+      "12GB"
+    ],
+    "storage_options": [
+      "256GB"
+    ],
+    "default_mrp": 58999,
+    "base_resale_value": 14500,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-7t-pro.jpg",
+    "popular_tag": "McLaren Papaya Orange Accent",
+    "processor": "Snapdragon 855+",
+    "camera_spec": "48MP Triple OIS Pop-up Camera",
+    "battery_spec": "4085 mAh Warp Charge 30T",
+    "display_spec": "6.67\" 90Hz Fluid AMOLED QHD+",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "model": "OnePlus Nord CE 3",
+    "release_year": 2023,
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "default_mrp": 26999,
+    "base_resale_value": 14650,
+    "image_url": "https://api.mobileapi.dev/devices/374/thumb.png",
+    "popular_tag": "Never Settle",
+    "processor": "Snapdragon 782G 5G",
+    "camera_spec": "50MP Sony IMX890 OIS + 8MP Ultra-wide + 2MP Macro",
+    "battery_spec": "5000 mAh 80W SUPERVOOC",
+    "display_spec": "6.7\" 120Hz Fluid AMOLED FHD+",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "model": "OnePlus Nord CE 3 5G",
+    "release_year": 2023,
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "default_mrp": 26999,
+    "base_resale_value": 14650,
+    "image_url": "https://api.mobileapi.dev/devices/374/thumb.png",
+    "popular_tag": "Never Settle",
+    "processor": "Snapdragon 782G 5G",
+    "camera_spec": "50MP Sony IMX890 OIS + 8MP Ultra-wide + 2MP Macro",
+    "battery_spec": "5000 mAh 80W SUPERVOOC",
+    "display_spec": "6.7\" 120Hz Fluid AMOLED FHD+",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "OnePlus",
+    "model": "OnePlus Nord CE 3 Lite",
+    "release_year": 2023,
+    "ram_options": [
+      "8GB"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "default_mrp": 19999,
+    "base_resale_value": 10150,
+    "image_url": "https://api.mobileapi.dev/devices/16320/thumb.png",
+    "popular_tag": "Larger Than Life",
+    "processor": "Snapdragon 695 5G",
+    "camera_spec": "108MP Main Camera + 3x Lossless Zoom",
+    "battery_spec": "5000 mAh 67W SUPERVOOC",
+    "display_spec": "6.72\" 120Hz FHD+ LCD",
+    "is_5g": true,
+    "is_active": true
   }
 ]
