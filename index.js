@@ -24,11 +24,11 @@ app.use((req, res, next) => {
   // Set CORS headers for all origins including production domain
   if (requestOrigin) {
     res.setHeader('Access-Control-Allow-Origin', requestOrigin);
+    res.setHeader('Access-Control-Allow-Credentials', 'true');
   } else {
     res.setHeader('Access-Control-Allow-Origin', '*');
   }
 
-  res.setHeader('Access-Control-Allow-Credentials', 'true');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-Requested-With, Accept, Origin, Range, x-custom-header, apikey');
   res.setHeader('Access-Control-Expose-Headers', 'Content-Range, X-Total-Count');
@@ -39,18 +39,6 @@ app.use((req, res, next) => {
   }
   next();
 });
-
-// Configure cors module with origin fallback function
-app.use(
-  cors({
-    origin: (origin, callback) => {
-      // Allow requests with no origin (like mobile apps, curl, server-to-server) or any origin
-      callback(null, origin || '*');
-    },
-    credentials: true,
-    optionsSuccessStatus: 204,
-  })
-);
 
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
