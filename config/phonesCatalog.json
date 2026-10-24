@@ -20341,7 +20341,7 @@
       "256GB"
     ],
     "default_mrp": 9510,
-    "base_resale_value": 6340,
+    "base_resale_value": 10150,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-nex.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -20349,7 +20349,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 10150
   },
   {
     "brand": "Vivo",
@@ -20365,7 +20366,7 @@
       "256GB"
     ],
     "default_mrp": 8865,
-    "base_resale_value": 5910,
+    "base_resale_value": 4790,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-s1.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -20373,7 +20374,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4790
   },
   {
     "brand": "Vivo",
@@ -20389,7 +20391,7 @@
       "256GB"
     ],
     "default_mrp": 10050,
-    "base_resale_value": 6700,
+    "base_resale_value": 5200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-s1-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -20397,7 +20399,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 5200
   },
   {
     "brand": "Vivo",
@@ -20413,7 +20416,7 @@
       "256GB"
     ],
     "default_mrp": 97350,
-    "base_resale_value": 64900,
+    "base_resale_value": 3830,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-s2.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -20421,7 +20424,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3830
   },
   {
     "brand": "Vivo",
@@ -20437,7 +20441,7 @@
       "256GB"
     ],
     "default_mrp": 11220,
-    "base_resale_value": 7480,
+    "base_resale_value": 6760,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-t1.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -20445,7 +20449,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 6760
   },
   {
     "brand": "Vivo",
@@ -20461,7 +20466,7 @@
       "256GB"
     ],
     "default_mrp": 15540,
-    "base_resale_value": 10360,
+    "base_resale_value": 8570,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-t1-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -20469,7 +20474,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 8570
   },
   {
     "brand": "Vivo",
@@ -20485,7 +20491,7 @@
       "256GB"
     ],
     "default_mrp": 9630,
-    "base_resale_value": 6420,
+    "base_resale_value": 5460,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-t1x.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -20493,7 +20499,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5460
   },
   {
     "brand": "Vivo",
@@ -20509,7 +20516,7 @@
       "256GB"
     ],
     "default_mrp": 18960,
-    "base_resale_value": 12640,
+    "base_resale_value": 9480,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-t2.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -20517,7 +20524,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9480
   },
   {
     "brand": "Vivo",
@@ -20533,7 +20541,7 @@
       "256GB"
     ],
     "default_mrp": 23999,
-    "base_resale_value": 17540,
+    "base_resale_value": 13260,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-t2-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -20541,7 +20549,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 13260
   },
   {
     "brand": "Vivo",
@@ -20557,7 +20566,7 @@
       "256GB"
     ],
     "default_mrp": 17040,
-    "base_resale_value": 11360,
+    "base_resale_value": 7240,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-t2x.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -20565,7 +20574,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 7240
   },
   {
     "brand": "Vivo",
@@ -20581,7 +20591,7 @@
       "256GB"
     ],
     "default_mrp": 19999,
-    "base_resale_value": 14800,
+    "base_resale_value": 12780,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-t3.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -20589,7 +20599,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 12780
   },
   {
     "brand": "Vivo",
@@ -20605,7 +20616,7 @@
       "256GB"
     ],
     "default_mrp": 12405,
-    "base_resale_value": 8270,
+    "base_resale_value": 7410,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-t3-lite-5g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -20613,7 +20624,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 7410
   },
   {
     "brand": "Vivo",
@@ -20629,7 +20641,7 @@
       "256GB"
     ],
     "default_mrp": 24999,
-    "base_resale_value": 14750,
+    "base_resale_value": 17680,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-t3-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -20637,7 +20649,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 17680
   },
   {
     "brand": "Vivo",
@@ -20653,7 +20666,7 @@
       "256GB"
     ],
     "default_mrp": 28995,
-    "base_resale_value": 19330,
+    "base_resale_value": 20120,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-t3-ultra.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -20661,7 +20674,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 20120
   },
   {
     "brand": "Vivo",
@@ -20677,7 +20691,7 @@
       "256GB"
     ],
     "default_mrp": 13499,
-    "base_resale_value": 11100,
+    "base_resale_value": 9130,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-t3x.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -20685,7 +20699,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9130
   },
   {
     "brand": "Vivo",
@@ -20941,7 +20956,7 @@
       "256GB"
     ],
     "default_mrp": 7245,
-    "base_resale_value": 4830,
+    "base_resale_value": 3520,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-u10.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -20949,7 +20964,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3520
   },
   {
     "brand": "Vivo",
@@ -20965,7 +20981,7 @@
       "256GB"
     ],
     "default_mrp": 8205,
-    "base_resale_value": 5470,
+    "base_resale_value": 3910,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-u20.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -20973,7 +20989,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3910
   },
   {
     "brand": "Vivo",
@@ -20989,7 +21006,7 @@
       "256GB"
     ],
     "default_mrp": 7815,
-    "base_resale_value": 5210,
+    "base_resale_value": 3190,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v11.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -20997,7 +21014,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3190
   },
   {
     "brand": "Vivo",
@@ -21013,7 +21031,7 @@
       "256GB"
     ],
     "default_mrp": 25990,
-    "base_resale_value": 5690,
+    "base_resale_value": 3720,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v11-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21021,7 +21039,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 3720
   },
   {
     "brand": "Vivo",
@@ -21037,7 +21056,7 @@
       "256GB"
     ],
     "default_mrp": 23990,
-    "base_resale_value": 6140,
+    "base_resale_value": 4420,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v15.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21045,7 +21064,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 4420
   },
   {
     "brand": "Vivo",
@@ -21061,7 +21081,7 @@
       "256GB"
     ],
     "default_mrp": 28990,
-    "base_resale_value": 6720,
+    "base_resale_value": 5390,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v15-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21069,7 +21089,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 5390
   },
   {
     "brand": "Vivo",
@@ -21085,7 +21106,7 @@
       "256GB"
     ],
     "default_mrp": 22990,
-    "base_resale_value": 7640,
+    "base_resale_value": 5240,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v17.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21093,7 +21114,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5240
   },
   {
     "brand": "Vivo",
@@ -21109,7 +21131,7 @@
       "256GB"
     ],
     "default_mrp": 29990,
-    "base_resale_value": 7760,
+    "base_resale_value": 6050,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v17-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21117,7 +21139,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 6050
   },
   {
     "brand": "Vivo",
@@ -21133,7 +21156,7 @@
       "256GB"
     ],
     "default_mrp": 27990,
-    "base_resale_value": 7780,
+    "base_resale_value": 15560,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v19.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21141,7 +21164,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 15560
   },
   {
     "brand": "Vivo",
@@ -21157,7 +21181,7 @@
       "256GB"
     ],
     "default_mrp": 24990,
-    "base_resale_value": 7900,
+    "base_resale_value": 6770,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v20.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21165,7 +21189,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 6770
   },
   {
     "brand": "Vivo",
@@ -21181,7 +21206,7 @@
       "256GB"
     ],
     "default_mrp": 11010,
-    "base_resale_value": 7340,
+    "base_resale_value": 16520,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v20-2021.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21189,7 +21214,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 16520
   },
   {
     "brand": "Vivo",
@@ -21205,7 +21231,7 @@
       "256GB"
     ],
     "default_mrp": 14940,
-    "base_resale_value": 9960,
+    "base_resale_value": 6940,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v20-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21213,7 +21239,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 6940
   },
   {
     "brand": "Vivo",
@@ -21229,7 +21256,7 @@
       "256GB"
     ],
     "default_mrp": 11355,
-    "base_resale_value": 7570,
+    "base_resale_value": 5330,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v20-se.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21237,7 +21264,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5330
   },
   {
     "brand": "Vivo",
@@ -21253,7 +21281,7 @@
       "256GB"
     ],
     "default_mrp": 29990,
-    "base_resale_value": 9980,
+    "base_resale_value": 8850,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v21-5g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21261,7 +21289,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 8850
   },
   {
     "brand": "Vivo",
@@ -21277,7 +21306,7 @@
       "256GB"
     ],
     "default_mrp": 14280,
-    "base_resale_value": 9520,
+    "base_resale_value": 7410,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v21e-5g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21285,7 +21314,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 7410
   },
   {
     "brand": "Vivo",
@@ -21301,7 +21331,7 @@
       "256GB"
     ],
     "default_mrp": 29990,
-    "base_resale_value": 11390,
+    "base_resale_value": 10810,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v23-5g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21309,7 +21339,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 10810
   },
   {
     "brand": "Vivo",
@@ -21325,7 +21356,7 @@
       "256GB"
     ],
     "default_mrp": 18105,
-    "base_resale_value": 12070,
+    "base_resale_value": 12700,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v23-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21333,7 +21364,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 12700
   },
   {
     "brand": "Vivo",
@@ -21349,7 +21381,7 @@
       "256GB"
     ],
     "default_mrp": 16020,
-    "base_resale_value": 10680,
+    "base_resale_value": 8970,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v23e-5g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21357,7 +21389,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 8970
   },
   {
     "brand": "Vivo",
@@ -21373,7 +21406,7 @@
       "256GB"
     ],
     "default_mrp": 27999,
-    "base_resale_value": 11400,
+    "base_resale_value": 11280,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v25-5g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21381,7 +21414,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 11280
   },
   {
     "brand": "Vivo",
@@ -21397,7 +21431,7 @@
       "256GB"
     ],
     "default_mrp": 20685,
-    "base_resale_value": 13790,
+    "base_resale_value": 12950,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v25-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21405,7 +21439,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 12950
   },
   {
     "brand": "Vivo",
@@ -21421,7 +21456,7 @@
       "256GB"
     ],
     "default_mrp": 26325,
-    "base_resale_value": 17550,
+    "base_resale_value": 16750,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v27.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21429,7 +21464,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 16750
   },
   {
     "brand": "Vivo",
@@ -21445,7 +21481,7 @@
       "256GB"
     ],
     "default_mrp": 29685,
-    "base_resale_value": 19790,
+    "base_resale_value": 18910,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v27-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21453,7 +21489,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 18910
   },
   {
     "brand": "Vivo",
@@ -21469,7 +21506,7 @@
       "256GB"
     ],
     "default_mrp": 27750,
-    "base_resale_value": 18500,
+    "base_resale_value": 17680,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v29.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21477,7 +21514,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 17680
   },
   {
     "brand": "Vivo",
@@ -21493,7 +21531,7 @@
       "256GB"
     ],
     "default_mrp": 27750,
-    "base_resale_value": 18500,
+    "base_resale_value": 19860,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v29-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21501,7 +21539,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 19860
   },
   {
     "brand": "Vivo",
@@ -21517,7 +21556,7 @@
       "256GB"
     ],
     "default_mrp": 25980,
-    "base_resale_value": 17320,
+    "base_resale_value": 12940,
     "image_url": "https://api.mobileapi.dev/devices/4948/thumb.png",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21525,7 +21564,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 12940
   },
   {
     "brand": "Vivo",
@@ -21541,7 +21581,7 @@
       "256GB"
     ],
     "default_mrp": 34425,
-    "base_resale_value": 22950,
+    "base_resale_value": 19530,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v30.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21549,7 +21589,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 19530
   },
   {
     "brand": "Vivo",
@@ -21565,7 +21606,7 @@
       "256GB"
     ],
     "default_mrp": 34350,
-    "base_resale_value": 22900,
+    "base_resale_value": 22420,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v30-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21573,7 +21614,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 22420
   },
   {
     "brand": "Vivo",
@@ -21589,7 +21631,7 @@
       "256GB"
     ],
     "default_mrp": 28905,
-    "base_resale_value": 19270,
+    "base_resale_value": 15170,
     "image_url": "https://api.mobileapi.dev/devices/4909/thumb.png",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21597,7 +21639,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 15170
   },
   {
     "brand": "Vivo",
@@ -21613,7 +21656,7 @@
       "256GB"
     ],
     "default_mrp": 44850,
-    "base_resale_value": 29900,
+    "base_resale_value": 20910,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v40.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21621,7 +21664,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 20910
   },
   {
     "brand": "Vivo",
@@ -21637,7 +21681,7 @@
       "256GB"
     ],
     "default_mrp": 44775,
-    "base_resale_value": 29850,
+    "base_resale_value": 27460,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v40-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21645,7 +21689,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 27460
   },
   {
     "brand": "Vivo",
@@ -21661,7 +21706,7 @@
       "256GB"
     ],
     "default_mrp": 30180,
-    "base_resale_value": 20120,
+    "base_resale_value": 16080,
     "image_url": "https://api.mobileapi.dev/devices/4871/thumb.png",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21669,7 +21714,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 16080
   },
   {
     "brand": "Vivo",
@@ -21685,7 +21731,7 @@
       "256GB"
     ],
     "default_mrp": 5100,
-    "base_resale_value": 3400,
+    "base_resale_value": 2210,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v5.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21693,7 +21739,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2210
   },
   {
     "brand": "Vivo",
@@ -21709,7 +21756,7 @@
       "256GB"
     ],
     "default_mrp": 5985,
-    "base_resale_value": 3990,
+    "base_resale_value": 2210,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v5-plus.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21717,7 +21764,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 2210
   },
   {
     "brand": "Vivo",
@@ -21733,7 +21781,7 @@
       "256GB"
     ],
     "default_mrp": 33225,
-    "base_resale_value": 22150,
+    "base_resale_value": 23120,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v50.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21741,7 +21789,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 23120
   },
   {
     "brand": "Vivo",
@@ -21757,7 +21806,7 @@
       "256GB"
     ],
     "default_mrp": 31560,
-    "base_resale_value": 21040,
+    "base_resale_value": 17870,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v50e.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21765,7 +21814,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 17870
   },
   {
     "brand": "Vivo",
@@ -21781,7 +21831,7 @@
       "256GB"
     ],
     "default_mrp": 36390,
-    "base_resale_value": 24260,
+    "base_resale_value": 26880,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v60.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21789,7 +21839,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 26880
   },
   {
     "brand": "Vivo",
@@ -21805,7 +21856,7 @@
       "256GB"
     ],
     "default_mrp": 32670,
-    "base_resale_value": 21780,
+    "base_resale_value": 21000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v60e.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21813,7 +21864,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 21000
   },
   {
     "brand": "Vivo",
@@ -21829,7 +21881,7 @@
       "256GB"
     ],
     "default_mrp": 6030,
-    "base_resale_value": 4020,
+    "base_resale_value": 2440,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v7.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21837,7 +21889,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2440
   },
   {
     "brand": "Vivo",
@@ -21853,7 +21906,7 @@
       "256GB"
     ],
     "default_mrp": 5985,
-    "base_resale_value": 3990,
+    "base_resale_value": 2440,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v7-plus.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21861,7 +21914,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 2440
   },
   {
     "brand": "Vivo",
@@ -21877,7 +21931,7 @@
       "256GB"
     ],
     "default_mrp": 50475,
-    "base_resale_value": 33650,
+    "base_resale_value": 32490,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v70.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21885,7 +21939,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 32490
   },
   {
     "brand": "Vivo",
@@ -21901,7 +21956,7 @@
       "256GB"
     ],
     "default_mrp": 55425,
-    "base_resale_value": 36950,
+    "base_resale_value": 38870,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v70-elite.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21909,7 +21964,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 38870
   },
   {
     "brand": "Vivo",
@@ -21925,7 +21981,7 @@
       "256GB"
     ],
     "default_mrp": 38145,
-    "base_resale_value": 25430,
+    "base_resale_value": 24070,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v70-fe.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21933,7 +21989,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 24070
   },
   {
     "brand": "Vivo",
@@ -21949,7 +22006,7 @@
       "256GB"
     ],
     "default_mrp": 7050,
-    "base_resale_value": 4700,
+    "base_resale_value": 3200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v9.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -21957,7 +22014,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3200
   },
   {
     "brand": "Vivo",
@@ -21973,7 +22031,7 @@
       "256GB"
     ],
     "default_mrp": 7290,
-    "base_resale_value": 4860,
+    "base_resale_value": 3140,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v9-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21981,7 +22039,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 3140
   },
   {
     "brand": "Vivo",
@@ -21997,7 +22056,7 @@
       "256GB"
     ],
     "default_mrp": 6165,
-    "base_resale_value": 4110,
+    "base_resale_value": 3160,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v9-youth.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -22005,7 +22064,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3160
   },
   {
     "brand": "Vivo",
@@ -22021,7 +22081,7 @@
       "256GB"
     ],
     "default_mrp": 91170,
-    "base_resale_value": 60780,
+    "base_resale_value": 68880,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x-fold-3-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22029,7 +22089,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 68880
   },
   {
     "brand": "Vivo",
@@ -22069,7 +22130,7 @@
       "256GB"
     ],
     "default_mrp": 67425,
-    "base_resale_value": 44950,
+    "base_resale_value": 27300,
     "image_url": "https://api.mobileapi.dev/devices/355/thumb.png",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -22077,7 +22138,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 27300
   },
   {
     "brand": "Vivo",
@@ -22093,7 +22155,7 @@
       "256GB"
     ],
     "default_mrp": 67425,
-    "base_resale_value": 44950,
+    "base_resale_value": 32750,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22101,7 +22163,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 32750
   },
   {
     "brand": "Vivo",
@@ -22117,7 +22180,7 @@
       "256GB"
     ],
     "default_mrp": 54435,
-    "base_resale_value": 36290,
+    "base_resale_value": 37330,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x200-fe.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -22125,7 +22188,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 37330
   },
   {
     "brand": "Vivo",
@@ -22141,7 +22205,7 @@
       "256GB"
     ],
     "default_mrp": 58950,
-    "base_resale_value": 39300,
+    "base_resale_value": 37310,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x200t.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -22149,7 +22213,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 37310
   },
   {
     "brand": "Vivo",
@@ -22189,7 +22254,7 @@
       "256GB"
     ],
     "default_mrp": 70680,
-    "base_resale_value": 47120,
+    "base_resale_value": 46120,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x300.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -22197,7 +22262,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 46120
   },
   {
     "brand": "Vivo",
@@ -22213,7 +22279,7 @@
       "256GB"
     ],
     "default_mrp": 71775,
-    "base_resale_value": 47850,
+    "base_resale_value": 52310,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x300-fe.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -22221,7 +22287,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 52310
   },
   {
     "brand": "Vivo",
@@ -22237,7 +22304,7 @@
       "256GB"
     ],
     "default_mrp": 95625,
-    "base_resale_value": 63750,
+    "base_resale_value": 62650,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x300-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22245,7 +22312,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 62650
   },
   {
     "brand": "Vivo",
@@ -22261,7 +22329,7 @@
       "256GB"
     ],
     "default_mrp": 119910,
-    "base_resale_value": 79940,
+    "base_resale_value": 78610,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x300-ultra.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22269,7 +22337,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 78610
   },
   {
     "brand": "Vivo",
@@ -22285,7 +22354,7 @@
       "256GB"
     ],
     "default_mrp": 34990,
-    "base_resale_value": 7580,
+    "base_resale_value": 7630,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x50.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -22293,7 +22362,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 7630
   },
   {
     "brand": "Vivo",
@@ -22309,7 +22379,7 @@
       "256GB"
     ],
     "default_mrp": 16455,
-    "base_resale_value": 10970,
+    "base_resale_value": 7560,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x50-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22317,7 +22387,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 7560
   },
   {
     "brand": "Vivo",
@@ -22333,7 +22404,7 @@
       "256GB"
     ],
     "default_mrp": 16860,
-    "base_resale_value": 11240,
+    "base_resale_value": 10100,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x60.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -22341,7 +22412,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 10100
   },
   {
     "brand": "Vivo",
@@ -22357,7 +22429,7 @@
       "256GB"
     ],
     "default_mrp": 20415,
-    "base_resale_value": 13610,
+    "base_resale_value": 9890,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x60-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22365,7 +22437,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9890
   },
   {
     "brand": "Vivo",
@@ -22381,7 +22454,7 @@
       "256GB"
     ],
     "default_mrp": 22605,
-    "base_resale_value": 15070,
+    "base_resale_value": 9890,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x60-pro-plus.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22389,7 +22462,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9890
   },
   {
     "brand": "Vivo",
@@ -22405,7 +22479,7 @@
       "256GB"
     ],
     "default_mrp": 24135,
-    "base_resale_value": 16090,
+    "base_resale_value": 13300,
     "image_url": "https://api.mobileapi.dev/devices/13983/thumb.png",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22413,7 +22487,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 13300
   },
   {
     "brand": "Vivo",
@@ -22429,7 +22504,7 @@
       "256GB"
     ],
     "default_mrp": 26775,
-    "base_resale_value": 17850,
+    "base_resale_value": 13300,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x70-pro-plus.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22437,7 +22512,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 13300
   },
   {
     "brand": "Vivo",
@@ -22453,7 +22529,7 @@
       "256GB"
     ],
     "default_mrp": 25635,
-    "base_resale_value": 17090,
+    "base_resale_value": 17290,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x80.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -22461,7 +22537,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 17290
   },
   {
     "brand": "Vivo",
@@ -22477,7 +22554,7 @@
       "256GB"
     ],
     "default_mrp": 33135,
-    "base_resale_value": 22090,
+    "base_resale_value": 22540,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x80-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22485,7 +22562,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 22540
   },
   {
     "brand": "Vivo",
@@ -22501,7 +22579,7 @@
       "256GB"
     ],
     "default_mrp": 43350,
-    "base_resale_value": 28900,
+    "base_resale_value": 30540,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x9.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -22509,7 +22587,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 30540
   },
   {
     "brand": "Vivo",
@@ -22525,7 +22604,7 @@
       "256GB"
     ],
     "default_mrp": 43425,
-    "base_resale_value": 28950,
+    "base_resale_value": 23150,
     "image_url": "https://api.mobileapi.dev/devices/4965/thumb.png",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -22533,7 +22612,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 23150
   },
   {
     "brand": "Vivo",
@@ -22549,7 +22629,7 @@
       "256GB"
     ],
     "default_mrp": 43275,
-    "base_resale_value": 28850,
+    "base_resale_value": 30540,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x90-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22557,7 +22637,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 30540
   },
   {
     "brand": "Vivo",
@@ -22621,7 +22702,7 @@
       "256GB"
     ],
     "default_mrp": 7005,
-    "base_resale_value": 4670,
+    "base_resale_value": 2830,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y01.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -22629,7 +22710,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2830
   },
   {
     "brand": "Vivo",
@@ -22645,7 +22727,7 @@
       "256GB"
     ],
     "default_mrp": 6750,
-    "base_resale_value": 4500,
+    "base_resale_value": 3020,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y01a.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -22653,7 +22735,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3020
   },
   {
     "brand": "Vivo",
@@ -22669,7 +22752,7 @@
       "256GB"
     ],
     "default_mrp": 7245,
-    "base_resale_value": 4830,
+    "base_resale_value": 3510,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y02.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -22677,7 +22760,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3510
   },
   {
     "brand": "Vivo",
@@ -22693,7 +22777,7 @@
       "256GB"
     ],
     "default_mrp": 10200,
-    "base_resale_value": 6800,
+    "base_resale_value": 3620,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y02t.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -22701,7 +22785,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3620
   },
   {
     "brand": "Vivo",
@@ -22741,7 +22826,7 @@
       "256GB"
     ],
     "default_mrp": 24999,
-    "base_resale_value": 12790,
+    "base_resale_value": 11750,
     "image_url": "https://api.mobileapi.dev/devices/4997/thumb.png",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22749,7 +22834,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 11750
   },
   {
     "brand": "Vivo",
@@ -22765,7 +22851,7 @@
       "256GB"
     ],
     "default_mrp": 18825,
-    "base_resale_value": 12550,
+    "base_resale_value": 12520,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y100a-5g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22773,7 +22859,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 12520
   },
   {
     "brand": "Vivo",
@@ -22789,7 +22876,7 @@
       "256GB"
     ],
     "default_mrp": 6960,
-    "base_resale_value": 4640,
+    "base_resale_value": 3100,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y11-2019.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -22797,7 +22884,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3100
   },
   {
     "brand": "Vivo",
@@ -22813,7 +22901,7 @@
       "256GB"
     ],
     "default_mrp": 17400,
-    "base_resale_value": 11600,
+    "base_resale_value": 3010,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y11-5g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22821,7 +22909,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 3010
   },
   {
     "brand": "Vivo",
@@ -22837,7 +22926,7 @@
       "256GB"
     ],
     "default_mrp": 8310,
-    "base_resale_value": 5540,
+    "base_resale_value": 3590,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y12.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22845,7 +22934,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 3590
   },
   {
     "brand": "Vivo",
@@ -22861,7 +22951,7 @@
       "256GB"
     ],
     "default_mrp": 8025,
-    "base_resale_value": 5350,
+    "base_resale_value": 3500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y12g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22869,7 +22959,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 3500
   },
   {
     "brand": "Vivo",
@@ -22885,7 +22976,7 @@
       "256GB"
     ],
     "default_mrp": 8715,
-    "base_resale_value": 5810,
+    "base_resale_value": 3870,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y12s.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22893,7 +22984,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 3870
   },
   {
     "brand": "Vivo",
@@ -22933,7 +23025,7 @@
       "256GB"
     ],
     "default_mrp": 7605,
-    "base_resale_value": 5070,
+    "base_resale_value": 3850,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y15c.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22941,7 +23033,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 3850
   },
   {
     "brand": "Vivo",
@@ -22957,7 +23050,7 @@
       "256GB"
     ],
     "default_mrp": 7290,
-    "base_resale_value": 4860,
+    "base_resale_value": 1080,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y15s-2021.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22965,7 +23058,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 1080
   },
   {
     "brand": "Vivo",
@@ -22981,7 +23075,7 @@
       "256GB"
     ],
     "default_mrp": 8385,
-    "base_resale_value": 5590,
+    "base_resale_value": 4650,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y16.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -22989,7 +23083,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 4650
   },
   {
     "brand": "Vivo",
@@ -23005,7 +23100,7 @@
       "256GB"
     ],
     "default_mrp": 17990,
-    "base_resale_value": 6700,
+    "base_resale_value": 5110,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y17.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23013,7 +23108,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5110
   },
   {
     "brand": "Vivo",
@@ -23029,7 +23125,7 @@
       "256GB"
     ],
     "default_mrp": 11415,
-    "base_resale_value": 7610,
+    "base_resale_value": 4910,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y17s.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23037,7 +23133,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4910
   },
   {
     "brand": "Vivo",
@@ -23053,7 +23150,7 @@
       "256GB"
     ],
     "default_mrp": 10410,
-    "base_resale_value": 6940,
+    "base_resale_value": 5930,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y18.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23061,7 +23158,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5930
   },
   {
     "brand": "Vivo",
@@ -23077,7 +23175,7 @@
       "256GB"
     ],
     "default_mrp": 10185,
-    "base_resale_value": 6790,
+    "base_resale_value": 5780,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y18e.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23085,7 +23183,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5780
   },
   {
     "brand": "Vivo",
@@ -23125,7 +23224,7 @@
       "256GB"
     ],
     "default_mrp": 13990,
-    "base_resale_value": 6310,
+    "base_resale_value": 4190,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y19.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23133,7 +23232,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4190
   },
   {
     "brand": "Vivo",
@@ -23197,7 +23297,7 @@
       "256GB"
     ],
     "default_mrp": 6375,
-    "base_resale_value": 4250,
+    "base_resale_value": 2610,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y1s.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23205,7 +23305,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2610
   },
   {
     "brand": "Vivo",
@@ -23221,7 +23322,7 @@
       "256GB"
     ],
     "default_mrp": 9405,
-    "base_resale_value": 6270,
+    "base_resale_value": 3640,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y20.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23229,7 +23330,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3640
   },
   {
     "brand": "Vivo",
@@ -23245,7 +23347,7 @@
       "256GB"
     ],
     "default_mrp": 21999,
-    "base_resale_value": 14300,
+    "base_resale_value": 12850,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y200.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -23253,7 +23355,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 12850
   },
   {
     "brand": "Vivo",
@@ -23269,7 +23372,7 @@
       "256GB"
     ],
     "default_mrp": 24999,
-    "base_resale_value": 15870,
+    "base_resale_value": 14930,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y200-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -23277,7 +23380,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 14930
   },
   {
     "brand": "Vivo",
@@ -23293,7 +23397,7 @@
       "256GB"
     ],
     "default_mrp": 19999,
-    "base_resale_value": 13350,
+    "base_resale_value": 11420,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y200e-5g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -23301,7 +23405,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 11420
   },
   {
     "brand": "Vivo",
@@ -23317,7 +23422,7 @@
       "256GB"
     ],
     "default_mrp": 8460,
-    "base_resale_value": 5640,
+    "base_resale_value": 4070,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y20a.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23325,7 +23430,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4070
   },
   {
     "brand": "Vivo",
@@ -23341,7 +23447,7 @@
       "256GB"
     ],
     "default_mrp": 9360,
-    "base_resale_value": 6240,
+    "base_resale_value": 4730,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y20g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23349,7 +23455,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4730
   },
   {
     "brand": "Vivo",
@@ -23365,7 +23472,7 @@
       "256GB"
     ],
     "default_mrp": 8175,
-    "base_resale_value": 5450,
+    "base_resale_value": 4330,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y20i.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23373,7 +23480,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4330
   },
   {
     "brand": "Vivo",
@@ -23389,7 +23497,7 @@
       "256GB"
     ],
     "default_mrp": 10275,
-    "base_resale_value": 6850,
+    "base_resale_value": 4590,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y20t.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23397,7 +23505,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4590
   },
   {
     "brand": "Vivo",
@@ -23413,7 +23522,7 @@
       "256GB"
     ],
     "default_mrp": 9315,
-    "base_resale_value": 6210,
+    "base_resale_value": 4730,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y21-2021.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23421,7 +23530,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4730
   },
   {
     "brand": "Vivo",
@@ -23437,7 +23547,7 @@
       "256GB"
     ],
     "default_mrp": 21510,
-    "base_resale_value": 14340,
+    "base_resale_value": 1430,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y21-5g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -23445,7 +23555,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 1430
   },
   {
     "brand": "Vivo",
@@ -23485,7 +23596,7 @@
       "256GB"
     ],
     "default_mrp": 8925,
-    "base_resale_value": 5950,
+    "base_resale_value": 4760,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y21e.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23493,7 +23604,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4760
   },
   {
     "brand": "Vivo",
@@ -23509,7 +23621,7 @@
       "256GB"
     ],
     "default_mrp": 9720,
-    "base_resale_value": 6480,
+    "base_resale_value": 4760,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y21g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23517,7 +23629,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4760
   },
   {
     "brand": "Vivo",
@@ -23533,7 +23646,7 @@
       "256GB"
     ],
     "default_mrp": 10245,
-    "base_resale_value": 6830,
+    "base_resale_value": 5090,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y21t.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23541,7 +23654,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5090
   },
   {
     "brand": "Vivo",
@@ -23581,7 +23695,7 @@
       "256GB"
     ],
     "default_mrp": 13545,
-    "base_resale_value": 9030,
+    "base_resale_value": 6690,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y27.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23589,7 +23703,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 6690
   },
   {
     "brand": "Vivo",
@@ -23605,7 +23720,7 @@
       "256GB"
     ],
     "default_mrp": 13999,
-    "base_resale_value": 11280,
+    "base_resale_value": 1220,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y28.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -23613,7 +23728,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 1220
   },
   {
     "brand": "Vivo",
@@ -23701,7 +23817,7 @@
       "256GB"
     ],
     "default_mrp": 14990,
-    "base_resale_value": 6390,
+    "base_resale_value": 4500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y30.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23709,7 +23825,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4500
   },
   {
     "brand": "Vivo",
@@ -23725,7 +23842,7 @@
       "256GB"
     ],
     "default_mrp": 26625,
-    "base_resale_value": 17750,
+    "base_resale_value": 13180,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y300-plus-5g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -23733,7 +23850,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 13180
   },
   {
     "brand": "Vivo",
@@ -23749,7 +23867,7 @@
       "256GB"
     ],
     "default_mrp": 10230,
-    "base_resale_value": 6820,
+    "base_resale_value": 5320,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y31-2021.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23757,7 +23875,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5320
   },
   {
     "brand": "Vivo",
@@ -23773,7 +23892,7 @@
       "256GB"
     ],
     "default_mrp": 18645,
-    "base_resale_value": 12430,
+    "base_resale_value": 1530,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y31-5g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -23781,7 +23900,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 1530
   },
   {
     "brand": "Vivo",
@@ -23845,7 +23965,7 @@
       "256GB"
     ],
     "default_mrp": 11220,
-    "base_resale_value": 7480,
+    "base_resale_value": 6430,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y33s.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23853,7 +23973,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 6430
   },
   {
     "brand": "Vivo",
@@ -23869,7 +23990,7 @@
       "256GB"
     ],
     "default_mrp": 11010,
-    "base_resale_value": 7340,
+    "base_resale_value": 6020,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y33t.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23877,7 +23998,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 6020
   },
   {
     "brand": "Vivo",
@@ -23893,7 +24015,7 @@
       "256GB"
     ],
     "default_mrp": 18499,
-    "base_resale_value": 7220,
+    "base_resale_value": 7020,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y35.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23901,7 +24023,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 7020
   },
   {
     "brand": "Vivo",
@@ -23917,7 +24040,7 @@
       "256GB"
     ],
     "default_mrp": 15150,
-    "base_resale_value": 10100,
+    "base_resale_value": 7820,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y36.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -23925,7 +24048,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 7820
   },
   {
     "brand": "Vivo",
@@ -24109,7 +24233,7 @@
       "256GB"
     ],
     "default_mrp": 10005,
-    "base_resale_value": 6670,
+    "base_resale_value": 4800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y51a.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -24117,7 +24241,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4800
   },
   {
     "brand": "Vivo",
@@ -24133,7 +24258,7 @@
       "256GB"
     ],
     "default_mrp": 4365,
-    "base_resale_value": 2910,
+    "base_resale_value": 1990,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y53i.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -24141,7 +24266,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 1990
   },
   {
     "brand": "Vivo",
@@ -24181,7 +24307,7 @@
       "256GB"
     ],
     "default_mrp": 4335,
-    "base_resale_value": 2890,
+    "base_resale_value": 2060,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y55s.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -24189,7 +24315,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2060
   },
   {
     "brand": "Vivo",
@@ -24205,7 +24332,7 @@
       "256GB"
     ],
     "default_mrp": 19999,
-    "base_resale_value": 11260,
+    "base_resale_value": 9170,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y56.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -24213,7 +24340,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9170
   },
   {
     "brand": "Vivo",
@@ -24229,7 +24357,7 @@
       "256GB"
     ],
     "default_mrp": 19499,
-    "base_resale_value": 13210,
+    "base_resale_value": 10860,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y58.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -24237,7 +24365,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 10860
   },
   {
     "brand": "Vivo",
@@ -24253,7 +24382,7 @@
       "256GB"
     ],
     "default_mrp": 5220,
-    "base_resale_value": 3480,
+    "base_resale_value": 1910,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y66.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -24261,7 +24390,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 1910
   },
   {
     "brand": "Vivo",
@@ -24277,7 +24407,7 @@
       "256GB"
     ],
     "default_mrp": 5280,
-    "base_resale_value": 3520,
+    "base_resale_value": 2020,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y69.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -24285,7 +24415,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2020
   },
   {
     "brand": "Vivo",
@@ -24301,7 +24432,7 @@
       "256GB"
     ],
     "default_mrp": 4905,
-    "base_resale_value": 3270,
+    "base_resale_value": 2260,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y71.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -24309,7 +24440,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2260
   },
   {
     "brand": "Vivo",
@@ -24325,7 +24457,7 @@
       "256GB"
     ],
     "default_mrp": 4620,
-    "base_resale_value": 3080,
+    "base_resale_value": 2160,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y71i.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -24333,7 +24465,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2160
   },
   {
     "brand": "Vivo",
@@ -24349,7 +24482,7 @@
       "256GB"
     ],
     "default_mrp": 14490,
-    "base_resale_value": 9660,
+    "base_resale_value": 7440,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y72-5g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -24357,7 +24490,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 7440
   },
   {
     "brand": "Vivo",
@@ -24373,7 +24507,7 @@
       "256GB"
     ],
     "default_mrp": 20990,
-    "base_resale_value": 7820,
+    "base_resale_value": 7370,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y73.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -24381,7 +24515,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 7370
   },
   {
     "brand": "Vivo",
@@ -24397,7 +24532,7 @@
       "256GB"
     ],
     "default_mrp": 11895,
-    "base_resale_value": 7930,
+    "base_resale_value": 6960,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y75.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -24405,7 +24540,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 6960
   },
   {
     "brand": "Vivo",
@@ -24421,7 +24557,7 @@
       "256GB"
     ],
     "default_mrp": 5505,
-    "base_resale_value": 3670,
+    "base_resale_value": 2390,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y81.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -24429,7 +24565,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2390
   },
   {
     "brand": "Vivo",
@@ -24445,7 +24582,7 @@
       "256GB"
     ],
     "default_mrp": 4845,
-    "base_resale_value": 3230,
+    "base_resale_value": 2450,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y81i.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -24453,7 +24590,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2450
   },
   {
     "brand": "Vivo",
@@ -24469,7 +24607,7 @@
       "256GB"
     ],
     "default_mrp": 6210,
-    "base_resale_value": 4140,
+    "base_resale_value": 2560,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y83.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -24477,7 +24615,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2560
   },
   {
     "brand": "Vivo",
@@ -24493,7 +24632,7 @@
       "256GB"
     ],
     "default_mrp": 6735,
-    "base_resale_value": 4490,
+    "base_resale_value": 2740,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y83-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -24501,7 +24640,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 2740
   },
   {
     "brand": "Vivo",
@@ -24517,7 +24657,7 @@
       "256GB"
     ],
     "default_mrp": 5955,
-    "base_resale_value": 3970,
+    "base_resale_value": 2250,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y90.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -24525,7 +24665,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2250
   },
   {
     "brand": "Vivo",
@@ -24541,7 +24682,7 @@
       "256GB"
     ],
     "default_mrp": 5955,
-    "base_resale_value": 3970,
+    "base_resale_value": 2450,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y91.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -24549,7 +24690,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2450
   },
   {
     "brand": "Vivo",
@@ -24565,7 +24707,7 @@
       "256GB"
     ],
     "default_mrp": 5460,
-    "base_resale_value": 3640,
+    "base_resale_value": 2770,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y91i.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -24573,7 +24715,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2770
   },
   {
     "brand": "Vivo",
@@ -24589,7 +24732,7 @@
       "256GB"
     ],
     "default_mrp": 6645,
-    "base_resale_value": 4430,
+    "base_resale_value": 2780,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y93.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -24597,7 +24740,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2780
   },
   {
     "brand": "Vivo",
@@ -24613,7 +24757,7 @@
       "256GB"
     ],
     "default_mrp": 7545,
-    "base_resale_value": 5030,
+    "base_resale_value": 3240,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y95.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -24621,7 +24765,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3240
   },
   {
     "brand": "Vivo",
@@ -24637,7 +24782,7 @@
       "256GB"
     ],
     "default_mrp": 7815,
-    "base_resale_value": 5210,
+    "base_resale_value": 4600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-z1-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -24645,7 +24790,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 4600
   },
   {
     "brand": "Vivo",
@@ -24661,7 +24807,7 @@
       "256GB"
     ],
     "default_mrp": 6645,
-    "base_resale_value": 4430,
+    "base_resale_value": 3010,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-z10.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -24669,7 +24815,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3010
   },
   {
     "brand": "Vivo",
@@ -24685,7 +24832,7 @@
       "256GB"
     ],
     "default_mrp": 8370,
-    "base_resale_value": 5580,
+    "base_resale_value": 5160,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-z1x.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -24693,7 +24840,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5160
   },
   {
     "brand": "Xiaomi",
@@ -28578,7 +28726,7 @@
       "256GB"
     ],
     "default_mrp": 94999,
-    "base_resale_value": 69000,
+    "base_resale_value": 49550,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -28586,7 +28734,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 49550
   },
   {
     "brand": "Vivo",
@@ -28601,7 +28750,7 @@
       "256GB"
     ],
     "default_mrp": 65999,
-    "base_resale_value": 46950,
+    "base_resale_value": 37310,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -28609,7 +28758,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 37310
   },
   {
     "brand": "Vivo",
@@ -28624,7 +28774,7 @@
       "256GB"
     ],
     "default_mrp": 99999,
-    "base_resale_value": 64850,
+    "base_resale_value": 46500,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -28632,7 +28782,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 46500
   },
   {
     "brand": "Vivo",
@@ -28647,7 +28798,7 @@
       "256GB"
     ],
     "default_mrp": 89999,
-    "base_resale_value": 44900,
+    "base_resale_value": 32750,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -28655,7 +28806,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 32750
   },
   {
     "brand": "Vivo",
@@ -28670,7 +28822,7 @@
       "256GB"
     ],
     "default_mrp": 63999,
-    "base_resale_value": 44900,
+    "base_resale_value": 27300,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -28678,7 +28830,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 27300
   },
   {
     "brand": "Vivo",
@@ -28693,7 +28846,7 @@
       "256GB"
     ],
     "default_mrp": 159999,
-    "base_resale_value": 98900,
+    "base_resale_value": 68880,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -28701,7 +28854,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 68880
   },
   {
     "brand": "Vivo",
@@ -28716,7 +28870,7 @@
       "256GB"
     ],
     "default_mrp": 84999,
-    "base_resale_value": 28950,
+    "base_resale_value": 30540,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -28724,7 +28878,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 30540
   },
   {
     "brand": "Vivo",
@@ -28739,7 +28894,7 @@
       "256GB"
     ],
     "default_mrp": 59999,
-    "base_resale_value": 28900,
+    "base_resale_value": 23150,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -28747,7 +28902,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 23150
   },
   {
     "brand": "Vivo",
@@ -28762,7 +28918,7 @@
       "256GB"
     ],
     "default_mrp": 79999,
-    "base_resale_value": 22190,
+    "base_resale_value": 22540,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -28770,7 +28926,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 22540
   },
   {
     "brand": "Vivo",
@@ -28785,7 +28942,7 @@
       "256GB"
     ],
     "default_mrp": 54999,
-    "base_resale_value": 17190,
+    "base_resale_value": 17290,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -28793,7 +28950,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 17290
   },
   {
     "brand": "Vivo",
@@ -28808,7 +28966,7 @@
       "256GB"
     ],
     "default_mrp": 79990,
-    "base_resale_value": 26900,
+    "base_resale_value": 13300,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -28816,7 +28974,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 13300
   },
   {
     "brand": "Vivo",
@@ -28831,7 +28990,7 @@
       "256GB"
     ],
     "default_mrp": 46990,
-    "base_resale_value": 15990,
+    "base_resale_value": 13300,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -28839,7 +28998,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 13300
   },
   {
     "brand": "Vivo",
@@ -28854,7 +29014,7 @@
       "256GB"
     ],
     "default_mrp": 49990,
-    "base_resale_value": 13510,
+    "base_resale_value": 9890,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -28862,7 +29022,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9890
   },
   {
     "brand": "Vivo",
@@ -28877,7 +29038,7 @@
       "256GB"
     ],
     "default_mrp": 37990,
-    "base_resale_value": 11440,
+    "base_resale_value": 10100,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -28885,7 +29046,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 10100
   },
   {
     "brand": "Vivo",
@@ -28900,7 +29062,7 @@
       "256GB"
     ],
     "default_mrp": 49990,
-    "base_resale_value": 10920,
+    "base_resale_value": 7560,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -28908,7 +29070,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 7560
   },
   {
     "brand": "Vivo",
@@ -29038,7 +29201,7 @@
       "256GB"
     ],
     "default_mrp": 39999,
-    "base_resale_value": 29900,
+    "base_resale_value": 20910,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29046,7 +29209,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 20910
   },
   {
     "brand": "Vivo",
@@ -29061,7 +29225,7 @@
       "256GB"
     ],
     "default_mrp": 49999,
-    "base_resale_value": 29900,
+    "base_resale_value": 27460,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29069,7 +29233,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 27460
   },
   {
     "brand": "Vivo",
@@ -29084,7 +29249,7 @@
       "256GB"
     ],
     "default_mrp": 28999,
-    "base_resale_value": 20220,
+    "base_resale_value": 16080,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29092,7 +29257,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 16080
   },
   {
     "brand": "Vivo",
@@ -29107,7 +29273,7 @@
       "256GB"
     ],
     "default_mrp": 41999,
-    "base_resale_value": 22850,
+    "base_resale_value": 22420,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29115,7 +29281,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 22420
   },
   {
     "brand": "Vivo",
@@ -29130,7 +29297,7 @@
       "256GB"
     ],
     "default_mrp": 33999,
-    "base_resale_value": 22950,
+    "base_resale_value": 19530,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29138,7 +29305,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 19530
   },
   {
     "brand": "Vivo",
@@ -29153,7 +29321,7 @@
       "256GB"
     ],
     "default_mrp": 27999,
-    "base_resale_value": 19370,
+    "base_resale_value": 15170,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29161,7 +29329,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 15170
   },
   {
     "brand": "Vivo",
@@ -29176,7 +29345,7 @@
       "256GB"
     ],
     "default_mrp": 39999,
-    "base_resale_value": 18350,
+    "base_resale_value": 19860,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29184,7 +29353,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 19860
   },
   {
     "brand": "Vivo",
@@ -29199,7 +29369,7 @@
       "256GB"
     ],
     "default_mrp": 32999,
-    "base_resale_value": 18400,
+    "base_resale_value": 17680,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29207,7 +29377,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 17680
   },
   {
     "brand": "Vivo",
@@ -29222,7 +29393,7 @@
       "256GB"
     ],
     "default_mrp": 37999,
-    "base_resale_value": 19590,
+    "base_resale_value": 18910,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29230,7 +29401,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 18910
   },
   {
     "brand": "Vivo",
@@ -29245,7 +29417,7 @@
       "256GB"
     ],
     "default_mrp": 32999,
-    "base_resale_value": 17550,
+    "base_resale_value": 16750,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29253,7 +29425,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 16750
   },
   {
     "brand": "Vivo",
@@ -29268,7 +29441,7 @@
       "256GB"
     ],
     "default_mrp": 35999,
-    "base_resale_value": 13990,
+    "base_resale_value": 12950,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29276,7 +29449,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 12950
   },
   {
     "brand": "Vivo",
@@ -29291,7 +29465,7 @@
       "256GB"
     ],
     "default_mrp": 38990,
-    "base_resale_value": 12120,
+    "base_resale_value": 12700,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29299,7 +29473,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 12700
   },
   {
     "brand": "Vivo",
@@ -29314,7 +29489,7 @@
       "256GB"
     ],
     "default_mrp": 29990,
-    "base_resale_value": 9860,
+    "base_resale_value": 6940,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29322,7 +29497,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 6940
   },
   {
     "brand": "Vivo",
@@ -29337,7 +29513,7 @@
       "256GB"
     ],
     "default_mrp": 22990,
-    "base_resale_value": 4050,
+    "base_resale_value": 3160,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29345,7 +29521,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 3160
   },
   {
     "brand": "Vivo",
@@ -29406,7 +29583,7 @@
       "256GB"
     ],
     "default_mrp": 17980,
-    "base_resale_value": 2600,
+    "base_resale_value": 1630,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29414,7 +29591,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 1630
   },
   {
     "brand": "Vivo",
@@ -29452,7 +29630,7 @@
       "256GB"
     ],
     "default_mrp": 23999,
-    "base_resale_value": 16500,
+    "base_resale_value": 13180,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29460,7 +29638,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 13180
   },
   {
     "brand": "Vivo",
@@ -29498,7 +29677,7 @@
       "256GB"
     ],
     "default_mrp": 21990,
-    "base_resale_value": 9350,
+    "base_resale_value": 7000,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29506,7 +29685,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 7000
   },
   {
     "brand": "Vivo",
@@ -29544,7 +29724,7 @@
       "256GB"
     ],
     "default_mrp": 18990,
-    "base_resale_value": 7450,
+    "base_resale_value": 6020,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29552,7 +29732,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 6020
   },
   {
     "brand": "Vivo",
@@ -29567,7 +29748,7 @@
       "256GB"
     ],
     "default_mrp": 13990,
-    "base_resale_value": 5750,
+    "base_resale_value": 5090,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29575,7 +29756,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 5090
   },
   {
     "brand": "Vivo",
@@ -29590,7 +29772,7 @@
       "256GB"
     ],
     "default_mrp": 17990,
-    "base_resale_value": 6600,
+    "base_resale_value": 4800,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29598,7 +29780,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 4800
   },
   {
     "brand": "Vivo",
@@ -29613,7 +29796,7 @@
       "256GB"
     ],
     "default_mrp": 12990,
-    "base_resale_value": 5100,
+    "base_resale_value": 4730,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29621,7 +29804,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 4730
   },
   {
     "brand": "Vivo",
@@ -29659,7 +29843,7 @@
       "256GB"
     ],
     "default_mrp": 8990,
-    "base_resale_value": 3600,
+    "base_resale_value": 3100,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29667,7 +29851,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 3100
   },
   {
     "brand": "Vivo",
@@ -29705,7 +29890,7 @@
       "256GB"
     ],
     "default_mrp": 14990,
-    "base_resale_value": 3400,
+    "base_resale_value": 2740,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29713,7 +29898,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 2740
   },
   {
     "brand": "Vivo",
@@ -29751,7 +29937,7 @@
       "256GB"
     ],
     "default_mrp": 11980,
-    "base_resale_value": 2450,
+    "base_resale_value": 2060,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29759,7 +29945,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 2060
   },
   {
     "brand": "Vivo",
@@ -29797,7 +29984,7 @@
       "256GB"
     ],
     "default_mrp": 31999,
-    "base_resale_value": 19280,
+    "base_resale_value": 20120,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29805,7 +29992,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 20120
   },
   {
     "brand": "Vivo",
@@ -29843,7 +30031,7 @@
       "256GB"
     ],
     "default_mrp": 23999,
-    "base_resale_value": 10450,
+    "base_resale_value": 8570,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29851,7 +30039,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 8570
   },
   {
     "brand": "Vivo",
@@ -29889,7 +30078,7 @@
       "256GB"
     ],
     "default_mrp": 18990,
-    "base_resale_value": 5800,
+    "base_resale_value": 4600,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29897,7 +30086,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 4600
   },
   {
     "brand": "Vivo",
@@ -29935,7 +30125,7 @@
       "256GB"
     ],
     "default_mrp": 48990,
-    "base_resale_value": 10450,
+    "base_resale_value": 10150,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29943,7 +30133,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 10150
   },
   {
     "brand": "Vivo",
@@ -29958,7 +30149,7 @@
       "256GB"
     ],
     "default_mrp": 19990,
-    "base_resale_value": 5350,
+    "base_resale_value": 5200,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -29966,7 +30157,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 5200
   },
   {
     "brand": "iQOO",
@@ -32303,8 +32495,8 @@
     "default_ram": "4 GB",
     "storage": "64 GB",
     "default_mrp": 15990,
-    "base_resale_value": 3500,
-    "price": 3500,
+    "base_resale_value": 3560,
+    "price": 3560,
     "release_year": 2019,
     "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y15-2019.jpg",
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y15-2019.jpg",
@@ -32342,6 +32534,995 @@
     "battery_spec": "4805 mAh 67W SUPERVOOC",
     "display_spec": "7.82\" Foldable LTPO3 OLED 120Hz",
     "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo X Fold 2 5G",
+    "release_year": 2024,
+    "ram_options": [
+      "12 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "256 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo X Flip 5G",
+    "release_year": 2024,
+    "ram_options": [
+      "12 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "256 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo X200 Pro mini 5G",
+    "release_year": 2024,
+    "ram_options": [
+      "12 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "256 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo X100s Pro 5G",
+    "release_year": 2024,
+    "ram_options": [
+      "16 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "512 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo X100s 5G",
+    "release_year": 2024,
+    "ram_options": [
+      "12 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "256 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo NEX 3 5G",
+    "release_year": 2024,
+    "ram_options": [
+      "8 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "256 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo NEX Dual Display Edition",
+    "release_year": 2024,
+    "ram_options": [
+      "10 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "128 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo NEX S",
+    "release_year": 2024,
+    "ram_options": [
+      "8 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "128 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo NEX A",
+    "release_year": 2024,
+    "ram_options": [
+      "6 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "128 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo V60 Pro 5G",
+    "release_year": 2024,
+    "ram_options": [
+      "12 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "256 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo V50 Pro 5G",
+    "release_year": 2024,
+    "ram_options": [
+      "8 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "256 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo V25e",
+    "release_year": 2024,
+    "ram_options": [
+      "8 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "128 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo V20 (2021 Edition)",
+    "release_year": 2024,
+    "ram_options": [
+      "8 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "256 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo V20 (2020)",
+    "release_year": 2024,
+    "ram_options": [
+      "8 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "128 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo V5s",
+    "release_year": 2024,
+    "ram_options": [
+      "4 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "32 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo V3",
+    "release_year": 2024,
+    "ram_options": [
+      "3 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "32 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo V3 Max",
+    "release_year": 2024,
+    "ram_options": [
+      "3 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "32 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo T1 44W",
+    "release_year": 2024,
+    "ram_options": [
+      "4 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "128 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Z3",
+    "release_year": 2024,
+    "ram_options": [
+      "4 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "32 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo U1",
+    "release_year": 2024,
+    "ram_options": [
+      "3 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "32 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y22",
+    "release_year": 2024,
+    "ram_options": [
+      "4 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "64 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y18t",
+    "release_year": 2024,
+    "ram_options": [
+      "4 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "64 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y15s",
+    "release_year": 2024,
+    "ram_options": [
+      "3 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "32 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y03",
+    "release_year": 2024,
+    "ram_options": [
+      "4 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "64 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y03t",
+    "release_year": 2024,
+    "ram_options": [
+      "4 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "64 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y02A",
+    "release_year": 2024,
+    "ram_options": [
+      "3 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "32 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y93s",
+    "release_year": 2024,
+    "ram_options": [
+      "3 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "32 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y89",
+    "release_year": 2024,
+    "ram_options": [
+      "4 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "64 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y85",
+    "release_year": 2024,
+    "ram_options": [
+      "4 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "64 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y65",
+    "release_year": 2024,
+    "ram_options": [
+      "3 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "16 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y55",
+    "release_year": 2024,
+    "ram_options": [
+      "2 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "16 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y55L",
+    "release_year": 2024,
+    "ram_options": [
+      "2 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "16 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y53",
+    "release_year": 2024,
+    "ram_options": [
+      "2 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "16 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y51",
+    "release_year": 2024,
+    "ram_options": [
+      "2 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "16 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y51L",
+    "release_year": 2024,
+    "ram_options": [
+      "2 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "16 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y51A (2021)",
+    "release_year": 2024,
+    "ram_options": [
+      "6 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "128 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y31L",
+    "release_year": 2024,
+    "ram_options": [
+      "1 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "16 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y27L",
+    "release_year": 2024,
+    "ram_options": [
+      "1 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "16 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y25",
+    "release_year": 2024,
+    "ram_options": [
+      "1 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "16 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y21L",
+    "release_year": 2024,
+    "ram_options": [
+      "1 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "16 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y11 (Original 2014)",
+    "release_year": 2024,
+    "ram_options": [
+      "512 MB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "4 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y12s (2021)",
+    "release_year": 2024,
+    "ram_options": [
+      "3 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "32 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "model": "Vivo Y02s",
+    "release_year": 2024,
+    "ram_options": [
+      "3 GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "32 GB",
+      "256GB"
+    ],
+    "default_mrp": null,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
+    "popular_tag": "Vivo Official Model",
+    "processor": "High-Performance Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.78\" AMOLED 120Hz",
+    "is_5g": false,
     "is_active": true
   }
 ]
