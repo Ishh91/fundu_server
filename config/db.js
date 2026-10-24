@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import bcrypt from 'bcryptjs';
 import { Product, SparePart, SellPriceConfig, User } from '../models/index.js';
 import { ensureAgentsSeeded } from '../services/dispatchService.js';
-import { ensureMasterPhonesSeeded } from './seedPhones.js';
+import { ensureMasterPhonesSeeded, startCatalogAutoWatcher } from './seedPhones.js';
 
 const seedProducts = [
   {
@@ -325,7 +325,8 @@ export const seedDatabase = async () => {
   }
 
   await ensureAgentsSeeded();
-  await ensureMasterPhonesSeeded();
+  await ensureMasterPhonesSeeded(true);
+  startCatalogAutoWatcher();
 };
 
 export const connectDB = async () => {
