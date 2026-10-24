@@ -27,30 +27,39 @@ function getCatalogPhone(brand, model) {
       .replace(/^(sell-old-|old-sell-|sell-|old-|used-)+/g, '')
       .replace(/^(sell\s+|old\s+|used\s+)+/g, '')
       .trim();
-    if (bNorm && mNorm.startsWith(bNorm)) {
-      mNorm = mNorm.slice(bNorm.length).trim();
-    }
-    const stripped = mNorm.replace(/[\s-]+/g, '');
+
+    const isXiaomiFamily = (b) => ['xiaomi', 'redmi', 'mi'].includes((b || '').toLowerCase().trim());
+    const isBrandMatch = (pb, qb) => {
+      const p = (pb || '').toLowerCase().trim();
+      const q = (qb || '').toLowerCase().trim();
+      if (p === q) return true;
+      if (isXiaomiFamily(p) && isXiaomiFamily(q)) return true;
+      return p.includes(q) || q.includes(p);
+    };
+
+    const cleanNorm = (s) => (s || '')
+      .toLowerCase()
+      .replace(/^(xiaomi\s+|redmi\s+|mi\s+)+/gi, '')
+      .replace(/\bplus\b/gi, '+')
+      .replace(/\s*\+\s*/g, '+')
+      .replace(/[\s-]+/g, '');
+
+    const stripped = cleanNorm(mNorm);
 
     // 1. Exact match first
     let match = catalog.find((p) => {
-      const pb = (p.brand || '').toLowerCase().trim();
-      if (pb !== bNorm && !bNorm.includes(pb)) return false;
-      let pm = (p.model || '').toLowerCase().trim();
-      if (pb && pm.startsWith(pb)) pm = pm.slice(pb.length).trim();
-      const pStripped = pm.replace(/[\s-]+/g, '');
-      return pStripped === stripped || pm === mNorm;
+      if (!isBrandMatch(p.brand, bNorm)) return false;
+      const pStripped = cleanNorm(p.model);
+      return pStripped === stripped;
     });
 
     if (match) return match;
 
     // 2. Fallback substring match
     return catalog.find((p) => {
-      const pb = (p.brand || '').toLowerCase().trim();
-      if (pb !== bNorm && !bNorm.includes(pb)) return false;
-      let pm = (p.model || '').toLowerCase().trim();
-      if (pb && pm.startsWith(pb)) pm = pm.slice(pb.length).trim();
-      const pStripped = pm.replace(/[\s-]+/g, '');
+      if (!isBrandMatch(p.brand, bNorm)) return false;
+      const pStripped = cleanNorm(p.model);
+      if (stripped.includes('5g') !== pStripped.includes('5g')) return false;
       return pStripped.includes(stripped) || stripped.includes(pStripped);
     });
   } catch {
