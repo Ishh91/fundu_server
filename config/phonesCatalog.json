@@ -32122,5 +32122,171 @@
     "display_spec": "3.2\" Touch Display",
     "is_5g": false,
     "is_active": true
+  },
+  {
+    "brand": "Apple",
+    "series": "iPhone 18 Series",
+    "model": "Apple iPhone 18 Pro Max",
+    "storage_options": [
+      "256 GB",
+      "512 GB",
+      "1 TB"
+    ],
+    "ram_options": [],
+    "default_storage": "256 GB",
+    "default_ram": "",
+    "storage": "256 GB",
+    "default_mrp": 159900,
+    "base_resale_value": 88000,
+    "price": 88000,
+    "release_year": 2026,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro-max.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro-max.jpg",
+    "popular_tag": "Next-Gen Apple Flagship",
+    "processor": "Apple A20 Pro Bionic",
+    "camera_spec": "48MP Quad Prism Telephoto LiDAR",
+    "battery_spec": "4850 mAh Fast MagSafe Charging",
+    "display_spec": "6.9\" ProMotion OLED 120Hz",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Apple",
+    "series": "iPhone 18 Series",
+    "model": "Apple iPhone 18 Pro",
+    "storage_options": [
+      "128 GB",
+      "256 GB",
+      "512 GB",
+      "1 TB"
+    ],
+    "ram_options": [],
+    "default_storage": "128 GB",
+    "default_ram": "",
+    "storage": "128 GB",
+    "default_mrp": 139900,
+    "base_resale_value": 78000,
+    "price": 78000,
+    "release_year": 2026,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro.jpg",
+    "popular_tag": "Next-Gen Apple Compact Flagship",
+    "processor": "Apple A20 Pro Bionic",
+    "camera_spec": "48MP Triple Lens LiDAR",
+    "battery_spec": "3650 mAh Fast MagSafe Charging",
+    "display_spec": "6.3\" ProMotion OLED 120Hz",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy A Series",
+    "model": "Samsung Galaxy A7",
+    "storage_options": [
+      "64 GB",
+      "128 GB"
+    ],
+    "ram_options": [
+      "4 GB",
+      "6 GB"
+    ],
+    "default_storage": "64 GB",
+    "default_ram": "4 GB",
+    "storage": "64 GB",
+    "default_mrp": 23990,
+    "base_resale_value": 4200,
+    "price": 4200,
+    "release_year": 2018,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a7-2018.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a7-2018.jpg",
+    "popular_tag": "Triple Camera Pioneer",
+    "processor": "Exynos 7885 Octa-core",
+    "camera_spec": "24MP + 8MP Ultrawide + 5MP Depth",
+    "battery_spec": "3300 mAh",
+    "display_spec": "6.0\" Super AMOLED FHD+",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy J Series (Classic)",
+    "model": "Samsung Galaxy J2",
+    "storage_options": [
+      "16 GB"
+    ],
+    "ram_options": [
+      "2 GB"
+    ],
+    "default_storage": "16 GB",
+    "default_ram": "2 GB",
+    "storage": "16 GB",
+    "default_mrp": 8190,
+    "base_resale_value": 1800,
+    "price": 1800,
+    "release_year": 2018,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-j2-2018.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-j2-2018.jpg",
+    "popular_tag": "Compact Samsung Classic",
+    "processor": "Snapdragon 425",
+    "camera_spec": "8MP Rear + 5MP Selfie",
+    "battery_spec": "2600 mAh Removable",
+    "display_spec": "5.0\" Super AMOLED",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Vivo",
+    "series": "Vivo Y Series",
+    "model": "Vivo Y15",
+    "storage_options": [
+      "64 GB"
+    ],
+    "ram_options": [
+      "4 GB"
+    ],
+    "default_storage": "64 GB",
+    "default_ram": "4 GB",
+    "storage": "64 GB",
+    "default_mrp": 15990,
+    "base_resale_value": 3500,
+    "price": 3500,
+    "release_year": 2019,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y15-2019.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y15-2019.jpg",
+    "popular_tag": "5000mAh Battery King",
+    "processor": "MediaTek Helio P22",
+    "camera_spec": "13MP + 8MP + 2MP AI Triple Camera",
+    "battery_spec": "5000 mAh",
+    "display_spec": "6.35\" Halo FullView HD+",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Oppo",
+    "series": "Oppo Find Series",
+    "model": "Oppo Find N3",
+    "storage_options": [
+      "512 GB",
+      "1 TB"
+    ],
+    "ram_options": [
+      "16 GB"
+    ],
+    "default_storage": "512 GB",
+    "default_ram": "16 GB",
+    "storage": "512 GB",
+    "default_mrp": 149999,
+    "base_resale_value": 58000,
+    "price": 58000,
+    "release_year": 2023,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n3.jpg",
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n3.jpg",
+    "popular_tag": "Hasselblad Foldable Flagship",
+    "processor": "Snapdragon 8 Gen 2",
+    "camera_spec": "48MP + 64MP 3x Periscope + 48MP Hasselblad",
+    "battery_spec": "4805 mAh 67W SUPERVOOC",
+    "display_spec": "7.82\" Foldable LTPO3 OLED 120Hz",
+    "is_5g": true,
+    "is_active": true
   }
 ]
