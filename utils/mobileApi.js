@@ -61,6 +61,11 @@ export const normalizePhoneQuery = (rawName = '', rawBrand = '') => {
     }
   }
 
+  // 3. If name is identical to brand, treat as brand-wide search
+  if (name.toLowerCase() === brand.toLowerCase()) {
+    name = '';
+  }
+
   return { name, brand };
 };
 
