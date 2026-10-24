@@ -1,3 +1,6 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import {
   quotePhone,
   recalculateInspectedQuote,
@@ -10,6 +13,51 @@ import {
 } from '../../fundu_phone_quote.mjs';
 import { SellRequest } from '../models/SellRequest.js';
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const catalogPath = path.join(__dirname, '../config/phonesCatalog.json');
+
+function getCatalogPhone(brand, model) {
+  try {
+    const raw = fs.readFileSync(catalogPath, 'utf8');
+    const catalog = JSON.parse(raw);
+    const bNorm = (brand || '').toLowerCase().trim();
+    let mNorm = (model || '').toLowerCase().trim();
+    mNorm = mNorm
+      .replace(/^(sell-old-|old-sell-|sell-|old-|used-)+/g, '')
+      .replace(/^(sell\s+|old\s+|used\s+)+/g, '')
+      .trim();
+    if (bNorm && mNorm.startsWith(bNorm)) {
+      mNorm = mNorm.slice(bNorm.length).trim();
+    }
+    const stripped = mNorm.replace(/[\s-]+/g, '');
+
+    // 1. Exact match first
+    let match = catalog.find((p) => {
+      const pb = (p.brand || '').toLowerCase().trim();
+      if (pb !== bNorm && !bNorm.includes(pb)) return false;
+      let pm = (p.model || '').toLowerCase().trim();
+      if (pb && pm.startsWith(pb)) pm = pm.slice(pb.length).trim();
+      const pStripped = pm.replace(/[\s-]+/g, '');
+      return pStripped === stripped || pm === mNorm;
+    });
+
+    if (match) return match;
+
+    // 2. Fallback substring match
+    return catalog.find((p) => {
+      const pb = (p.brand || '').toLowerCase().trim();
+      if (pb !== bNorm && !bNorm.includes(pb)) return false;
+      let pm = (p.model || '').toLowerCase().trim();
+      if (pb && pm.startsWith(pb)) pm = pm.slice(pb.length).trim();
+      const pStripped = pm.replace(/[\s-]+/g, '');
+      return pStripped.includes(stripped) || stripped.includes(pStripped);
+    });
+  } catch {
+    return null;
+  }
+}
+
 // In-memory audit registry (and persistent fallback if DB disconnected)
 const quoteAuditRegistry = new Map();
 
@@ -17,7 +65,28 @@ const quoteAuditRegistry = new Map();
  * Service wrapper for creating a validated, audited Fundu phone buyback quote
  */
 export async function createPhoneQuote(input, options = {}) {
-  const result = quotePhone(input, options);
+  // Sanitize model name
+  let cleanModel = (input.model || '').trim();
+  cleanModel = cleanModel
+    .replace(/^(sell-old-|old-sell-|sell-|old-|used-)+/i, '')
+    .replace(/^(sell\s+|old\s+|used\s+)+/i, '')
+    .trim();
+  const bNorm = (input.brand || '').toLowerCase().trim();
+  if (bNorm && cleanModel.toLowerCase().startsWith(bNorm)) {
+    cleanModel = cleanModel.slice(bNorm.length).trim();
+  }
+
+  const catalogItem = getCatalogPhone(input.brand, cleanModel);
+  const enrichedOptions = { ...options };
+  const enrichedInput = { ...input, model: cleanModel };
+
+  if (catalogItem && (catalogItem.price || catalogItem.base_resale_value)) {
+    enrichedOptions.catalogPrice = catalogItem.price || catalogItem.base_resale_value;
+    enrichedOptions.isDirectBuybackPrice = true;
+    enrichedOptions.cleanedModel = catalogItem.model;
+  }
+
+  const result = quotePhone(enrichedInput, enrichedOptions);
 
   if (result.status === 'quoted' && result._internalAudit) {
     quoteAuditRegistry.set(result.quoteId, result._internalAudit);
