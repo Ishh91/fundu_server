@@ -6947,7 +6947,7 @@
       "256GB"
     ],
     "default_mrp": 6450,
-    "base_resale_value": 6380,
+    "base_resale_value": 6320,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a11k.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -6956,7 +6956,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 6380
+    "price": 6320
   },
   {
     "brand": "Oppo",
@@ -6972,7 +6972,7 @@
       "256GB"
     ],
     "default_mrp": 7515,
-    "base_resale_value": 6380,
+    "base_resale_value": 6340,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a12.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -6981,7 +6981,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 6380
+    "price": 6340
   },
   {
     "brand": "Oppo",
@@ -6997,7 +6997,7 @@
       "256GB"
     ],
     "default_mrp": 7305,
-    "base_resale_value": 6820,
+    "base_resale_value": 6800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a15.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7006,7 +7006,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 6820
+    "price": 6800
   },
   {
     "brand": "Oppo",
@@ -7022,7 +7022,7 @@
       "256GB"
     ],
     "default_mrp": 8280,
-    "base_resale_value": 6720,
+    "base_resale_value": 6880,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a15s.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7031,7 +7031,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 6720
+    "price": 6880
   },
   {
     "brand": "Oppo",
@@ -7047,7 +7047,7 @@
       "256GB"
     ],
     "default_mrp": 9825,
-    "base_resale_value": 7080,
+    "base_resale_value": 7190,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7056,7 +7056,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7080
+    "price": 7190
   },
   {
     "brand": "Oppo",
@@ -7072,7 +7072,7 @@
       "256GB"
     ],
     "default_mrp": 7410,
-    "base_resale_value": 7130,
+    "base_resale_value": 7060,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16e.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7081,7 +7081,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7130
+    "price": 7060
   },
   {
     "brand": "Oppo",
@@ -7097,7 +7097,7 @@
       "256GB"
     ],
     "default_mrp": 6900,
-    "base_resale_value": 7100,
+    "base_resale_value": 7060,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16k.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7106,7 +7106,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7100
+    "price": 7060
   },
   {
     "brand": "Oppo",
@@ -7122,7 +7122,7 @@
       "256GB"
     ],
     "default_mrp": 8595,
-    "base_resale_value": 7210,
+    "base_resale_value": 7130,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a17.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7131,7 +7131,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7210
+    "price": 7130
   },
   {
     "brand": "Oppo",
@@ -7147,7 +7147,7 @@
       "256GB"
     ],
     "default_mrp": 8250,
-    "base_resale_value": 7060,
+    "base_resale_value": 7100,
     "image_url": "https://api.mobileapi.dev/devices/1526/thumb.png",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7156,7 +7156,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7060
+    "price": 7100
   },
   {
     "brand": "Oppo",
@@ -7172,7 +7172,7 @@
       "256GB"
     ],
     "default_mrp": 9645,
-    "base_resale_value": 7500,
+    "base_resale_value": 7540,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a18.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7181,7 +7181,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7500
+    "price": 7540
   },
   {
     "brand": "Oppo",
@@ -7197,7 +7197,7 @@
       "256GB"
     ],
     "default_mrp": 6390,
-    "base_resale_value": 5300,
+    "base_resale_value": 5330,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a1k.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7206,7 +7206,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5300
+    "price": 5330
   },
   {
     "brand": "Oppo",
@@ -7246,7 +7246,7 @@
       "256GB"
     ],
     "default_mrp": 20520,
-    "base_resale_value": 11140,
+    "base_resale_value": 11020,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3-pro-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7255,7 +7255,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 11140
+    "price": 11020
   },
   {
     "brand": "Oppo",
@@ -7271,7 +7271,7 @@
       "256GB"
     ],
     "default_mrp": 8610,
-    "base_resale_value": 7290,
+    "base_resale_value": 7260,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a31.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7280,7 +7280,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7290
+    "price": 7260
   },
   {
     "brand": "Oppo",
@@ -7296,7 +7296,7 @@
       "256GB"
     ],
     "default_mrp": 7530,
-    "base_resale_value": 4690,
+    "base_resale_value": 4700,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a33-2020.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7305,7 +7305,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 4690
+    "price": 4700
   },
   {
     "brand": "Oppo",
@@ -7321,7 +7321,7 @@
       "256GB"
     ],
     "default_mrp": 12090,
-    "base_resale_value": 7850,
+    "base_resale_value": 7740,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a38.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7330,7 +7330,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7850
+    "price": 7740
   },
   {
     "brand": "Oppo",
@@ -7346,7 +7346,7 @@
       "256GB"
     ],
     "default_mrp": 5430,
-    "base_resale_value": 5750,
+    "base_resale_value": 5770,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3s.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7355,7 +7355,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5750
+    "price": 5770
   },
   {
     "brand": "Oppo",
@@ -7371,7 +7371,7 @@
       "256GB"
     ],
     "default_mrp": 10080,
-    "base_resale_value": 9730,
+    "base_resale_value": 9570,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3x.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7380,7 +7380,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 9730
+    "price": 9570
   },
   {
     "brand": "Oppo",
@@ -7396,7 +7396,7 @@
       "256GB"
     ],
     "default_mrp": 6690,
-    "base_resale_value": 6540,
+    "base_resale_value": 6510,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7405,7 +7405,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 6540
+    "price": 6510
   },
   {
     "brand": "Oppo",
@@ -7421,7 +7421,7 @@
       "256GB"
     ],
     "default_mrp": 7635,
-    "base_resale_value": 6540,
+    "base_resale_value": 6510,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5-2020.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7430,7 +7430,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 6540
+    "price": 6510
   },
   {
     "brand": "Oppo",
@@ -7470,7 +7470,7 @@
       "256GB"
     ],
     "default_mrp": 9390,
-    "base_resale_value": 7870,
+    "base_resale_value": 7910,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a52.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7479,7 +7479,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7870
+    "price": 7910
   },
   {
     "brand": "Oppo",
@@ -7495,7 +7495,7 @@
       "256GB"
     ],
     "default_mrp": 9465,
-    "base_resale_value": 7900,
+    "base_resale_value": 7940,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a53.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7504,7 +7504,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7900
+    "price": 7940
   },
   {
     "brand": "Oppo",
@@ -7520,7 +7520,7 @@
       "256GB"
     ],
     "default_mrp": 13860,
-    "base_resale_value": 10190,
+    "base_resale_value": 10210,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a53s-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7529,7 +7529,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10190
+    "price": 10210
   },
   {
     "brand": "Oppo",
@@ -7545,7 +7545,7 @@
       "256GB"
     ],
     "default_mrp": 9180,
-    "base_resale_value": 7670,
+    "base_resale_value": 7580,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a54.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7554,7 +7554,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7670
+    "price": 7580
   },
   {
     "brand": "Oppo",
@@ -7570,7 +7570,7 @@
       "256GB"
     ],
     "default_mrp": 9885,
-    "base_resale_value": 7990,
+    "base_resale_value": 8150,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a55.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7579,7 +7579,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7990
+    "price": 8150
   },
   {
     "brand": "Oppo",
@@ -7595,7 +7595,7 @@
       "256GB"
     ],
     "default_mrp": 5265,
-    "base_resale_value": 7480,
+    "base_resale_value": 7430,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a57.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7604,7 +7604,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7480
+    "price": 7430
   },
   {
     "brand": "Oppo",
@@ -7620,7 +7620,7 @@
       "256GB"
     ],
     "default_mrp": 9540,
-    "base_resale_value": 7480,
+    "base_resale_value": 7430,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a57-2022.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7629,7 +7629,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7480
+    "price": 7430
   },
   {
     "brand": "Oppo",
@@ -7645,7 +7645,7 @@
       "256GB"
     ],
     "default_mrp": 13080,
-    "base_resale_value": 8530,
+    "base_resale_value": 8710,
     "image_url": "https://api.mobileapi.dev/devices/428/thumb.png",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7654,7 +7654,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 8530
+    "price": 8710
   },
   {
     "brand": "Oppo",
@@ -7670,7 +7670,7 @@
       "256GB"
     ],
     "default_mrp": 17070,
-    "base_resale_value": 9980,
+    "base_resale_value": 9940,
     "image_url": "https://api.mobileapi.dev/devices/14324/thumb.png",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7679,7 +7679,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9980
+    "price": 9940
   },
   {
     "brand": "Oppo",
@@ -7695,7 +7695,7 @@
       "256GB"
     ],
     "default_mrp": 6180,
-    "base_resale_value": 6510,
+    "base_resale_value": 6390,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5s.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7704,7 +7704,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 6510
+    "price": 6390
   },
   {
     "brand": "Oppo",
@@ -7864,7 +7864,7 @@
       "256GB"
     ],
     "default_mrp": 5895,
-    "base_resale_value": 6090,
+    "base_resale_value": 6180,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a7.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7873,7 +7873,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 6090
+    "price": 6180
   },
   {
     "brand": "Oppo",
@@ -7889,7 +7889,7 @@
       "256GB"
     ],
     "default_mrp": 4500,
-    "base_resale_value": 4710,
+    "base_resale_value": 4830,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a71-2018.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7898,7 +7898,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 4710
+    "price": 4830
   },
   {
     "brand": "Oppo",
@@ -7914,7 +7914,7 @@
       "256GB"
     ],
     "default_mrp": 15135,
-    "base_resale_value": 9950,
+    "base_resale_value": 9810,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a74-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7923,7 +7923,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9950
+    "price": 9810
   },
   {
     "brand": "Oppo",
@@ -7939,7 +7939,7 @@
       "256GB"
     ],
     "default_mrp": 11235,
-    "base_resale_value": 7890,
+    "base_resale_value": 7870,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a76.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7948,7 +7948,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7890
+    "price": 7870
   },
   {
     "brand": "Oppo",
@@ -7964,7 +7964,7 @@
       "256GB"
     ],
     "default_mrp": 4995,
-    "base_resale_value": 7710,
+    "base_resale_value": 7740,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a77.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7973,7 +7973,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7710
+    "price": 7740
   },
   {
     "brand": "Oppo",
@@ -7989,7 +7989,7 @@
       "256GB"
     ],
     "default_mrp": 7605,
-    "base_resale_value": 7710,
+    "base_resale_value": 7740,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a77-2022.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7998,7 +7998,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7710
+    "price": 7740
   },
   {
     "brand": "Oppo",
@@ -8014,7 +8014,7 @@
       "256GB"
     ],
     "default_mrp": 10995,
-    "base_resale_value": 8810,
+    "base_resale_value": 8780,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a77s.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8023,7 +8023,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 8810
+    "price": 8780
   },
   {
     "brand": "Oppo",
@@ -8039,7 +8039,7 @@
       "256GB"
     ],
     "default_mrp": 15165,
-    "base_resale_value": 10550,
+    "base_resale_value": 10570,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a78-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8048,7 +8048,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10550
+    "price": 10570
   },
   {
     "brand": "Oppo",
@@ -8064,7 +8064,7 @@
       "256GB"
     ],
     "default_mrp": 19125,
-    "base_resale_value": 10490,
+    "base_resale_value": 10670,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a79.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8073,7 +8073,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10490
+    "price": 10670
   },
   {
     "brand": "Oppo",
@@ -8089,7 +8089,7 @@
       "256GB"
     ],
     "default_mrp": 4710,
-    "base_resale_value": 5230,
+    "base_resale_value": 5280,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a83.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8098,7 +8098,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5230
+    "price": 5280
   },
   {
     "brand": "Oppo",
@@ -8114,7 +8114,7 @@
       "256GB"
     ],
     "default_mrp": 8955,
-    "base_resale_value": 6790,
+    "base_resale_value": 6730,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a9.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8123,7 +8123,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 6790
+    "price": 6730
   },
   {
     "brand": "Oppo",
@@ -8139,7 +8139,7 @@
       "256GB"
     ],
     "default_mrp": 8895,
-    "base_resale_value": 6790,
+    "base_resale_value": 6730,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a9-2020.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8148,7 +8148,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 6790
+    "price": 6730
   },
   {
     "brand": "Oppo",
@@ -8164,7 +8164,7 @@
       "256GB"
     ],
     "default_mrp": 11250,
-    "base_resale_value": 8630,
+    "base_resale_value": 8690,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a96.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8173,7 +8173,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 8630
+    "price": 8690
   },
   {
     "brand": "Oppo",
@@ -8189,7 +8189,7 @@
       "256GB"
     ],
     "default_mrp": 4815,
-    "base_resale_value": 5070,
+    "base_resale_value": 5080,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f1-plus.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8198,7 +8198,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 5070
+    "price": 5080
   },
   {
     "brand": "Oppo",
@@ -8214,7 +8214,7 @@
       "256GB"
     ],
     "default_mrp": 7620,
-    "base_resale_value": 7360,
+    "base_resale_value": 7400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f11.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8223,7 +8223,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7360
+    "price": 7400
   },
   {
     "brand": "Oppo",
@@ -8239,7 +8239,7 @@
       "256GB"
     ],
     "default_mrp": 9150,
-    "base_resale_value": 7760,
+    "base_resale_value": 7710,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f11-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8248,7 +8248,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7760
+    "price": 7710
   },
   {
     "brand": "Oppo",
@@ -8288,7 +8288,7 @@
       "256GB"
     ],
     "default_mrp": 9765,
-    "base_resale_value": 8200,
+    "base_resale_value": 8150,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f15.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8297,7 +8297,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 8200
+    "price": 8150
   },
   {
     "brand": "Oppo",
@@ -8313,7 +8313,7 @@
       "256GB"
     ],
     "default_mrp": 10395,
-    "base_resale_value": 8280,
+    "base_resale_value": 8430,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f17.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8322,7 +8322,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 8280
+    "price": 8430
   },
   {
     "brand": "Oppo",
@@ -8338,7 +8338,7 @@
       "256GB"
     ],
     "default_mrp": 11340,
-    "base_resale_value": 7970,
+    "base_resale_value": 8070,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f17-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8347,7 +8347,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7970
+    "price": 8070
   },
   {
     "brand": "Oppo",
@@ -8363,7 +8363,7 @@
       "256GB"
     ],
     "default_mrp": 11595,
-    "base_resale_value": 8550,
+    "base_resale_value": 8590,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f19.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8372,7 +8372,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 8550
+    "price": 8590
   },
   {
     "brand": "Oppo",
@@ -8388,7 +8388,7 @@
       "256GB"
     ],
     "default_mrp": 11535,
-    "base_resale_value": 9170,
+    "base_resale_value": 9200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f19-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8397,7 +8397,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9170
+    "price": 9200
   },
   {
     "brand": "Oppo",
@@ -8413,7 +8413,7 @@
       "256GB"
     ],
     "default_mrp": 14025,
-    "base_resale_value": 9530,
+    "base_resale_value": 9560,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f19-pro-plus-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8422,7 +8422,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9530
+    "price": 9560
   },
   {
     "brand": "Oppo",
@@ -8438,7 +8438,7 @@
       "256GB"
     ],
     "default_mrp": 10635,
-    "base_resale_value": 8280,
+    "base_resale_value": 8210,
     "image_url": "https://api.mobileapi.dev/devices/1593/thumb.png",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8447,7 +8447,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 8280
+    "price": 8210
   },
   {
     "brand": "Oppo",
@@ -8463,7 +8463,7 @@
       "256GB"
     ],
     "default_mrp": 4545,
-    "base_resale_value": 5050,
+    "base_resale_value": 5100,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f1s.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8472,7 +8472,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5050
+    "price": 5100
   },
   {
     "brand": "Oppo",
@@ -8488,7 +8488,7 @@
       "256GB"
     ],
     "default_mrp": 13260,
-    "base_resale_value": 9980,
+    "base_resale_value": 9890,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f21-pro-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8497,7 +8497,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9980
+    "price": 9890
   },
   {
     "brand": "Oppo",
@@ -8513,7 +8513,7 @@
       "256GB"
     ],
     "default_mrp": 12645,
-    "base_resale_value": 10670,
+    "base_resale_value": 10560,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f21s-pro-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8522,7 +8522,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10670
+    "price": 10560
   },
   {
     "brand": "Oppo",
@@ -8538,7 +8538,7 @@
       "256GB"
     ],
     "default_mrp": 21525,
-    "base_resale_value": 11600,
+    "base_resale_value": 11680,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f23.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8547,7 +8547,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 11600
+    "price": 11680
   },
   {
     "brand": "Oppo",
@@ -8563,7 +8563,7 @@
       "256GB"
     ],
     "default_mrp": 23025,
-    "base_resale_value": 13050,
+    "base_resale_value": 13030,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f25-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8572,7 +8572,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 13050
+    "price": 13030
   },
   {
     "brand": "Oppo",
@@ -8588,7 +8588,7 @@
       "256GB"
     ],
     "default_mrp": 23130,
-    "base_resale_value": 12820,
+    "base_resale_value": 12930,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f27-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8597,7 +8597,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 12820
+    "price": 12930
   },
   {
     "brand": "Oppo",
@@ -8613,7 +8613,7 @@
       "256GB"
     ],
     "default_mrp": 27999,
-    "base_resale_value": 13700,
+    "base_resale_value": 13630,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f27-pro-plus.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8622,7 +8622,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 13700
+    "price": 13630
   },
   {
     "brand": "Oppo",
@@ -8686,7 +8686,7 @@
       "256GB"
     ],
     "default_mrp": 5145,
-    "base_resale_value": 5110,
+    "base_resale_value": 5020,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f3.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8695,7 +8695,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5110
+    "price": 5020
   },
   {
     "brand": "Oppo",
@@ -8711,7 +8711,7 @@
       "256GB"
     ],
     "default_mrp": 5700,
-    "base_resale_value": 5930,
+    "base_resale_value": 5960,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f3-plus.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8720,7 +8720,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 5930
+    "price": 5960
   },
   {
     "brand": "Oppo",
@@ -8856,7 +8856,7 @@
       "256GB"
     ],
     "default_mrp": 5250,
-    "base_resale_value": 5520,
+    "base_resale_value": 5450,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f5.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8865,7 +8865,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5520
+    "price": 5450
   },
   {
     "brand": "Oppo",
@@ -8881,7 +8881,7 @@
       "256GB"
     ],
     "default_mrp": 5130,
-    "base_resale_value": 5040,
+    "base_resale_value": 5070,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f5-youth.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8890,7 +8890,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5040
+    "price": 5070
   },
   {
     "brand": "Oppo",
@@ -8906,7 +8906,7 @@
       "256GB"
     ],
     "default_mrp": 6435,
-    "base_resale_value": 6260,
+    "base_resale_value": 6340,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f7.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8915,7 +8915,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 6260
+    "price": 6340
   },
   {
     "brand": "Oppo",
@@ -8931,7 +8931,7 @@
       "256GB"
     ],
     "default_mrp": 6630,
-    "base_resale_value": 6300,
+    "base_resale_value": 6280,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f9.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8940,7 +8940,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 6300
+    "price": 6280
   },
   {
     "brand": "Oppo",
@@ -8956,7 +8956,7 @@
       "256GB"
     ],
     "default_mrp": 6750,
-    "base_resale_value": 6700,
+    "base_resale_value": 6760,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f9-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8965,7 +8965,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 6700
+    "price": 6760
   },
   {
     "brand": "Oppo",
@@ -8981,7 +8981,7 @@
       "256GB"
     ],
     "default_mrp": 29790,
-    "base_resale_value": 18870,
+    "base_resale_value": 18880,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n2-flip.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8990,7 +8990,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 18870
+    "price": 18880
   },
   {
     "brand": "Oppo",
@@ -9006,7 +9006,7 @@
       "256GB"
     ],
     "default_mrp": 38430,
-    "base_resale_value": 22390,
+    "base_resale_value": 22250,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n3-flip.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9015,7 +9015,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 22390
+    "price": 22250
   },
   {
     "brand": "Oppo",
@@ -9031,7 +9031,7 @@
       "256GB"
     ],
     "default_mrp": 13215,
-    "base_resale_value": 15650,
+    "base_resale_value": 15780,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -9040,7 +9040,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 15650
+    "price": 15780
   },
   {
     "brand": "Oppo",
@@ -9056,7 +9056,7 @@
       "256GB"
     ],
     "default_mrp": 19065,
-    "base_resale_value": 12970,
+    "base_resale_value": 13000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x2.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -9065,7 +9065,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 12970
+    "price": 13000
   },
   {
     "brand": "Oppo",
@@ -9225,7 +9225,7 @@
       "256GB"
     ],
     "default_mrp": 7365,
-    "base_resale_value": 7040,
+    "base_resale_value": 7030,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k1.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -9234,7 +9234,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7040
+    "price": 7030
   },
   {
     "brand": "Oppo",
@@ -9275,7 +9275,7 @@
       "256GB"
     ],
     "default_mrp": 16065,
-    "base_resale_value": 10030,
+    "base_resale_value": 10090,
     "image_url": "https://api.mobileapi.dev/devices/1497/thumb.png",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9284,7 +9284,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10030
+    "price": 10090
   },
   {
     "brand": "Oppo",
@@ -9444,7 +9444,7 @@
       "256GB"
     ],
     "default_mrp": 8670,
-    "base_resale_value": 8140,
+    "base_resale_value": 8000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k3.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -9453,7 +9453,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 8140
+    "price": 8000
   },
   {
     "brand": "Oppo",
@@ -9469,7 +9469,7 @@
       "256GB"
     ],
     "default_mrp": 6120,
-    "base_resale_value": 6130,
+    "base_resale_value": 5980,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r11.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -9478,7 +9478,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 6130
+    "price": 5980
   },
   {
     "brand": "Oppo",
@@ -9494,7 +9494,7 @@
       "256GB"
     ],
     "default_mrp": 9045,
-    "base_resale_value": 7020,
+    "base_resale_value": 6940,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r17.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -9503,7 +9503,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7020
+    "price": 6940
   },
   {
     "brand": "Oppo",
@@ -9519,7 +9519,7 @@
       "256GB"
     ],
     "default_mrp": 10185,
-    "base_resale_value": 8630,
+    "base_resale_value": 8600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -9528,7 +9528,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 8630
+    "price": 8600
   },
   {
     "brand": "Oppo",
@@ -9544,7 +9544,7 @@
       "256GB"
     ],
     "default_mrp": 23175,
-    "base_resale_value": 16380,
+    "base_resale_value": 16390,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno10.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9553,7 +9553,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 16380
+    "price": 16390
   },
   {
     "brand": "Oppo",
@@ -9569,7 +9569,7 @@
       "256GB"
     ],
     "default_mrp": 28200,
-    "base_resale_value": 15380,
+    "base_resale_value": 15420,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno10-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9578,7 +9578,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 15380
+    "price": 15420
   },
   {
     "brand": "Oppo",
@@ -9594,7 +9594,7 @@
       "256GB"
     ],
     "default_mrp": 35775,
-    "base_resale_value": 19230,
+    "base_resale_value": 19210,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno10-pro-plus.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9603,7 +9603,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 19230
+    "price": 19210
   },
   {
     "brand": "Oppo",
@@ -9619,7 +9619,7 @@
       "256GB"
     ],
     "default_mrp": 10845,
-    "base_resale_value": 9590,
+    "base_resale_value": 9600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-10x-zoom.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -9628,7 +9628,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 9590
+    "price": 9600
   },
   {
     "brand": "Oppo",
@@ -9644,7 +9644,7 @@
       "256GB"
     ],
     "default_mrp": 27525,
-    "base_resale_value": 15880,
+    "base_resale_value": 15770,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno11.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9653,7 +9653,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 15880
+    "price": 15770
   },
   {
     "brand": "Oppo",
@@ -9669,7 +9669,7 @@
       "256GB"
     ],
     "default_mrp": 33600,
-    "base_resale_value": 16920,
+    "base_resale_value": 16930,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno11-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9678,7 +9678,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 16920
+    "price": 16930
   },
   {
     "brand": "Oppo",
@@ -9694,7 +9694,7 @@
       "256GB"
     ],
     "default_mrp": 34275,
-    "base_resale_value": 14320,
+    "base_resale_value": 14340,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9703,7 +9703,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 14320
+    "price": 14340
   },
   {
     "brand": "Oppo",
@@ -9719,7 +9719,7 @@
       "256GB"
     ],
     "default_mrp": 36999,
-    "base_resale_value": 18750,
+    "base_resale_value": 18800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9728,7 +9728,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 18750
+    "price": 18800
   },
   {
     "brand": "Oppo",
@@ -9768,7 +9768,7 @@
       "256GB"
     ],
     "default_mrp": 11655,
-    "base_resale_value": 9320,
+    "base_resale_value": 9260,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-2.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -9777,7 +9777,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 9320
+    "price": 9260
   },
   {
     "brand": "Oppo",
@@ -9793,7 +9793,7 @@
       "256GB"
     ],
     "default_mrp": 12195,
-    "base_resale_value": 9250,
+    "base_resale_value": 9240,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-2z.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -9802,7 +9802,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 9250
+    "price": 9240
   },
   {
     "brand": "Oppo",
@@ -9818,7 +9818,7 @@
       "256GB"
     ],
     "default_mrp": 15750,
-    "base_resale_value": 11920,
+    "base_resale_value": 11880,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-pro-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9827,7 +9827,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 11920
+    "price": 11880
   },
   {
     "brand": "Oppo",
@@ -9843,7 +9843,7 @@
       "256GB"
     ],
     "default_mrp": 18675,
-    "base_resale_value": 13330,
+    "base_resale_value": 13230,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-pro-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9852,7 +9852,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 13330
+    "price": 13230
   },
   {
     "brand": "Oppo",
@@ -9868,7 +9868,7 @@
       "256GB"
     ],
     "default_mrp": 20175,
-    "base_resale_value": 11560,
+    "base_resale_value": 11500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9877,7 +9877,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 11560
+    "price": 11500
   },
   {
     "brand": "Oppo",
@@ -9893,7 +9893,7 @@
       "256GB"
     ],
     "default_mrp": 25275,
-    "base_resale_value": 13860,
+    "base_resale_value": 13740,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9902,7 +9902,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 13860
+    "price": 13740
   },
   {
     "brand": "Oppo",
@@ -10134,7 +10134,7 @@
       "256GB"
     ],
     "default_mrp": 10260,
-    "base_resale_value": 9050,
+    "base_resale_value": 9210,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno2-f.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -10143,7 +10143,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 9050
+    "price": 9210
   },
   {
     "brand": "Oppo",
@@ -10159,7 +10159,7 @@
       "256GB"
     ],
     "default_mrp": 11535,
-    "base_resale_value": 9290,
+    "base_resale_value": 9310,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno3-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -10168,7 +10168,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9290
+    "price": 9310
   },
   {
     "brand": "Oppo",
@@ -10184,7 +10184,7 @@
       "256GB"
     ],
     "default_mrp": 13110,
-    "base_resale_value": 10120,
+    "base_resale_value": 10110,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno4-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -10193,7 +10193,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10120
+    "price": 10110
   },
   {
     "brand": "Oppo",
@@ -10209,7 +10209,7 @@
       "256GB"
     ],
     "default_mrp": 16095,
-    "base_resale_value": 10790,
+    "base_resale_value": 10850,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno5-pro-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -10218,7 +10218,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10790
+    "price": 10850
   },
   {
     "brand": "Oppo",
@@ -10234,7 +10234,7 @@
       "256GB"
     ],
     "default_mrp": 15300,
-    "base_resale_value": 10640,
+    "base_resale_value": 10630,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -10243,7 +10243,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10640
+    "price": 10630
   },
   {
     "brand": "Oppo",
@@ -10259,7 +10259,7 @@
       "256GB"
     ],
     "default_mrp": 16065,
-    "base_resale_value": 10410,
+    "base_resale_value": 10440,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -10268,7 +10268,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10410
+    "price": 10440
   },
   {
     "brand": "Oppo",
@@ -10284,7 +10284,7 @@
       "256GB"
     ],
     "default_mrp": 20265,
-    "base_resale_value": 13310,
+    "base_resale_value": 13210,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8t-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -10293,7 +10293,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 13310
+    "price": 13210
   },
   {
     "brand": "Poco",
@@ -35526,7 +35526,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 39420,
+    "price": 39420
   },
   {
     "brand": "Oppo",
@@ -35549,7 +35551,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 31800,
+    "price": 31800
   },
   {
     "brand": "Oppo",
@@ -35572,7 +35576,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 22250,
+    "price": 22250
   },
   {
     "brand": "Oppo",
@@ -35595,7 +35601,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 18880,
+    "price": 18880
   },
   {
     "brand": "Oppo",
@@ -35618,7 +35626,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 15350,
+    "price": 15350
   },
   {
     "brand": "Oppo",
@@ -35641,7 +35651,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 17790,
+    "price": 17790
   },
   {
     "brand": "Oppo",
@@ -35664,7 +35676,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 14170,
+    "price": 14170
   },
   {
     "brand": "Oppo",
@@ -35687,7 +35701,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 16800,
+    "price": 16800
   },
   {
     "brand": "Oppo",
@@ -35710,7 +35726,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 16610,
+    "price": 16610
   },
   {
     "brand": "Oppo",
@@ -35733,7 +35751,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 15450,
+    "price": 15450
   },
   {
     "brand": "Oppo",
@@ -35756,7 +35776,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 16370,
+    "price": 16370
   },
   {
     "brand": "Oppo",
@@ -35779,7 +35801,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 13700,
+    "price": 13700
   },
   {
     "brand": "Oppo",
@@ -35802,7 +35826,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 11430,
+    "price": 11430
   },
   {
     "brand": "Oppo",
@@ -35825,7 +35851,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 13170,
+    "price": 13170
   },
   {
     "brand": "Oppo",
@@ -35848,7 +35876,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 10430,
+    "price": 10430
   },
   {
     "brand": "Oppo",
@@ -35871,7 +35901,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 11910,
+    "price": 11910
   },
   {
     "brand": "Oppo",
@@ -35894,7 +35926,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 10630,
+    "price": 10630
   },
   {
     "brand": "Oppo",
@@ -35917,7 +35951,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 10740,
+    "price": 10740
   },
   {
     "brand": "Oppo",
@@ -35940,7 +35976,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 9730,
+    "price": 9730
   },
   {
     "brand": "Oppo",
@@ -35963,7 +36001,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 9040,
+    "price": 9040
   },
   {
     "brand": "Oppo",
@@ -35986,7 +36026,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 14690,
+    "price": 14690
   },
   {
     "brand": "Oppo",
@@ -36009,7 +36051,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 12870,
+    "price": 12870
   },
   {
     "brand": "Oppo",
@@ -36032,7 +36076,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 13920,
+    "price": 13920
   },
   {
     "brand": "Oppo",
@@ -36055,7 +36101,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 12920,
+    "price": 12920
   },
   {
     "brand": "Oppo",
@@ -36078,7 +36126,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 11640,
+    "price": 11640
   },
   {
     "brand": "Oppo",
@@ -36101,7 +36151,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 9530,
+    "price": 9530
   },
   {
     "brand": "Oppo",
@@ -36124,7 +36176,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 9340,
+    "price": 9340
   },
   {
     "brand": "Oppo",
@@ -36147,7 +36201,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 7470,
+    "price": 7470
   },
   {
     "brand": "Oppo",
@@ -36170,7 +36226,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 10090,
+    "price": 10090
   },
   {
     "brand": "Oppo",
@@ -36193,7 +36251,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 8320,
+    "price": 8320
   },
   {
     "brand": "Oppo",
@@ -36216,7 +36276,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 7700,
+    "price": 7700
   },
   {
     "brand": "Oppo",
@@ -36239,7 +36301,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 7560,
+    "price": 7560
   },
   {
     "brand": "Oppo",
@@ -36262,7 +36326,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 6000,
+    "price": 6000
   },
   {
     "brand": "Oppo",
@@ -36285,7 +36351,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 11190,
+    "price": 11190
   },
   {
     "brand": "Oppo",
@@ -36308,7 +36376,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 9550,
+    "price": 9550
   },
   {
     "brand": "Oppo",
@@ -36331,7 +36401,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 10580,
+    "price": 10580
   },
   {
     "brand": "Oppo",
@@ -36354,7 +36426,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 9760,
+    "price": 9760
   },
   {
     "brand": "Oppo",
@@ -36377,7 +36451,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 9780,
+    "price": 9780
   },
   {
     "brand": "Oppo",
@@ -36400,7 +36476,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 9480,
+    "price": 9480
   },
   {
     "brand": "Oppo",
@@ -36423,7 +36501,9 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 8710,
+    "price": 8710
   },
   {
     "brand": "Oppo",
@@ -36446,6 +36526,8 @@
     "battery_spec": "5000 mAh SUPERVOOC",
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 4780,
+    "price": 4780
   }
 ]
