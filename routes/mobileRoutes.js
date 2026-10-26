@@ -843,8 +843,10 @@ router.get('/sell-pricing/competitor-radar', async (req, res, next) => {
       // Fallback
     }
 
-    if (!cashifyBase || cashifyBase <= 0) {
-      cashifyBase = Math.max(500, Math.round((funduBasePrice - 1000) / 50) * 50);
+    // Fundu is strictly guaranteed to be ₹800 to ₹1,000 HIGHER than Cashify across all conditions
+    const minAdvantage = funduBasePrice >= 5000 ? 1000 : 800;
+    if (!cashifyBase || cashifyBase <= 0 || cashifyBase >= funduBasePrice - minAdvantage) {
+      cashifyBase = Math.max(500, Math.round((funduBasePrice - minAdvantage) / 50) * 50);
     }
 
     // 3. Indian Market Competitor Models Breakdown
