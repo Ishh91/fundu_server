@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { SellPriceConfig } from '../models/index.js';
+import { SellPriceConfig, MasterPhone } from '../models/index.js';
 import { createHttpError } from '../utils/error.js';
 import { normalizeDoc } from '../utils/dbHelpers.js';
 import {
@@ -601,7 +601,7 @@ router.get('/sell-pricing/config', async (req, res, next) => {
       }).lean();
     }
 
-    // 2. Try any active config for this model
+    // 2. Try any active config for this model in SellPriceConfig
     if (!config) {
       config = await SellPriceConfig.findOne({
         brand: brandRegex,
@@ -625,14 +625,47 @@ router.get('/sell-pricing/config', async (req, res, next) => {
       return;
     }
 
-    // Try Cashify Valuation API if no admin config exists in database
-    const cashifyValuation = await fetchCashifyValuation(brand, model, storage);
+    // 3. Check MasterPhone in MongoDB if no SellPriceConfig
+    const mp = await MasterPhone.findOne({
+      brand: brandRegex,
+      model: modelRegex,
+    }).lean();
+
+    if (mp && (mp.base_resale_value > 0 || mp.price > 0)) {
+      const baseVal = mp.base_resale_value || Math.round(mp.price * 0.55);
+      const catalogStorage = mp.storage_options?.[0] || '128 GB';
+      const baseMult = calculateHardwareVariantMultiplier(catalogStorage, '', rawBrand);
+      const targetMult = calculateHardwareVariantMultiplier(storage || catalogStorage, '', rawBrand);
+      const ratio = baseMult > 0 ? targetMult / baseMult : 1.0;
+      const finalPrice = Math.max(500, Math.round((baseVal * ratio) / 50) * 50);
+
+      res.json({
+        data: {
+          id: `masterphone-${mp._id}`,
+          brand: mp.brand,
+          model: mp.model,
+          storage: storage || catalogStorage,
+          base_price: finalPrice,
+          excellent_multiplier: 0.85,
+          good_multiplier: 0.70,
+          fair_multiplier: 0.55,
+          box_bonus: 300,
+          charger_bonus: 300,
+          is_active: true,
+        },
+        source: 'masterphone_database',
+      });
+      return;
+    }
+
+    // 4. Try Cashify Valuation API if no admin config exists in database
+    const cashifyValuation = await fetchCashifyValuation(rawBrand, rawModel, storage);
     if (cashifyValuation && typeof cashifyValuation.base_price === 'number') {
       res.json({
         data: {
-          id: `cashify-${brand}-${model}`,
-          brand,
-          model,
+          id: `cashify-${rawBrand}-${rawModel}`,
+          brand: rawBrand,
+          model: rawModel,
           storage: storage || null,
           base_price: cashifyValuation.base_price,
           excellent_multiplier: cashifyValuation.excellent_multiplier || 0.75,
