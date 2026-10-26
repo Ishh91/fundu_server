@@ -22,6 +22,7 @@ import {
 import { seedDatabase } from '../config/db.js';
 import { resolveDeviceImage } from '../services/deviceImageService.js';
 import { INDIAN_MARKET_PHONES_LAST_10_YEARS } from '../config/seedPhones.js';
+import { calculateHardwareVariantMultiplier } from '../../fundu_phone_quote.mjs';
 
 const router = Router();
 
@@ -566,36 +567,61 @@ router.get('/mobile/cashify/estimate', async (req, res, next) => {
 
 router.get('/sell-pricing/config', async (req, res, next) => {
   try {
-    const brand = typeof req.query.brand === 'string' ? req.query.brand.trim() : '';
-    const model = typeof req.query.model === 'string' ? req.query.model.trim() : '';
+    const rawBrand = typeof req.query.brand === 'string' ? req.query.brand.trim() : '';
+    let rawModel = typeof req.query.model === 'string' ? req.query.model.trim() : '';
     const storage = typeof req.query.storage === 'string' ? req.query.storage.trim() : '';
 
-    if (!brand || !model) {
+    if (!rawBrand || !rawModel) {
       throw createHttpError(400, 'brand and model are required.');
     }
 
-    let config = null;
-
-    if (storage) {
-      config = await SellPriceConfig.findOne({
-        brand,
-        model,
-        storage,
-        is_active: true,
-      });
+    // Sanitize model
+    rawModel = rawModel
+      .replace(/^(sell-old-|old-sell-|sell-|old-|used-)+/i, '')
+      .replace(/^(sell\s+|old\s+|used\s+)+/i, '')
+      .trim();
+    if (rawBrand && rawModel.toLowerCase().startsWith(rawBrand.toLowerCase())) {
+      rawModel = rawModel.slice(rawBrand.length).trim();
     }
 
+    const brandRegex = new RegExp(`^${rawBrand}$`, 'i');
+    const modelEscaped = rawModel.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const modelRegex = new RegExp(`^(${modelEscaped}|${rawBrand}\\s+${modelEscaped})$`, 'i');
+
+    let config = null;
+
+    // 1. Try exact storage match first
+    if (storage) {
+      const storageClean = storage.replace(/\s+/g, '\\s*');
+      config = await SellPriceConfig.findOne({
+        brand: brandRegex,
+        model: modelRegex,
+        storage: new RegExp(`^${storageClean}$`, 'i'),
+        is_active: { $ne: false },
+      }).lean();
+    }
+
+    // 2. Try any active config for this model
     if (!config) {
       config = await SellPriceConfig.findOne({
-        brand,
-        model,
-        storage: null,
-        is_active: true,
-      });
+        brand: brandRegex,
+        model: modelRegex,
+        is_active: { $ne: false },
+      }).sort({ updated_at: -1, _id: -1 }).lean();
     }
 
     if (config) {
-      res.json({ data: normalizeDoc(config), source: 'admin_database' });
+      const normDoc = normalizeDoc(config);
+      // If requested storage differs from configured storage, scale dynamically
+      if (storage && normDoc.base_price > 0) {
+        const baseStorage = normDoc.storage || '128 GB';
+        const baseMult = calculateHardwareVariantMultiplier(baseStorage, '', rawBrand);
+        const targetMult = calculateHardwareVariantMultiplier(storage, '', rawBrand);
+        const ratio = baseMult > 0 ? targetMult / baseMult : 1.0;
+        normDoc.base_price = Math.max(500, Math.round((normDoc.base_price * ratio) / 50) * 50);
+        normDoc.storage = storage;
+      }
+      res.json({ data: normDoc, source: 'admin_database' });
       return;
     }
 

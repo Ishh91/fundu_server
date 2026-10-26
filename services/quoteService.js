@@ -12,6 +12,8 @@ import {
   CONFIGURED_REPAIRS,
 } from '../../fundu_phone_quote.mjs';
 import { SellRequest } from '../models/SellRequest.js';
+import { SellPriceConfig } from '../models/SellPriceConfig.js';
+import { MasterPhone } from '../models/MasterPhone.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -97,14 +99,79 @@ export async function createPhoneQuote(input, options = {}) {
     cleanModel = cleanModel.slice(bNorm.length).trim();
   }
 
-  const catalogItem = getCatalogPhone(input.brand, cleanModel);
   const enrichedOptions = { ...options };
   const enrichedInput = { ...input, model: cleanModel };
 
-  if (catalogItem && (catalogItem.price || catalogItem.base_resale_value)) {
-    enrichedOptions.catalogPrice = catalogItem.price || catalogItem.base_resale_value;
-    enrichedOptions.isDirectBuybackPrice = true;
-    enrichedOptions.cleanedModel = catalogItem.model;
+  // 1. Authoritative Admin Pricing: Check MongoDB SellPriceConfig first
+  try {
+    const brandRegex = new RegExp(`^${(input.brand || '').trim()}$`, 'i');
+    const modelEscaped = cleanModel.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const modelRegex = new RegExp(`^(${modelEscaped}|${(input.brand || '').trim()}\\s+${modelEscaped})$`, 'i');
+
+    let dbConfig = null;
+    if (input.storage) {
+      const storageClean = input.storage.replace(/\s+/g, '\\s*');
+      dbConfig = await SellPriceConfig.findOne({
+        brand: brandRegex,
+        model: modelRegex,
+        storage: new RegExp(`^${storageClean}$`, 'i'),
+        is_active: { $ne: false },
+      }).lean();
+    }
+
+    if (!dbConfig) {
+      dbConfig = await SellPriceConfig.findOne({
+        brand: brandRegex,
+        model: modelRegex,
+        is_active: { $ne: false },
+      }).sort({ updated_at: -1, _id: -1 }).lean();
+    }
+
+    if (dbConfig && dbConfig.base_price > 0) {
+      enrichedOptions.catalogPrice = dbConfig.base_price;
+      enrichedOptions.catalogStorage = dbConfig.storage || '128 GB';
+      enrichedOptions.isDirectBuybackPrice = true;
+      enrichedOptions.cleanedModel = dbConfig.model;
+      enrichedOptions.cosmeticMultipliers = {
+        flawless: dbConfig.excellent_multiplier ?? 0.85,
+        good: dbConfig.good_multiplier ?? 0.70,
+        fair: dbConfig.fair_multiplier ?? 0.55,
+      };
+    }
+  } catch (_dbErr) {
+    // Graceful fallback if database is offline or model unconfigured
+  }
+
+  // 2. Check MasterPhone in MongoDB if no SellPriceConfig
+  if (!enrichedOptions.catalogPrice) {
+    try {
+      const brandRegex = new RegExp(`^${(input.brand || '').trim()}$`, 'i');
+      const modelEscaped = cleanModel.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const modelRegex = new RegExp(`^(${modelEscaped}|${(input.brand || '').trim()}\\s+${modelEscaped})$`, 'i');
+      const mp = await MasterPhone.findOne({
+        brand: brandRegex,
+        model: modelRegex,
+      }).lean();
+      if (mp && mp.base_resale_value > 0) {
+        enrichedOptions.catalogPrice = mp.base_resale_value;
+        enrichedOptions.catalogStorage = mp.storage_options?.[0] || '128 GB';
+        enrichedOptions.isDirectBuybackPrice = true;
+        enrichedOptions.cleanedModel = mp.model;
+      }
+    } catch (_mpErr) {
+      // Continue to static catalog
+    }
+  }
+
+  // 3. Fallback to cached catalog JSON
+  if (!enrichedOptions.catalogPrice) {
+    const catalogItem = getCatalogPhone(input.brand, cleanModel);
+    if (catalogItem && (catalogItem.price || catalogItem.base_resale_value)) {
+      enrichedOptions.catalogPrice = catalogItem.price || catalogItem.base_resale_value;
+      enrichedOptions.catalogStorage = catalogItem.storage_options?.[0] || '128 GB';
+      enrichedOptions.isDirectBuybackPrice = true;
+      enrichedOptions.cleanedModel = catalogItem.model;
+    }
   }
 
   const result = quotePhone(enrichedInput, enrichedOptions);

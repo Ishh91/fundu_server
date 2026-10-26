@@ -10445,7 +10445,7 @@
       "256GB"
     ],
     "default_mrp": 27675,
-    "base_resale_value": 7400,
+    "base_resale_value": 6000,
     "image_url": "https://api.mobileapi.dev/devices/13759/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10454,7 +10454,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7400
+    "price": 6000
   },
   {
     "brand": "Realme",
