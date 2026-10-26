@@ -10445,7 +10445,7 @@
       "256GB"
     ],
     "default_mrp": 27675,
-    "base_resale_value": 18450,
+    "base_resale_value": 7400,
     "image_url": "https://api.mobileapi.dev/devices/13759/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10453,7 +10453,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 7400
   },
   {
     "brand": "Realme",
@@ -10469,7 +10470,7 @@
       "256GB"
     ],
     "default_mrp": 27600,
-    "base_resale_value": 18400,
+    "base_resale_value": 9200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-10-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10477,7 +10478,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9200
   },
   {
     "brand": "Realme",
@@ -10493,7 +10495,7 @@
       "256GB"
     ],
     "default_mrp": 19425,
-    "base_resale_value": 12950,
+    "base_resale_value": 10500,
     "image_url": "https://api.mobileapi.dev/devices/13760/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10501,7 +10503,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 10500
   },
   {
     "brand": "Realme",
@@ -10517,7 +10520,7 @@
       "256GB"
     ],
     "default_mrp": 28275,
-    "base_resale_value": 18850,
+    "base_resale_value": 9600,
     "image_url": "https://api.mobileapi.dev/devices/13819/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10525,7 +10528,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9600
   },
   {
     "brand": "Realme",
@@ -10541,7 +10545,7 @@
       "256GB"
     ],
     "default_mrp": 28350,
-    "base_resale_value": 18900,
+    "base_resale_value": 11400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10549,7 +10553,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 11400
   },
   {
     "brand": "Realme",
@@ -10563,7 +10568,7 @@
       "256GB"
     ],
     "default_mrp": 27999,
-    "base_resale_value": 14500,
+    "base_resale_value": 12900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-pro-plus.jpg",
     "popular_tag": "200MP OIS SuperZoom Camera",
     "processor": "Dimensity 7050 5G",
@@ -10574,7 +10579,7 @@
     "is_active": true,
     "series": "Realme Number Series",
     "storage": "256 GB",
-    "price": 14500,
+    "price": 12900,
     "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-pro-plus.jpg"
   },
   {
@@ -10591,7 +10596,7 @@
       "256GB"
     ],
     "default_mrp": 16755,
-    "base_resale_value": 11170,
+    "base_resale_value": 8700,
     "image_url": "https://api.mobileapi.dev/devices/13739/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10599,7 +10604,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 8700
   },
   {
     "brand": "Realme",
@@ -10615,7 +10621,7 @@
       "256GB"
     ],
     "default_mrp": 40950,
-    "base_resale_value": 27300,
+    "base_resale_value": 9800,
     "image_url": "https://api.mobileapi.dev/devices/13728/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10623,7 +10629,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9800
   },
   {
     "brand": "Realme",
@@ -10639,7 +10646,7 @@
       "256GB"
     ],
     "default_mrp": 41250,
-    "base_resale_value": 27500,
+    "base_resale_value": 12400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-12-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10647,7 +10654,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 12400
   },
   {
     "brand": "Realme",
@@ -10663,7 +10671,7 @@
       "256GB"
     ],
     "default_mrp": 29999,
-    "base_resale_value": 14450,
+    "base_resale_value": 14850,
     "image_url": "https://api.mobileapi.dev/devices/13731/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10671,7 +10679,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 14850
   },
   {
     "brand": "Realme",
@@ -10687,7 +10696,7 @@
       "256GB"
     ],
     "default_mrp": 23175,
-    "base_resale_value": 15450,
+    "base_resale_value": 11600,
     "image_url": "https://api.mobileapi.dev/devices/13729/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10695,7 +10704,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 11600
   },
   {
     "brand": "Realme",
@@ -10711,7 +10721,7 @@
       "256GB"
     ],
     "default_mrp": 15030,
-    "base_resale_value": 10020,
+    "base_resale_value": 8200,
     "image_url": "https://api.mobileapi.dev/devices/13726/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10719,7 +10729,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 8200
   },
   {
     "brand": "Realme",
@@ -10735,7 +10746,7 @@
       "256GB"
     ],
     "default_mrp": 55425,
-    "base_resale_value": 36950,
+    "base_resale_value": 10900,
     "image_url": "https://api.mobileapi.dev/devices/13814/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10743,7 +10754,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 10900
   },
   {
     "brand": "Realme",
@@ -10759,7 +10771,7 @@
       "256GB"
     ],
     "default_mrp": 55350,
-    "base_resale_value": 36900,
+    "base_resale_value": 14500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-13-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10767,7 +10779,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 14500
   },
   {
     "brand": "Realme",
@@ -10783,7 +10796,7 @@
       "256GB"
     ],
     "default_mrp": 32999,
-    "base_resale_value": 19450,
+    "base_resale_value": 16890,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-13-pro-plus.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10791,7 +10804,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 16890
   },
   {
     "brand": "Realme",
@@ -10807,7 +10821,7 @@
       "256GB"
     ],
     "default_mrp": 25950,
-    "base_resale_value": 17300,
+    "base_resale_value": 12800,
     "image_url": "https://api.mobileapi.dev/devices/13706/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10815,7 +10829,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 12800
   },
   {
     "brand": "Realme",
@@ -11167,7 +11182,7 @@
       "256GB"
     ],
     "default_mrp": 93525,
-    "base_resale_value": 62350,
+    "base_resale_value": 3800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-5-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11175,7 +11190,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 3800
   },
   {
     "brand": "Realme",
@@ -11215,7 +11231,7 @@
       "256GB"
     ],
     "default_mrp": 7575,
-    "base_resale_value": 5050,
+    "base_resale_value": 3800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-5s.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11223,7 +11239,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3800
   },
   {
     "brand": "Realme",
@@ -11239,7 +11256,7 @@
       "256GB"
     ],
     "default_mrp": 116175,
-    "base_resale_value": 77450,
+    "base_resale_value": 4600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-6.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11247,7 +11264,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4600
   },
   {
     "brand": "Realme",
@@ -11263,7 +11281,7 @@
       "256GB"
     ],
     "default_mrp": 116025,
-    "base_resale_value": 77350,
+    "base_resale_value": 4600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-6-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11271,7 +11289,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 4600
   },
   {
     "brand": "Realme",
@@ -11311,7 +11330,7 @@
       "256GB"
     ],
     "default_mrp": 24450,
-    "base_resale_value": 16300,
+    "base_resale_value": 5400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-7.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11319,7 +11338,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5400
   },
   {
     "brand": "Realme",
@@ -11335,7 +11355,7 @@
       "256GB"
     ],
     "default_mrp": 24600,
-    "base_resale_value": 16400,
+    "base_resale_value": 6200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-7-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11343,7 +11363,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 6200
   },
   {
     "brand": "Realme",
@@ -11383,7 +11404,7 @@
       "256GB"
     ],
     "default_mrp": 15450,
-    "base_resale_value": 10300,
+    "base_resale_value": 6600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-8-5g.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11391,7 +11412,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 6600
   },
   {
     "brand": "Realme",
@@ -11407,7 +11429,7 @@
       "256GB"
     ],
     "default_mrp": 15450,
-    "base_resale_value": 10300,
+    "base_resale_value": 7400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-8-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11415,7 +11437,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 7400
   },
   {
     "brand": "Realme",
@@ -11431,7 +11454,7 @@
       "256GB"
     ],
     "default_mrp": 9360,
-    "base_resale_value": 6240,
+    "base_resale_value": 5800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-8i.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11439,7 +11462,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5800
   },
   {
     "brand": "Realme",
@@ -11455,7 +11479,7 @@
       "256GB"
     ],
     "default_mrp": 14370,
-    "base_resale_value": 9580,
+    "base_resale_value": 6900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-8s-5g.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11463,7 +11487,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 6900
   },
   {
     "brand": "Realme",
@@ -11479,7 +11504,7 @@
       "256GB"
     ],
     "default_mrp": 21675,
-    "base_resale_value": 14450,
+    "base_resale_value": 7200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-9.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11487,7 +11512,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 7200
   },
   {
     "brand": "Realme",
@@ -11503,7 +11529,7 @@
       "256GB"
     ],
     "default_mrp": 14145,
-    "base_resale_value": 9430,
+    "base_resale_value": 8900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-9-5g-speed-edition.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11511,7 +11537,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 8900
   },
   {
     "brand": "Realme",
@@ -11527,7 +11554,7 @@
       "256GB"
     ],
     "default_mrp": 21750,
-    "base_resale_value": 14500,
+    "base_resale_value": 8600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-9-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11535,7 +11562,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 8600
   },
   {
     "brand": "Realme",
@@ -11551,7 +11579,7 @@
       "256GB"
     ],
     "default_mrp": 15750,
-    "base_resale_value": 10500,
+    "base_resale_value": 9800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-9-pro-plus.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11559,7 +11587,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9800
   },
   {
     "brand": "Realme",
@@ -11575,7 +11604,7 @@
       "256GB"
     ],
     "default_mrp": 9465,
-    "base_resale_value": 6310,
+    "base_resale_value": 6800,
     "image_url": "https://api.mobileapi.dev/devices/13763/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11583,7 +11612,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 6800
   },
   {
     "brand": "Realme",
@@ -11647,7 +11677,7 @@
       "256GB"
     ],
     "default_mrp": 7860,
-    "base_resale_value": 5240,
+    "base_resale_value": 4200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c25.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11655,7 +11685,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4200
   },
   {
     "brand": "Realme",
@@ -11671,7 +11702,7 @@
       "256GB"
     ],
     "default_mrp": 8340,
-    "base_resale_value": 5560,
+    "base_resale_value": 4200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c25s.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11679,7 +11710,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4200
   },
   {
     "brand": "Realme",
@@ -11695,7 +11727,7 @@
       "256GB"
     ],
     "default_mrp": 8745,
-    "base_resale_value": 5830,
+    "base_resale_value": 4200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c25y.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11703,7 +11735,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4200
   },
   {
     "brand": "Realme",
@@ -11743,7 +11776,7 @@
       "256GB"
     ],
     "default_mrp": 8670,
-    "base_resale_value": 5780,
+    "base_resale_value": 4800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c35.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11751,7 +11784,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4800
   },
   {
     "brand": "Realme",
@@ -11767,7 +11801,7 @@
       "256GB"
     ],
     "default_mrp": 10485,
-    "base_resale_value": 6990,
+    "base_resale_value": 4600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c51.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11775,7 +11809,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4600
   },
   {
     "brand": "Realme",
@@ -11791,7 +11826,7 @@
       "256GB"
     ],
     "default_mrp": 10785,
-    "base_resale_value": 7190,
+    "base_resale_value": 4600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c53.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11799,7 +11834,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4600
   },
   {
     "brand": "Realme",
@@ -11815,7 +11851,7 @@
       "256GB"
     ],
     "default_mrp": 11520,
-    "base_resale_value": 7680,
+    "base_resale_value": 5900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c55.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11823,7 +11859,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5900
   },
   {
     "brand": "Realme",
@@ -11839,7 +11876,7 @@
       "256GB"
     ],
     "default_mrp": 8910,
-    "base_resale_value": 5940,
+    "base_resale_value": 4490,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c61.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11847,7 +11884,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4490
   },
   {
     "brand": "Realme",
@@ -11863,7 +11901,7 @@
       "256GB"
     ],
     "default_mrp": 9975,
-    "base_resale_value": 6650,
+    "base_resale_value": 5800,
     "image_url": "https://api.mobileapi.dev/devices/13705/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11871,7 +11909,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 5800
   },
   {
     "brand": "Realme",
@@ -11887,7 +11926,7 @@
       "256GB"
     ],
     "default_mrp": 9480,
-    "base_resale_value": 6320,
+    "base_resale_value": 6800,
     "image_url": "https://api.mobileapi.dev/devices/13720/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11895,7 +11934,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 6800
   },
   {
     "brand": "Realme",
@@ -12055,7 +12095,7 @@
       "256GB"
     ],
     "default_mrp": 17115,
-    "base_resale_value": 11410,
+    "base_resale_value": 12400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-2.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12063,7 +12103,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 12400
   },
   {
     "brand": "Realme",
@@ -12079,7 +12120,7 @@
       "256GB"
     ],
     "default_mrp": 17280,
-    "base_resale_value": 11520,
+    "base_resale_value": 14800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt2-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12087,7 +12128,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 14800
   },
   {
     "brand": "Realme",
@@ -12127,7 +12169,7 @@
       "256GB"
     ],
     "default_mrp": 36525,
-    "base_resale_value": 24350,
+    "base_resale_value": 19240,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-6.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12135,7 +12177,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 19240
   },
   {
     "brand": "Realme",
@@ -12151,7 +12194,7 @@
       "256GB"
     ],
     "default_mrp": 27600,
-    "base_resale_value": 18400,
+    "base_resale_value": 16450,
     "image_url": "https://api.mobileapi.dev/devices/13718/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12159,7 +12202,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 16450
   },
   {
     "brand": "Realme",
@@ -12271,7 +12315,7 @@
       "256GB"
     ],
     "default_mrp": 14895,
-    "base_resale_value": 9930,
+    "base_resale_value": 9450,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-master.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12279,7 +12323,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 9450
   },
   {
     "brand": "Realme",
@@ -12319,7 +12364,7 @@
       "256GB"
     ],
     "default_mrp": 16965,
-    "base_resale_value": 11310,
+    "base_resale_value": 13600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-neo3.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12327,7 +12372,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 13600
   },
   {
     "brand": "Realme",
@@ -12343,7 +12389,7 @@
       "256GB"
     ],
     "default_mrp": 15465,
-    "base_resale_value": 10310,
+    "base_resale_value": 11200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-neo-3t.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12351,7 +12397,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 11200
   },
   {
     "brand": "Realme",
@@ -12415,7 +12462,7 @@
       "256GB"
     ],
     "default_mrp": 9525,
-    "base_resale_value": 6350,
+    "base_resale_value": 4200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-20.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12423,7 +12470,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4200
   },
   {
     "brand": "Realme",
@@ -12439,7 +12487,7 @@
       "256GB"
     ],
     "default_mrp": 9390,
-    "base_resale_value": 6260,
+    "base_resale_value": 4900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-20-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12447,7 +12495,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 4900
   },
   {
     "brand": "Realme",
@@ -12463,7 +12512,7 @@
       "256GB"
     ],
     "default_mrp": 9285,
-    "base_resale_value": 6190,
+    "base_resale_value": 5800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-30.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12471,7 +12520,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5800
   },
   {
     "brand": "Realme",
@@ -12487,7 +12537,7 @@
       "256GB"
     ],
     "default_mrp": 13695,
-    "base_resale_value": 9130,
+    "base_resale_value": 5800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-30-pro-5g.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12495,7 +12545,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 5800
   },
   {
     "brand": "Realme",
@@ -12511,7 +12562,7 @@
       "256GB"
     ],
     "default_mrp": 9795,
-    "base_resale_value": 6530,
+    "base_resale_value": 7100,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-50.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12519,7 +12570,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 7100
   },
   {
     "brand": "Realme",
@@ -12535,7 +12587,7 @@
       "256GB"
     ],
     "default_mrp": 14175,
-    "base_resale_value": 9450,
+    "base_resale_value": 7100,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-50-pro-5g.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12543,7 +12595,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 7100
   },
   {
     "brand": "Realme",
@@ -12583,7 +12636,7 @@
       "256GB"
     ],
     "default_mrp": 8775,
-    "base_resale_value": 5850,
+    "base_resale_value": 4800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-50a-prime.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12591,7 +12644,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4800
   },
   {
     "brand": "Realme",
@@ -12607,7 +12661,7 @@
       "256GB"
     ],
     "default_mrp": 18210,
-    "base_resale_value": 12140,
+    "base_resale_value": 7800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-60.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12615,7 +12669,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 7800
   },
   {
     "brand": "Realme",
@@ -12631,7 +12686,7 @@
       "256GB"
     ],
     "default_mrp": 22980,
-    "base_resale_value": 15320,
+    "base_resale_value": 11800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-60-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12639,7 +12694,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 11800
   },
   {
     "brand": "Realme",
@@ -12655,7 +12711,7 @@
       "256GB"
     ],
     "default_mrp": 15810,
-    "base_resale_value": 10540,
+    "base_resale_value": 7800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-60x-5g.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12663,7 +12719,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 7800
   },
   {
     "brand": "Realme",
@@ -12679,7 +12736,7 @@
       "256GB"
     ],
     "default_mrp": 17175,
-    "base_resale_value": 11450,
+    "base_resale_value": 7900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-70-5g.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12687,7 +12744,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 7900
   },
   {
     "brand": "Realme",
@@ -12703,7 +12761,7 @@
       "256GB"
     ],
     "default_mrp": 19999,
-    "base_resale_value": 11300,
+    "base_resale_value": 12400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-70-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12711,7 +12769,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 12400
   },
   {
     "brand": "Realme",
@@ -12727,7 +12786,7 @@
       "256GB"
     ],
     "default_mrp": 17700,
-    "base_resale_value": 11800,
+    "base_resale_value": 10800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-70-turbo-5g.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12735,7 +12794,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 10800
   },
   {
     "brand": "Realme",
@@ -12751,7 +12811,7 @@
       "256GB"
     ],
     "default_mrp": 11970,
-    "base_resale_value": 7980,
+    "base_resale_value": 7900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-70x.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12759,7 +12819,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 7900
   },
   {
     "brand": "Realme",
@@ -12823,7 +12884,7 @@
       "256GB"
     ],
     "default_mrp": 11100,
-    "base_resale_value": 7400,
+    "base_resale_value": 5600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-n53.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12831,7 +12892,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5600
   },
   {
     "brand": "Realme",
@@ -12847,7 +12909,7 @@
       "256GB"
     ],
     "default_mrp": 11835,
-    "base_resale_value": 7890,
+    "base_resale_value": 5600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-n55.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12855,7 +12917,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5600
   },
   {
     "brand": "Realme",
@@ -12895,7 +12958,7 @@
       "256GB"
     ],
     "default_mrp": 9210,
-    "base_resale_value": 6140,
+    "base_resale_value": 5400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-n63.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12903,7 +12966,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5400
   },
   {
     "brand": "Realme",
@@ -12919,7 +12983,7 @@
       "256GB"
     ],
     "default_mrp": 11685,
-    "base_resale_value": 7790,
+    "base_resale_value": 5400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-n65-5g.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12927,7 +12991,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 5400
   },
   {
     "brand": "Realme",
@@ -12967,7 +13032,7 @@
       "256GB"
     ],
     "default_mrp": 15999,
-    "base_resale_value": 11650,
+    "base_resale_value": 9900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-p1.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12975,7 +13040,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9900
   },
   {
     "brand": "Realme",
@@ -12991,7 +13057,7 @@
       "256GB"
     ],
     "default_mrp": 16575,
-    "base_resale_value": 11050,
+    "base_resale_value": 11800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-p1-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12999,7 +13065,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 11800
   },
   {
     "brand": "Realme",
@@ -13015,7 +13082,7 @@
       "256GB"
     ],
     "default_mrp": 17700,
-    "base_resale_value": 11800,
+    "base_resale_value": 13500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-p2-pro-5g.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -13023,7 +13090,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 13500
   },
   {
     "brand": "Realme",
@@ -13327,7 +13395,7 @@
       "256GB"
     ],
     "default_mrp": 116175,
-    "base_resale_value": 77450,
+    "base_resale_value": 5400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-x.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -13335,7 +13403,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5400
   },
   {
     "brand": "Realme",
@@ -13351,7 +13420,7 @@
       "256GB"
     ],
     "default_mrp": 9105,
-    "base_resale_value": 6070,
+    "base_resale_value": 6400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-x2.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -13359,7 +13428,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 6400
   },
   {
     "brand": "Realme",
@@ -13375,7 +13445,7 @@
       "256GB"
     ],
     "default_mrp": 9870,
-    "base_resale_value": 6580,
+    "base_resale_value": 7800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-x2-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -13383,7 +13453,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 7800
   },
   {
     "brand": "Realme",
@@ -13399,7 +13470,7 @@
       "256GB"
     ],
     "default_mrp": 10950,
-    "base_resale_value": 7300,
+    "base_resale_value": 7900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-x3.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -13407,7 +13478,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 7900
   },
   {
     "brand": "Realme",
@@ -13423,7 +13495,7 @@
       "256GB"
     ],
     "default_mrp": 10485,
-    "base_resale_value": 6990,
+    "base_resale_value": 7900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-x3-superzoom.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -13431,7 +13503,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 7900
   },
   {
     "brand": "Realme",
@@ -13447,7 +13520,7 @@
       "256GB"
     ],
     "default_mrp": 12495,
-    "base_resale_value": 8330,
+    "base_resale_value": 9800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-x50-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -13455,7 +13528,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9800
   },
   {
     "brand": "Realme",
@@ -13543,7 +13617,7 @@
       "256GB"
     ],
     "default_mrp": 9795,
-    "base_resale_value": 6530,
+    "base_resale_value": 5800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-xt.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -13551,7 +13625,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5800
   },
   {
     "brand": "Samsung",
@@ -25278,7 +25353,7 @@
       "256GB"
     ],
     "default_mrp": 40999,
-    "base_resale_value": 24350,
+    "base_resale_value": 19240,
     "image_url": null,
     "popular_tag": "Realme Bestseller",
     "processor": "Octa-core Processor",
@@ -25286,7 +25361,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 19240
   },
   {
     "brand": "Realme",
@@ -25301,7 +25377,7 @@
       "256GB"
     ],
     "default_mrp": 30999,
-    "base_resale_value": 18450,
+    "base_resale_value": 16450,
     "image_url": null,
     "popular_tag": "Realme Bestseller",
     "processor": "Octa-core Processor",
@@ -25309,7 +25385,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 16450
   },
   {
     "brand": "Vivo",
@@ -27789,8 +27866,8 @@
       "12GB"
     ],
     "default_mrp": 27999,
-    "base_resale_value": 14500,
-    "price": 14500,
+    "base_resale_value": 12900,
+    "price": 12900,
     "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-pro-plus.jpg",
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-pro-plus.jpg",
     "popular_tag": "200MP OIS SuperZoom Camera",
@@ -27815,8 +27892,8 @@
       "8GB"
     ],
     "default_mrp": 20999,
-    "base_resale_value": 12800,
-    "price": 12800,
+    "base_resale_value": 11600,
+    "price": 11600,
     "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-12-plus-5g.jpg",
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-12-plus-5g.jpg",
     "popular_tag": "Sony LYT-600 OIS Master Camera",
@@ -27841,8 +27918,8 @@
       "8GB"
     ],
     "default_mrp": 20999,
-    "base_resale_value": 12800,
-    "price": 12800,
+    "base_resale_value": 11600,
+    "price": 11600,
     "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-12-plus-5g.jpg",
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-12-plus-5g.jpg",
     "popular_tag": "Sony LYT-600 OIS Master Camera",
