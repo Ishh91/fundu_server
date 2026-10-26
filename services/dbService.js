@@ -12,6 +12,7 @@ import { isAdmin, isWholesaler, requireAuth } from '../middleware/auth.js';
 import { autoAssignDeliveryAgent } from './dispatchService.js';
 import { triggerEventNotification } from './notificationService.js';
 import { quotePhone } from '../../fundu_phone_quote.mjs';
+import { createPhoneQuote } from './quoteService.js';
 
 export const getReadScope = async (table, auth, filters) => {
   const baseFilter = buildMongoFilter(filters);
@@ -720,6 +721,32 @@ export const upsertTable = async (table, { auth, values, single }) => {
       brand: new RegExp(`^${payload.brand?.trim()}$`, 'i'),
       model: new RegExp(`^${payload.model?.trim()}$`, 'i'),
     };
+    const doc = await Model.findOneAndUpdate(match, payload, { new: true, upsert: true, runValidators: false, setDefaultsOnInsert: true });
+    return normalizeDoc(doc);
+  }
+
+  if (table === 'sell_price_configs') {
+    requireAuth(auth);
+    if (!isAdmin(auth)) throw createHttpError(403, 'Admin access required.');
+    const Model = getModel(table);
+    const payload = preparePayload(table, 'upsert', values, auth);
+    const rawBrand = (payload.brand || '').trim();
+    let rawModel = (payload.model || '').trim();
+    if (rawBrand && rawModel.toLowerCase().startsWith(rawBrand.toLowerCase())) {
+      rawModel = rawModel.slice(rawBrand.length).trim();
+    }
+    const brandRegex = new RegExp(`^${rawBrand}$`, 'i');
+    const modelEscaped = rawModel.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const modelRegex = new RegExp(`^(${modelEscaped}|${rawBrand}\\s+${modelEscaped})$`, 'i');
+    const match = {
+      brand: brandRegex,
+      model: modelRegex,
+    };
+    if (payload.storage) {
+      const storageClean = payload.storage.replace(/\s+/g, '\\s*');
+      match.storage = new RegExp(`^${storageClean}$`, 'i');
+    }
+    payload.updated_at = new Date();
     const doc = await Model.findOneAndUpdate(match, payload, { new: true, upsert: true, runValidators: false, setDefaultsOnInsert: true });
     return normalizeDoc(doc);
   }

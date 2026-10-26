@@ -116,7 +116,7 @@ export async function createPhoneQuote(input, options = {}) {
         model: modelRegex,
         storage: new RegExp(`^${storageClean}$`, 'i'),
         is_active: { $ne: false },
-      }).lean();
+      }).sort({ updated_at: -1, _id: -1 }).lean();
     }
 
     if (!dbConfig) {

@@ -598,7 +598,7 @@ router.get('/sell-pricing/config', async (req, res, next) => {
         model: modelRegex,
         storage: new RegExp(`^${storageClean}$`, 'i'),
         is_active: { $ne: false },
-      }).lean();
+      }).sort({ updated_at: -1, _id: -1 }).lean();
     }
 
     // 2. Try any active config for this model in SellPriceConfig
@@ -615,11 +615,16 @@ router.get('/sell-pricing/config', async (req, res, next) => {
       // If requested storage differs from configured storage, scale dynamically
       if (storage && normDoc.base_price > 0) {
         const baseStorage = normDoc.storage || '128 GB';
-        const baseMult = calculateHardwareVariantMultiplier(baseStorage, '', rawBrand);
-        const targetMult = calculateHardwareVariantMultiplier(storage, '', rawBrand);
-        const ratio = baseMult > 0 ? targetMult / baseMult : 1.0;
-        normDoc.base_price = Math.max(500, Math.round((normDoc.base_price * ratio) / 50) * 50);
-        normDoc.storage = storage;
+        const normBaseStorage = baseStorage.replace(/\s+/g, '').toLowerCase();
+        const normTargetStorage = storage.replace(/\s+/g, '').toLowerCase();
+        
+        if (normBaseStorage !== normTargetStorage) {
+          const baseMult = calculateHardwareVariantMultiplier(baseStorage, '', rawBrand);
+          const targetMult = calculateHardwareVariantMultiplier(storage, '', rawBrand);
+          const ratio = baseMult > 0 ? targetMult / baseMult : 1.0;
+          normDoc.base_price = Math.max(500, Math.round((normDoc.base_price * ratio) / 50) * 50);
+          normDoc.storage = storage;
+        }
       }
       res.json({ data: normDoc, source: 'admin_database' });
       return;
@@ -687,13 +692,101 @@ router.get('/sell-pricing/config', async (req, res, next) => {
 });
 
 /**
+ * Save or update sell price config directly in MongoDB SellPriceConfig
+ * POST /api/sell-pricing/config
+ */
+router.post('/sell-pricing/config', async (req, res, next) => {
+  try {
+    const {
+      brand,
+      model,
+      storage,
+      base_price,
+      excellent_multiplier,
+      good_multiplier,
+      fair_multiplier,
+      box_bonus,
+      charger_bonus,
+      is_active,
+    } = req.body;
+
+    if (!brand || !model || base_price === undefined) {
+      return res.status(400).json({ error: { message: 'brand, model, and base_price are required.' } });
+    }
+
+    const rawBrand = String(brand).trim();
+    let rawModel = String(model).trim();
+    if (rawBrand && rawModel.toLowerCase().startsWith(rawBrand.toLowerCase())) {
+      rawModel = rawModel.slice(rawBrand.length).trim();
+    }
+    const brandRegex = new RegExp(`^${rawBrand}$`, 'i');
+    const modelEscaped = rawModel.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const modelRegex = new RegExp(`^(${modelEscaped}|${rawBrand}\\s+${modelEscaped})$`, 'i');
+
+    const updateDoc = {
+      brand: rawBrand,
+      model: rawModel,
+      storage: storage ? String(storage).trim() : null,
+      base_price: Number(base_price),
+      excellent_multiplier: Number(excellent_multiplier) || 0.85,
+      good_multiplier: Number(good_multiplier) || 0.70,
+      fair_multiplier: Number(fair_multiplier) || 0.55,
+      box_bonus: Number(box_bonus) || 400,
+      charger_bonus: Number(charger_bonus) || 400,
+      is_active: is_active !== false,
+      updated_at: new Date(),
+    };
+
+    const match = {
+      brand: brandRegex,
+      model: modelRegex,
+    };
+    if (storage) {
+      const storageClean = String(storage).replace(/\s+/g, '\\s*');
+      match.storage = new RegExp(`^${storageClean}$`, 'i');
+    }
+
+    const doc = await SellPriceConfig.findOneAndUpdate(match, updateDoc, {
+      new: true,
+      upsert: true,
+      setDefaultsOnInsert: true,
+    });
+
+    return res.status(200).json({ data: normalizeDoc(doc), success: true });
+  } catch (err) {
+    next(err);
+  }
+});
+
+/**
  * Competitor Buyback Price Radar (Live market comparison across Cashify, Flipkart, Amazon, InstaCash, etc.)
  */
 router.get('/sell-pricing/competitor-radar', async (req, res, next) => {
   try {
-    const rawBrand = typeof req.query.brand === 'string' && req.query.brand.trim() ? req.query.brand.trim() : 'Apple';
+    const inputBrand = typeof req.query.brand === 'string' && req.query.brand.trim() ? req.query.brand.trim() : 'Apple';
     let rawModel = typeof req.query.model === 'string' && req.query.model.trim() ? req.query.model.trim() : 'iPhone 15';
     const storage = typeof req.query.storage === 'string' && req.query.storage.trim() ? req.query.storage.trim() : '128 GB';
+
+    // Smart brand auto-correction to prevent mismatched queries like Samsung iPhone 16 Pro
+    let rawBrand = inputBrand;
+    const mLower = rawModel.toLowerCase();
+    if (mLower.includes('iphone') || mLower.includes('ipad') || mLower.includes('apple')) {
+      rawBrand = 'Apple';
+    } else if (mLower.includes('galaxy') || mLower.includes('z fold') || mLower.includes('z flip') || /\bs2[0-5]\b/i.test(mLower)) {
+      rawBrand = 'Samsung';
+    } else if (mLower.includes('oneplus') || mLower.includes('nord')) {
+      rawBrand = 'OnePlus';
+    } else if (mLower.includes('pixel')) {
+      rawBrand = 'Google';
+    } else if (mLower.includes('redmi') || mLower.includes('poco') || mLower.includes('xiaomi')) {
+      rawBrand = 'Xiaomi';
+    } else if (mLower.includes('iqoo')) {
+      rawBrand = 'iQOO';
+    } else if (mLower.includes('realme')) {
+      rawBrand = 'Realme';
+    } else if (mLower.includes('moto') || mLower.includes('motorola') || mLower.includes('edge 50') || mLower.includes('edge 40')) {
+      rawBrand = 'Motorola';
+    }
 
     // Sanitize model
     rawModel = rawModel
