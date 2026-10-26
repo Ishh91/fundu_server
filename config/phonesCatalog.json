@@ -912,7 +912,7 @@
       "256GB"
     ],
     "default_mrp": 8925,
-    "base_resale_value": 5950,
+    "base_resale_value": 1950,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-3-xl.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -920,7 +920,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 1950
   },
   {
     "brand": "Google",
@@ -936,7 +937,7 @@
       "256GB"
     ],
     "default_mrp": 9525,
-    "base_resale_value": 6350,
+    "base_resale_value": 1850,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-3a.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -944,7 +945,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 1850
   },
   {
     "brand": "Google",
@@ -960,7 +962,7 @@
       "256GB"
     ],
     "default_mrp": 10275,
-    "base_resale_value": 6850,
+    "base_resale_value": 2150,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-3a-xl.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -968,7 +970,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 2150
   },
   {
     "brand": "Google",
@@ -984,7 +987,7 @@
       "256GB"
     ],
     "default_mrp": 13425,
-    "base_resale_value": 8950,
+    "base_resale_value": 3100,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-4-xl.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -992,7 +995,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 3100
   },
   {
     "brand": "Google",
@@ -1008,7 +1012,7 @@
       "256GB"
     ],
     "default_mrp": 9210,
-    "base_resale_value": 6140,
+    "base_resale_value": 4240,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-4a.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -1016,7 +1020,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 4240
   },
   {
     "brand": "Google",
@@ -1032,7 +1037,7 @@
       "256GB"
     ],
     "default_mrp": 17775,
-    "base_resale_value": 11850,
+    "base_resale_value": 6400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-5-5g.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -1040,7 +1045,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 6400
   },
   {
     "brand": "Google",
@@ -1056,7 +1062,7 @@
       "256GB"
     ],
     "default_mrp": 20850,
-    "base_resale_value": 13900,
+    "base_resale_value": 11400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-6.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -1064,7 +1070,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 11400
   },
   {
     "brand": "Google",
@@ -1080,7 +1087,7 @@
       "256GB"
     ],
     "default_mrp": 20850,
-    "base_resale_value": 13900,
+    "base_resale_value": 11500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-6-pro.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -1088,7 +1095,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 11500
   },
   {
     "brand": "Google",
@@ -1104,7 +1112,7 @@
       "256GB"
     ],
     "default_mrp": 43999,
-    "base_resale_value": 10350,
+    "base_resale_value": 9810,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-6a.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -1112,7 +1120,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9810
   },
   {
     "brand": "Google",
@@ -1128,7 +1137,7 @@
       "256GB"
     ],
     "default_mrp": 33525,
-    "base_resale_value": 22350,
+    "base_resale_value": 15400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-7-.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -1136,7 +1145,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 15400
   },
   {
     "brand": "Google",
@@ -1152,7 +1162,7 @@
       "256GB"
     ],
     "default_mrp": 33525,
-    "base_resale_value": 22350,
+    "base_resale_value": 19800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-7-pro-.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -1160,7 +1170,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 19800
   },
   {
     "brand": "Google",
@@ -1176,7 +1187,7 @@
       "256GB"
     ],
     "default_mrp": 43999,
-    "base_resale_value": 16100,
+    "base_resale_value": 11850,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-7a.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -1184,7 +1195,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 11850
   },
   {
     "brand": "Google",
@@ -1200,7 +1212,7 @@
       "256GB"
     ],
     "default_mrp": 55350,
-    "base_resale_value": 36900,
+    "base_resale_value": 18500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-8.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -1208,7 +1220,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 18500
   },
   {
     "brand": "Google",
@@ -1224,7 +1237,7 @@
       "256GB"
     ],
     "default_mrp": 106999,
-    "base_resale_value": 37000,
+    "base_resale_value": 32880,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-8-pro.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -1232,7 +1245,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 32880
   },
   {
     "brand": "Google",
@@ -1248,7 +1262,7 @@
       "256GB"
     ],
     "default_mrp": 52999,
-    "base_resale_value": 25500,
+    "base_resale_value": 15800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-8a.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -1256,7 +1270,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 15800
   },
   {
     "brand": "Google",
@@ -1272,7 +1287,7 @@
       "256GB"
     ],
     "default_mrp": 79999,
-    "base_resale_value": 56950,
+    "base_resale_value": 37440,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-9.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -1280,7 +1295,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 37440
   },
   {
     "brand": "Google",
@@ -1296,7 +1312,7 @@
       "256GB"
     ],
     "default_mrp": 85425,
-    "base_resale_value": 56950,
+    "base_resale_value": 52800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-9-pro-.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -1304,7 +1320,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 52800
   },
   {
     "brand": "Google",
@@ -1320,7 +1337,7 @@
       "256GB"
     ],
     "default_mrp": 62700,
-    "base_resale_value": 41800,
+    "base_resale_value": 72500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-9-pro-fold.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -1328,7 +1345,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 72500
   },
   {
     "brand": "Google",
@@ -1344,7 +1362,7 @@
       "256GB"
     ],
     "default_mrp": 124999,
-    "base_resale_value": 56950,
+    "base_resale_value": 68500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-9-pro-xl.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -1352,7 +1370,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 68500
   },
   {
     "brand": "Google",
@@ -1368,7 +1387,7 @@
       "256GB"
     ],
     "default_mrp": 83775,
-    "base_resale_value": 55850,
+    "base_resale_value": 42000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-fold.jpg",
     "popular_tag": "Google Official Model",
     "processor": "5G Octa-core Processor",
@@ -1376,7 +1395,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 42000
   },
   {
     "brand": "Infinix",
@@ -1392,7 +1412,7 @@
       "256GB"
     ],
     "default_mrp": 19950,
-    "base_resale_value": 13300,
+    "base_resale_value": 8600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-gt-10-pro.jpg",
     "popular_tag": "Infinix Official Model",
     "processor": "5G Octa-core Processor",
@@ -1400,7 +1420,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 8600
   },
   {
     "brand": "Infinix",
@@ -1416,7 +1437,7 @@
       "256GB"
     ],
     "default_mrp": 24999,
-    "base_resale_value": 16350,
+    "base_resale_value": 11200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-gt-20-pro.jpg",
     "popular_tag": "Infinix Official Model",
     "processor": "5G Octa-core Processor",
@@ -1424,7 +1445,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 11200
   },
   {
     "brand": "Infinix",
@@ -1464,7 +1486,7 @@
       "256GB"
     ],
     "default_mrp": 21999,
-    "base_resale_value": 14350,
+    "base_resale_value": 10500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-note-40-pro-5g.jpg",
     "popular_tag": "Infinix Official Model",
     "processor": "5G Octa-core Processor",
@@ -1472,7 +1494,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 10500
   },
   {
     "brand": "Infinix",
@@ -1488,7 +1511,7 @@
       "256GB"
     ],
     "default_mrp": 24450,
-    "base_resale_value": 16300,
+    "base_resale_value": 10500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-note-40-pro-plus-5g.jpg",
     "popular_tag": "Infinix Official Model",
     "processor": "5G Octa-core Processor",
@@ -1496,7 +1519,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 10500
   },
   {
     "brand": "Infinix",
@@ -1536,7 +1560,7 @@
       "256GB"
     ],
     "default_mrp": 22500,
-    "base_resale_value": 15000,
+    "base_resale_value": 11400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-zero-30-5g.jpg",
     "popular_tag": "Infinix Official Model",
     "processor": "5G Octa-core Processor",
@@ -1544,7 +1568,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 11400
   },
   {
     "brand": "iQOO",
@@ -2424,7 +2449,7 @@
       "256GB"
     ],
     "default_mrp": 3773,
-    "base_resale_value": 2515,
+    "base_resale_value": 3200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k10-note.jpg",
     "popular_tag": "Lenovo Official Model",
     "processor": "High-Efficiency Processor",
@@ -2432,7 +2457,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3200
   },
   {
     "brand": "Lenovo",
@@ -2448,7 +2474,7 @@
       "256GB"
     ],
     "default_mrp": 6000,
-    "base_resale_value": 4000,
+    "base_resale_value": 2400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k10-plus.jpg",
     "popular_tag": "Lenovo Official Model",
     "processor": "5G Octa-core Processor",
@@ -2456,7 +2482,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 2400
   },
   {
     "brand": "Lenovo",
@@ -2472,7 +2499,7 @@
       "256GB"
     ],
     "default_mrp": 4875,
-    "base_resale_value": 3250,
+    "base_resale_value": 1350,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k8-note.jpg",
     "popular_tag": "Lenovo Official Model",
     "processor": "High-Efficiency Processor",
@@ -2480,7 +2507,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 1350
   },
   {
     "brand": "Lenovo",
@@ -2496,7 +2524,7 @@
       "256GB"
     ],
     "default_mrp": 5250,
-    "base_resale_value": 3500,
+    "base_resale_value": 2100,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k9-note.jpg",
     "popular_tag": "Lenovo Official Model",
     "processor": "High-Efficiency Processor",
@@ -2504,7 +2532,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2100
   },
   {
     "brand": "Lenovo",
@@ -2664,7 +2693,7 @@
       "256GB"
     ],
     "default_mrp": 14100,
-    "base_resale_value": 9400,
+    "base_resale_value": 5800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-z6-pro.jpg",
     "popular_tag": "Lenovo Official Model",
     "processor": "5G Octa-core Processor",
@@ -2672,7 +2701,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 5800
   },
   {
     "brand": "Motorola",
@@ -2688,7 +2718,7 @@
       "256GB"
     ],
     "default_mrp": 18675,
-    "base_resale_value": 12450,
+    "base_resale_value": 9600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-30.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -2696,7 +2726,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 9600
   },
   {
     "brand": "Motorola",
@@ -2712,7 +2743,7 @@
       "256GB"
     ],
     "default_mrp": 23025,
-    "base_resale_value": 15350,
+    "base_resale_value": 11800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-30-fusion.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -2720,7 +2751,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 11800
   },
   {
     "brand": "Motorola",
@@ -2736,7 +2768,7 @@
       "256GB"
     ],
     "default_mrp": 28275,
-    "base_resale_value": 18850,
+    "base_resale_value": 15800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-30-ultra.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -2744,7 +2776,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 15800
   },
   {
     "brand": "Motorola",
@@ -2760,7 +2793,7 @@
       "256GB"
     ],
     "default_mrp": 23250,
-    "base_resale_value": 15500,
+    "base_resale_value": 13200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-40.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -2768,7 +2801,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 13200
   },
   {
     "brand": "Motorola",
@@ -2784,7 +2818,7 @@
       "256GB"
     ],
     "default_mrp": 22275,
-    "base_resale_value": 14850,
+    "base_resale_value": 11600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-40-neo.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -2792,7 +2826,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 11600
   },
   {
     "brand": "Motorola",
@@ -2832,7 +2867,7 @@
       "256GB"
     ],
     "default_mrp": 27600,
-    "base_resale_value": 18400,
+    "base_resale_value": 15500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-50-fusion.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -2840,7 +2875,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 15500
   },
   {
     "brand": "Motorola",
@@ -2856,7 +2892,7 @@
       "256GB"
     ],
     "default_mrp": 30450,
-    "base_resale_value": 20300,
+    "base_resale_value": 18900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-50-pro.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -2864,7 +2900,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 18900
   },
   {
     "brand": "Motorola",
@@ -2880,7 +2917,7 @@
       "256GB"
     ],
     "default_mrp": 47850,
-    "base_resale_value": 31900,
+    "base_resale_value": 28640,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-50-ultra.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -2888,7 +2925,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 28640
   },
   {
     "brand": "Motorola",
@@ -2952,7 +2990,7 @@
       "256GB"
     ],
     "default_mrp": 7530,
-    "base_resale_value": 5020,
+    "base_resale_value": 3900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-e32.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -2960,7 +2998,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3900
   },
   {
     "brand": "Motorola",
@@ -2976,7 +3015,7 @@
       "256GB"
     ],
     "default_mrp": 8310,
-    "base_resale_value": 5540,
+    "base_resale_value": 4200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-e40.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -2984,7 +3023,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4200
   },
   {
     "brand": "Motorola",
@@ -3000,7 +3040,7 @@
       "256GB"
     ],
     "default_mrp": 5835,
-    "base_resale_value": 3890,
+    "base_resale_value": 2600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-e6s.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -3008,7 +3048,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2600
   },
   {
     "brand": "Motorola",
@@ -3024,7 +3065,7 @@
       "256GB"
     ],
     "default_mrp": 6540,
-    "base_resale_value": 4360,
+    "base_resale_value": 3400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-e7-plus.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -3032,7 +3073,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 3400
   },
   {
     "brand": "Motorola",
@@ -3048,7 +3090,7 @@
       "256GB"
     ],
     "default_mrp": 13215,
-    "base_resale_value": 8810,
+    "base_resale_value": 8400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-edge-20.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -3056,7 +3098,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 8400
   },
   {
     "brand": "Motorola",
@@ -3072,7 +3115,7 @@
       "256GB"
     ],
     "default_mrp": 12735,
-    "base_resale_value": 8490,
+    "base_resale_value": 7900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-edge-20-fusion.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -3080,7 +3123,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 7900
   },
   {
     "brand": "Motorola",
@@ -3096,7 +3140,7 @@
       "256GB"
     ],
     "default_mrp": 14415,
-    "base_resale_value": 9610,
+    "base_resale_value": 9800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-edge-20-pro.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -3104,7 +3148,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9800
   },
   {
     "brand": "Motorola",
@@ -3120,7 +3165,7 @@
       "256GB"
     ],
     "default_mrp": 15420,
-    "base_resale_value": 10280,
+    "base_resale_value": 9600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-edge-30.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -3128,7 +3173,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 9600
   },
   {
     "brand": "Motorola",
@@ -3144,7 +3190,7 @@
       "256GB"
     ],
     "default_mrp": 17880,
-    "base_resale_value": 11920,
+    "base_resale_value": 11800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-edge-30-fusion.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -3152,7 +3198,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 11800
   },
   {
     "brand": "Motorola",
@@ -3168,7 +3215,7 @@
       "256GB"
     ],
     "default_mrp": 16050,
-    "base_resale_value": 10700,
+    "base_resale_value": 12450,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-edge-30-pro.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -3176,7 +3223,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 12450
   },
   {
     "brand": "Motorola",
@@ -3192,7 +3240,7 @@
       "256GB"
     ],
     "default_mrp": 21405,
-    "base_resale_value": 14270,
+    "base_resale_value": 15800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-edge-30-ultra.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -3200,7 +3248,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 15800
   },
   {
     "brand": "Motorola",
@@ -3216,7 +3265,7 @@
       "256GB"
     ],
     "default_mrp": 25605,
-    "base_resale_value": 17070,
+    "base_resale_value": 13200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-edge-40.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -3224,7 +3273,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 13200
   },
   {
     "brand": "Motorola",
@@ -3240,7 +3290,7 @@
       "256GB"
     ],
     "default_mrp": 23670,
-    "base_resale_value": 15780,
+    "base_resale_value": 11600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-edge-40-neo.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -3248,7 +3298,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 11600
   },
   {
     "brand": "Motorola",
@@ -3288,7 +3339,7 @@
       "256GB"
     ],
     "default_mrp": 23820,
-    "base_resale_value": 15880,
+    "base_resale_value": 15500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-edge-50-fusion.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -3296,7 +3347,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 15500
   },
   {
     "brand": "Motorola",
@@ -3312,7 +3364,7 @@
       "256GB"
     ],
     "default_mrp": 26310,
-    "base_resale_value": 17540,
+    "base_resale_value": 14900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-edge-50-neo.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -3320,7 +3372,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 14900
   },
   {
     "brand": "Motorola",
@@ -3336,7 +3389,7 @@
       "256GB"
     ],
     "default_mrp": 28725,
-    "base_resale_value": 19150,
+    "base_resale_value": 18900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-edge-50-pro.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -3344,7 +3397,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 18900
   },
   {
     "brand": "Motorola",
@@ -3360,7 +3414,7 @@
       "256GB"
     ],
     "default_mrp": 41115,
-    "base_resale_value": 27410,
+    "base_resale_value": 28640,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-edge-50-ultra.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -3368,7 +3422,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 28640
   },
   {
     "brand": "Motorola",
@@ -3576,7 +3631,7 @@
       "256GB"
     ],
     "default_mrp": 14715,
-    "base_resale_value": 9810,
+    "base_resale_value": 14200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-edge-plus.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -3584,7 +3639,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 14200
   },
   {
     "brand": "Motorola",
@@ -3600,7 +3656,7 @@
       "256GB"
     ],
     "default_mrp": 17175,
-    "base_resale_value": 11450,
+    "base_resale_value": 5900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-g-5g.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -3608,7 +3664,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 5900
   },
   {
     "brand": "Motorola",
@@ -3720,7 +3777,7 @@
       "256GB"
     ],
     "default_mrp": 7575,
-    "base_resale_value": 5050,
+    "base_resale_value": 4400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-g10-power.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -3728,7 +3785,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4400
   },
   {
     "brand": "Motorola",
@@ -3792,7 +3850,7 @@
       "256GB"
     ],
     "default_mrp": 8520,
-    "base_resale_value": 5680,
+    "base_resale_value": 4800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-g22.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -3800,7 +3858,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4800
   },
   {
     "brand": "Motorola",
@@ -3816,7 +3875,7 @@
       "256GB"
     ],
     "default_mrp": 7455,
-    "base_resale_value": 4970,
+    "base_resale_value": 5800,
     "image_url": "https://api.mobileapi.dev/devices/249/thumb.png",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -3824,7 +3883,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5800
   },
   {
     "brand": "Motorola",
@@ -3840,7 +3900,7 @@
       "256GB"
     ],
     "default_mrp": 7665,
-    "base_resale_value": 5110,
+    "base_resale_value": 4600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-g30.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -3848,7 +3908,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4600
   },
   {
     "brand": "Motorola",
@@ -3864,7 +3925,7 @@
       "256GB"
     ],
     "default_mrp": 8565,
-    "base_resale_value": 5710,
+    "base_resale_value": 4900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-g31.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -3872,7 +3933,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4900
   },
   {
     "brand": "Motorola",
@@ -3888,7 +3950,7 @@
       "256GB"
     ],
     "default_mrp": 9105,
-    "base_resale_value": 6070,
+    "base_resale_value": 5200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-g32.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -3896,7 +3958,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5200
   },
   {
     "brand": "Motorola",
@@ -3912,7 +3975,7 @@
       "256GB"
     ],
     "default_mrp": 13515,
-    "base_resale_value": 9010,
+    "base_resale_value": 7200,
     "image_url": "https://api.mobileapi.dev/devices/221/thumb.png",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -3920,7 +3983,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 7200
   },
   {
     "brand": "Motorola",
@@ -4008,7 +4072,7 @@
       "256GB"
     ],
     "default_mrp": 8955,
-    "base_resale_value": 5970,
+    "base_resale_value": 5400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-g40-fusion.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -4016,7 +4080,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5400
   },
   {
     "brand": "Motorola",
@@ -4032,7 +4097,7 @@
       "256GB"
     ],
     "default_mrp": 8055,
-    "base_resale_value": 5370,
+    "base_resale_value": 5500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-g42.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -4040,7 +4105,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5500
   },
   {
     "brand": "Motorola",
@@ -4056,7 +4122,7 @@
       "256GB"
     ],
     "default_mrp": 13305,
-    "base_resale_value": 8870,
+    "base_resale_value": 7600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-g45-5g.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -4064,7 +4130,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 7600
   },
   {
     "brand": "Motorola",
@@ -4080,7 +4147,7 @@
       "256GB"
     ],
     "default_mrp": 10740,
-    "base_resale_value": 7160,
+    "base_resale_value": 5900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-g51-5g.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -4088,7 +4155,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 5900
   },
   {
     "brand": "Motorola",
@@ -4104,7 +4172,7 @@
       "256GB"
     ],
     "default_mrp": 8595,
-    "base_resale_value": 5730,
+    "base_resale_value": 6400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-g52.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -4112,7 +4180,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 6400
   },
   {
     "brand": "Motorola",
@@ -4128,7 +4197,7 @@
       "256GB"
     ],
     "default_mrp": 18510,
-    "base_resale_value": 12340,
+    "base_resale_value": 8820,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g54.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -4136,7 +4205,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 8820
   },
   {
     "brand": "Motorola",
@@ -4200,7 +4270,7 @@
       "256GB"
     ],
     "default_mrp": 11055,
-    "base_resale_value": 7370,
+    "base_resale_value": 6120,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-g60.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -4208,7 +4278,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 6120
   },
   {
     "brand": "Motorola",
@@ -4224,7 +4295,7 @@
       "256GB"
     ],
     "default_mrp": 13050,
-    "base_resale_value": 8700,
+    "base_resale_value": 7200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g62-5g.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -4232,7 +4303,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 7200
   },
   {
     "brand": "Motorola",
@@ -4248,7 +4320,7 @@
       "256GB"
     ],
     "default_mrp": 16785,
-    "base_resale_value": 11190,
+    "base_resale_value": 10340,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g64.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -4256,7 +4328,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 10340
   },
   {
     "brand": "Motorola",
@@ -4344,7 +4417,7 @@
       "256GB"
     ],
     "default_mrp": 13515,
-    "base_resale_value": 9010,
+    "base_resale_value": 7400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-g71-5g.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -4352,7 +4425,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 7400
   },
   {
     "brand": "Motorola",
@@ -4368,7 +4442,7 @@
       "256GB"
     ],
     "default_mrp": 10110,
-    "base_resale_value": 6740,
+    "base_resale_value": 7800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-g72.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -4376,7 +4450,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 7800
   },
   {
     "brand": "Motorola",
@@ -4392,7 +4467,7 @@
       "256GB"
     ],
     "default_mrp": 14820,
-    "base_resale_value": 9880,
+    "base_resale_value": 8150,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g73.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -4400,7 +4475,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 8150
   },
   {
     "brand": "Motorola",
@@ -4440,7 +4516,7 @@
       "256GB"
     ],
     "default_mrp": 6855,
-    "base_resale_value": 4570,
+    "base_resale_value": 3400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-g8-power-lite.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -4448,7 +4524,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3400
   },
   {
     "brand": "Motorola",
@@ -4464,7 +4541,7 @@
       "256GB"
     ],
     "default_mrp": 13590,
-    "base_resale_value": 9060,
+    "base_resale_value": 9200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-g82-5g.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -4472,7 +4549,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9200
   },
   {
     "brand": "Motorola",
@@ -4488,7 +4566,7 @@
       "256GB"
     ],
     "default_mrp": 19999,
-    "base_resale_value": 13850,
+    "base_resale_value": 11800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-g84-5g.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -4496,7 +4574,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 11800
   },
   {
     "brand": "Motorola",
@@ -4512,7 +4591,7 @@
       "256GB"
     ],
     "default_mrp": 17250,
-    "base_resale_value": 11500,
+    "base_resale_value": 14210,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g85.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -4520,7 +4599,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 14210
   },
   {
     "brand": "Motorola",
@@ -4560,7 +4640,7 @@
       "256GB"
     ],
     "default_mrp": 7050,
-    "base_resale_value": 4700,
+    "base_resale_value": 4100,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-g9.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -4568,7 +4648,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4100
   },
   {
     "brand": "Motorola",
@@ -4584,7 +4665,7 @@
       "256GB"
     ],
     "default_mrp": 7005,
-    "base_resale_value": 4670,
+    "base_resale_value": 4500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-g9-power.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -4592,7 +4673,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4500
   },
   {
     "brand": "Motorola",
@@ -4656,7 +4738,7 @@
       "256GB"
     ],
     "default_mrp": 17100,
-    "base_resale_value": 11400,
+    "base_resale_value": 14900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-razr.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -4664,7 +4746,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 14900
   },
   {
     "brand": "Motorola",
@@ -4680,7 +4763,7 @@
       "256GB"
     ],
     "default_mrp": 30690,
-    "base_resale_value": 20460,
+    "base_resale_value": 18200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-razr-40.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -4688,7 +4771,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 18200
   },
   {
     "brand": "Motorola",
@@ -4704,7 +4788,7 @@
       "256GB"
     ],
     "default_mrp": 36870,
-    "base_resale_value": 24580,
+    "base_resale_value": 24500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-razr-40-ultra.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -4712,7 +4796,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 24500
   },
   {
     "brand": "Motorola",
@@ -4728,7 +4813,7 @@
       "256GB"
     ],
     "default_mrp": 37920,
-    "base_resale_value": 25280,
+    "base_resale_value": 29500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-razr-50.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -4736,7 +4821,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 29500
   },
   {
     "brand": "Motorola",
@@ -4752,7 +4838,7 @@
       "256GB"
     ],
     "default_mrp": 49950,
-    "base_resale_value": 33300,
+    "base_resale_value": 39800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-razr-50-ultra.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -4760,7 +4846,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 39800
   },
   {
     "brand": "Motorola",
@@ -4848,7 +4935,7 @@
       "256GB"
     ],
     "default_mrp": 5340,
-    "base_resale_value": 3560,
+    "base_resale_value": 2900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-moto-z2-force.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -4856,7 +4943,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2900
   },
   {
     "brand": "Motorola",
@@ -4872,7 +4960,7 @@
       "256GB"
     ],
     "default_mrp": 6555,
-    "base_resale_value": 4370,
+    "base_resale_value": 3600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-one-action.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -4880,7 +4968,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3600
   },
   {
     "brand": "Motorola",
@@ -4896,7 +4985,7 @@
       "256GB"
     ],
     "default_mrp": 9990,
-    "base_resale_value": 6660,
+    "base_resale_value": 4890,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-one-fusion-plus.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -4904,7 +4993,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 4890
   },
   {
     "brand": "Motorola",
@@ -4944,7 +5034,7 @@
       "256GB"
     ],
     "default_mrp": 6165,
-    "base_resale_value": 4110,
+    "base_resale_value": 2800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-one-power.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -4952,7 +5042,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2800
   },
   {
     "brand": "Motorola",
@@ -4968,7 +5059,7 @@
       "256GB"
     ],
     "default_mrp": 6195,
-    "base_resale_value": 4130,
+    "base_resale_value": 3700,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-motorola-one-vision.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -4976,7 +5067,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3700
   },
   {
     "brand": "Motorola",
@@ -4992,7 +5084,7 @@
       "256GB"
     ],
     "default_mrp": 38700,
-    "base_resale_value": 25800,
+    "base_resale_value": 18200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-razr-40.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -5000,7 +5092,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 18200
   },
   {
     "brand": "Motorola",
@@ -5016,7 +5109,7 @@
       "256GB"
     ],
     "default_mrp": 52425,
-    "base_resale_value": 34950,
+    "base_resale_value": 24500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-razr-40-ultra.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -5024,7 +5117,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 24500
   },
   {
     "brand": "Motorola",
@@ -5040,7 +5134,7 @@
       "256GB"
     ],
     "default_mrp": 70425,
-    "base_resale_value": 46950,
+    "base_resale_value": 29500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-razr-50.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "High-Efficiency Processor",
@@ -5048,7 +5142,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 29500
   },
   {
     "brand": "Motorola",
@@ -5064,7 +5159,7 @@
       "256GB"
     ],
     "default_mrp": 99999,
-    "base_resale_value": 46850,
+    "base_resale_value": 39800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-razr-50-ultra.jpg",
     "popular_tag": "Motorola Official Model",
     "processor": "5G Octa-core Processor",
@@ -5072,7 +5167,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 39800
   },
   {
     "brand": "Nothing",
@@ -13766,7 +13862,7 @@
       "256GB"
     ],
     "default_mrp": 8625,
-    "base_resale_value": 7200,
+    "base_resale_value": 4900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a22-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -13775,7 +13871,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7200
+    "price": 4900
   },
   {
     "brand": "Samsung",
@@ -13791,7 +13887,7 @@
       "256GB"
     ],
     "default_mrp": 9795,
-    "base_resale_value": 8500,
+    "base_resale_value": 7500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a23-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -13800,7 +13896,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 8500
+    "price": 7500
   },
   {
     "brand": "Samsung",
@@ -13816,7 +13912,7 @@
       "256GB"
     ],
     "default_mrp": 17925,
-    "base_resale_value": 9500,
+    "base_resale_value": 6500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a24-4g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -13825,7 +13921,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 9500
+    "price": 6500
   },
   {
     "brand": "Samsung",
@@ -13841,7 +13937,7 @@
       "256GB"
     ],
     "default_mrp": 18510,
-    "base_resale_value": 11500,
+    "base_resale_value": 10500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a25.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -13850,7 +13946,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 11500
+    "price": 10500
   },
   {
     "brand": "Samsung",
@@ -13914,7 +14010,7 @@
       "256GB"
     ],
     "default_mrp": 6930,
-    "base_resale_value": 4200,
+    "base_resale_value": 2900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a30.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -13923,7 +14019,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 4200
+    "price": 2900
   },
   {
     "brand": "Samsung",
@@ -13939,7 +14035,7 @@
       "256GB"
     ],
     "default_mrp": 6705,
-    "base_resale_value": 4800,
+    "base_resale_value": 3800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a30s.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -13948,7 +14044,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 4800
+    "price": 3800
   },
   {
     "brand": "Samsung",
@@ -13964,7 +14060,7 @@
       "256GB"
     ],
     "default_mrp": 8565,
-    "base_resale_value": 5710,
+    "base_resale_value": 4500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a31.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -13972,7 +14068,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4500
   },
   {
     "brand": "Samsung",
@@ -13988,7 +14085,7 @@
       "256GB"
     ],
     "default_mrp": 10395,
-    "base_resale_value": 6930,
+    "base_resale_value": 5600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a32-4g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -13996,7 +14093,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5600
   },
   {
     "brand": "Samsung",
@@ -14012,7 +14110,7 @@
       "256GB"
     ],
     "default_mrp": 13035,
-    "base_resale_value": 10500,
+    "base_resale_value": 8500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a33-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -14021,7 +14119,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10500
+    "price": 8500
   },
   {
     "brand": "Samsung",
@@ -14037,7 +14135,7 @@
       "256GB"
     ],
     "default_mrp": 18675,
-    "base_resale_value": 12000,
+    "base_resale_value": 11000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a34.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -14046,7 +14144,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 12000
+    "price": 11000
   },
   {
     "brand": "Samsung",
@@ -14062,7 +14160,7 @@
       "256GB"
     ],
     "default_mrp": 21675,
-    "base_resale_value": 15500,
+    "base_resale_value": 14500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a35.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -14071,7 +14169,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 15500
+    "price": 14500
   },
   {
     "brand": "Samsung",
@@ -14135,7 +14233,7 @@
       "256GB"
     ],
     "default_mrp": 7845,
-    "base_resale_value": 5000,
+    "base_resale_value": 3600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a50.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -14144,7 +14242,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5000
+    "price": 3600
   },
   {
     "brand": "Samsung",
@@ -14160,7 +14258,7 @@
       "256GB"
     ],
     "default_mrp": 7155,
-    "base_resale_value": 5500,
+    "base_resale_value": 5000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a50s.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -14169,7 +14267,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5500
+    "price": 5000
   },
   {
     "brand": "Samsung",
@@ -14185,7 +14283,7 @@
       "256GB"
     ],
     "default_mrp": 8820,
-    "base_resale_value": 6000,
+    "base_resale_value": 5400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a51.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -14194,7 +14292,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 6000
+    "price": 5400
   },
   {
     "brand": "Samsung",
@@ -14210,7 +14308,7 @@
       "256GB"
     ],
     "default_mrp": 10920,
-    "base_resale_value": 9200,
+    "base_resale_value": 7500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a52-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -14219,7 +14317,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 9200
+    "price": 7500
   },
   {
     "brand": "Samsung",
@@ -14235,7 +14333,7 @@
       "256GB"
     ],
     "default_mrp": 14595,
-    "base_resale_value": 10200,
+    "base_resale_value": 9200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a52s-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -14244,7 +14342,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10200
+    "price": 9200
   },
   {
     "brand": "Samsung",
@@ -14260,7 +14358,7 @@
       "256GB"
     ],
     "default_mrp": 14175,
-    "base_resale_value": 13000,
+    "base_resale_value": 12000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a53-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -14269,7 +14367,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 13000
+    "price": 12000
   },
   {
     "brand": "Samsung",
@@ -14285,7 +14383,7 @@
       "256GB"
     ],
     "default_mrp": 38999,
-    "base_resale_value": 16000,
+    "base_resale_value": 15000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a54.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -14294,7 +14392,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 16000
+    "price": 15000
   },
   {
     "brand": "Samsung",
@@ -14310,7 +14408,7 @@
       "256GB"
     ],
     "default_mrp": 39999,
-    "base_resale_value": 19500,
+    "base_resale_value": 18500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a55.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -14319,7 +14417,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 19500
+    "price": 18500
   },
   {
     "brand": "Samsung",
@@ -14407,7 +14505,7 @@
       "256GB"
     ],
     "default_mrp": 9285,
-    "base_resale_value": 6200,
+    "base_resale_value": 4700,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a70.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -14416,7 +14514,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 6200
+    "price": 4700
   },
   {
     "brand": "Samsung",
@@ -14432,7 +14530,7 @@
       "256GB"
     ],
     "default_mrp": 8040,
-    "base_resale_value": 7000,
+    "base_resale_value": 5200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a70s.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -14441,7 +14539,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7000
+    "price": 5200
   },
   {
     "brand": "Samsung",
@@ -14457,7 +14555,7 @@
       "256GB"
     ],
     "default_mrp": 8970,
-    "base_resale_value": 8000,
+    "base_resale_value": 7000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a71.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -14466,7 +14564,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 8000
+    "price": 7000
   },
   {
     "brand": "Samsung",
@@ -14482,7 +14580,7 @@
       "256GB"
     ],
     "default_mrp": 12375,
-    "base_resale_value": 10500,
+    "base_resale_value": 8500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a72-4g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -14491,7 +14589,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 10500
+    "price": 8500
   },
   {
     "brand": "Samsung",
@@ -14507,7 +14605,7 @@
       "256GB"
     ],
     "default_mrp": 15945,
-    "base_resale_value": 14500,
+    "base_resale_value": 13500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a73-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -14516,7 +14614,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 14500
+    "price": 13500
   },
   {
     "brand": "Samsung",
@@ -14532,7 +14630,7 @@
       "256GB"
     ],
     "default_mrp": 6285,
-    "base_resale_value": 4190,
+    "base_resale_value": 2600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a8-plus.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -14540,7 +14638,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 2600
   },
   {
     "brand": "Samsung",
@@ -14580,7 +14679,7 @@
       "256GB"
     ],
     "default_mrp": 10395,
-    "base_resale_value": 7000,
+    "base_resale_value": 6100,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a80.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -14589,7 +14688,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7000
+    "price": 6100
   },
   {
     "brand": "Samsung",
@@ -14701,7 +14800,7 @@
       "256GB"
     ],
     "default_mrp": 7410,
-    "base_resale_value": 3800,
+    "base_resale_value": 2800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f04.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -14710,7 +14809,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 3800
+    "price": 2800
   },
   {
     "brand": "Samsung",
@@ -14798,7 +14897,7 @@
       "256GB"
     ],
     "default_mrp": 7965,
-    "base_resale_value": 4400,
+    "base_resale_value": 3000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f12.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -14807,7 +14906,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 4400
+    "price": 3000
   },
   {
     "brand": "Samsung",
@@ -14823,7 +14922,7 @@
       "256GB"
     ],
     "default_mrp": 8820,
-    "base_resale_value": 5000,
+    "base_resale_value": 4000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f13.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -14832,7 +14931,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 5000
+    "price": 4000
   },
   {
     "brand": "Samsung",
@@ -14873,7 +14972,7 @@
       "256GB"
     ],
     "default_mrp": 14670,
-    "base_resale_value": 7500,
+    "base_resale_value": 6500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f15-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -14882,7 +14981,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7500
+    "price": 6500
   },
   {
     "brand": "Samsung",
@@ -14946,7 +15045,7 @@
       "256GB"
     ],
     "default_mrp": 8460,
-    "base_resale_value": 5800,
+    "base_resale_value": 4800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f22.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -14955,7 +15054,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5800
+    "price": 4800
   },
   {
     "brand": "Samsung",
@@ -14971,7 +15070,7 @@
       "256GB"
     ],
     "default_mrp": 12465,
-    "base_resale_value": 7000,
+    "base_resale_value": 6000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f23-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -14980,7 +15079,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7000
+    "price": 6000
   },
   {
     "brand": "Samsung",
@@ -14996,7 +15095,7 @@
       "256GB"
     ],
     "default_mrp": 16725,
-    "base_resale_value": 9500,
+    "base_resale_value": 8500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f34-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -15005,7 +15104,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9500
+    "price": 8500
   },
   {
     "brand": "Samsung",
@@ -15045,7 +15144,7 @@
       "256GB"
     ],
     "default_mrp": 7680,
-    "base_resale_value": 5500,
+    "base_resale_value": 3800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f41.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -15054,7 +15153,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5500
+    "price": 3800
   },
   {
     "brand": "Samsung",
@@ -15070,7 +15169,7 @@
       "256GB"
     ],
     "default_mrp": 12405,
-    "base_resale_value": 6500,
+    "base_resale_value": 5500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f42-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -15079,7 +15178,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 6500
+    "price": 5500
   },
   {
     "brand": "Samsung",
@@ -15095,7 +15194,7 @@
       "256GB"
     ],
     "default_mrp": 22350,
-    "base_resale_value": 13000,
+    "base_resale_value": 12000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f54.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -15104,7 +15203,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 13000
+    "price": 12000
   },
   {
     "brand": "Samsung",
@@ -15120,7 +15219,7 @@
       "256GB"
     ],
     "default_mrp": 20220,
-    "base_resale_value": 17000,
+    "base_resale_value": 16000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f55.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -15129,7 +15228,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 17000
+    "price": 16000
   },
   {
     "brand": "Samsung",
@@ -15169,7 +15268,7 @@
       "256GB"
     ],
     "default_mrp": 10230,
-    "base_resale_value": 8200,
+    "base_resale_value": 7200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f62.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -15178,7 +15277,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 8200
+    "price": 7200
   },
   {
     "brand": "Samsung",
@@ -15362,7 +15461,7 @@
       "256GB"
     ],
     "default_mrp": 8310,
-    "base_resale_value": 3800,
+    "base_resale_value": 2800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m04.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -15371,7 +15470,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 3800
+    "price": 2800
   },
   {
     "brand": "Samsung",
@@ -15459,7 +15558,7 @@
       "256GB"
     ],
     "default_mrp": 8625,
-    "base_resale_value": 4500,
+    "base_resale_value": 3000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m12.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -15468,7 +15567,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 4500
+    "price": 3000
   },
   {
     "brand": "Samsung",
@@ -15484,7 +15583,7 @@
       "256GB"
     ],
     "default_mrp": 9105,
-    "base_resale_value": 5500,
+    "base_resale_value": 4500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m13-4g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -15493,7 +15592,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 5500
+    "price": 4500
   },
   {
     "brand": "Samsung",
@@ -15558,7 +15657,7 @@
       "256GB"
     ],
     "default_mrp": 14430,
-    "base_resale_value": 7500,
+    "base_resale_value": 6500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m15-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -15567,7 +15666,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7500
+    "price": 6500
   },
   {
     "brand": "Samsung",
@@ -15655,7 +15754,7 @@
       "256GB"
     ],
     "default_mrp": 7575,
-    "base_resale_value": 4500,
+    "base_resale_value": 3500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m21.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -15664,7 +15763,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 4500
+    "price": 3500
   },
   {
     "brand": "Samsung",
@@ -15704,7 +15803,7 @@
       "256GB"
     ],
     "default_mrp": 6855,
-    "base_resale_value": 4800,
+    "base_resale_value": 3800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m30s.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -15713,7 +15812,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 4800
+    "price": 3800
   },
   {
     "brand": "Samsung",
@@ -15729,7 +15828,7 @@
       "256GB"
     ],
     "default_mrp": 7620,
-    "base_resale_value": 5600,
+    "base_resale_value": 5000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m31.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -15738,7 +15837,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5600
+    "price": 5000
   },
   {
     "brand": "Samsung",
@@ -15754,7 +15853,7 @@
       "256GB"
     ],
     "default_mrp": 8460,
-    "base_resale_value": 6800,
+    "base_resale_value": 5800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m31s.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -15763,7 +15862,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 6800
+    "price": 5800
   },
   {
     "brand": "Samsung",
@@ -15828,7 +15927,7 @@
       "256GB"
     ],
     "default_mrp": 13215,
-    "base_resale_value": 8200,
+    "base_resale_value": 7200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m33-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -15837,7 +15936,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 8200
+    "price": 7200
   },
   {
     "brand": "Samsung",
@@ -15853,7 +15952,7 @@
       "256GB"
     ],
     "default_mrp": 18999,
-    "base_resale_value": 9500,
+    "base_resale_value": 8500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m34-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -15862,7 +15961,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9500
+    "price": 8500
   },
   {
     "brand": "Samsung",
@@ -15878,7 +15977,7 @@
       "256GB"
     ],
     "default_mrp": 17775,
-    "base_resale_value": 12000,
+    "base_resale_value": 11000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m35.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -15887,7 +15986,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 12000
+    "price": 11000
   },
   {
     "brand": "Samsung",
@@ -15927,7 +16026,7 @@
       "256GB"
     ],
     "default_mrp": 7770,
-    "base_resale_value": 5500,
+    "base_resale_value": 3600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m40.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -15936,7 +16035,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5500
+    "price": 3600
   },
   {
     "brand": "Samsung",
@@ -15952,7 +16051,7 @@
       "256GB"
     ],
     "default_mrp": 12855,
-    "base_resale_value": 7800,
+    "base_resale_value": 6800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m42-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -15961,7 +16060,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7800
+    "price": 6800
   },
   {
     "brand": "Samsung",
@@ -16001,7 +16100,7 @@
       "256GB"
     ],
     "default_mrp": 9720,
-    "base_resale_value": 8000,
+    "base_resale_value": 7000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m51.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -16010,7 +16109,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 8000
+    "price": 7000
   },
   {
     "brand": "Samsung",
@@ -16026,7 +16125,7 @@
       "256GB"
     ],
     "default_mrp": 14010,
-    "base_resale_value": 9500,
+    "base_resale_value": 7500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m52-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16035,7 +16134,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9500
+    "price": 7500
   },
   {
     "brand": "Samsung",
@@ -16051,7 +16150,7 @@
       "256GB"
     ],
     "default_mrp": 15345,
-    "base_resale_value": 11500,
+    "base_resale_value": 10500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m53-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16060,7 +16159,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 11500
+    "price": 10500
   },
   {
     "brand": "Samsung",
@@ -16076,7 +16175,7 @@
       "256GB"
     ],
     "default_mrp": 23700,
-    "base_resale_value": 12500,
+    "base_resale_value": 10500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m54.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16085,7 +16184,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 12500
+    "price": 10500
   },
   {
     "brand": "Samsung",
@@ -16101,7 +16200,7 @@
       "256GB"
     ],
     "default_mrp": 26999,
-    "base_resale_value": 14500,
+    "base_resale_value": 13500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m55.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16110,7 +16209,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 14500
+    "price": 13500
   },
   {
     "brand": "Samsung",
@@ -16174,7 +16273,7 @@
       "256GB"
     ],
     "default_mrp": 16380,
-    "base_resale_value": 10800,
+    "base_resale_value": 9800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note10-.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -16183,7 +16282,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 10800
+    "price": 9800
   },
   {
     "brand": "Samsung",
@@ -16199,7 +16298,7 @@
       "256GB"
     ],
     "default_mrp": 11175,
-    "base_resale_value": 9500,
+    "base_resale_value": 7500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note10-lite.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -16208,7 +16307,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 9500
+    "price": 7500
   },
   {
     "brand": "Samsung",
@@ -16224,7 +16323,7 @@
       "256GB"
     ],
     "default_mrp": 29925,
-    "base_resale_value": 14000,
+    "base_resale_value": 9800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note10-plus-.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16233,7 +16332,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 14000
+    "price": 9800
   },
   {
     "brand": "Samsung",
@@ -16249,7 +16348,7 @@
       "256GB"
     ],
     "default_mrp": 30450,
-    "base_resale_value": 17000,
+    "base_resale_value": 14000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note20-5g-r.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -16258,7 +16357,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 17000
+    "price": 14000
   },
   {
     "brand": "Samsung",
@@ -16274,7 +16373,7 @@
       "256GB"
     ],
     "default_mrp": 104999,
-    "base_resale_value": 24000,
+    "base_resale_value": 23000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note20-ultra-5g-.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16283,7 +16382,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 24000
+    "price": 23000
   },
   {
     "brand": "Samsung",
@@ -16299,7 +16398,7 @@
       "256GB"
     ],
     "default_mrp": 10095,
-    "base_resale_value": 6000,
+    "base_resale_value": 5000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note8-sm-n950.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -16308,7 +16407,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 6000
+    "price": 5000
   },
   {
     "brand": "Samsung",
@@ -16324,7 +16423,7 @@
       "256GB"
     ],
     "default_mrp": 11805,
-    "base_resale_value": 7500,
+    "base_resale_value": 6500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note9-r1.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -16333,7 +16432,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7500
+    "price": 6500
   },
   {
     "brand": "Samsung",
@@ -16397,7 +16496,7 @@
       "256GB"
     ],
     "default_mrp": 13050,
-    "base_resale_value": 8500,
+    "base_resale_value": 7500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10-1.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -16406,7 +16505,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 8500
+    "price": 7500
   },
   {
     "brand": "Samsung",
@@ -16422,7 +16521,7 @@
       "256GB"
     ],
     "default_mrp": 11655,
-    "base_resale_value": 7770,
+    "base_resale_value": 6500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10-lite-sm-g770f.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -16430,7 +16529,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 6500
   },
   {
     "brand": "Samsung",
@@ -16446,7 +16546,7 @@
       "256GB"
     ],
     "default_mrp": 20175,
-    "base_resale_value": 11000,
+    "base_resale_value": 7500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10-plus-new.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16455,7 +16555,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 11000
+    "price": 7500
   },
   {
     "brand": "Samsung",
@@ -16471,7 +16571,7 @@
       "256GB"
     ],
     "default_mrp": 11190,
-    "base_resale_value": 7500,
+    "base_resale_value": 6000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10e-1.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -16480,7 +16580,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7500
+    "price": 6000
   },
   {
     "brand": "Samsung",
@@ -16496,7 +16596,7 @@
       "256GB"
     ],
     "default_mrp": 14175,
-    "base_resale_value": 13000,
+    "base_resale_value": 11000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-r.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -16505,7 +16605,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 13000
+    "price": 11000
   },
   {
     "brand": "Samsung",
@@ -16546,7 +16646,7 @@
       "256GB"
     ],
     "default_mrp": 22080,
-    "base_resale_value": 19000,
+    "base_resale_value": 18000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-ultra-5g-r.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16555,7 +16655,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 19000
+    "price": 18000
   },
   {
     "brand": "Samsung",
@@ -16571,7 +16671,7 @@
       "256GB"
     ],
     "default_mrp": 28200,
-    "base_resale_value": 14500,
+    "base_resale_value": 11000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-plus-r.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16580,7 +16680,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 14500
+    "price": 11000
   },
   {
     "brand": "Samsung",
@@ -16596,7 +16696,7 @@
       "256GB"
     ],
     "default_mrp": 30600,
-    "base_resale_value": 17000,
+    "base_resale_value": 16000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-5g-r.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16605,7 +16705,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 17000
+    "price": 16000
   },
   {
     "brand": "Samsung",
@@ -16621,7 +16721,7 @@
       "256GB"
     ],
     "default_mrp": 49999,
-    "base_resale_value": 15000,
+    "base_resale_value": 14000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-fe-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16630,7 +16730,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 15000
+    "price": 14000
   },
   {
     "brand": "Samsung",
@@ -16646,7 +16746,7 @@
       "256GB"
     ],
     "default_mrp": 30600,
-    "base_resale_value": 26500,
+    "base_resale_value": 25500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-ultra-5g-.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16655,7 +16755,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 26500
+    "price": 25500
   },
   {
     "brand": "Samsung",
@@ -16671,7 +16771,7 @@
       "256GB"
     ],
     "default_mrp": 23250,
-    "base_resale_value": 20500,
+    "base_resale_value": 16000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-plus-5g-.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16680,7 +16780,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 20500
+    "price": 16000
   },
   {
     "brand": "Samsung",
@@ -16696,7 +16796,7 @@
       "256GB"
     ],
     "default_mrp": 62999,
-    "base_resale_value": 22500,
+    "base_resale_value": 21500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16705,7 +16805,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 22500
+    "price": 21500
   },
   {
     "brand": "Samsung",
@@ -16721,7 +16821,7 @@
       "256GB"
     ],
     "default_mrp": 109999,
-    "base_resale_value": 33000,
+    "base_resale_value": 32000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-ultra-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16730,7 +16830,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 33000
+    "price": 32000
   },
   {
     "brand": "Samsung",
@@ -16746,7 +16846,7 @@
       "256GB"
     ],
     "default_mrp": 32175,
-    "base_resale_value": 27000,
+    "base_resale_value": 21500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-plus-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16755,7 +16855,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 27000
+    "price": 21500
   },
   {
     "brand": "Samsung",
@@ -16771,7 +16871,7 @@
       "256GB"
     ],
     "default_mrp": 74999,
-    "base_resale_value": 29000,
+    "base_resale_value": 28000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16780,7 +16880,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 29000
+    "price": 28000
   },
   {
     "brand": "Samsung",
@@ -16796,7 +16896,7 @@
       "256GB"
     ],
     "default_mrp": 49999,
-    "base_resale_value": 22500,
+    "base_resale_value": 21500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-fe.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16805,7 +16905,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 22500
+    "price": 21500
   },
   {
     "brand": "Samsung",
@@ -16821,7 +16921,7 @@
       "256GB"
     ],
     "default_mrp": 124999,
-    "base_resale_value": 49000,
+    "base_resale_value": 48000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-ultra-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16830,7 +16930,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 49000
+    "price": 48000
   },
   {
     "brand": "Samsung",
@@ -16846,7 +16946,7 @@
       "256GB"
     ],
     "default_mrp": 47925,
-    "base_resale_value": 36000,
+    "base_resale_value": 28000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-plus-5g.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16855,7 +16955,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 36000
+    "price": 28000
   },
   {
     "brand": "Samsung",
@@ -16945,7 +17045,7 @@
       "256GB"
     ],
     "default_mrp": 99999,
-    "base_resale_value": 51000,
+    "base_resale_value": 43000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-plus-5g-sm-s926.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -16954,7 +17054,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 51000
+    "price": 43000
   },
   {
     "brand": "Samsung",
@@ -17259,7 +17359,7 @@
       "256GB"
     ],
     "default_mrp": 9180,
-    "base_resale_value": 5200,
+    "base_resale_value": 3500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s9.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "High-Efficiency Processor",
@@ -17268,7 +17368,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5200
+    "price": 3500
   },
   {
     "brand": "Samsung",
@@ -17284,7 +17384,7 @@
       "256GB"
     ],
     "default_mrp": 9375,
-    "base_resale_value": 5800,
+    "base_resale_value": 4800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s9-plus.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -17293,7 +17393,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 5800
+    "price": 4800
   },
   {
     "brand": "Samsung",
@@ -17509,7 +17609,7 @@
       "256GB"
     ],
     "default_mrp": 55425,
-    "base_resale_value": 43000,
+    "base_resale_value": 42000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold4.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -17518,7 +17618,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 43000
+    "price": 42000
   },
   {
     "brand": "Samsung",
@@ -17534,7 +17634,7 @@
       "256GB"
     ],
     "default_mrp": 85275,
-    "base_resale_value": 56000,
+    "base_resale_value": 55000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold5.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -17543,7 +17643,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 56000
+    "price": 55000
   },
   {
     "brand": "Samsung",
@@ -17559,7 +17659,7 @@
       "256GB"
     ],
     "default_mrp": 124425,
-    "base_resale_value": 77000,
+    "base_resale_value": 76000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold6.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
@@ -17568,7 +17668,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 77000
+    "price": 76000
   },
   {
     "brand": "Tecno",
@@ -24967,7 +25067,7 @@
       "256GB"
     ],
     "default_mrp": 164999,
-    "base_resale_value": 77000,
+    "base_resale_value": 76000,
     "image_url": null,
     "popular_tag": "Samsung Bestseller",
     "processor": "Octa-core Processor",
@@ -24976,7 +25076,7 @@
     "display_spec": "AMOLED Display",
     "is_5g": true,
     "is_active": true,
-    "price": 77000
+    "price": 76000
   },
   {
     "brand": "Samsung",
@@ -25015,7 +25115,7 @@
       "256GB"
     ],
     "default_mrp": 154999,
-    "base_resale_value": 56000,
+    "base_resale_value": 55000,
     "image_url": null,
     "popular_tag": "Samsung Bestseller",
     "processor": "Octa-core Processor",
@@ -25024,7 +25124,7 @@
     "display_spec": "AMOLED Display",
     "is_5g": true,
     "is_active": true,
-    "price": 56000
+    "price": 55000
   },
   {
     "brand": "Samsung",
@@ -26717,7 +26817,7 @@
       "256GB"
     ],
     "default_mrp": 75999,
-    "base_resale_value": 37000,
+    "base_resale_value": 18500,
     "image_url": null,
     "popular_tag": "Google Bestseller",
     "processor": "Octa-core Processor",
@@ -26725,7 +26825,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 18500
   },
   {
     "brand": "Google",
@@ -26740,7 +26841,7 @@
       "256GB"
     ],
     "default_mrp": 59999,
-    "base_resale_value": 22450,
+    "base_resale_value": 15400,
     "image_url": null,
     "popular_tag": "Google Bestseller",
     "processor": "Octa-core Processor",
@@ -26748,7 +26849,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 15400
   },
   {
     "brand": "Nothing",
@@ -26809,7 +26911,7 @@
       "256GB"
     ],
     "default_mrp": 59999,
-    "base_resale_value": 27460,
+    "base_resale_value": 28640,
     "image_url": null,
     "popular_tag": "Motorola Bestseller",
     "processor": "Octa-core Processor",
@@ -26817,7 +26919,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 28640
   },
   {
     "brand": "Motorola",
@@ -26832,7 +26935,7 @@
       "256GB"
     ],
     "default_mrp": 31999,
-    "base_resale_value": 19200,
+    "base_resale_value": 18900,
     "image_url": null,
     "popular_tag": "Motorola Bestseller",
     "processor": "Octa-core Processor",
@@ -26840,7 +26943,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 18900
   },
   {
     "brand": "Motorola",
@@ -26855,7 +26959,7 @@
       "256GB"
     ],
     "default_mrp": 22999,
-    "base_resale_value": 15880,
+    "base_resale_value": 15500,
     "image_url": null,
     "popular_tag": "Motorola Bestseller",
     "processor": "Octa-core Processor",
@@ -26863,7 +26967,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 15500
   },
   {
     "brand": "Honor",
@@ -26878,7 +26983,7 @@
       "256GB"
     ],
     "default_mrp": 57999,
-    "base_resale_value": 37000,
+    "base_resale_value": 20890,
     "image_url": null,
     "popular_tag": "Honor Bestseller",
     "processor": "Octa-core Processor",
@@ -26886,7 +26991,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 20890
   },
   {
     "brand": "Honor",
@@ -26901,7 +27007,7 @@
       "256GB"
     ],
     "default_mrp": 34999,
-    "base_resale_value": 22850,
+    "base_resale_value": 13400,
     "image_url": null,
     "popular_tag": "Honor Bestseller",
     "processor": "Octa-core Processor",
@@ -26909,7 +27015,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 13400
   },
   {
     "brand": "OnePlus",
@@ -29184,8 +29291,8 @@
     "display_spec": "Dynamic AMOLED 2X 120Hz",
     "is_5g": false,
     "is_active": true,
-    "base_resale_value": 5200,
-    "price": 5200
+    "base_resale_value": 4200,
+    "price": 4200
   },
   {
     "brand": "Samsung",
@@ -29234,8 +29341,8 @@
     "display_spec": "Dynamic AMOLED 2X 120Hz",
     "is_5g": true,
     "is_active": true,
-    "base_resale_value": 8200,
-    "price": 8200
+    "base_resale_value": 7200,
+    "price": 7200
   },
   {
     "brand": "Samsung",
@@ -29259,8 +29366,8 @@
     "display_spec": "Dynamic AMOLED 2X 120Hz",
     "is_5g": false,
     "is_active": true,
-    "base_resale_value": 5200,
-    "price": 5200
+    "base_resale_value": 4200,
+    "price": 4200
   },
   {
     "brand": "Samsung",
