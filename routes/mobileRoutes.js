@@ -834,18 +834,24 @@ router.get('/sell-pricing/competitor-radar', async (req, res, next) => {
 
     // 2. Fetch or compute Cashify Rate
     let cashifyBase = 0;
+    let isLiveCashify = false;
+    let cashifyDirectUrl = '';
     try {
       const cashifyVal = await fetchCashifyValuation(rawBrand, rawModel, storage);
       if (cashifyVal?.base_price > 0) {
         cashifyBase = cashifyVal.base_price;
+        isLiveCashify = true;
+        if (cashifyVal.url) {
+          cashifyDirectUrl = cashifyVal.url;
+        }
       }
     } catch (_cErr) {
       // Fallback
     }
 
-    // Fundu is strictly guaranteed to be ₹800 to ₹1,000 HIGHER than Cashify across all conditions
+    // Only if live Cashify scraping fails completely, use fallback formula
     const minAdvantage = funduBasePrice >= 5000 ? 1000 : 800;
-    if (!cashifyBase || cashifyBase <= 0 || cashifyBase >= funduBasePrice - minAdvantage) {
+    if (!cashifyBase || cashifyBase <= 0) {
       cashifyBase = Math.max(500, Math.round((funduBasePrice - minAdvantage) / 50) * 50);
     }
 
@@ -860,13 +866,14 @@ router.get('/sell-pricing/competitor-radar', async (req, res, next) => {
         id: 'cashify',
         name: 'Cashify',
         logo: 'https://www.cashify.in/favicon.ico',
-        tagline: 'India #1 Buyback Specialist',
+        tagline: isLiveCashify ? 'Live Scraped from Cashify.in' : 'India #1 Buyback Specialist',
         baseOffer: cashifyBase,
+        isLive: isLiveCashify,
         flawlessOffer: Math.round(cashifyBase * 0.84),
         goodOffer: Math.round(cashifyBase * 0.68),
         payoutSpeed: 'Instant Doorstep Cash / UPI',
-        verificationUrl: `https://www.cashify.in/search?q=${encodeURIComponent(rawBrand + ' ' + rawModel)}`,
-        directModelUrl: `https://www.cashify.in/sell-old-mobile-phone/sell-${rawBrand.toLowerCase()}/${rawModel.toLowerCase().replace(/\s+/g, '-')}`,
+        verificationUrl: cashifyDirectUrl || `https://www.cashify.in/search?q=${encodeURIComponent(rawBrand + ' ' + rawModel)}`,
+        directModelUrl: cashifyDirectUrl || `https://www.cashify.in/sell-old-mobile-phone/sell-${rawBrand.toLowerCase()}/${rawModel.toLowerCase().replace(/\s+/g, '-')}`,
         difference: funduBasePrice - cashifyBase,
         marketShare: '45%',
       },
@@ -933,11 +940,14 @@ router.get('/sell-pricing/competitor-radar', async (req, res, next) => {
     const marketLowest = Math.min(...allCompRates);
     const marketAverage = Math.round(allCompRates.reduce((a, b) => a + b, 0) / allCompRates.length);
 
-    const isWinning = funduBasePrice >= marketHighest;
+    const targetFunduMin = cashifyBase + minAdvantage;
+    const isWinning = funduBasePrice >= targetFunduMin;
     const diffFromHighest = funduBasePrice - marketHighest;
-    const b2bLiquidationEst = Math.round(funduBasePrice * 1.18);
+    const diffFromCashify = funduBasePrice - cashifyBase;
+    const b2bLiquidationEst = Math.round(Math.max(funduBasePrice, targetFunduMin) * 1.15);
     const grossMargin = b2bLiquidationEst - funduBasePrice;
     const grossMarginPercent = Math.round((grossMargin / b2bLiquidationEst) * 100);
+    const suggestedOptimumPrice = Math.max(targetFunduMin, marketHighest + (marketHighest >= 5000 ? 1000 : 500));
 
     const image = resolveDeviceImage(rawBrand, rawModel);
 
@@ -967,8 +977,11 @@ router.get('/sell-pricing/competitor-radar', async (req, res, next) => {
           marketAverage,
           isWinning,
           diffFromHighest,
-          status: isWinning ? 'WINNING' : diffFromHighest >= -500 ? 'COMPETITIVE' : 'BELOW_MARKET',
-          suggestedOptimumPrice: marketHighest + 500,
+          diffFromCashify,
+          status: isWinning ? 'WINNING' : diffFromCashify >= 0 ? 'COMPETITIVE' : 'BELOW_MARKET',
+          suggestedOptimumPrice,
+          targetFunduMin,
+          isLiveCashify,
           b2bLiquidationEst,
           grossMargin,
           grossMarginPercent,

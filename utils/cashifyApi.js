@@ -88,43 +88,140 @@ export const fetchCashifyModels = async (brand, query = '') => {
   return null;
 };
 
-/**
- * Estimate mobile resale price using Cashify API schema
- */
-export const fetchCashifyValuation = async (brand, model, storage) => {
-  const CASHIFY_API_BASE = (process.env.CASHIFY_API_BASE || 'https://api.cashify.in/api/v1').replace(/\/$/, '');
-  const CASHIFY_API_KEY = process.env.CASHIFY_API_KEY || '';
+function sanitizeSlugPart(str) {
+  return (str || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+}
 
+function extractPriceFromHtml(html) {
+  const propMatch = html.match(/itemProp="price">([0-9]+)<\/span>/i);
+  if (propMatch) return parseInt(propMatch[1], 10);
+
+  const uptoMatch = html.match(/Get Upto<\/div><span[^>]*>₹\s*([0-9,]+)<\/span>/i);
+  if (uptoMatch) return parseInt(uptoMatch[1].replace(/,/g, ''), 10);
+
+  return 0;
+}
+
+/**
+ * Scrapes live official buyback quote directly from cashify.in
+ */
+async function scrapeCashifyLive(brand, model, storage, ram = '') {
+  const b = sanitizeSlugPart(brand);
+  let m = sanitizeSlugPart(model);
+  if (b && m.startsWith(b + '-')) {
+    m = m.slice(b.length + 1);
+  }
+
+  const s = sanitizeSlugPart(storage).replace(/gb$/, '-gb').replace(/--+/g, '-');
+  const r = sanitizeSlugPart(ram).replace(/gb$/, '-gb').replace(/--+/g, '-');
+
+  const candidateSlugs = new Set();
+  
+  if (r && s) {
+    candidateSlugs.add(`used-${b}-${m}-${r}-${s}`);
+    candidateSlugs.add(`used-${m}-${r}-${s}`);
+    candidateSlugs.add(`used-${b}-${m}-5g-${r}-${s}`);
+    candidateSlugs.add(`used-${m}-5g-${r}-${s}`);
+  }
+  if (s) {
+    candidateSlugs.add(`used-${b}-${m}-${s}`);
+    candidateSlugs.add(`used-${m}-${s}`);
+    candidateSlugs.add(`used-${b}-${m}-5g-${s}`);
+    candidateSlugs.add(`used-${m}-5g-${s}`);
+    candidateSlugs.add(`sell-${b}-${m}-${s}`);
+    candidateSlugs.add(`sell-${m}-${s}`);
+  }
+
+  const headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept-Language': 'en-IN,en;q=0.9',
+  };
+
+  // 1. Direct candidate variant slug check
+  for (const slug of candidateSlugs) {
+    const url = `https://www.cashify.in/sell-old-mobile-phone/${slug}`;
+    try {
+      const res = await fetch(url, { headers, signal: AbortSignal.timeout(3500) });
+      if (res.ok) {
+        const html = await res.text();
+        const price = extractPriceFromHtml(html);
+        if (price > 0) {
+          return { base_price: price, url, source: 'cashify_live_direct' };
+        }
+      }
+    } catch (_e) {}
+  }
+
+  // 2. Discover variant via parent model landing page
+  const parentSlugs = [
+    `used-${b}-${m}`,
+    `used-${m}`,
+    `used-${b}-${m}-5g`,
+    `used-${m}-5g`,
+    `sell-${b}-${m}`,
+  ];
+
+  const mKeywords = m.split('-').filter(w => w.length >= 2 && w !== 'galaxy' && w !== 'phone');
+
+  for (const pSlug of parentSlugs) {
+    const pUrl = `https://www.cashify.in/sell-old-mobile-phone/${pSlug}`;
+    try {
+      const res = await fetch(pUrl, { headers, signal: AbortSignal.timeout(3500) });
+      if (res.ok) {
+        const html = await res.text();
+        const links = [...html.matchAll(/href="(\/sell-old-mobile-phone\/used-[^"]+)"/g)].map(m => m[1]);
+        const sMatch = s ? s.replace(/\s+/g, '-') : '';
+        
+        const matchingLink = links.find(l => {
+          if (!sMatch || !l.includes(sMatch)) return false;
+          return mKeywords.every(kw => l.includes(kw));
+        }) || links.find(l => {
+          if (!sMatch || !l.includes(sMatch)) return false;
+          return mKeywords.some(kw => l.includes(kw));
+        });
+
+        if (matchingLink) {
+          const varUrl = `https://www.cashify.in${matchingLink}`;
+          const varRes = await fetch(varUrl, { headers, signal: AbortSignal.timeout(3500) });
+          if (varRes.ok) {
+            const varHtml = await varRes.text();
+            const price = extractPriceFromHtml(varHtml);
+            if (price > 0) {
+              return { base_price: price, url: varUrl, source: 'cashify_live_discovered' };
+            }
+          }
+        }
+      }
+    } catch (_e) {}
+  }
+
+  return null;
+}
+
+/**
+ * Estimate mobile resale price using Cashify live scraper + internal caching
+ */
+export const fetchCashifyValuation = async (brand, model, storage, ram = '') => {
   if (!brand || !model) {
     throw createHttpError(400, 'brand and model are required for Cashify valuation.');
   }
 
-  const cacheKey = `cashify:valuation:${brand.toLowerCase()}:${model.toLowerCase()}:${(storage || '').toLowerCase()}`;
-  const cached = getCachedValue(cacheKey, 1000 * 60 * 60 * 6);
+  const cacheKey = `cashify:live:${brand.toLowerCase()}:${model.toLowerCase()}:${(storage || '').toLowerCase()}`;
+  const cached = getCachedValue(cacheKey, 1000 * 60 * 60 * 6); // 6 hours cache
   if (cached) return cached;
 
   try {
-    const headers = { 'Content-Type': 'application/json' };
-    if (CASHIFY_API_KEY) {
-      headers['Authorization'] = `Bearer ${CASHIFY_API_KEY}`;
-      headers['x-api-key'] = CASHIFY_API_KEY;
-    }
-
-    const res = await fetch(`${CASHIFY_API_BASE}/sell/estimate`, {
-      method: 'POST',
-      headers,
-      body: JSON.stringify({ brand, model, storage }),
-      signal: AbortSignal.timeout(5000),
-    });
-
-    if (res.ok) {
-      const json = await res.json().catch(() => null);
-      if (json?.data) {
-        return setCachedValue(cacheKey, json.data);
-      }
+    const liveResult = await scrapeCashifyLive(brand, model, storage, ram);
+    if (liveResult && liveResult.base_price > 0) {
+      return setCachedValue(cacheKey, liveResult);
     }
   } catch (_e) {
-    // API unavailable
+    // Fallback to null
   }
 
   return null;
