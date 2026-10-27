@@ -805,15 +805,13 @@
   {
     "brand": "Google",
     "model": "Pixel 2 XL",
-    "release_year": 2022,
+    "release_year": 2017,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 7425,
     "base_resale_value": 4950,
@@ -829,15 +827,13 @@
   {
     "brand": "Google",
     "model": "Pixel 3 XL",
-    "release_year": 2022,
+    "release_year": 2018,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 8925,
     "base_resale_value": 1950,
@@ -854,15 +850,12 @@
   {
     "brand": "Google",
     "model": "Pixel 3a",
-    "release_year": 2022,
+    "release_year": 2019,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB"
     ],
     "default_mrp": 9525,
     "base_resale_value": 1850,
@@ -879,15 +872,12 @@
   {
     "brand": "Google",
     "model": "Pixel 3a XL",
-    "release_year": 2022,
+    "release_year": 2019,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB"
     ],
     "default_mrp": 10275,
     "base_resale_value": 2150,
@@ -904,15 +894,13 @@
   {
     "brand": "Google",
     "model": "Pixel 4 XL",
-    "release_year": 2022,
+    "release_year": 2019,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "6GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 13425,
     "base_resale_value": 3100,
@@ -929,15 +917,12 @@
   {
     "brand": "Google",
     "model": "Pixel 4a",
-    "release_year": 2022,
+    "release_year": 2020,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "6GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 9210,
     "base_resale_value": 4240,
@@ -954,15 +939,12 @@
   {
     "brand": "Google",
     "model": "Pixel 5",
-    "release_year": 2022,
+    "release_year": 2020,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 17775,
     "base_resale_value": 6400,
@@ -981,12 +963,10 @@
     "model": "Pixel 6",
     "release_year": 2021,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 20850,
@@ -1006,13 +986,12 @@
     "model": "Pixel 6 Pro",
     "release_year": 2021,
     "ram_options": [
-      "6GB",
-      "8GB",
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB",
+      "256GB",
+      "512GB"
     ],
     "default_mrp": 20850,
     "base_resale_value": 11500,
@@ -1031,13 +1010,10 @@
     "model": "Pixel 6a",
     "release_year": 2022,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "6GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 43999,
     "base_resale_value": 9810,
@@ -1056,12 +1032,10 @@
     "model": "Pixel 7",
     "release_year": 2022,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 33525,
@@ -1081,13 +1055,12 @@
     "model": "Pixel 7 Pro",
     "release_year": 2022,
     "ram_options": [
-      "6GB",
-      "8GB",
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB",
+      "256GB",
+      "512GB"
     ],
     "default_mrp": 33525,
     "base_resale_value": 19800,
@@ -1106,13 +1079,10 @@
     "model": "Pixel 7a",
     "release_year": 2023,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 43999,
     "base_resale_value": 11850,
@@ -1131,12 +1101,10 @@
     "model": "Pixel 8",
     "release_year": 2023,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 55350,
@@ -1156,13 +1124,13 @@
     "model": "Pixel 8 Pro",
     "release_year": 2023,
     "ram_options": [
-      "6GB",
-      "8GB",
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB",
+      "256GB",
+      "512GB",
+      "1TB"
     ],
     "default_mrp": 106999,
     "base_resale_value": 32880,
@@ -1181,12 +1149,10 @@
     "model": "Pixel 8a",
     "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 52999,
@@ -1206,12 +1172,10 @@
     "model": "Pixel 9",
     "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 79999,
@@ -1231,13 +1195,13 @@
     "model": "Pixel 9 Pro",
     "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "16GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB",
+      "256GB",
+      "512GB",
+      "1TB"
     ],
     "default_mrp": 85425,
     "base_resale_value": 52800,
@@ -1256,13 +1220,11 @@
     "model": "Pixel 9 Pro Fold",
     "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "16GB"
     ],
     "storage_options": [
-      "256 GB",
-      "256GB"
+      "256GB",
+      "512GB"
     ],
     "default_mrp": 62700,
     "base_resale_value": 72500,
@@ -1281,13 +1243,13 @@
     "model": "Pixel 9 Pro XL",
     "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "16GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB",
+      "256GB",
+      "512GB",
+      "1TB"
     ],
     "default_mrp": 124999,
     "base_resale_value": 68500,
@@ -1304,15 +1266,13 @@
   {
     "brand": "Google",
     "model": "Pixel Fold",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
-      "6GB",
-      "8GB",
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
-      "256GB"
+      "256GB",
+      "512GB"
     ],
     "default_mrp": 83775,
     "base_resale_value": 42000,
@@ -2613,240 +2573,16 @@
   },
   {
     "brand": "Motorola",
-    "model": "Edge 30",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 18675,
-    "base_resale_value": 9600,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-30.jpg",
-    "popular_tag": "Motorola Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 9600
-  },
-  {
-    "brand": "Motorola",
-    "model": "Edge 30 Fusion",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 23025,
-    "base_resale_value": 11800,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-30-fusion.jpg",
-    "popular_tag": "Motorola Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 11800
-  },
-  {
-    "brand": "Motorola",
-    "model": "Edge 30 Ultra",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 28275,
-    "base_resale_value": 15800,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-30-ultra.jpg",
-    "popular_tag": "Motorola Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 15800
-  },
-  {
-    "brand": "Motorola",
-    "model": "Edge 40",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "256 GB",
-      "256GB"
-    ],
-    "default_mrp": 23250,
-    "base_resale_value": 13200,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-40.jpg",
-    "popular_tag": "Motorola Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 13200
-  },
-  {
-    "brand": "Motorola",
-    "model": "Edge 40 Neo",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 22275,
-    "base_resale_value": 11600,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-40-neo.jpg",
-    "popular_tag": "Motorola Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 11600
-  },
-  {
-    "brand": "Motorola",
-    "model": "Edge 40 Pro",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "256 GB",
-      "256GB"
-    ],
-    "default_mrp": 38925,
-    "base_resale_value": 25950,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-40-pro.jpg",
-    "popular_tag": "Motorola Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Motorola",
-    "model": "Edge 50 Fusion",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 27600,
-    "base_resale_value": 15500,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-50-fusion.jpg",
-    "popular_tag": "Motorola Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 15500
-  },
-  {
-    "brand": "Motorola",
-    "model": "Edge 50 Pro",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "256 GB",
-      "256GB"
-    ],
-    "default_mrp": 30450,
-    "base_resale_value": 18900,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-50-pro.jpg",
-    "popular_tag": "Motorola Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 18900
-  },
-  {
-    "brand": "Motorola",
-    "model": "Edge 50 Ultra",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "512 GB",
-      "256GB"
-    ],
-    "default_mrp": 47850,
-    "base_resale_value": 28640,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-50-ultra.jpg",
-    "popular_tag": "Motorola Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 28640
-  },
-  {
-    "brand": "Motorola",
     "model": "Moto E13",
-    "release_year": 2021,
+    "release_year": 2023,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "2GB",
+      "4GB",
+      "8GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 8640,
     "base_resale_value": 5760,
@@ -2864,13 +2600,10 @@
     "model": "Moto E22s",
     "release_year": 2022,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB"
     ],
     "default_mrp": 7395,
     "base_resale_value": 4930,
@@ -2893,7 +2626,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 7530,
@@ -2918,7 +2651,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 8310,
@@ -2943,7 +2676,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 5835,
@@ -2968,7 +2701,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 6540,
@@ -2993,7 +2726,7 @@
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 13215,
@@ -3018,7 +2751,7 @@
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 12735,
@@ -3043,7 +2776,7 @@
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 14415,
@@ -3064,12 +2797,10 @@
     "release_year": 2022,
     "ram_options": [
       "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 15420,
     "base_resale_value": 9600,
@@ -3088,13 +2819,10 @@
     "model": "Moto Edge 30 Fusion",
     "release_year": 2022,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 17880,
     "base_resale_value": 11800,
@@ -3114,12 +2842,10 @@
     "release_year": 2022,
     "ram_options": [
       "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 16050,
     "base_resale_value": 12450,
@@ -3138,12 +2864,11 @@
     "model": "Moto Edge 30 Ultra",
     "release_year": 2022,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 21405,
@@ -3161,14 +2886,11 @@
   {
     "brand": "Motorola",
     "model": "Moto Edge 40",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
     "default_mrp": 25605,
@@ -3186,14 +2908,13 @@
   {
     "brand": "Motorola",
     "model": "Moto Edge 40 Neo",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 23670,
@@ -3211,14 +2932,11 @@
   {
     "brand": "Motorola",
     "model": "Moto Edge 50",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
     "default_mrp": 25965,
@@ -3235,14 +2953,13 @@
   {
     "brand": "Motorola",
     "model": "Moto Edge 50 Fusion",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 23820,
@@ -3260,14 +2977,11 @@
   {
     "brand": "Motorola",
     "model": "Moto Edge 50 Neo",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
     "default_mrp": 26310,
@@ -3285,14 +2999,12 @@
   {
     "brand": "Motorola",
     "model": "Moto Edge 50 Pro",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
     "default_mrp": 28725,
@@ -3310,15 +3022,13 @@
   {
     "brand": "Motorola",
     "model": "Moto Edge 50 Ultra",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "12GB",
+      "16GB"
     ],
     "storage_options": [
-      "512 GB",
-      "256GB"
+      "512GB"
     ],
     "default_mrp": 41115,
     "base_resale_value": 28640,
@@ -3342,7 +3052,6 @@
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
     "default_mrp": 29625,
@@ -3366,7 +3075,7 @@
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 25770,
@@ -3390,7 +3099,6 @@
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
     "default_mrp": 31575,
@@ -3414,7 +3122,6 @@
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
     "default_mrp": 26145,
@@ -3438,7 +3145,6 @@
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
     "default_mrp": 30750,
@@ -3462,7 +3168,7 @@
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 29925,
@@ -3486,7 +3192,6 @@
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
     "default_mrp": 41850,
@@ -3510,7 +3215,6 @@
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
     "default_mrp": 50475,
@@ -3534,7 +3238,6 @@
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
     "default_mrp": 14715,
@@ -3559,7 +3262,7 @@
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 17175,
@@ -3577,15 +3280,14 @@
   {
     "brand": "Motorola",
     "model": "Moto G04",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB",
+      "8GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 8265,
     "base_resale_value": 5510,
@@ -3601,15 +3303,14 @@
   {
     "brand": "Motorola",
     "model": "Moto G04s",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB",
+      "8GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 8640,
     "base_resale_value": 5760,
@@ -3632,7 +3333,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 10380,
@@ -3656,7 +3357,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 10695,
@@ -3680,7 +3381,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 7575,
@@ -3705,7 +3406,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 6360,
@@ -3722,15 +3423,12 @@
   {
     "brand": "Motorola",
     "model": "Moto G14",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 9945,
     "base_resale_value": 6630,
@@ -3748,13 +3446,10 @@
     "model": "Moto G22",
     "release_year": 2022,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB"
     ],
     "default_mrp": 8520,
     "base_resale_value": 4800,
@@ -3771,15 +3466,13 @@
   {
     "brand": "Motorola",
     "model": "Moto G24 Power",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB",
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 7455,
     "base_resale_value": 5800,
@@ -3803,7 +3496,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 7665,
@@ -3828,7 +3521,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 8565,
@@ -3848,13 +3541,12 @@
     "model": "Moto G32",
     "release_year": 2022,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB",
+      "8GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 9105,
     "base_resale_value": 5200,
@@ -3871,15 +3563,13 @@
   {
     "brand": "Motorola",
     "model": "Moto G34 5G",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB",
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 13515,
     "base_resale_value": 7200,
@@ -3896,15 +3586,13 @@
   {
     "brand": "Motorola",
     "model": "Moto G35 5G",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB",
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 16050,
     "base_resale_value": 10700,
@@ -3927,7 +3615,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 17325,
@@ -3951,7 +3639,7 @@
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 20040,
@@ -3975,7 +3663,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 8955,
@@ -3995,13 +3683,10 @@
     "model": "Moto G42",
     "release_year": 2022,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB"
     ],
     "default_mrp": 8055,
     "base_resale_value": 5500,
@@ -4018,15 +3703,13 @@
   {
     "brand": "Motorola",
     "model": "Moto G45 5G",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB",
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 13305,
     "base_resale_value": 7600,
@@ -4050,7 +3733,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 10740,
@@ -4070,13 +3753,12 @@
     "model": "Moto G52",
     "release_year": 2022,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB",
+      "6GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 8595,
     "base_resale_value": 6400,
@@ -4093,14 +3775,13 @@
   {
     "brand": "Motorola",
     "model": "Moto G54 5G",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 18510,
@@ -4125,7 +3806,7 @@
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 16860,
@@ -4149,7 +3830,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 5745,
@@ -4173,7 +3854,7 @@
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 11055,
@@ -4194,12 +3875,10 @@
     "release_year": 2022,
     "ram_options": [
       "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 13050,
     "base_resale_value": 7200,
@@ -4216,14 +3895,13 @@
   {
     "brand": "Motorola",
     "model": "Moto G64 5G",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 16785,
@@ -4248,7 +3926,7 @@
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 18750,
@@ -4272,7 +3950,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 5295,
@@ -4296,7 +3974,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 5775,
@@ -4320,7 +3998,7 @@
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 13515,
@@ -4340,13 +4018,10 @@
     "model": "Moto G72",
     "release_year": 2022,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "6GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 10110,
     "base_resale_value": 7800,
@@ -4363,15 +4038,12 @@
   {
     "brand": "Motorola",
     "model": "Moto G73 5G",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 14820,
     "base_resale_value": 8150,
@@ -4395,7 +4067,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 6855,
@@ -4419,7 +4091,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 6855,
@@ -4440,12 +4112,10 @@
     "release_year": 2022,
     "ram_options": [
       "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 13590,
     "base_resale_value": 9200,
@@ -4464,12 +4134,9 @@
     "model": "Moto G84 5G",
     "release_year": 2023,
     "ram_options": [
-      "6GB",
-      "8GB",
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
     "default_mrp": 19999,
@@ -4487,14 +4154,13 @@
   {
     "brand": "Motorola",
     "model": "Moto G85 5G",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 17250,
@@ -4519,7 +4185,7 @@
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 21480,
@@ -4543,7 +4209,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 7050,
@@ -4568,7 +4234,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 7005,
@@ -4593,7 +4259,7 @@
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 21555,
@@ -4617,7 +4283,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 5850,
@@ -4641,7 +4307,7 @@
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 17100,
@@ -4659,14 +4325,11 @@
   {
     "brand": "Motorola",
     "model": "Moto Razr 40",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
     "default_mrp": 30690,
@@ -4684,14 +4347,12 @@
   {
     "brand": "Motorola",
     "model": "Moto Razr 40 Ultra",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
     "default_mrp": 36870,
@@ -4709,14 +4370,11 @@
   {
     "brand": "Motorola",
     "model": "Moto Razr 50",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
     "default_mrp": 37920,
@@ -4734,15 +4392,12 @@
   {
     "brand": "Motorola",
     "model": "Moto Razr 50 Ultra",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
       "12GB"
     ],
     "storage_options": [
-      "512 GB",
-      "256GB"
+      "512GB"
     ],
     "default_mrp": 49950,
     "base_resale_value": 39800,
@@ -4759,15 +4414,14 @@
   {
     "brand": "Motorola",
     "model": "Moto Razr 60",
-    "release_year": 2022,
+    "release_year": 2025,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
-      "256GB"
+      "256GB",
+      "512GB"
     ],
     "default_mrp": 42720,
     "base_resale_value": 28480,
@@ -4783,15 +4437,14 @@
   {
     "brand": "Motorola",
     "model": "Moto Razr 60 Ultra",
-    "release_year": 2022,
+    "release_year": 2025,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "12GB",
+      "16GB"
     ],
     "storage_options": [
-      "512 GB",
-      "256GB"
+      "256GB",
+      "512GB"
     ],
     "default_mrp": 71565,
     "base_resale_value": 47710,
@@ -4814,7 +4467,6 @@
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
     "default_mrp": 56355,
@@ -4838,7 +4490,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 5340,
@@ -4863,7 +4515,7 @@
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 6555,
@@ -4888,7 +4540,7 @@
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 9990,
@@ -4913,7 +4565,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 5775,
@@ -4937,7 +4589,7 @@
       "12GB"
     ],
     "storage_options": [
-      "64 GB",
+      "64GB",
       "256GB"
     ],
     "default_mrp": 6165,
@@ -4962,7 +4614,7 @@
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 6195,
@@ -4978,188 +4630,15 @@
     "price": 3700
   },
   {
-    "brand": "Motorola",
-    "model": "Razr 40",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "256 GB",
-      "256GB"
-    ],
-    "default_mrp": 38700,
-    "base_resale_value": 18200,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-razr-40.jpg",
-    "popular_tag": "Motorola Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 18200
-  },
-  {
-    "brand": "Motorola",
-    "model": "Razr 40 Ultra",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "256 GB",
-      "256GB"
-    ],
-    "default_mrp": 52425,
-    "base_resale_value": 24500,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-razr-40-ultra.jpg",
-    "popular_tag": "Motorola Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 24500
-  },
-  {
-    "brand": "Motorola",
-    "model": "Razr 50",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "256 GB",
-      "256GB"
-    ],
-    "default_mrp": 70425,
-    "base_resale_value": 29500,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-razr-50.jpg",
-    "popular_tag": "Motorola Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 29500
-  },
-  {
-    "brand": "Motorola",
-    "model": "Razr 50 Ultra",
-    "release_year": 2024,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "512 GB",
-      "256GB"
-    ],
-    "default_mrp": 99999,
-    "base_resale_value": 39800,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-razr-50-ultra.jpg",
-    "popular_tag": "Motorola Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 39800
-  },
-  {
-    "brand": "Nothing",
-    "model": "CMF by Nothing Phone 1",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 19425,
-    "base_resale_value": 12950,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/nothing-cmf-by-nothing-phone-1.jpg",
-    "popular_tag": "Nothing Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Nothing",
-    "model": "CMF by Nothing Phone 2 Pro 5G",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 30525,
-    "base_resale_value": 20350,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/nothing-cmf-by-nothing-phone-2-pro-5g.jpg",
-    "popular_tag": "Nothing Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Nothing",
-    "model": "CMF Phone 1 by Nothing",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 14025,
-    "base_resale_value": 9350,
-    "image_url": "https://api.mobileapi.dev/devices/1249/thumb.png",
-    "popular_tag": "Nothing Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
     "brand": "Nothing",
     "model": "Phone (1)",
     "release_year": 2022,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 25950,
@@ -5171,20 +4650,21 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 17300
   },
   {
     "brand": "Nothing",
     "model": "Phone (2)",
     "release_year": 2023,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
-      "256GB"
+      "128GB",
+      "256GB",
+      "512GB"
     ],
     "default_mrp": 44999,
     "base_resale_value": 25450,
@@ -5195,19 +4675,19 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 25450
   },
   {
     "brand": "Nothing",
     "model": "Phone (2a)",
     "release_year": 2024,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 23999,
@@ -5219,19 +4699,18 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 16450
   },
   {
     "brand": "Nothing",
     "model": "Phone (2a) Plus",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
     "default_mrp": 32700,
@@ -5243,175 +4722,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Nothing",
-    "model": "Phone 3",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "256 GB",
-      "256GB"
-    ],
-    "default_mrp": 50400,
-    "base_resale_value": 33600,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/nothing-nothing-phone-3.jpg",
-    "popular_tag": "Nothing Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Nothing",
-    "model": "Phone 3a",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 32775,
-    "base_resale_value": 21850,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/nothing-nothing-phone-3a.jpg",
-    "popular_tag": "Nothing Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Nothing",
-    "model": "Phone 3a Lite",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 25200,
-    "base_resale_value": 16800,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/nothing-nothing-phone-3a-lite.jpg",
-    "popular_tag": "Nothing Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Nothing",
-    "model": "Phone 3a Pro",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 33840,
-    "base_resale_value": 22560,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/nothing-nothing-phone-3a-pro.jpg",
-    "popular_tag": "Nothing Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Nothing",
-    "model": "Phone 4a",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 40425,
-    "base_resale_value": 26950,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/nothing-nothing-phone-4a.jpg",
-    "popular_tag": "Nothing Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Nothing",
-    "model": "Phone 4a Pro",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 47475,
-    "base_resale_value": 31650,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/nothing-nothing-phone-4a-pro.jpg",
-    "popular_tag": "Nothing Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Nothing",
-    "model": "Phone 4b",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 37350,
-    "base_resale_value": 24900,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/nothing-nothing-phone-4b.jpg",
-    "popular_tag": "Nothing Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 21800
   },
   {
     "brand": "OnePlus",
@@ -9201,15 +8513,12 @@
   {
     "brand": "Poco",
     "model": "C51",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB"
     ],
     "default_mrp": 9720,
     "base_resale_value": 6480,
@@ -9225,15 +8534,15 @@
   {
     "brand": "Poco",
     "model": "C55",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
+      "4GB",
       "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 10245,
     "base_resale_value": 6830,
@@ -9249,15 +8558,14 @@
   {
     "brand": "Poco",
     "model": "C61",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB",
+      "6GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 10350,
     "base_resale_value": 6900,
@@ -9273,14 +8581,14 @@
   {
     "brand": "Poco",
     "model": "C65",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
+      "4GB",
       "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 10575,
@@ -9296,159 +8604,14 @@
   },
   {
     "brand": "Poco",
-    "model": "C71",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 9135,
-    "base_resale_value": 6090,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/poco-poco-c71.jpg",
-    "popular_tag": "Poco Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Poco",
-    "model": "C75 5G",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 11715,
-    "base_resale_value": 7810,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/poco-poco-c75-5g.jpg",
-    "popular_tag": "Poco Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Poco",
-    "model": "C81",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 14295,
-    "base_resale_value": 9530,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/poco-poco-c81.jpg",
-    "popular_tag": "Poco Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Poco",
-    "model": "C81X",
-    "release_year": 2018,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 12930,
-    "base_resale_value": 8620,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/poco-poco-c81x.jpg",
-    "popular_tag": "Poco Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Poco",
-    "model": "C85 5G",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 15045,
-    "base_resale_value": 10030,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/poco-poco-c85-5g.jpg",
-    "popular_tag": "Poco Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Poco",
-    "model": "C85x",
-    "release_year": 2018,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 15120,
-    "base_resale_value": 10080,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/poco-poco-c85x.jpg",
-    "popular_tag": "Poco Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Poco",
     "model": "F3 GT",
-    "release_year": 2022,
+    "release_year": 2021,
     "ram_options": [
       "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 14850,
@@ -9472,7 +8635,7 @@
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 13440,
@@ -9489,14 +8652,12 @@
   {
     "brand": "Poco",
     "model": "F5 5G",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
     "default_mrp": 21675,
@@ -9515,13 +8676,12 @@
     "model": "F6 5G",
     "release_year": 2024,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
-      "256GB"
+      "256GB",
+      "512GB"
     ],
     "default_mrp": 29999,
     "base_resale_value": 18450,
@@ -9536,40 +8696,14 @@
   },
   {
     "brand": "Poco",
-    "model": "F7 5G",
-    "release_year": 2017,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "256 GB",
-      "256GB"
-    ],
-    "default_mrp": 33780,
-    "base_resale_value": 22520,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/poco-poco-f7-5g.jpg",
-    "popular_tag": "Poco Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Poco",
     "model": "M2",
-    "release_year": 2022,
+    "release_year": 2020,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "6GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 8505,
     "base_resale_value": 5670,
@@ -9585,15 +8719,14 @@
   {
     "brand": "Poco",
     "model": "M2 Pro",
-    "release_year": 2022,
+    "release_year": 2020,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB",
+      "6GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 9375,
     "base_resale_value": 6250,
@@ -9609,15 +8742,12 @@
   {
     "brand": "Poco",
     "model": "M2 Reloaded",
-    "release_year": 2022,
+    "release_year": 2021,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB"
     ],
     "default_mrp": 7440,
     "base_resale_value": 4960,
@@ -9633,15 +8763,13 @@
   {
     "brand": "Poco",
     "model": "M3",
-    "release_year": 2022,
+    "release_year": 2020,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "6GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 9225,
     "base_resale_value": 6150,
@@ -9657,15 +8785,14 @@
   {
     "brand": "Poco",
     "model": "M3 Pro 5G",
-    "release_year": 2022,
+    "release_year": 2021,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB",
+      "6GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 11820,
     "base_resale_value": 7880,
@@ -9683,13 +8810,12 @@
     "model": "M4 5G",
     "release_year": 2022,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB",
+      "6GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 11790,
     "base_resale_value": 7860,
@@ -9707,13 +8833,13 @@
     "model": "M4 Pro 5G",
     "release_year": 2022,
     "ram_options": [
+      "4GB",
       "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 10050,
     "base_resale_value": 6700,
@@ -9731,13 +8857,12 @@
     "model": "M5",
     "release_year": 2022,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB",
+      "6GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 8700,
     "base_resale_value": 5800,
@@ -9753,14 +8878,15 @@
   {
     "brand": "Poco",
     "model": "M6 5G",
-    "release_year": 2016,
+    "release_year": 2023,
     "ram_options": [
+      "4GB",
       "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
+      "64GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 11535,
@@ -9777,15 +8903,13 @@
   {
     "brand": "Poco",
     "model": "M6 Plus 5G",
-    "release_year": 2016,
+    "release_year": 2024,
     "ram_options": [
       "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 12615,
     "base_resale_value": 8410,
@@ -9803,12 +8927,13 @@
     "model": "M6 Pro 5G",
     "release_year": 2023,
     "ram_options": [
+      "4GB",
       "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
+      "64GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 12999,
@@ -9824,112 +8949,15 @@
   },
   {
     "brand": "Poco",
-    "model": "M7 5G",
-    "release_year": 2017,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 12015,
-    "base_resale_value": 8010,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/poco-poco-m7-5g.jpg",
-    "popular_tag": "Poco Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Poco",
-    "model": "M7 Plus 5G",
-    "release_year": 2017,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 14460,
-    "base_resale_value": 9640,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/poco-poco-m7-plus-5g.jpg",
-    "popular_tag": "Poco Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Poco",
-    "model": "M7 Pro 5G",
-    "release_year": 2017,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 16560,
-    "base_resale_value": 11040,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/poco-poco-m7-pro-5g.jpg",
-    "popular_tag": "Poco Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Poco",
-    "model": "M8 5G",
-    "release_year": 2017,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 23835,
-    "base_resale_value": 15890,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/poco-poco-m8-5g.jpg",
-    "popular_tag": "Poco Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Poco",
     "model": "X3",
-    "release_year": 2022,
+    "release_year": 2020,
     "ram_options": [
       "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 9750,
     "base_resale_value": 6500,
@@ -9945,15 +8973,13 @@
   {
     "brand": "Poco",
     "model": "X3 Pro",
-    "release_year": 2022,
+    "release_year": 2021,
     "ram_options": [
       "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 10725,
     "base_resale_value": 7150,
@@ -9972,12 +8998,11 @@
     "release_year": 2022,
     "ram_options": [
       "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 12735,
     "base_resale_value": 8490,
@@ -9993,14 +9018,13 @@
   {
     "brand": "Poco",
     "model": "X5 5G",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
       "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 17925,
@@ -10017,14 +9041,13 @@
   {
     "brand": "Poco",
     "model": "X5 Pro 5G",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
       "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 19185,
@@ -10041,15 +9064,15 @@
   {
     "brand": "Poco",
     "model": "X6 5G",
-    "release_year": 2016,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB",
+      "256GB",
+      "512GB"
     ],
     "default_mrp": 24675,
     "base_resale_value": 16450,
@@ -10065,14 +9088,13 @@
   {
     "brand": "Poco",
     "model": "X6 Neo 5G",
-    "release_year": 2016,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 16065,
@@ -10091,113 +9113,16 @@
     "model": "X6 Pro 5G",
     "release_year": 2024,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
-      "256GB"
+      "256GB",
+      "512GB"
     ],
     "default_mrp": 26999,
     "base_resale_value": 16350,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x6-pro.jpg",
-    "popular_tag": "Poco Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Poco",
-    "model": "X7 5G",
-    "release_year": 2017,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 19695,
-    "base_resale_value": 13130,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/poco-poco-x7-5g.jpg",
-    "popular_tag": "Poco Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Poco",
-    "model": "X7 Pro 5G",
-    "release_year": 2017,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "256 GB",
-      "256GB"
-    ],
-    "default_mrp": 24225,
-    "base_resale_value": 16150,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/poco-poco-x7-pro-5g.jpg",
-    "popular_tag": "Poco Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Poco",
-    "model": "X8 Pro",
-    "release_year": 2017,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "256 GB",
-      "256GB"
-    ],
-    "default_mrp": 35505,
-    "base_resale_value": 23670,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/poco-poco-x8-pro.jpg",
-    "popular_tag": "Poco Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Poco",
-    "model": "X8 Pro Max 5G",
-    "release_year": 2018,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "256 GB",
-      "256GB"
-    ],
-    "default_mrp": 45300,
-    "base_resale_value": 30200,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/poco-poco-x8-pro-max-5g.jpg",
     "popular_tag": "Poco Official Model",
     "processor": "5G Octa-core Processor",
     "camera_spec": "50MP OIS Camera",
@@ -25946,54 +24871,6 @@
     "price": 59000
   },
   {
-    "brand": "Google",
-    "model": "Pixel 8 5G",
-    "release_year": 2023,
-    "ram_options": [
-      "6GB",
-      "8GB"
-    ],
-    "storage_options": [
-      "128GB",
-      "256GB"
-    ],
-    "default_mrp": 75999,
-    "base_resale_value": 18500,
-    "image_url": null,
-    "popular_tag": "Google Bestseller",
-    "processor": "Octa-core Processor",
-    "camera_spec": "50MP Camera",
-    "battery_spec": "5000 mAh",
-    "display_spec": "AMOLED Display",
-    "is_5g": true,
-    "is_active": true,
-    "price": 18500
-  },
-  {
-    "brand": "Google",
-    "model": "Pixel 7 5G",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB"
-    ],
-    "storage_options": [
-      "128GB",
-      "256GB"
-    ],
-    "default_mrp": 59999,
-    "base_resale_value": 15400,
-    "image_url": null,
-    "popular_tag": "Google Bestseller",
-    "processor": "Octa-core Processor",
-    "camera_spec": "50MP Camera",
-    "battery_spec": "5000 mAh",
-    "display_spec": "AMOLED Display",
-    "is_5g": true,
-    "is_active": true,
-    "price": 15400
-  },
-  {
     "brand": "Nothing",
     "model": "CMF Phone 1",
     "release_year": 2024,
@@ -26014,7 +24891,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9500
   },
   {
     "brand": "Poco",
@@ -26025,6 +24903,7 @@
       "8GB"
     ],
     "storage_options": [
+      "64GB",
       "128GB",
       "256GB"
     ],
@@ -26038,78 +24917,6 @@
     "display_spec": "AMOLED Display",
     "is_5g": true,
     "is_active": true
-  },
-  {
-    "brand": "Motorola",
-    "model": "Moto Edge 50 Ultra 5G",
-    "release_year": 2024,
-    "ram_options": [
-      "6GB",
-      "8GB"
-    ],
-    "storage_options": [
-      "128GB",
-      "256GB"
-    ],
-    "default_mrp": 59999,
-    "base_resale_value": 28640,
-    "image_url": null,
-    "popular_tag": "Motorola Bestseller",
-    "processor": "Octa-core Processor",
-    "camera_spec": "50MP Camera",
-    "battery_spec": "5000 mAh",
-    "display_spec": "AMOLED Display",
-    "is_5g": true,
-    "is_active": true,
-    "price": 28640
-  },
-  {
-    "brand": "Motorola",
-    "model": "Moto Edge 50 Pro 5G",
-    "release_year": 2024,
-    "ram_options": [
-      "6GB",
-      "8GB"
-    ],
-    "storage_options": [
-      "128GB",
-      "256GB"
-    ],
-    "default_mrp": 31999,
-    "base_resale_value": 18900,
-    "image_url": null,
-    "popular_tag": "Motorola Bestseller",
-    "processor": "Octa-core Processor",
-    "camera_spec": "50MP Camera",
-    "battery_spec": "5000 mAh",
-    "display_spec": "AMOLED Display",
-    "is_5g": true,
-    "is_active": true,
-    "price": 18900
-  },
-  {
-    "brand": "Motorola",
-    "model": "Moto Edge 50 Fusion 5G",
-    "release_year": 2024,
-    "ram_options": [
-      "6GB",
-      "8GB"
-    ],
-    "storage_options": [
-      "128GB",
-      "256GB"
-    ],
-    "default_mrp": 22999,
-    "base_resale_value": 15500,
-    "image_url": null,
-    "popular_tag": "Motorola Bestseller",
-    "processor": "Octa-core Processor",
-    "camera_spec": "50MP Camera",
-    "battery_spec": "5000 mAh",
-    "display_spec": "AMOLED Display",
-    "is_5g": true,
-    "is_active": true,
-    "price": 15500
   },
   {
     "brand": "Honor",
@@ -26745,32 +25552,6 @@
     "camera_spec": "48MP Sony IMX586 Triple Camera",
     "battery_spec": "4300 mAh Warp Charge 30T",
     "display_spec": "6.55\" 90Hz Fluid AMOLED FHD+",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Google",
-    "series": "Google Pixel Series",
-    "model": "Google Pixel 10",
-    "release_year": 2025,
-    "storage": "128 GB",
-    "storage_options": [
-      "128GB",
-      "256GB"
-    ],
-    "ram_options": [
-      "12GB"
-    ],
-    "default_mrp": 79999,
-    "base_resale_value": 44500,
-    "price": 44500,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-9.jpg",
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-9.jpg",
-    "popular_tag": "Next-Gen Tensor G5 AI Flagship",
-    "processor": "Google Tensor G5 (3nm TSMC)",
-    "camera_spec": "50MP Dual Pixel OIS + 48MP Ultra-wide",
-    "battery_spec": "4700 mAh Fast Wireless Charging",
-    "display_spec": "6.3\" Actua OLED 120Hz 2700nits",
     "is_5g": true,
     "is_active": true
   },
