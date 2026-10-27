@@ -1287,179 +1287,6 @@
     "price": 42000
   },
   {
-    "brand": "Infinix",
-    "model": "GT 10 Pro 5G",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 19950,
-    "base_resale_value": 8600,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-gt-10-pro.jpg",
-    "popular_tag": "Infinix Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 8600
-  },
-  {
-    "brand": "Infinix",
-    "model": "GT 20 Pro 5G",
-    "release_year": 2024,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "256 GB",
-      "256GB"
-    ],
-    "default_mrp": 24999,
-    "base_resale_value": 11200,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-gt-20-pro.jpg",
-    "popular_tag": "Infinix Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 11200
-  },
-  {
-    "brand": "Infinix",
-    "model": "Hot 40 Pro",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 13575,
-    "base_resale_value": 9050,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-hot-40-pro.jpg",
-    "popular_tag": "Infinix Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Infinix",
-    "model": "Note 40 Pro 5G",
-    "release_year": 2024,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "256 GB",
-      "256GB"
-    ],
-    "default_mrp": 21999,
-    "base_resale_value": 10500,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-note-40-pro-5g.jpg",
-    "popular_tag": "Infinix Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 10500
-  },
-  {
-    "brand": "Infinix",
-    "model": "Note 40 Pro+ 5G",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "256 GB",
-      "256GB"
-    ],
-    "default_mrp": 24450,
-    "base_resale_value": 10500,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-note-40-pro-plus-5g.jpg",
-    "popular_tag": "Infinix Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 10500
-  },
-  {
-    "brand": "Infinix",
-    "model": "Smart 8 HD",
-    "release_year": 2017,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 7650,
-    "base_resale_value": 5100,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-smart-8-hd.jpg",
-    "popular_tag": "Infinix Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Infinix",
-    "model": "Zero 30 5G",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "256 GB",
-      "256GB"
-    ],
-    "default_mrp": 22500,
-    "base_resale_value": 11400,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-zero-30-5g.jpg",
-    "popular_tag": "Infinix Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 11400
-  },
-  {
     "brand": "iQOO",
     "model": "11 5G",
     "release_year": 2019,
@@ -2301,275 +2128,6 @@
     "display_spec": "6.6\" HD+ 90Hz Punch-Hole Display",
     "is_5g": false,
     "is_active": true
-  },
-  {
-    "brand": "Lenovo",
-    "model": "K10 Note",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 3773,
-    "base_resale_value": 3200,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k10-note.jpg",
-    "popular_tag": "Lenovo Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 3200
-  },
-  {
-    "brand": "Lenovo",
-    "model": "K10 Plus",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 6000,
-    "base_resale_value": 2400,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k10-plus.jpg",
-    "popular_tag": "Lenovo Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 2400
-  },
-  {
-    "brand": "Lenovo",
-    "model": "K8 Note",
-    "release_year": 2017,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 4875,
-    "base_resale_value": 1350,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k8-note.jpg",
-    "popular_tag": "Lenovo Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 1350
-  },
-  {
-    "brand": "Lenovo",
-    "model": "K9 Note",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 5250,
-    "base_resale_value": 2100,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k9-note.jpg",
-    "popular_tag": "Lenovo Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 2100
-  },
-  {
-    "brand": "Lenovo",
-    "model": "Legion Duel 2",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "256 GB",
-      "256GB"
-    ],
-    "default_mrp": 28950,
-    "base_resale_value": 19300,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-legion-duel-2.jpg",
-    "popular_tag": "Lenovo Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Lenovo",
-    "model": "Legion Pro",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 22350,
-    "base_resale_value": 14900,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-legion-pro.jpg",
-    "popular_tag": "Lenovo Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Lenovo",
-    "model": "Legion Y90",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "256 GB",
-      "256GB"
-    ],
-    "default_mrp": 34425,
-    "base_resale_value": 22950,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-legion-y90.jpg",
-    "popular_tag": "Lenovo Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Lenovo",
-    "model": "Z5 Pro GT",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 11400,
-    "base_resale_value": 7600,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-z5-pro-gt.jpg",
-    "popular_tag": "Lenovo Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Lenovo",
-    "model": "Z5s",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 7200,
-    "base_resale_value": 4800,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-z5s.jpg",
-    "popular_tag": "Lenovo Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Lenovo",
-    "model": "Z6 Lite",
-    "release_year": 2016,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 7500,
-    "base_resale_value": 5000,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-z6-lite.jpg",
-    "popular_tag": "Lenovo Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Lenovo",
-    "model": "Z6 Pro",
-    "release_year": 2016,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 14100,
-    "base_resale_value": 5800,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-z6-pro.jpg",
-    "popular_tag": "Lenovo Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 5800
   },
   {
     "brand": "Motorola",
@@ -29290,5 +28848,429 @@
     "display_spec": "6.78\" 144Hz AMOLED Display",
     "is_5g": true,
     "is_active": true
+  },
+  {
+    "brand": "Infinix",
+    "model": "GT 20 Pro 5G",
+    "release_year": 2024,
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "256GB"
+    ],
+    "default_mrp": 24999,
+    "base_resale_value": 15200,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-gt-20-pro.jpg",
+    "popular_tag": "144Hz Dimensity 8200 Gaming",
+    "processor": "MediaTek Dimensity 8200 Ultimate 5G",
+    "camera_spec": "108MP OIS Triple Camera",
+    "battery_spec": "5000 mAh 45W FastCharge",
+    "display_spec": "6.78\" 144Hz AMOLED FHD+",
+    "is_5g": true,
+    "is_active": true,
+    "price": 15200
+  },
+  {
+    "brand": "Infinix",
+    "model": "GT 10 Pro 5G",
+    "release_year": 2023,
+    "ram_options": [
+      "8GB"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "default_mrp": 19999,
+    "base_resale_value": 11800,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-gt-10-pro.jpg",
+    "popular_tag": "Cyberpunk Mecha Gaming",
+    "processor": "MediaTek Dimensity 8050 5G",
+    "camera_spec": "108MP Triple Camera",
+    "battery_spec": "5000 mAh 45W FastCharge",
+    "display_spec": "6.67\" 120Hz AMOLED 10-bit",
+    "is_5g": true,
+    "is_active": true,
+    "price": 11800
+  },
+  {
+    "brand": "Infinix",
+    "model": "Note 40 Pro+ 5G",
+    "release_year": 2024,
+    "ram_options": [
+      "12GB"
+    ],
+    "storage_options": [
+      "256GB"
+    ],
+    "default_mrp": 27999,
+    "base_resale_value": 13500,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-note-40-pro-plus-5g.jpg",
+    "popular_tag": "100W All-Round FastCharge",
+    "processor": "MediaTek Dimensity 7020 5G",
+    "camera_spec": "108MP OIS 3x Lossless Superzoom",
+    "battery_spec": "4600 mAh 100W + 20W Wireless MagCharge",
+    "display_spec": "6.78\" 120Hz 3D Curved AMOLED",
+    "is_5g": true,
+    "is_active": true,
+    "price": 13500
+  },
+  {
+    "brand": "Infinix",
+    "model": "Note 40 Pro 5G",
+    "release_year": 2024,
+    "ram_options": [
+      "8GB"
+    ],
+    "storage_options": [
+      "256GB"
+    ],
+    "default_mrp": 21999,
+    "base_resale_value": 11800,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-note-40-pro-5g.jpg",
+    "popular_tag": "3D Curved AMOLED MagCharge",
+    "processor": "MediaTek Dimensity 7020 5G",
+    "camera_spec": "108MP OIS Triple Camera",
+    "battery_spec": "5000 mAh 45W FastCharge + 20W Wireless",
+    "display_spec": "6.78\" 120Hz 3D Curved AMOLED",
+    "is_5g": true,
+    "is_active": true,
+    "price": 11800
+  },
+  {
+    "brand": "Infinix",
+    "model": "Note 30 5G",
+    "release_year": 2023,
+    "ram_options": [
+      "4GB",
+      "8GB"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "default_mrp": 15999,
+    "base_resale_value": 8400,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-note-30-5g.jpg",
+    "popular_tag": "108MP Sound by JBL 5G",
+    "processor": "MediaTek Dimensity 6080 5G",
+    "camera_spec": "108MP Triple Camera",
+    "battery_spec": "5000 mAh 45W FastCharge",
+    "display_spec": "6.78\" 120Hz FHD+ Punch-Hole",
+    "is_5g": true,
+    "is_active": true,
+    "price": 8400
+  },
+  {
+    "brand": "Infinix",
+    "model": "Zero 30 5G",
+    "release_year": 2023,
+    "ram_options": [
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "256GB"
+    ],
+    "default_mrp": 23999,
+    "base_resale_value": 12400,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-zero-30-5g.jpg",
+    "popular_tag": "50MP 4K60FPS Selfie Flagship",
+    "processor": "MediaTek Dimensity 8020 5G",
+    "camera_spec": "108MP OIS + 50MP 4K60 Eye-Tracking Selfie",
+    "battery_spec": "5000 mAh 68W Super Charge",
+    "display_spec": "6.78\" 144Hz 3D Curved AMOLED",
+    "is_5g": true,
+    "is_active": true,
+    "price": 12400
+  },
+  {
+    "brand": "Infinix",
+    "model": "Hot 40 Pro",
+    "release_year": 2023,
+    "ram_options": [
+      "8GB"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "default_mrp": 12999,
+    "base_resale_value": 7200,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-hot-40-pro.jpg",
+    "popular_tag": "Helio G99 108MP Camera",
+    "processor": "MediaTek Helio G99 6nm",
+    "camera_spec": "108MP Portrait Triple Camera",
+    "battery_spec": "5000 mAh 33W FastCharge",
+    "display_spec": "6.78\" 120Hz FHD+ Magic Ring",
+    "is_5g": false,
+    "is_active": true,
+    "price": 7200
+  },
+  {
+    "brand": "Infinix",
+    "model": "Hot 30 5G",
+    "release_year": 2023,
+    "ram_options": [
+      "4GB",
+      "8GB"
+    ],
+    "storage_options": [
+      "128GB"
+    ],
+    "default_mrp": 12499,
+    "base_resale_value": 6800,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-hot-30-5g.jpg",
+    "popular_tag": "6000mAh Massive Battery 5G",
+    "processor": "MediaTek Dimensity 6020 5G",
+    "camera_spec": "50MP Dual AI Camera",
+    "battery_spec": "6000 mAh 18W FastCharge",
+    "display_spec": "6.78\" 120Hz FHD+ Display",
+    "is_5g": true,
+    "is_active": true,
+    "price": 6800
+  },
+  {
+    "brand": "Lenovo",
+    "model": "Legion Y90",
+    "release_year": 2022,
+    "ram_options": [
+      "12GB",
+      "16GB",
+      "18GB"
+    ],
+    "storage_options": [
+      "256GB",
+      "512GB"
+    ],
+    "default_mrp": 49999,
+    "base_resale_value": 22850,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-legion-y90.jpg",
+    "popular_tag": "Dual Cooling Fan Gaming",
+    "processor": "Snapdragon 8 Gen 1",
+    "camera_spec": "64MP Dual Camera",
+    "battery_spec": "5600 mAh 68W Super Flash Charge",
+    "display_spec": "6.92\" 144Hz E4 AMOLED",
+    "is_5g": true,
+    "is_active": true,
+    "price": 22850
+  },
+  {
+    "brand": "Lenovo",
+    "model": "Legion Duel 2",
+    "release_year": 2021,
+    "ram_options": [
+      "12GB",
+      "16GB"
+    ],
+    "storage_options": [
+      "256GB",
+      "512GB"
+    ],
+    "default_mrp": 45999,
+    "base_resale_value": 18700,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-legion-duel-2.jpg",
+    "popular_tag": "Twin Turbo-Fan 90W Gaming",
+    "processor": "Snapdragon 888 5G",
+    "camera_spec": "64MP Dual + 44MP Pop-up Center Selfie",
+    "battery_spec": "5500 mAh Dual 90W Quick Charge",
+    "display_spec": "6.92\" 144Hz AMOLED 720Hz Touch",
+    "is_5g": true,
+    "is_active": true,
+    "price": 18700
+  },
+  {
+    "brand": "Lenovo",
+    "model": "Legion Pro",
+    "release_year": 2020,
+    "ram_options": [
+      "8GB",
+      "12GB",
+      "16GB"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB",
+      "512GB"
+    ],
+    "default_mrp": 39999,
+    "base_resale_value": 14500,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-legion-pro.jpg",
+    "popular_tag": "Snapdragon 865+ Gaming Phone",
+    "processor": "Snapdragon 865+ 5G",
+    "camera_spec": "64MP Dual Camera",
+    "battery_spec": "5000 mAh Dual-Cell 90W FastCharge",
+    "display_spec": "6.65\" 144Hz AMOLED Display",
+    "is_5g": true,
+    "is_active": true,
+    "price": 14500
+  },
+  {
+    "brand": "Lenovo",
+    "model": "Z6 Pro",
+    "release_year": 2019,
+    "ram_options": [
+      "6GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "default_mrp": 31999,
+    "base_resale_value": 6400,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-z6-pro.jpg",
+    "popular_tag": "Snapdragon 855 Hyper Video Quad",
+    "processor": "Snapdragon 855 Flagship",
+    "camera_spec": "48MP Quad AI Camera + Hyper Video",
+    "battery_spec": "4000 mAh 27W FastCharge",
+    "display_spec": "6.39\" Super AMOLED HDR10",
+    "is_5g": false,
+    "is_active": true,
+    "price": 6400
+  },
+  {
+    "brand": "Lenovo",
+    "model": "Z6 Lite",
+    "release_year": 2019,
+    "ram_options": [
+      "4GB",
+      "6GB"
+    ],
+    "storage_options": [
+      "64GB",
+      "128GB"
+    ],
+    "default_mrp": 14999,
+    "base_resale_value": 4500,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-z6-lite.jpg",
+    "popular_tag": "Dual-frequency GPS Snapdragon 710",
+    "processor": "Snapdragon 710 AIE",
+    "camera_spec": "16MP Triple Camera 2x Optical Zoom",
+    "battery_spec": "4050 mAh 15W Turbo Charge",
+    "display_spec": "6.3\" HDR10 Waterdrop Notch",
+    "is_5g": false,
+    "is_active": true,
+    "price": 4500
+  },
+  {
+    "brand": "Lenovo",
+    "model": "Z5 Pro GT",
+    "release_year": 2018,
+    "ram_options": [
+      "6GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB"
+    ],
+    "default_mrp": 29999,
+    "base_resale_value": 5800,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-z5-pro-gt.jpg",
+    "popular_tag": "Full Screen Mechanical Slider",
+    "processor": "Snapdragon 855",
+    "camera_spec": "24MP + 16MP Dual Camera",
+    "battery_spec": "3350 mAh 18W FastCharge",
+    "display_spec": "6.39\" Super AMOLED Slider",
+    "is_5g": false,
+    "is_active": true,
+    "price": 5800
+  },
+  {
+    "brand": "Lenovo",
+    "model": "Z5s",
+    "release_year": 2018,
+    "ram_options": [
+      "4GB",
+      "6GB"
+    ],
+    "storage_options": [
+      "64GB",
+      "128GB"
+    ],
+    "default_mrp": 13999,
+    "base_resale_value": 3900,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-z5s.jpg",
+    "popular_tag": "Triple Camera All-Glass Body",
+    "processor": "Snapdragon 710 AIE",
+    "camera_spec": "16MP Triple AI Camera",
+    "battery_spec": "3300 mAh 15W Turbo Charge",
+    "display_spec": "6.3\" LTPS FHD+ Waterdrop",
+    "is_5g": false,
+    "is_active": true,
+    "price": 3900
+  },
+  {
+    "brand": "Lenovo",
+    "model": "K10 Note",
+    "release_year": 2019,
+    "ram_options": [
+      "4GB",
+      "6GB"
+    ],
+    "storage_options": [
+      "64GB",
+      "128GB"
+    ],
+    "default_mrp": 13999,
+    "base_resale_value": 2600,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k10-note.jpg",
+    "popular_tag": "Snapdragon 710 Triple Zoom Camera",
+    "processor": "Snapdragon 710 AIE",
+    "camera_spec": "16MP + 8MP 2x Zoom + 5MP Bokeh",
+    "battery_spec": "4050 mAh 18W Quick Charge",
+    "display_spec": "6.3\" Dewdrop FHD+ Display",
+    "is_5g": false,
+    "is_active": true,
+    "price": 2600
+  },
+  {
+    "brand": "Lenovo",
+    "model": "K10 Plus",
+    "release_year": 2019,
+    "ram_options": [
+      "4GB"
+    ],
+    "storage_options": [
+      "64GB"
+    ],
+    "default_mrp": 10999,
+    "base_resale_value": 2200,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-k10-plus.jpg",
+    "popular_tag": "Triple Rear Camera Snapdragon 632",
+    "processor": "Snapdragon 632 Octa-Core",
+    "camera_spec": "13MP Triple Rear AI Camera",
+    "battery_spec": "4050 mAh Battery",
+    "display_spec": "6.22\" HD+ Dot Notch",
+    "is_5g": false,
+    "is_active": true,
+    "price": 2200
+  },
+  {
+    "brand": "Lenovo",
+    "model": "Z2 Plus",
+    "release_year": 2016,
+    "ram_options": [
+      "4GB"
+    ],
+    "storage_options": [
+      "64GB"
+    ],
+    "default_mrp": 19999,
+    "base_resale_value": 1800,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-z2-plus.jpg",
+    "popular_tag": "Snapdragon 820 Compact Flagship",
+    "processor": "Snapdragon 820 Flagship",
+    "camera_spec": "13MP ISOCELL PDAF",
+    "battery_spec": "3500 mAh Quick Charge 3.0",
+    "display_spec": "5.0\" FHD IPS Display",
+    "is_5g": false,
+    "is_active": true,
+    "price": 1800
   }
 ]
