@@ -22,7 +22,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 12490
+    "price": 15500,
+    "basePrice": 15500
   },
   {
     "brand": "Apple",
@@ -47,7 +48,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 18500
+    "price": 20500,
+    "basePrice": 20500
   },
   {
     "brand": "Apple",
@@ -72,7 +74,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 22000
+    "price": 24500,
+    "basePrice": 24500
   },
   {
     "brand": "Apple",
@@ -97,7 +100,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 16490
+    "price": 22500,
+    "basePrice": 22500
   },
   {
     "brand": "Apple",
@@ -122,7 +126,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 13500
+    "price": 16500,
+    "basePrice": 16500
   },
   {
     "brand": "Apple",
@@ -147,7 +152,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 25500
+    "price": 28500,
+    "basePrice": 28500
   },
   {
     "brand": "Apple",
@@ -172,7 +178,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 30000
+    "price": 33500,
+    "basePrice": 33500
   },
   {
     "brand": "Apple",
@@ -197,7 +204,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 24260
+    "price": 32500,
+    "basePrice": 32500
   },
   {
     "brand": "Apple",
@@ -222,7 +230,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 20500
+    "price": 24000,
+    "basePrice": 24000
   },
   {
     "brand": "Apple",
@@ -247,7 +256,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 35000
+    "price": 38500,
+    "basePrice": 38500
   },
   {
     "brand": "Apple",
@@ -272,7 +282,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 40000
+    "price": 44000,
+    "basePrice": 44000
   },
   {
     "brand": "Apple",
@@ -297,7 +308,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 28030
+    "price": 37000,
+    "basePrice": 37000
   },
   {
     "brand": "Apple",
@@ -322,7 +334,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 33500
+    "price": 40000,
+    "basePrice": 40000
   },
   {
     "brand": "Apple",
@@ -347,7 +360,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 42690
+    "price": 48000,
+    "basePrice": 48000
   },
   {
     "brand": "Apple",
@@ -372,7 +386,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 51000
+    "price": 56000,
+    "basePrice": 56000
   },
   {
     "brand": "Apple",
@@ -397,7 +412,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 42220
+    "price": 45500,
+    "basePrice": 45500
   },
   {
     "brand": "Apple",
@@ -422,7 +438,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 48000
+    "price": 50500,
+    "basePrice": 50500
   },
   {
     "brand": "Apple",
@@ -447,7 +464,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 62000
+    "price": 64000,
+    "basePrice": 64000
   },
   {
     "brand": "Apple",
@@ -472,7 +490,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 70000
+    "price": 72500,
+    "basePrice": 72500
   },
   {
     "brand": "Apple",
@@ -497,7 +516,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 52800
+    "price": 55000,
+    "basePrice": 55000
   },
   {
     "brand": "Apple",
@@ -522,7 +542,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 61000
+    "price": 63000,
+    "basePrice": 63000
   },
   {
     "brand": "Apple",
@@ -547,7 +568,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 78000
+    "price": 80000,
+    "basePrice": 80000
   },
   {
     "brand": "Apple",
@@ -572,7 +594,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 88000
+    "price": 90000,
+    "basePrice": 90000
   },
   {
     "brand": "Apple",
@@ -598,56 +621,6 @@
     "is_5g": true,
     "is_active": true,
     "price": 48000
-  },
-  {
-    "brand": "Apple",
-    "model": "iPhone 8",
-    "release_year": 2017,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 11025,
-    "base_resale_value": 5800,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-8.jpg",
-    "popular_tag": "Apple Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 5800
-  },
-  {
-    "brand": "Apple",
-    "model": "iPhone 8 Plus",
-    "release_year": 2017,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 73000,
-    "base_resale_value": 7800,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-8.jpg",
-    "popular_tag": "Apple Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 7800
   },
   {
     "brand": "Apple",
@@ -697,7 +670,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 8200
+    "price": 8500,
+    "basePrice": 8500
   },
   {
     "brand": "Apple",
@@ -722,57 +696,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 13500
-  },
-  {
-    "brand": "Apple",
-    "model": "iPhone SE 2nd Gen (2020)",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 17700,
-    "base_resale_value": 8200,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-se-2020.jpg",
-    "popular_tag": "Apple Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 8200
-  },
-  {
-    "brand": "Apple",
-    "model": "iPhone SE 3rd Gen (2022)",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 28275,
-    "base_resale_value": 13500,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-se-2022.jpg",
-    "popular_tag": "Apple Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 13500
+    "price": 14000,
+    "basePrice": 14000
   },
   {
     "brand": "Apple",
@@ -822,7 +747,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 10200
+    "price": 10500,
+    "basePrice": 10500
   },
   {
     "brand": "Apple",
@@ -847,7 +773,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 11000
+    "price": 11500,
+    "basePrice": 11500
   },
   {
     "brand": "Apple",
@@ -872,7 +799,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 13500
+    "price": 14000,
+    "basePrice": 14000
   },
   {
     "brand": "Google",
@@ -13807,7 +13735,7 @@
   {
     "brand": "Samsung",
     "model": "Galaxy A27 5G",
-    "release_year": 2017,
+    "release_year": 2026,
     "ram_options": [
       "6GB",
       "8GB",
@@ -14006,7 +13934,7 @@
   {
     "brand": "Samsung",
     "model": "Galaxy A36 5G",
-    "release_year": 2016,
+    "release_year": 2025,
     "ram_options": [
       "6GB",
       "8GB",
@@ -14030,7 +13958,7 @@
   {
     "brand": "Samsung",
     "model": "Galaxy A37 5G",
-    "release_year": 2017,
+    "release_year": 2026,
     "ram_options": [
       "6GB",
       "8GB",
@@ -14254,7 +14182,7 @@
   {
     "brand": "Samsung",
     "model": "Galaxy A56 5G",
-    "release_year": 2016,
+    "release_year": 2025,
     "ram_options": [
       "6GB",
       "8GB",
@@ -14278,7 +14206,7 @@
   {
     "brand": "Samsung",
     "model": "Galaxy A57 5G",
-    "release_year": 2017,
+    "release_year": 2026,
     "ram_options": [
       "6GB",
       "8GB",
@@ -15065,7 +14993,7 @@
   {
     "brand": "Samsung",
     "model": "Galaxy F56 5G",
-    "release_year": 2016,
+    "release_year": 2025,
     "ram_options": [
       "6GB",
       "8GB",
@@ -15181,102 +15109,6 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Samsung",
-    "model": "Galaxy J6",
-    "release_year": 2018,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 13990,
-    "base_resale_value": 3420,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-j6.jpg",
-    "popular_tag": "Samsung Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Samsung",
-    "model": "Galaxy J6+",
-    "release_year": 2016,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 6675,
-    "base_resale_value": 4450,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-j6-plus-sm-j610f.jpg",
-    "popular_tag": "Samsung Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Samsung",
-    "model": "Galaxy J7 Pro",
-    "release_year": 2017,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 20900,
-    "base_resale_value": 2790,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-j7-pro.jpg",
-    "popular_tag": "Samsung Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Samsung",
-    "model": "Galaxy J8",
-    "release_year": 2018,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 18990,
-    "base_resale_value": 4160,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-j8-j800.jpg",
-    "popular_tag": "Samsung Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
     "is_active": true
   },
   {
@@ -15897,7 +15729,7 @@
   {
     "brand": "Samsung",
     "model": "Galaxy M47 5G",
-    "release_year": 2017,
+    "release_year": 2026,
     "ram_options": [
       "6GB",
       "8GB",
@@ -16070,7 +15902,7 @@
   {
     "brand": "Samsung",
     "model": "Galaxy M56 5G",
-    "release_year": 2016,
+    "release_year": 2025,
     "ram_options": [
       "6GB",
       "8GB",
@@ -16268,54 +16100,6 @@
   },
   {
     "brand": "Samsung",
-    "model": "Galaxy On6",
-    "release_year": 2016,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 4350,
-    "base_resale_value": 2900,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-on6.jpg",
-    "popular_tag": "Samsung Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Samsung",
-    "model": "Galaxy On8 2018",
-    "release_year": 2017,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 5400,
-    "base_resale_value": 3600,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-on8-2018.jpg",
-    "popular_tag": "Samsung Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Samsung",
     "model": "Galaxy S10",
     "release_year": 2018,
     "ram_options": [
@@ -16467,7 +16251,7 @@
   {
     "brand": "Samsung",
     "model": "Galaxy S20 Ultra 5G",
-    "release_year": 2019,
+    "release_year": 2020,
     "ram_options": [
       "6GB",
       "8GB",
@@ -16512,7 +16296,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 11000
+    "price": 13500,
+    "basePrice": 13500
   },
   {
     "brand": "Samsung",
@@ -16562,7 +16347,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 14000
+    "price": 14000,
+    "basePrice": 14000
   },
   {
     "brand": "Samsung",
@@ -16637,7 +16423,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 21500
+    "price": 21500,
+    "basePrice": 21500
   },
   {
     "brand": "Samsung",
@@ -16662,7 +16449,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 32000
+    "price": 32000,
+    "basePrice": 32000
   },
   {
     "brand": "Samsung",
@@ -16687,7 +16475,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 21500
+    "price": 25500,
+    "basePrice": 25500
   },
   {
     "brand": "Samsung",
@@ -16712,7 +16501,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 28000
+    "price": 28000,
+    "basePrice": 28000
   },
   {
     "brand": "Samsung",
@@ -16737,7 +16527,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 21500
+    "price": 21500,
+    "basePrice": 21500
   },
   {
     "brand": "Samsung",
@@ -16762,7 +16553,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 48000
+    "price": 48000,
+    "basePrice": 48000
   },
   {
     "brand": "Samsung",
@@ -16787,7 +16579,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 28000
+    "price": 34000,
+    "basePrice": 34000
   },
   {
     "brand": "Samsung",
@@ -16812,7 +16605,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 43000
+    "price": 43000,
+    "basePrice": 43000
   },
   {
     "brand": "Samsung",
@@ -16836,7 +16630,9 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "basePrice": 33300,
+    "price": 33300
   },
   {
     "brand": "Samsung",
@@ -16861,7 +16657,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 65500
+    "price": 65500,
+    "basePrice": 65500
   },
   {
     "brand": "Samsung",
@@ -16886,7 +16683,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 43000
+    "price": 50000,
+    "basePrice": 50000
   },
   {
     "brand": "Samsung",
@@ -17054,7 +16852,9 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "basePrice": 98000,
+    "price": 98000
   },
   {
     "brand": "Samsung",
@@ -17079,7 +16879,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 14000
+    "price": 62000,
+    "basePrice": 62000
   },
   {
     "brand": "Samsung",
@@ -17103,7 +16904,9 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "basePrice": 88900,
+    "price": 88900
   },
   {
     "brand": "Samsung",
@@ -17121,54 +16924,6 @@
     "default_mrp": 109999,
     "base_resale_value": 88900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-plus-5g-sm-s926.jpg",
-    "popular_tag": "Samsung Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Samsung",
-    "model": "Galaxy S8",
-    "release_year": 2017,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 7935,
-    "base_resale_value": 5290,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s8.jpg",
-    "popular_tag": "Samsung Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Samsung",
-    "model": "Galaxy S8 Plus",
-    "release_year": 2017,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 8295,
-    "base_resale_value": 5530,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s8-plus.jpg",
     "popular_tag": "Samsung Official Model",
     "processor": "5G Octa-core Processor",
     "camera_spec": "50MP OIS Camera",
@@ -17200,7 +16955,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 3500
+    "price": 4500,
+    "basePrice": 4500
   },
   {
     "brand": "Samsung",
@@ -17225,7 +16981,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 4800
+    "price": 5500,
+    "basePrice": 5500
   },
   {
     "brand": "Samsung",
@@ -17375,7 +17132,8 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 14000
+    "price": 42000,
+    "basePrice": 42000
   },
   {
     "brand": "Samsung",
@@ -22678,7 +22436,9 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9400
+    "price": 9500,
+    "basePrice": 9500,
+    "mrp": 17999
   },
   {
     "brand": "Xiaomi",
@@ -22703,7 +22463,9 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 13130
+    "price": 13500,
+    "basePrice": 13500,
+    "mrp": 24999
   },
   {
     "brand": "Xiaomi",
@@ -22728,7 +22490,9 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 15500
+    "price": 15500,
+    "basePrice": 15500,
+    "mrp": 27999
   },
   {
     "brand": "Xiaomi",
@@ -22778,7 +22542,9 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 11200
+    "price": 11500,
+    "basePrice": 11500,
+    "mrp": 18999
   },
   {
     "brand": "Xiaomi",
@@ -22803,7 +22569,9 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 14690
+    "price": 15500,
+    "basePrice": 15500,
+    "mrp": 25999
   },
   {
     "brand": "Xiaomi",
@@ -22828,7 +22596,9 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 17800
+    "price": 18500,
+    "basePrice": 18500,
+    "mrp": 31999
   },
   {
     "brand": "Xiaomi",
@@ -23100,7 +22870,9 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 15920
+    "price": 19000,
+    "basePrice": 19000,
+    "mrp": 62999
   },
   {
     "brand": "Xiaomi",
@@ -23174,7 +22946,9 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 26460
+    "price": 31000,
+    "basePrice": 31000,
+    "mrp": 79999
   },
   {
     "brand": "Xiaomi",
@@ -23199,7 +22973,9 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 28740
+    "price": 35000,
+    "basePrice": 35000,
+    "mrp": 69999
   },
   {
     "brand": "Xiaomi",
@@ -23249,7 +23025,9 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 38980
+    "price": 56000,
+    "basePrice": 56000,
+    "mrp": 99999
   },
   {
     "brand": "Xiaomi",
@@ -23500,181 +23278,6 @@
   },
   {
     "brand": "Xiaomi",
-    "model": "Mi 11 Lite",
-    "release_year": 2019,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 11760,
-    "base_resale_value": 14200,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-11-lite.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 14200
-  },
-  {
-    "brand": "Xiaomi",
-    "model": "Mi 11 Ultra",
-    "release_year": 2019,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "256 GB",
-      "256GB"
-    ],
-    "default_mrp": 28905,
-    "base_resale_value": 19500,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-11-ultra.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 19500
-  },
-  {
-    "brand": "Xiaomi",
-    "model": "Mi 11X",
-    "release_year": 2019,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 14820,
-    "base_resale_value": 15480,
-    "image_url": "https://api.mobileapi.dev/devices/1935/thumb.png",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 15480
-  },
-  {
-    "brand": "Xiaomi",
-    "model": "Mi 11X Pro",
-    "release_year": 2019,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 14985,
-    "base_resale_value": 13800,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-11x-pro.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 13800
-  },
-  {
-    "brand": "Xiaomi",
-    "model": "Mi A2",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 6630,
-    "base_resale_value": 2800,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-a2.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 2800
-  },
-  {
-    "brand": "Xiaomi",
-    "model": "Mi A3",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 8865,
-    "base_resale_value": 3500,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-a3.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 3500
-  },
-  {
-    "brand": "Xiaomi",
-    "model": "Mi Mix 2",
-    "release_year": 2018,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": 7005,
-    "base_resale_value": 4200,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-mix-2.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 4200
-  },
-  {
-    "brand": "Xiaomi",
     "model": "Redmi 10 Power",
     "release_year": 2022,
     "ram_options": [
@@ -23796,7 +23399,9 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9880
+    "price": 9500,
+    "basePrice": 9500,
+    "mrp": 13999
   },
   {
     "brand": "Xiaomi",
@@ -23821,7 +23426,9 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 19460
+    "price": 7500,
+    "basePrice": 7500,
+    "mrp": 13830
   },
   {
     "brand": "Xiaomi",
@@ -23846,7 +23453,9 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 35500
+    "price": 11000,
+    "basePrice": 11000,
+    "mrp": 16999
   },
   {
     "brand": "Xiaomi",
@@ -23923,30 +23532,6 @@
   },
   {
     "brand": "Xiaomi",
-    "model": "Redmi 8",
-    "release_year": 2017,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 7920,
-    "base_resale_value": 5280,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-8.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Xiaomi",
     "model": "Redmi 9 Activ",
     "release_year": 2022,
     "ram_options": [
@@ -24019,31 +23604,6 @@
     "is_5g": false,
     "is_active": true,
     "price": 4300
-  },
-  {
-    "brand": "Xiaomi",
-    "model": "Redmi 9i",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 7605,
-    "base_resale_value": 3700,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-9i.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 3700
   },
   {
     "brand": "Xiaomi",
@@ -24534,81 +24094,6 @@
   },
   {
     "brand": "Xiaomi",
-    "model": "Redmi Note 5 Pro",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 6420,
-    "base_resale_value": 2600,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-5-pro.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 2600
-  },
-  {
-    "brand": "Xiaomi",
-    "model": "Redmi Note 6 Pro",
-    "release_year": 2016,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 7365,
-    "base_resale_value": 2800,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-6-pro.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 2800
-  },
-  {
-    "brand": "Xiaomi",
-    "model": "Redmi Note 7 Pro",
-    "release_year": 2019,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 13999,
-    "base_resale_value": 3600,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-7-pro.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 3600
-  },
-  {
-    "brand": "Xiaomi",
     "model": "Redmi Turbo 5",
     "release_year": 2022,
     "ram_options": [
@@ -24629,29 +24114,6 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Samsung",
-    "model": "Galaxy J7",
-    "release_year": 2016,
-    "ram_options": [
-      "6GB",
-      "8GB"
-    ],
-    "storage_options": [
-      "128GB",
-      "256GB"
-    ],
-    "default_mrp": 15990,
-    "base_resale_value": 4100,
-    "image_url": null,
-    "popular_tag": "Samsung Bestseller",
-    "processor": "Octa-core Processor",
-    "camera_spec": "50MP Camera",
-    "battery_spec": "5000 mAh",
-    "display_spec": "AMOLED Display",
-    "is_5g": true,
     "is_active": true
   },
   {
@@ -24894,102 +24356,6 @@
     "is_active": true
   },
   {
-    "brand": "Samsung",
-    "model": "Galaxy Z Fold6",
-    "release_year": 2024,
-    "ram_options": [
-      "6GB",
-      "8GB"
-    ],
-    "storage_options": [
-      "128GB",
-      "256GB"
-    ],
-    "default_mrp": 164999,
-    "base_resale_value": 76000,
-    "image_url": null,
-    "popular_tag": "Samsung Bestseller",
-    "processor": "Octa-core Processor",
-    "camera_spec": "50MP Camera",
-    "battery_spec": "5000 mAh",
-    "display_spec": "AMOLED Display",
-    "is_5g": true,
-    "is_active": true,
-    "price": 76000
-  },
-  {
-    "brand": "Samsung",
-    "model": "Galaxy Z Flip6",
-    "release_year": 2024,
-    "ram_options": [
-      "6GB",
-      "8GB"
-    ],
-    "storage_options": [
-      "128GB",
-      "256GB"
-    ],
-    "default_mrp": 109999,
-    "base_resale_value": 49000,
-    "image_url": null,
-    "popular_tag": "Samsung Bestseller",
-    "processor": "Octa-core Processor",
-    "camera_spec": "50MP Camera",
-    "battery_spec": "5000 mAh",
-    "display_spec": "AMOLED Display",
-    "is_5g": true,
-    "is_active": true,
-    "price": 49000
-  },
-  {
-    "brand": "Samsung",
-    "model": "Galaxy Z Fold5",
-    "release_year": 2023,
-    "ram_options": [
-      "6GB",
-      "8GB"
-    ],
-    "storage_options": [
-      "128GB",
-      "256GB"
-    ],
-    "default_mrp": 154999,
-    "base_resale_value": 55000,
-    "image_url": null,
-    "popular_tag": "Samsung Bestseller",
-    "processor": "Octa-core Processor",
-    "camera_spec": "50MP Camera",
-    "battery_spec": "5000 mAh",
-    "display_spec": "AMOLED Display",
-    "is_5g": true,
-    "is_active": true,
-    "price": 55000
-  },
-  {
-    "brand": "Samsung",
-    "model": "Galaxy Z Flip5",
-    "release_year": 2023,
-    "ram_options": [
-      "6GB",
-      "8GB"
-    ],
-    "storage_options": [
-      "128GB",
-      "256GB"
-    ],
-    "default_mrp": 99999,
-    "base_resale_value": 36000,
-    "image_url": null,
-    "popular_tag": "Samsung Bestseller",
-    "processor": "Octa-core Processor",
-    "camera_spec": "50MP Camera",
-    "battery_spec": "5000 mAh",
-    "display_spec": "AMOLED Display",
-    "is_5g": true,
-    "is_active": true,
-    "price": 36000
-  },
-  {
     "brand": "OnePlus",
     "model": "11 5G",
     "release_year": 2023,
@@ -25084,29 +24450,6 @@
     "is_5g": true,
     "is_active": true,
     "price": 16000
-  },
-  {
-    "brand": "Xiaomi",
-    "model": "Redmi Note 4",
-    "release_year": 2017,
-    "ram_options": [
-      "6GB",
-      "8GB"
-    ],
-    "storage_options": [
-      "128GB",
-      "256GB"
-    ],
-    "default_mrp": 12999,
-    "base_resale_value": 3450,
-    "image_url": null,
-    "popular_tag": "Xiaomi Bestseller",
-    "processor": "Octa-core Processor",
-    "camera_spec": "50MP Camera",
-    "battery_spec": "5000 mAh",
-    "display_spec": "AMOLED Display",
-    "is_5g": true,
-    "is_active": true
   },
   {
     "brand": "Realme",
@@ -27263,7 +26606,9 @@
     "display_spec": "6.67\" E4 AMOLED 120Hz HDR10+",
     "is_5g": true,
     "is_active": true,
-    "price": 13800
+    "price": 14500,
+    "basePrice": 14500,
+    "mrp": 39999
   },
   {
     "brand": "Xiaomi",
@@ -27286,143 +26631,9 @@
     "display_spec": "6.67\" E4 AMOLED 120Hz HDR10+",
     "is_5g": true,
     "is_active": true,
-    "price": 13800
-  },
-  {
-    "brand": "Samsung",
-    "model": "Samsung Galaxy S26 FE",
-    "release_year": 2026,
-    "ram_options": [
-      "8GB"
-    ],
-    "storage_options": [
-      "128GB",
-      "256GB"
-    ],
-    "default_mrp": 59999,
-    "base_resale_value": 38000,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-fe.jpg",
-    "popular_tag": "Galaxy AI Fan Edition 2026",
-    "processor": "Exynos 2500 / Snapdragon 8 Gen 4",
-    "camera_spec": "50MP OIS Triple Camera",
-    "battery_spec": "4700 mAh Fast Charging",
-    "display_spec": "6.7\" Dynamic AMOLED 2X 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Samsung",
-    "model": "Galaxy S26 FE",
-    "release_year": 2026,
-    "ram_options": [
-      "8GB"
-    ],
-    "storage_options": [
-      "128GB",
-      "256GB"
-    ],
-    "default_mrp": 59999,
-    "base_resale_value": 38000,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-fe.jpg",
-    "popular_tag": "Galaxy AI Fan Edition 2026",
-    "processor": "Exynos 2500 / Snapdragon 8 Gen 4",
-    "camera_spec": "50MP OIS Triple Camera",
-    "battery_spec": "4700 mAh Fast Charging",
-    "display_spec": "6.7\" Dynamic AMOLED 2X 120Hz",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Samsung",
-    "model": "Samsung Galaxy Z Flip 8",
-    "release_year": 2026,
-    "ram_options": [
-      "12GB"
-    ],
-    "storage_options": [
-      "256GB",
-      "512GB"
-    ],
-    "default_mrp": 119999,
-    "base_resale_value": 14000,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip6.jpg",
-    "popular_tag": "Next-Gen Flex Window Foldable",
-    "processor": "Snapdragon 8 Gen 5 for Galaxy",
-    "camera_spec": "50MP Dual OIS FlexCam",
-    "battery_spec": "4300 mAh Super Fast Charging",
-    "display_spec": "6.7\" Foldable Dynamic AMOLED 2X + 4.0\" Cover Display",
-    "is_5g": true,
-    "is_active": true,
-    "price": 14000
-  },
-  {
-    "brand": "Samsung",
-    "model": "Galaxy Z Flip 8",
-    "release_year": 2026,
-    "ram_options": [
-      "12GB"
-    ],
-    "storage_options": [
-      "256GB",
-      "512GB"
-    ],
-    "default_mrp": 119999,
-    "base_resale_value": 14000,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip6.jpg",
-    "popular_tag": "Next-Gen Flex Window Foldable",
-    "processor": "Snapdragon 8 Gen 5 for Galaxy",
-    "camera_spec": "50MP Dual OIS FlexCam",
-    "battery_spec": "4300 mAh Super Fast Charging",
-    "display_spec": "6.7\" Foldable Dynamic AMOLED 2X + 4.0\" Cover Display",
-    "is_5g": true,
-    "is_active": true,
-    "price": 14000
-  },
-  {
-    "brand": "Samsung",
-    "model": "Samsung Galaxy Z Fold 8",
-    "release_year": 2026,
-    "ram_options": [
-      "12GB",
-      "16GB"
-    ],
-    "storage_options": [
-      "256GB",
-      "512GB"
-    ],
-    "default_mrp": 174999,
-    "base_resale_value": 88000,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold6.jpg",
-    "popular_tag": "Titanium Ultra-Thin Book Foldable",
-    "processor": "Snapdragon 8 Gen 5 for Galaxy",
-    "camera_spec": "200MP + 50MP Periscope + 12MP Ultra-wide Triple OIS",
-    "battery_spec": "5000 mAh 45W Fast Charging",
-    "display_spec": "7.6\" Main QXGA+ Dynamic AMOLED 2X + 6.3\" Cover AMOLED",
-    "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Samsung",
-    "model": "Galaxy Z Fold 8",
-    "release_year": 2026,
-    "ram_options": [
-      "12GB",
-      "16GB"
-    ],
-    "storage_options": [
-      "256GB",
-      "512GB"
-    ],
-    "default_mrp": 174999,
-    "base_resale_value": 88000,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold6.jpg",
-    "popular_tag": "Titanium Ultra-Thin Book Foldable",
-    "processor": "Snapdragon 8 Gen 5 for Galaxy",
-    "camera_spec": "200MP + 50MP Periscope + 12MP Ultra-wide Triple OIS",
-    "battery_spec": "5000 mAh 45W Fast Charging",
-    "display_spec": "7.6\" Main QXGA+ Dynamic AMOLED 2X + 6.3\" Cover AMOLED",
-    "is_5g": true,
-    "is_active": true
+    "price": 14500,
+    "basePrice": 14500,
+    "mrp": 39999
   },
   {
     "brand": "Apple",
@@ -28196,33 +27407,6 @@
     "is_active": true
   },
   {
-    "brand": "Xiaomi",
-    "series": "Redmi Series",
-    "model": "Poco Redmi 11 Prime",
-    "release_year": 2022,
-    "storage": "64 GB",
-    "storage_options": [
-      "64GB",
-      "128GB"
-    ],
-    "ram_options": [
-      "4GB",
-      "6GB"
-    ],
-    "default_mrp": 12999,
-    "base_resale_value": 6400,
-    "price": 6400,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-11-prime.jpg",
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-11-prime.jpg",
-    "popular_tag": "Helio G99 Gaming Performance",
-    "processor": "MediaTek Helio G99 (6nm)",
-    "camera_spec": "50MP AI Triple Camera",
-    "battery_spec": "5000 mAh 18W Fast Charging",
-    "display_spec": "6.58\" 90Hz FHD+ AdaptiveSync",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
     "brand": "Vivo",
     "series": "iQOO Flagship Series",
     "model": "iQOO 15",
@@ -28540,35 +27724,6 @@
     "battery_spec": "3650 mAh Fast MagSafe Charging",
     "display_spec": "6.3\" ProMotion OLED 120Hz",
     "is_5g": true,
-    "is_active": true
-  },
-  {
-    "brand": "Samsung",
-    "series": "Galaxy A Series",
-    "model": "Samsung Galaxy A7",
-    "storage_options": [
-      "64 GB",
-      "128 GB"
-    ],
-    "ram_options": [
-      "4 GB",
-      "6 GB"
-    ],
-    "default_storage": "64 GB",
-    "default_ram": "4 GB",
-    "storage": "64 GB",
-    "default_mrp": 23990,
-    "base_resale_value": 7000,
-    "price": 7000,
-    "release_year": 2018,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a7-2018.jpg",
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a7-2018.jpg",
-    "popular_tag": "Triple Camera Pioneer",
-    "processor": "Exynos 7885 Octa-core",
-    "camera_spec": "24MP + 8MP Ultrawide + 5MP Depth",
-    "battery_spec": "3300 mAh",
-    "display_spec": "6.0\" Super AMOLED FHD+",
-    "is_5g": false,
     "is_active": true
   },
   {
@@ -29314,7 +28469,9 @@
     "is_5g": true,
     "is_active": true,
     "base_resale_value": 43000,
-    "price": 43000
+    "price": 46000,
+    "basePrice": 46000,
+    "mrp": 74999
   },
   {
     "brand": "Xiaomi",
@@ -29368,56 +28525,6 @@
   },
   {
     "brand": "Xiaomi",
-    "model": "Xiaomi Mi 11X Pro 5G",
-    "release_year": 2024,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": null,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-14.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "Snapdragon / MediaTek Dimensity",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "AMOLED 120Hz Display",
-    "is_5g": true,
-    "is_active": true,
-    "base_resale_value": 13800,
-    "price": 13800
-  },
-  {
-    "brand": "Xiaomi",
-    "model": "Xiaomi Mi 11X 5G",
-    "release_year": 2024,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": null,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-14.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "Snapdragon / MediaTek Dimensity",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "AMOLED 120Hz Display",
-    "is_5g": true,
-    "is_active": true,
-    "base_resale_value": 15480,
-    "price": 15480
-  },
-  {
-    "brand": "Xiaomi",
     "model": "Xiaomi Mi 11 Lite NE 5G",
     "release_year": 2024,
     "ram_options": [
@@ -29439,32 +28546,9 @@
     "is_5g": true,
     "is_active": true,
     "base_resale_value": 10800,
-    "price": 10800
-  },
-  {
-    "brand": "Xiaomi",
-    "model": "Xiaomi Mi 11 Lite",
-    "release_year": 2024,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": null,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-14.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "Snapdragon / MediaTek Dimensity",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "AMOLED 120Hz Display",
-    "is_5g": true,
-    "is_active": true,
-    "base_resale_value": 14200,
-    "price": 14200
+    "price": 11500,
+    "basePrice": 11500,
+    "mrp": 26999
   },
   {
     "brand": "Xiaomi",
@@ -29565,56 +28649,6 @@
     "is_active": true,
     "base_resale_value": 11500,
     "price": 11500
-  },
-  {
-    "brand": "Xiaomi",
-    "model": "Xiaomi Mi Mix 2",
-    "release_year": 2024,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": null,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-14.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "Snapdragon / MediaTek Dimensity",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "AMOLED 120Hz Display",
-    "is_5g": false,
-    "is_active": true,
-    "base_resale_value": 4200,
-    "price": 4200
-  },
-  {
-    "brand": "Xiaomi",
-    "model": "Xiaomi Mi Max 2",
-    "release_year": 2024,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": null,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-14.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "Snapdragon / MediaTek Dimensity",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "AMOLED 120Hz Display",
-    "is_5g": false,
-    "is_active": true,
-    "base_resale_value": 3400,
-    "price": 3400
   },
   {
     "brand": "Xiaomi",
@@ -30018,81 +29052,6 @@
   },
   {
     "brand": "Xiaomi",
-    "model": "Xiaomi Mi A3",
-    "release_year": 2024,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": null,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-14.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "Snapdragon / MediaTek Dimensity",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "AMOLED 120Hz Display",
-    "is_5g": false,
-    "is_active": true,
-    "base_resale_value": 3500,
-    "price": 3500
-  },
-  {
-    "brand": "Xiaomi",
-    "model": "Xiaomi Mi A2",
-    "release_year": 2024,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": null,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-14.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "Snapdragon / MediaTek Dimensity",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "AMOLED 120Hz Display",
-    "is_5g": false,
-    "is_active": true,
-    "base_resale_value": 2800,
-    "price": 2800
-  },
-  {
-    "brand": "Xiaomi",
-    "model": "Xiaomi Mi A1",
-    "release_year": 2024,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": null,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-14.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "Snapdragon / MediaTek Dimensity",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "AMOLED 120Hz Display",
-    "is_5g": false,
-    "is_active": true,
-    "base_resale_value": 2800,
-    "price": 2800
-  },
-  {
-    "brand": "Xiaomi",
     "model": "Redmi 9 Active",
     "release_year": 2024,
     "ram_options": [
@@ -30115,31 +29074,6 @@
     "is_active": true,
     "base_resale_value": 4100,
     "price": 4100
-  },
-  {
-    "brand": "Xiaomi",
-    "model": "Redmi 9i Sport",
-    "release_year": 2024,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": null,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-14.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "Snapdragon / MediaTek Dimensity",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "AMOLED 120Hz Display",
-    "is_5g": false,
-    "is_active": true,
-    "base_resale_value": 3700,
-    "price": 3700
   },
   {
     "brand": "Xiaomi",
@@ -30189,7 +29123,9 @@
     "is_5g": true,
     "is_active": true,
     "base_resale_value": 38980,
-    "price": 38980
+    "price": 56000,
+    "basePrice": 56000,
+    "mrp": 99999
   },
   {
     "brand": "Xiaomi",
@@ -30214,7 +29150,9 @@
     "is_5g": true,
     "is_active": true,
     "base_resale_value": 26460,
-    "price": 26460
+    "price": 31000,
+    "basePrice": 31000,
+    "mrp": 79999
   },
   {
     "brand": "Xiaomi",
@@ -30239,7 +29177,9 @@
     "is_5g": true,
     "is_active": true,
     "base_resale_value": 15920,
-    "price": 15920
+    "price": 19000,
+    "basePrice": 19000,
+    "mrp": 62999
   },
   {
     "brand": "Xiaomi",
@@ -30264,7 +29204,9 @@
     "is_5g": true,
     "is_active": true,
     "base_resale_value": 19500,
-    "price": 19500
+    "price": 22000,
+    "basePrice": 22000,
+    "mrp": 69999
   },
   {
     "brand": "Xiaomi",
@@ -30289,32 +29231,9 @@
     "is_5g": true,
     "is_active": true,
     "base_resale_value": 12400,
-    "price": 12400
-  },
-  {
-    "brand": "Xiaomi",
-    "model": "Xiaomi Mi 11 Lite NE",
-    "release_year": 2024,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "128 GB",
-      "256GB"
-    ],
-    "default_mrp": null,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-14.jpg",
-    "popular_tag": "Xiaomi Official Model",
-    "processor": "Snapdragon / MediaTek Dimensity",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "AMOLED 120Hz Display",
-    "is_5g": false,
-    "is_active": true,
-    "base_resale_value": 10800,
-    "price": 10800
+    "price": 14000,
+    "basePrice": 14000,
+    "mrp": 39999
   },
   {
     "brand": "Xiaomi",
@@ -30514,7 +29433,9 @@
     "is_5g": true,
     "is_active": true,
     "base_resale_value": 8200,
-    "price": 8200
+    "price": 7800,
+    "basePrice": 7800,
+    "mrp": 12300
   },
   {
     "brand": "Xiaomi",
@@ -30539,7 +29460,9 @@
     "is_5g": true,
     "is_active": true,
     "base_resale_value": 10780,
-    "price": 10780
+    "price": 8800,
+    "basePrice": 8800,
+    "mrp": 15999
   },
   {
     "brand": "Xiaomi",
