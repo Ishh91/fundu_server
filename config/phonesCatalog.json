@@ -5520,7 +5520,7 @@
       "256GB"
     ],
     "default_mrp": 69999,
-    "base_resale_value": 36850,
+    "base_resale_value": 52000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-13.jpg",
     "popular_tag": "OnePlus Official Model",
     "processor": "5G Octa-core Processor",
@@ -5528,12 +5528,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 52000
   },
   {
     "brand": "OnePlus",
     "model": "13R",
-    "release_year": 2021,
+    "release_year": 2025,
     "ram_options": [
       "6GB",
       "8GB",
@@ -5543,8 +5544,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 49425,
-    "base_resale_value": 32950,
+    "default_mrp": 42999,
+    "base_resale_value": 32000,
     "image_url": "https://api.mobileapi.dev/devices/366/thumb.png",
     "popular_tag": "OnePlus Official Model",
     "processor": "5G Octa-core Processor",
@@ -5552,7 +5553,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 32000
   },
   {
     "brand": "OnePlus",
@@ -5568,7 +5570,7 @@
       "256GB"
     ],
     "default_mrp": 64999,
-    "base_resale_value": 27400,
+    "base_resale_value": 44000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-12.jpg",
     "popular_tag": "OnePlus Official Model",
     "processor": "5G Octa-core Processor",
@@ -5576,7 +5578,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 44000
   },
   {
     "brand": "OnePlus",
@@ -5592,7 +5595,7 @@
       "256GB"
     ],
     "default_mrp": 39999,
-    "base_resale_value": 24350,
+    "base_resale_value": 27000,
     "image_url": "https://api.mobileapi.dev/devices/364/thumb.png",
     "popular_tag": "OnePlus Official Model",
     "processor": "5G Octa-core Processor",
@@ -5600,12 +5603,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 27000
   },
   {
     "brand": "OnePlus",
     "model": "11",
-    "release_year": 2019,
+    "release_year": 2023,
     "ram_options": [
       "6GB",
       "8GB",
@@ -5615,8 +5619,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 28425,
-    "base_resale_value": 18950,
+    "default_mrp": 56999,
+    "base_resale_value": 30000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-11.jpg",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -5624,12 +5628,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 30000
   },
   {
     "brand": "OnePlus",
     "model": "11R",
-    "release_year": 2019,
+    "release_year": 2023,
     "ram_options": [
       "6GB",
       "8GB",
@@ -5639,8 +5644,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 30750,
-    "base_resale_value": 20500,
+    "default_mrp": 39999,
+    "base_resale_value": 22000,
     "image_url": "https://api.mobileapi.dev/devices/362/thumb.png",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -5648,7 +5653,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 22000
   },
   {
     "brand": "OnePlus",
@@ -5663,8 +5669,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 27525,
-    "base_resale_value": 18350,
+    "default_mrp": 66999,
+    "base_resale_value": 24000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-10-pro.jpg",
     "popular_tag": "OnePlus Official Model",
     "processor": "5G Octa-core Processor",
@@ -5672,7 +5678,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 24000
   },
   {
     "brand": "OnePlus",
@@ -5687,8 +5694,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 24600,
-    "base_resale_value": 16400,
+    "default_mrp": 49999,
+    "base_resale_value": 18000,
     "image_url": "https://api.mobileapi.dev/devices/16342/thumb.png",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -5696,7 +5703,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 18000
   },
   {
     "brand": "OnePlus",
@@ -5711,8 +5719,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 20175,
-    "base_resale_value": 13450,
+    "default_mrp": 38999,
+    "base_resale_value": 14000,
     "image_url": "https://api.mobileapi.dev/devices/16344/thumb.png",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -5720,7 +5728,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 14000
   },
   {
     "brand": "OnePlus",
@@ -5736,7 +5745,7 @@
       "256GB"
     ],
     "default_mrp": 64999,
-    "base_resale_value": 14500,
+    "base_resale_value": 18000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-9-pro-.jpg",
     "popular_tag": "OnePlus Official Model",
     "processor": "5G Octa-core Processor",
@@ -5744,12 +5753,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 18000
   },
   {
     "brand": "OnePlus",
     "model": "9RT",
-    "release_year": 2022,
+    "release_year": 2021,
     "ram_options": [
       "6GB",
       "8GB",
@@ -5759,8 +5769,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 18675,
-    "base_resale_value": 12450,
+    "default_mrp": 42999,
+    "base_resale_value": 14000,
     "image_url": "https://api.mobileapi.dev/devices/369/thumb.png",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -5768,12 +5778,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 14000
   },
   {
     "brand": "OnePlus",
     "model": "9",
-    "release_year": 2022,
+    "release_year": 2021,
     "ram_options": [
       "6GB",
       "8GB",
@@ -5783,8 +5794,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 21675,
-    "base_resale_value": 14450,
+    "default_mrp": 49999,
+    "base_resale_value": 15000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-9-.jpg",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -5792,12 +5803,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 15000
   },
   {
     "brand": "OnePlus",
     "model": "9R",
-    "release_year": 2022,
+    "release_year": 2021,
     "ram_options": [
       "6GB",
       "8GB",
@@ -5807,8 +5819,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 18675,
-    "base_resale_value": 12450,
+    "default_mrp": 39999,
+    "base_resale_value": 13000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-9r.jpg",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -5816,12 +5828,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 13000
   },
   {
     "brand": "OnePlus",
     "model": "8 Pro",
-    "release_year": 2017,
+    "release_year": 2020,
     "ram_options": [
       "6GB",
       "8GB",
@@ -5831,8 +5844,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 15675,
-    "base_resale_value": 10450,
+    "default_mrp": 54999,
+    "base_resale_value": 12500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-8-pro.jpg",
     "popular_tag": "OnePlus Official Model",
     "processor": "5G Octa-core Processor",
@@ -5840,12 +5853,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 12500
   },
   {
     "brand": "OnePlus",
     "model": "8T",
-    "release_year": 2022,
+    "release_year": 2020,
     "ram_options": [
       "6GB",
       "8GB",
@@ -5855,8 +5869,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 13950,
-    "base_resale_value": 9300,
+    "default_mrp": 42999,
+    "base_resale_value": 10500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-8t.jpg",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -5864,12 +5878,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 10500
   },
   {
     "brand": "OnePlus",
     "model": "8",
-    "release_year": 2017,
+    "release_year": 2020,
     "ram_options": [
       "6GB",
       "8GB",
@@ -5879,8 +5894,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 15675,
-    "base_resale_value": 10450,
+    "default_mrp": 41999,
+    "base_resale_value": 9800,
     "image_url": "https://api.mobileapi.dev/devices/16348/thumb.png",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -5888,12 +5903,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 9800
   },
   {
     "brand": "OnePlus",
     "model": "7T Pro",
-    "release_year": 2022,
+    "release_year": 2019,
     "ram_options": [
       "6GB",
       "8GB",
@@ -5903,8 +5919,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 14970,
-    "base_resale_value": 9980,
+    "default_mrp": 53999,
+    "base_resale_value": 9200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-7t-pro.jpg",
     "popular_tag": "OnePlus Official Model",
     "processor": "5G Octa-core Processor",
@@ -5912,7 +5928,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9200
   },
   {
     "brand": "OnePlus",
@@ -5928,7 +5945,7 @@
       "256GB"
     ],
     "default_mrp": 37999,
-    "base_resale_value": 8550,
+    "base_resale_value": 7800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-7t-.jpg",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -5936,12 +5953,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 7800
   },
   {
     "brand": "OnePlus",
     "model": "7 Pro",
-    "release_year": 2017,
+    "release_year": 2019,
     "ram_options": [
       "6GB",
       "8GB",
@@ -5951,8 +5969,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 24525,
-    "base_resale_value": 16350,
+    "default_mrp": 48999,
+    "base_resale_value": 8800,
     "image_url": "https://api.mobileapi.dev/devices/16351/thumb.png",
     "popular_tag": "OnePlus Official Model",
     "processor": "5G Octa-core Processor",
@@ -5960,12 +5978,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 8800
   },
   {
     "brand": "OnePlus",
     "model": "7",
-    "release_year": 2017,
+    "release_year": 2019,
     "ram_options": [
       "6GB",
       "8GB",
@@ -5975,8 +5994,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 24750,
-    "base_resale_value": 16500,
+    "default_mrp": 32999,
+    "base_resale_value": 6800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-7-.jpg",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -5984,12 +6003,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 6800
   },
   {
     "brand": "OnePlus",
     "model": "Nord 4",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
       "6GB",
       "8GB",
@@ -5999,8 +6019,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 27600,
-    "base_resale_value": 18400,
+    "default_mrp": 29999,
+    "base_resale_value": 19000,
     "image_url": "https://api.mobileapi.dev/devices/809/thumb.png",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -6008,12 +6028,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 19000
   },
   {
     "brand": "OnePlus",
     "model": "Nord 3",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
       "6GB",
       "8GB",
@@ -6023,8 +6044,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 20925,
-    "base_resale_value": 13950,
+    "default_mrp": 33999,
+    "base_resale_value": 15500,
     "image_url": "https://api.mobileapi.dev/devices/373/thumb.png",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -6032,7 +6053,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 15500
   },
   {
     "brand": "OnePlus",
@@ -6047,8 +6069,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 17250,
-    "base_resale_value": 11500,
+    "default_mrp": 28999,
+    "base_resale_value": 12500,
     "image_url": "https://api.mobileapi.dev/devices/811/thumb.png",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -6056,12 +6078,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 12500
   },
   {
     "brand": "OnePlus",
     "model": "Nord 2",
-    "release_year": 2022,
+    "release_year": 2021,
     "ram_options": [
       "6GB",
       "8GB",
@@ -6071,8 +6094,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 17100,
-    "base_resale_value": 11400,
+    "default_mrp": 27999,
+    "base_resale_value": 11000,
     "image_url": "https://api.mobileapi.dev/devices/377/thumb.png",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -6080,12 +6103,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 11000
   },
   {
     "brand": "OnePlus",
     "model": "Nord CE4",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
       "6GB",
       "8GB",
@@ -6095,8 +6119,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 25020,
-    "base_resale_value": 16680,
+    "default_mrp": 24999,
+    "base_resale_value": 16000,
     "image_url": "https://api.mobileapi.dev/devices/385/thumb.png",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -6104,12 +6128,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 16000
   },
   {
     "brand": "OnePlus",
     "model": "Nord CE4 Lite",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
       "6GB",
       "8GB",
@@ -6119,8 +6144,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 23100,
-    "base_resale_value": 15400,
+    "default_mrp": 19999,
+    "base_resale_value": 12500,
     "image_url": "https://api.mobileapi.dev/devices/16320/thumb.png",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -6128,7 +6153,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 12500
   },
   {
     "brand": "OnePlus",
@@ -6143,7 +6169,7 @@
       "256GB"
     ],
     "default_mrp": 26999,
-    "base_resale_value": 14650,
+    "base_resale_value": 14000,
     "image_url": "https://api.mobileapi.dev/devices/374/thumb.png",
     "popular_tag": "Never Settle",
     "processor": "Snapdragon 782G 5G",
@@ -6151,7 +6177,8 @@
     "battery_spec": "5000 mAh 80W SUPERVOOC",
     "display_spec": "6.7\" 120Hz Fluid AMOLED FHD+",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 14000
   },
   {
     "brand": "OnePlus",
@@ -6165,7 +6192,7 @@
       "256GB"
     ],
     "default_mrp": 19999,
-    "base_resale_value": 10150,
+    "base_resale_value": 10500,
     "image_url": "https://api.mobileapi.dev/devices/16320/thumb.png",
     "popular_tag": "Larger Than Life",
     "processor": "Snapdragon 695 5G",
@@ -6173,7 +6200,8 @@
     "battery_spec": "5000 mAh 67W SUPERVOOC",
     "display_spec": "6.72\" 120Hz FHD+ LCD",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 10500
   },
   {
     "brand": "OnePlus",
@@ -6188,8 +6216,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 15975,
-    "base_resale_value": 10650,
+    "default_mrp": 23999,
+    "base_resale_value": 10000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-ce-2-5g.jpg",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -6197,7 +6225,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 10000
   },
   {
     "brand": "OnePlus",
@@ -6211,7 +6240,7 @@
       "128GB"
     ],
     "default_mrp": 18999,
-    "base_resale_value": 10040,
+    "base_resale_value": 9000,
     "image_url": "https://api.mobileapi.dev/devices/815/thumb.png",
     "popular_tag": "A Little More Than You Expect",
     "processor": "Snapdragon 695 5G",
@@ -6219,12 +6248,13 @@
     "battery_spec": "5000 mAh 33W Fast Charge",
     "display_spec": "6.59\" 120Hz FHD+ Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9000
   },
   {
     "brand": "OnePlus",
     "model": "Nord CE",
-    "release_year": 2022,
+    "release_year": 2021,
     "ram_options": [
       "6GB",
       "8GB",
@@ -6234,8 +6264,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 22425,
-    "base_resale_value": 14950,
+    "default_mrp": 22999,
+    "base_resale_value": 8000,
     "image_url": "https://api.mobileapi.dev/devices/810/thumb.png",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -6243,12 +6273,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 8000
   },
   {
     "brand": "OnePlus",
     "model": "Nord",
-    "release_year": 2022,
+    "release_year": 2020,
     "ram_options": [
       "6GB",
       "8GB",
@@ -6258,8 +6289,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 27750,
-    "base_resale_value": 18500,
+    "default_mrp": 24999,
+    "base_resale_value": 7500,
     "image_url": "https://api.mobileapi.dev/devices/811/thumb.png",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -6267,12 +6298,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 7500
   },
   {
     "brand": "OnePlus",
     "model": "Nord N30 5G",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
       "6GB",
       "8GB",
@@ -6282,8 +6314,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 16500,
-    "base_resale_value": 11000,
+    "default_mrp": 19999,
+    "base_resale_value": 8500,
     "image_url": "https://api.mobileapi.dev/devices/387/thumb.png",
     "popular_tag": "OnePlus Official Model",
     "processor": "5G Octa-core Processor",
@@ -6291,12 +6323,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 8500
   },
   {
     "brand": "OnePlus",
     "model": "Open",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
       "6GB",
       "8GB",
@@ -6306,8 +6339,8 @@
       "512 GB",
       "256GB"
     ],
-    "default_mrp": 103350,
-    "base_resale_value": 68900,
+    "default_mrp": 139999,
+    "base_resale_value": 68000,
     "image_url": "https://api.mobileapi.dev/devices/391/thumb.png",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -6315,7 +6348,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 68000
   },
   {
     "brand": "OnePlus",
@@ -6331,7 +6365,7 @@
       "256GB"
     ],
     "default_mrp": 37999,
-    "base_resale_value": 18300,
+    "base_resale_value": 5800,
     "image_url": "https://api.mobileapi.dev/devices/16352/thumb.png",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -6339,11 +6373,87 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5800
   },
   {
     "brand": "OnePlus",
     "model": "6",
+    "release_year": 2018,
+    "ram_options": [
+      "6GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "64 GB",
+      "256GB"
+    ],
+    "default_mrp": 34999,
+    "base_resale_value": 4800,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-6-.jpg",
+    "popular_tag": "OnePlus Official Model",
+    "processor": "High-Efficiency Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.7\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true,
+    "price": 4800
+  },
+  {
+    "brand": "OnePlus",
+    "model": "5T",
+    "release_year": 2017,
+    "ram_options": [
+      "6GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "64 GB",
+      "256GB"
+    ],
+    "default_mrp": 32999,
+    "base_resale_value": 3800,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-5t.jpg",
+    "popular_tag": "OnePlus Official Model",
+    "processor": "High-Efficiency Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.7\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true,
+    "price": 3800
+  },
+  {
+    "brand": "OnePlus",
+    "model": "5",
+    "release_year": 2017,
+    "ram_options": [
+      "6GB",
+      "8GB",
+      "12GB"
+    ],
+    "storage_options": [
+      "64 GB",
+      "256GB"
+    ],
+    "default_mrp": 32999,
+    "base_resale_value": 3200,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-5.jpg",
+    "popular_tag": "OnePlus Official Model",
+    "processor": "High-Efficiency Processor",
+    "camera_spec": "50MP OIS Camera",
+    "battery_spec": "5000 mAh Fast Charging",
+    "display_spec": "6.7\" AMOLED 120Hz",
+    "is_5g": false,
+    "is_active": true,
+    "price": 3200
+  },
+  {
+    "brand": "OnePlus",
+    "model": "3T",
     "release_year": 2016,
     "ram_options": [
       "6GB",
@@ -6354,80 +6464,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 115950,
-    "base_resale_value": 77300,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-6-.jpg",
-    "popular_tag": "OnePlus Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "OnePlus",
-    "model": "5T",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 6765,
-    "base_resale_value": 4510,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-5t.jpg",
-    "popular_tag": "OnePlus Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "OnePlus",
-    "model": "5",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 93525,
-    "base_resale_value": 62350,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-5.jpg",
-    "popular_tag": "OnePlus Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "OnePlus",
-    "model": "3T",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 5430,
-    "base_resale_value": 3620,
+    "default_mrp": 29999,
+    "base_resale_value": 2600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-3t-.jpg",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -6435,12 +6473,13 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2600
   },
   {
     "brand": "OnePlus",
     "model": "3",
-    "release_year": 2022,
+    "release_year": 2016,
     "ram_options": [
       "6GB",
       "8GB",
@@ -6450,8 +6489,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 55350,
-    "base_resale_value": 36900,
+    "default_mrp": 27999,
+    "base_resale_value": 2200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-3.jpg",
     "popular_tag": "OnePlus Official Model",
     "processor": "High-Efficiency Processor",
@@ -6459,32 +6498,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Oppo",
-    "model": "A15s",
-    "release_year": 2023,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 8280,
-    "base_resale_value": 6880,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a15s.jpg",
-    "popular_tag": "Oppo Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
     "is_active": true,
-    "price": 6880
+    "price": 2200
   },
   {
     "brand": "Oppo",
@@ -6499,8 +6514,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 9825,
-    "base_resale_value": 7190,
+    "default_mrp": 13999,
+    "base_resale_value": 4500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -6509,7 +6524,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7190
+    "price": 4500
   },
   {
     "brand": "Oppo",
@@ -6538,31 +6553,6 @@
   },
   {
     "brand": "Oppo",
-    "model": "A17k",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 8250,
-    "base_resale_value": 7100,
-    "image_url": "https://api.mobileapi.dev/devices/1526/thumb.png",
-    "popular_tag": "Oppo Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 7100
-  },
-  {
-    "brand": "Oppo",
     "model": "A18",
     "release_year": 2017,
     "ram_options": [
@@ -6574,8 +6564,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 9645,
-    "base_resale_value": 7540,
+    "default_mrp": 9999,
+    "base_resale_value": 7500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a18.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -6584,7 +6574,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7540
+    "price": 7500
   },
   {
     "brand": "Oppo",
@@ -6673,8 +6663,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 12090,
-    "base_resale_value": 7740,
+    "default_mrp": 12999,
+    "base_resale_value": 8000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a38.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -6683,7 +6673,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7740
+    "price": 8000
   },
   {
     "brand": "Oppo",
@@ -6822,8 +6812,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 13860,
-    "base_resale_value": 10210,
+    "default_mrp": 14999,
+    "base_resale_value": 7500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a53s-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -6832,7 +6822,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10210
+    "price": 7500
   },
   {
     "brand": "Oppo",
@@ -6847,8 +6837,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 9180,
-    "base_resale_value": 7580,
+    "default_mrp": 13999,
+    "base_resale_value": 6500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a54.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -6857,7 +6847,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7580
+    "price": 6500
   },
   {
     "brand": "Oppo",
@@ -6872,8 +6862,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 9885,
-    "base_resale_value": 8150,
+    "default_mrp": 15499,
+    "base_resale_value": 6800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a55.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -6882,7 +6872,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 8150
+    "price": 6800
   },
   {
     "brand": "Oppo",
@@ -6922,8 +6912,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 13080,
-    "base_resale_value": 8710,
+    "default_mrp": 15999,
+    "base_resale_value": 9800,
     "image_url": "https://api.mobileapi.dev/devices/428/thumb.png",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -6932,7 +6922,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 8710
+    "price": 9800
   },
   {
     "brand": "Oppo",
@@ -6947,8 +6937,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 17070,
-    "base_resale_value": 9940,
+    "default_mrp": 14999,
+    "base_resale_value": 10500,
     "image_url": "https://api.mobileapi.dev/devices/14324/thumb.png",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -6957,7 +6947,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9940
+    "price": 10500
   },
   {
     "brand": "Oppo",
@@ -7105,31 +7095,6 @@
   },
   {
     "brand": "Oppo",
-    "model": "A7",
-    "release_year": 2017,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 5895,
-    "base_resale_value": 6180,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a7.jpg",
-    "popular_tag": "Oppo Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 6180
-  },
-  {
-    "brand": "Oppo",
     "model": "A74 5G",
     "release_year": 2022,
     "ram_options": [
@@ -7141,8 +7106,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 15135,
-    "base_resale_value": 9810,
+    "default_mrp": 17999,
+    "base_resale_value": 8500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a74-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7151,7 +7116,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9810
+    "price": 8500
   },
   {
     "brand": "Oppo",
@@ -7266,8 +7231,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 15165,
-    "base_resale_value": 10570,
+    "default_mrp": 18999,
+    "base_resale_value": 11000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a78-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7276,7 +7241,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10570
+    "price": 11000
   },
   {
     "brand": "Oppo",
@@ -7291,8 +7256,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 19125,
-    "base_resale_value": 10670,
+    "default_mrp": 19999,
+    "base_resale_value": 12000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a79.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7301,7 +7266,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10670
+    "price": 12000
   },
   {
     "brand": "Oppo",
@@ -7380,31 +7345,6 @@
   },
   {
     "brand": "Oppo",
-    "model": "F1 plus",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 4815,
-    "base_resale_value": 5080,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f1-plus.jpg",
-    "popular_tag": "Oppo Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 5080
-  },
-  {
-    "brand": "Oppo",
     "model": "F11",
     "release_year": 2019,
     "ram_options": [
@@ -7416,8 +7356,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 7620,
-    "base_resale_value": 7400,
+    "default_mrp": 19999,
+    "base_resale_value": 4800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f11.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7426,7 +7366,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7400
+    "price": 4800
   },
   {
     "brand": "Oppo",
@@ -7441,8 +7381,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 9150,
-    "base_resale_value": 7710,
+    "default_mrp": 24999,
+    "base_resale_value": 5500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f11-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7451,7 +7391,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7710
+    "price": 5500
   },
   {
     "brand": "Oppo",
@@ -7466,8 +7406,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 9315,
-    "base_resale_value": 6210,
+    "default_mrp": 27999,
+    "base_resale_value": 6200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f11-pro-avenger-edition.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7475,7 +7415,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 6200
   },
   {
     "brand": "Oppo",
@@ -7490,8 +7431,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 9765,
-    "base_resale_value": 8150,
+    "default_mrp": 19999,
+    "base_resale_value": 6500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f15.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7500,7 +7441,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 8150
+    "price": 6500
   },
   {
     "brand": "Oppo",
@@ -7515,8 +7456,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 10395,
-    "base_resale_value": 8430,
+    "default_mrp": 17999,
+    "base_resale_value": 7000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f17.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7525,7 +7466,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 8430
+    "price": 7000
   },
   {
     "brand": "Oppo",
@@ -7540,8 +7481,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 11340,
-    "base_resale_value": 8070,
+    "default_mrp": 22999,
+    "base_resale_value": 7800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f17-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7550,7 +7491,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 8070
+    "price": 7800
   },
   {
     "brand": "Oppo",
@@ -7565,8 +7506,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 11595,
-    "base_resale_value": 8590,
+    "default_mrp": 18999,
+    "base_resale_value": 8000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f19.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7575,7 +7516,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 8590
+    "price": 8000
   },
   {
     "brand": "Oppo",
@@ -7590,8 +7531,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 11535,
-    "base_resale_value": 9200,
+    "default_mrp": 21499,
+    "base_resale_value": 8800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f19-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7600,7 +7541,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9200
+    "price": 8800
   },
   {
     "brand": "Oppo",
@@ -7615,8 +7556,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 14025,
-    "base_resale_value": 9560,
+    "default_mrp": 25999,
+    "base_resale_value": 9500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f19-pro-plus-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7625,7 +7566,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9560
+    "price": 9500
   },
   {
     "brand": "Oppo",
@@ -7640,8 +7581,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 10635,
-    "base_resale_value": 8210,
+    "default_mrp": 19999,
+    "base_resale_value": 8000,
     "image_url": "https://api.mobileapi.dev/devices/1593/thumb.png",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -7650,7 +7591,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 8210
+    "price": 8000
   },
   {
     "brand": "Oppo",
@@ -7665,8 +7606,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 13260,
-    "base_resale_value": 9890,
+    "default_mrp": 26999,
+    "base_resale_value": 10500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f21-pro-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7675,7 +7616,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9890
+    "price": 10500
   },
   {
     "brand": "Oppo",
@@ -7690,8 +7631,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 12645,
-    "base_resale_value": 10560,
+    "default_mrp": 25999,
+    "base_resale_value": 11000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f21s-pro-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7700,7 +7641,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10560
+    "price": 11000
   },
   {
     "brand": "Oppo",
@@ -7715,8 +7656,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 21525,
-    "base_resale_value": 11680,
+    "default_mrp": 19999,
+    "base_resale_value": 12000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f23.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7725,7 +7666,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 11680
+    "price": 12000
   },
   {
     "brand": "Oppo",
@@ -7740,8 +7681,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 23025,
-    "base_resale_value": 13030,
+    "default_mrp": 23999,
+    "base_resale_value": 15000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f25-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7750,7 +7691,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 13030
+    "price": 15000
   },
   {
     "brand": "Oppo",
@@ -7765,8 +7706,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 23130,
-    "base_resale_value": 12930,
+    "default_mrp": 22999,
+    "base_resale_value": 14000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f27-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7775,7 +7716,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 12930
+    "price": 14000
   },
   {
     "brand": "Oppo",
@@ -7791,7 +7732,7 @@
       "256GB"
     ],
     "default_mrp": 27999,
-    "base_resale_value": 13630,
+    "base_resale_value": 16500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f27-pro-plus.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -7800,7 +7741,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 13630
+    "price": 16500
   },
   {
     "brand": "Oppo",
@@ -7849,56 +7790,6 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true
-  },
-  {
-    "brand": "Oppo",
-    "model": "F3",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 5145,
-    "base_resale_value": 5020,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f3.jpg",
-    "popular_tag": "Oppo Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 5020
-  },
-  {
-    "brand": "Oppo",
-    "model": "F3 Plus",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 5700,
-    "base_resale_value": 5960,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f3-plus.jpg",
-    "popular_tag": "Oppo Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
-    "is_active": true,
-    "price": 5960
   },
   {
     "brand": "Oppo",
@@ -8033,8 +7924,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 6435,
-    "base_resale_value": 6340,
+    "default_mrp": 21999,
+    "base_resale_value": 3200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f7.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8043,7 +7934,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 6340
+    "price": 3200
   },
   {
     "brand": "Oppo",
@@ -8058,8 +7949,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 6630,
-    "base_resale_value": 6280,
+    "default_mrp": 19999,
+    "base_resale_value": 3500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f9.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8068,7 +7959,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 6280
+    "price": 3500
   },
   {
     "brand": "Oppo",
@@ -8083,8 +7974,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 6750,
-    "base_resale_value": 6760,
+    "default_mrp": 23999,
+    "base_resale_value": 4000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f9-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8093,7 +7984,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 6760
+    "price": 4000
   },
   {
     "brand": "Oppo",
@@ -8108,8 +7999,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 29790,
-    "base_resale_value": 18880,
+    "default_mrp": 89999,
+    "base_resale_value": 32000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n2-flip.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8118,7 +8009,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 18880
+    "price": 32000
   },
   {
     "brand": "Oppo",
@@ -8133,8 +8024,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 38430,
-    "base_resale_value": 22250,
+    "default_mrp": 94999,
+    "base_resale_value": 42000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n3-flip.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8143,7 +8034,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 22250
+    "price": 42000
   },
   {
     "brand": "Oppo",
@@ -8208,8 +8099,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 43275,
-    "base_resale_value": 28850,
+    "default_mrp": 74999,
+    "base_resale_value": 28000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8217,7 +8108,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 28000
   },
   {
     "brand": "Oppo",
@@ -8232,8 +8124,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 88425,
-    "base_resale_value": 58950,
+    "default_mrp": 84999,
+    "base_resale_value": 59000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x7-ultra.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8241,7 +8133,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 59000
   },
   {
     "brand": "Oppo",
@@ -8377,8 +8270,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 10410,
-    "base_resale_value": 9950,
+    "default_mrp": 17499,
+    "base_resale_value": 10000,
     "image_url": "https://api.mobileapi.dev/devices/1553/thumb.png",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8387,7 +8280,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9950
+    "price": 10000
   },
   {
     "brand": "Oppo",
@@ -8402,8 +8295,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 16065,
-    "base_resale_value": 10090,
+    "default_mrp": 12999,
+    "base_resale_value": 11000,
     "image_url": "https://api.mobileapi.dev/devices/1497/thumb.png",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8412,7 +8305,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10090
+    "price": 11000
   },
   {
     "brand": "Oppo",
@@ -8585,31 +8478,6 @@
   },
   {
     "brand": "Oppo",
-    "model": "R11",
-    "release_year": 2019,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 6120,
-    "base_resale_value": 5980,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r11.jpg",
-    "popular_tag": "Oppo Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 5980
-  },
-  {
-    "brand": "Oppo",
     "model": "R17",
     "release_year": 2017,
     "ram_options": [
@@ -8671,8 +8539,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 23175,
-    "base_resale_value": 16390,
+    "default_mrp": 32999,
+    "base_resale_value": 17000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno10.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8681,7 +8549,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 16390
+    "price": 17000
   },
   {
     "brand": "Oppo",
@@ -8696,8 +8564,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 28200,
-    "base_resale_value": 15420,
+    "default_mrp": 39999,
+    "base_resale_value": 20000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno10-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8706,7 +8574,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 15420
+    "price": 20000
   },
   {
     "brand": "Oppo",
@@ -8721,8 +8589,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 35775,
-    "base_resale_value": 19210,
+    "default_mrp": 54999,
+    "base_resale_value": 26000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno10-pro-plus.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8731,7 +8599,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 19210
+    "price": 26000
   },
   {
     "brand": "Oppo",
@@ -8746,8 +8614,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 10845,
-    "base_resale_value": 9600,
+    "default_mrp": 49999,
+    "base_resale_value": 8500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-10x-zoom.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8756,7 +8624,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 9600
+    "price": 8500
   },
   {
     "brand": "Oppo",
@@ -8771,8 +8639,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 27525,
-    "base_resale_value": 15770,
+    "default_mrp": 29999,
+    "base_resale_value": 18000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno11.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8781,7 +8649,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 15770
+    "price": 18000
   },
   {
     "brand": "Oppo",
@@ -8796,8 +8664,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 33600,
-    "base_resale_value": 16930,
+    "default_mrp": 39999,
+    "base_resale_value": 22000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno11-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8806,7 +8674,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 16930
+    "price": 22000
   },
   {
     "brand": "Oppo",
@@ -8821,8 +8689,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 34275,
-    "base_resale_value": 14340,
+    "default_mrp": 32999,
+    "base_resale_value": 21000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8831,7 +8699,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 14340
+    "price": 21000
   },
   {
     "brand": "Oppo",
@@ -8847,7 +8715,7 @@
       "256GB"
     ],
     "default_mrp": 36999,
-    "base_resale_value": 18800,
+    "base_resale_value": 26000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8856,7 +8724,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 18800
+    "price": 26000
   },
   {
     "brand": "Oppo",
@@ -8895,8 +8763,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 11655,
-    "base_resale_value": 9260,
+    "default_mrp": 36999,
+    "base_resale_value": 6500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-2.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8905,7 +8773,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 9260
+    "price": 6500
   },
   {
     "brand": "Oppo",
@@ -8920,8 +8788,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 12195,
-    "base_resale_value": 9240,
+    "default_mrp": 29999,
+    "base_resale_value": 6500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-2z.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -8930,7 +8798,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 9240
+    "price": 6500
   },
   {
     "brand": "Oppo",
@@ -8945,8 +8813,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 15750,
-    "base_resale_value": 11880,
+    "default_mrp": 39999,
+    "base_resale_value": 12000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-pro-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8955,7 +8823,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 11880
+    "price": 12000
   },
   {
     "brand": "Oppo",
@@ -8970,8 +8838,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 18675,
-    "base_resale_value": 13230,
+    "default_mrp": 39999,
+    "base_resale_value": 13000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-pro-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -8980,7 +8848,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 13230
+    "price": 13000
   },
   {
     "brand": "Oppo",
@@ -8995,8 +8863,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 20175,
-    "base_resale_value": 11500,
+    "default_mrp": 29999,
+    "base_resale_value": 12500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9005,7 +8873,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 11500
+    "price": 12500
   },
   {
     "brand": "Oppo",
@@ -9020,8 +8888,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 25275,
-    "base_resale_value": 13740,
+    "default_mrp": 45999,
+    "base_resale_value": 15000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9030,7 +8898,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 13740
+    "price": 15000
   },
   {
     "brand": "Oppo",
@@ -9261,8 +9129,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 10260,
-    "base_resale_value": 9210,
+    "default_mrp": 25999,
+    "base_resale_value": 6500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno2-f.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "High-Efficiency Processor",
@@ -9271,7 +9139,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 9210
+    "price": 6500
   },
   {
     "brand": "Oppo",
@@ -9286,8 +9154,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 11535,
-    "base_resale_value": 9310,
+    "default_mrp": 29999,
+    "base_resale_value": 7500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno3-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9296,7 +9164,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9310
+    "price": 7500
   },
   {
     "brand": "Oppo",
@@ -9311,8 +9179,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 13110,
-    "base_resale_value": 10110,
+    "default_mrp": 34999,
+    "base_resale_value": 8500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno4-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9321,7 +9189,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10110
+    "price": 8500
   },
   {
     "brand": "Oppo",
@@ -9336,8 +9204,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 16095,
-    "base_resale_value": 10850,
+    "default_mrp": 35999,
+    "base_resale_value": 10000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno5-pro-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9346,7 +9214,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10850
+    "price": 10000
   },
   {
     "brand": "Oppo",
@@ -9361,8 +9229,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 15300,
-    "base_resale_value": 10630,
+    "default_mrp": 29999,
+    "base_resale_value": 10000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9371,7 +9239,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10630
+    "price": 10000
   },
   {
     "brand": "Oppo",
@@ -9386,8 +9254,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 16065,
-    "base_resale_value": 10440,
+    "default_mrp": 28999,
+    "base_resale_value": 11000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-5g.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "5G Octa-core Processor",
@@ -9396,7 +9264,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10440
+    "price": 11000
   },
   {
     "brand": "Oppo",
@@ -10444,8 +10312,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 27675,
-    "base_resale_value": 6000,
+    "default_mrp": 14999,
+    "base_resale_value": 9000,
     "image_url": "https://api.mobileapi.dev/devices/13759/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10454,7 +10322,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 6000
+    "price": 9000
   },
   {
     "brand": "Realme",
@@ -10469,8 +10337,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 27600,
-    "base_resale_value": 9200,
+    "default_mrp": 18999,
+    "base_resale_value": 10500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-10-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10479,7 +10347,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9200
+    "price": 10500
   },
   {
     "brand": "Realme",
@@ -10494,8 +10362,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 19425,
-    "base_resale_value": 10500,
+    "default_mrp": 24999,
+    "base_resale_value": 12500,
     "image_url": "https://api.mobileapi.dev/devices/13760/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10504,7 +10372,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10500
+    "price": 12500
   },
   {
     "brand": "Realme",
@@ -10519,8 +10387,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 28275,
-    "base_resale_value": 9600,
+    "default_mrp": 18999,
+    "base_resale_value": 11000,
     "image_url": "https://api.mobileapi.dev/devices/13819/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10529,7 +10397,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9600
+    "price": 11000
   },
   {
     "brand": "Realme",
@@ -10544,8 +10412,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 28350,
-    "base_resale_value": 11400,
+    "default_mrp": 23999,
+    "base_resale_value": 13500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10554,7 +10422,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 11400
+    "price": 13500
   },
   {
     "brand": "Realme",
@@ -10568,7 +10436,7 @@
       "256GB"
     ],
     "default_mrp": 27999,
-    "base_resale_value": 12900,
+    "base_resale_value": 15000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-pro-plus.jpg",
     "popular_tag": "200MP OIS SuperZoom Camera",
     "processor": "Dimensity 7050 5G",
@@ -10579,7 +10447,7 @@
     "is_active": true,
     "series": "Realme Number Series",
     "storage": "256 GB",
-    "price": 12900,
+    "price": 15000,
     "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-pro-plus.jpg"
   },
   {
@@ -10595,8 +10463,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 16755,
-    "base_resale_value": 8700,
+    "default_mrp": 14999,
+    "base_resale_value": 9800,
     "image_url": "https://api.mobileapi.dev/devices/13739/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10605,7 +10473,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 8700
+    "price": 9800
   },
   {
     "brand": "Realme",
@@ -10620,8 +10488,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 40950,
-    "base_resale_value": 9800,
+    "default_mrp": 16999,
+    "base_resale_value": 12000,
     "image_url": "https://api.mobileapi.dev/devices/13728/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10630,7 +10498,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9800
+    "price": 12000
   },
   {
     "brand": "Realme",
@@ -10645,8 +10513,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 41250,
-    "base_resale_value": 12400,
+    "default_mrp": 25999,
+    "base_resale_value": 15500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-12-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10655,7 +10523,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 12400
+    "price": 15500
   },
   {
     "brand": "Realme",
@@ -10671,7 +10539,7 @@
       "256GB"
     ],
     "default_mrp": 29999,
-    "base_resale_value": 14850,
+    "base_resale_value": 18000,
     "image_url": "https://api.mobileapi.dev/devices/13731/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10680,7 +10548,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 14850
+    "price": 18000
   },
   {
     "brand": "Realme",
@@ -10695,8 +10563,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 23175,
-    "base_resale_value": 11600,
+    "default_mrp": 20999,
+    "base_resale_value": 14000,
     "image_url": "https://api.mobileapi.dev/devices/13729/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10705,7 +10573,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 11600
+    "price": 14000
   },
   {
     "brand": "Realme",
@@ -10720,8 +10588,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 15030,
-    "base_resale_value": 8200,
+    "default_mrp": 13999,
+    "base_resale_value": 10500,
     "image_url": "https://api.mobileapi.dev/devices/13726/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10730,7 +10598,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 8200
+    "price": 10500
   },
   {
     "brand": "Realme",
@@ -10745,8 +10613,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 55425,
-    "base_resale_value": 10900,
+    "default_mrp": 17999,
+    "base_resale_value": 14000,
     "image_url": "https://api.mobileapi.dev/devices/13814/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10755,7 +10623,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10900
+    "price": 14000
   },
   {
     "brand": "Realme",
@@ -10770,8 +10638,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 55350,
-    "base_resale_value": 14500,
+    "default_mrp": 26999,
+    "base_resale_value": 19000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-13-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10780,7 +10648,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 14500
+    "price": 19000
   },
   {
     "brand": "Realme",
@@ -10796,7 +10664,7 @@
       "256GB"
     ],
     "default_mrp": 32999,
-    "base_resale_value": 16890,
+    "base_resale_value": 22000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-13-pro-plus.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10805,7 +10673,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 16890
+    "price": 22000
   },
   {
     "brand": "Realme",
@@ -10820,8 +10688,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 25950,
-    "base_resale_value": 12800,
+    "default_mrp": 22999,
+    "base_resale_value": 16000,
     "image_url": "https://api.mobileapi.dev/devices/13706/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -10830,7 +10698,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 12800
+    "price": 16000
   },
   {
     "brand": "Realme",
@@ -11133,8 +11001,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 41100,
-    "base_resale_value": 27400,
+    "default_mrp": 13990,
+    "base_resale_value": 2500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-2-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11142,7 +11010,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 2500
   },
   {
     "brand": "Realme",
@@ -11157,8 +11026,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 55500,
-    "base_resale_value": 37000,
+    "default_mrp": 13999,
+    "base_resale_value": 2800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-3-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11166,7 +11035,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 2800
   },
   {
     "brand": "Realme",
@@ -11181,8 +11051,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 93525,
-    "base_resale_value": 3800,
+    "default_mrp": 13999,
+    "base_resale_value": 3500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-5-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11191,7 +11061,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 3800
+    "price": 3500
   },
   {
     "brand": "Realme",
@@ -11206,8 +11076,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 8730,
-    "base_resale_value": 5820,
+    "default_mrp": 9999,
+    "base_resale_value": 2800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-5i.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11215,7 +11085,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 2800
   },
   {
     "brand": "Realme",
@@ -11230,8 +11101,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 7575,
-    "base_resale_value": 3800,
+    "default_mrp": 10999,
+    "base_resale_value": 3000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-5s.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11240,7 +11111,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 3800
+    "price": 3000
   },
   {
     "brand": "Realme",
@@ -11255,8 +11126,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 116175,
-    "base_resale_value": 4600,
+    "default_mrp": 12999,
+    "base_resale_value": 3800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-6.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11265,7 +11136,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 4600
+    "price": 3800
   },
   {
     "brand": "Realme",
@@ -11280,8 +11151,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 116025,
-    "base_resale_value": 4600,
+    "default_mrp": 16999,
+    "base_resale_value": 4500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-6-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11290,7 +11161,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 4600
+    "price": 4500
   },
   {
     "brand": "Realme",
@@ -11305,8 +11176,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 8880,
-    "base_resale_value": 5920,
+    "default_mrp": 11999,
+    "base_resale_value": 3500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-6i.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11314,7 +11185,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 3500
   },
   {
     "brand": "Realme",
@@ -11329,8 +11201,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 24450,
-    "base_resale_value": 5400,
+    "default_mrp": 14999,
+    "base_resale_value": 4500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-7.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11339,7 +11211,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5400
+    "price": 4500
   },
   {
     "brand": "Realme",
@@ -11354,8 +11226,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 24600,
-    "base_resale_value": 6200,
+    "default_mrp": 19999,
+    "base_resale_value": 5800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-7-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11364,7 +11236,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 6200
+    "price": 5800
   },
   {
     "brand": "Realme",
@@ -11379,8 +11251,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 9075,
-    "base_resale_value": 6050,
+    "default_mrp": 11999,
+    "base_resale_value": 4000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-7i.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11388,7 +11260,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4000
   },
   {
     "brand": "Realme",
@@ -11403,8 +11276,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 15450,
-    "base_resale_value": 6600,
+    "default_mrp": 15999,
+    "base_resale_value": 6200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-8-5g.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11413,7 +11286,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 6600
+    "price": 6200
   },
   {
     "brand": "Realme",
@@ -11428,8 +11301,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 15450,
-    "base_resale_value": 7400,
+    "default_mrp": 17999,
+    "base_resale_value": 7200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-8-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11438,7 +11311,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7400
+    "price": 7200
   },
   {
     "brand": "Realme",
@@ -11453,7 +11326,7 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 9360,
+    "default_mrp": 13999,
     "base_resale_value": 5800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-8i.jpg",
     "popular_tag": "Realme Official Model",
@@ -11478,8 +11351,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 14370,
-    "base_resale_value": 6900,
+    "default_mrp": 17999,
+    "base_resale_value": 6500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-8s-5g.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11488,7 +11361,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 6900
+    "price": 6500
   },
   {
     "brand": "Realme",
@@ -11528,8 +11401,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 14145,
-    "base_resale_value": 8900,
+    "default_mrp": 19999,
+    "base_resale_value": 9500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-9-5g-speed-edition.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11538,7 +11411,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 8900
+    "price": 9500
   },
   {
     "brand": "Realme",
@@ -11553,8 +11426,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 21750,
-    "base_resale_value": 8600,
+    "default_mrp": 17999,
+    "base_resale_value": 9500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-9-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11563,7 +11436,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 8600
+    "price": 9500
   },
   {
     "brand": "Realme",
@@ -11578,8 +11451,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 15750,
-    "base_resale_value": 9800,
+    "default_mrp": 24999,
+    "base_resale_value": 11000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-9-pro-plus.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11588,7 +11461,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9800
+    "price": 11000
   },
   {
     "brand": "Realme",
@@ -11603,8 +11476,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 9465,
-    "base_resale_value": 6800,
+    "default_mrp": 14999,
+    "base_resale_value": 8000,
     "image_url": "https://api.mobileapi.dev/devices/13763/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11613,7 +11486,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 6800
+    "price": 8000
   },
   {
     "brand": "Realme",
@@ -11665,81 +11538,6 @@
   },
   {
     "brand": "Realme",
-    "model": "C25",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 7860,
-    "base_resale_value": 4200,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c25.jpg",
-    "popular_tag": "Realme Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 4200
-  },
-  {
-    "brand": "Realme",
-    "model": "C25s",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 8340,
-    "base_resale_value": 4200,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c25s.jpg",
-    "popular_tag": "Realme Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 4200
-  },
-  {
-    "brand": "Realme",
-    "model": "C25Y",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 8745,
-    "base_resale_value": 4200,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c25y.jpg",
-    "popular_tag": "Realme Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 4200
-  },
-  {
-    "brand": "Realme",
     "model": "C33 2023",
     "release_year": 2022,
     "ram_options": [
@@ -11751,8 +11549,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 9225,
-    "base_resale_value": 6150,
+    "default_mrp": 9999,
+    "base_resale_value": 5500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c33-2023.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11760,7 +11558,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 5500
   },
   {
     "brand": "Realme",
@@ -11775,8 +11574,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 8670,
-    "base_resale_value": 4800,
+    "default_mrp": 11999,
+    "base_resale_value": 5500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c35.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11785,7 +11584,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 4800
+    "price": 5500
   },
   {
     "brand": "Realme",
@@ -11800,8 +11599,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 10485,
-    "base_resale_value": 4600,
+    "default_mrp": 8999,
+    "base_resale_value": 5800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c51.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11810,7 +11609,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 4600
+    "price": 5800
   },
   {
     "brand": "Realme",
@@ -11825,8 +11624,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 10785,
-    "base_resale_value": 4600,
+    "default_mrp": 9999,
+    "base_resale_value": 6500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c53.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11835,7 +11634,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 4600
+    "price": 6500
   },
   {
     "brand": "Realme",
@@ -11850,8 +11649,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 11520,
-    "base_resale_value": 5900,
+    "default_mrp": 11999,
+    "base_resale_value": 7000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c55.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11860,7 +11659,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5900
+    "price": 7000
   },
   {
     "brand": "Realme",
@@ -11875,8 +11674,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 8910,
-    "base_resale_value": 4490,
+    "default_mrp": 7699,
+    "base_resale_value": 6500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c61.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -11885,7 +11684,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 4490
+    "price": 6500
   },
   {
     "brand": "Realme",
@@ -11900,8 +11699,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 9975,
-    "base_resale_value": 5800,
+    "default_mrp": 8999,
+    "base_resale_value": 7500,
     "image_url": "https://api.mobileapi.dev/devices/13705/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11910,7 +11709,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 5800
+    "price": 7500
   },
   {
     "brand": "Realme",
@@ -11925,8 +11724,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 9480,
-    "base_resale_value": 6800,
+    "default_mrp": 10499,
+    "base_resale_value": 8500,
     "image_url": "https://api.mobileapi.dev/devices/13720/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11935,7 +11734,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 6800
+    "price": 8500
   },
   {
     "brand": "Realme",
@@ -11950,8 +11749,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 13335,
-    "base_resale_value": 8890,
+    "default_mrp": 13999,
+    "base_resale_value": 9500,
     "image_url": "https://api.mobileapi.dev/devices/13733/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -11959,7 +11758,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9500
   },
   {
     "brand": "Realme",
@@ -12094,8 +11894,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 17115,
-    "base_resale_value": 12400,
+    "default_mrp": 34999,
+    "base_resale_value": 14000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-2.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12104,7 +11904,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 12400
+    "price": 14000
   },
   {
     "brand": "Realme",
@@ -12119,8 +11919,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 17280,
-    "base_resale_value": 14800,
+    "default_mrp": 49999,
+    "base_resale_value": 18000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt2-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12129,7 +11929,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 14800
+    "price": 18000
   },
   {
     "brand": "Realme",
@@ -12144,8 +11944,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 36600,
-    "base_resale_value": 24400,
+    "default_mrp": 37999,
+    "base_resale_value": 13500,
     "image_url": "https://api.mobileapi.dev/devices/13816/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12153,7 +11953,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 13500
   },
   {
     "brand": "Realme",
@@ -12168,8 +11969,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 36525,
-    "base_resale_value": 19240,
+    "default_mrp": 40999,
+    "base_resale_value": 28000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-6.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12178,7 +11979,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 19240
+    "price": 28000
   },
   {
     "brand": "Realme",
@@ -12193,8 +11994,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 27600,
-    "base_resale_value": 16450,
+    "default_mrp": 30999,
+    "base_resale_value": 21000,
     "image_url": "https://api.mobileapi.dev/devices/13718/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12203,7 +12004,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 16450
+    "price": 21000
   },
   {
     "brand": "Realme",
@@ -12314,8 +12115,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 14895,
-    "base_resale_value": 9450,
+    "default_mrp": 25999,
+    "base_resale_value": 9500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-master.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12324,7 +12125,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 9450
+    "price": 9500
   },
   {
     "brand": "Realme",
@@ -12339,8 +12140,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 15735,
-    "base_resale_value": 10490,
+    "default_mrp": 31999,
+    "base_resale_value": 12000,
     "image_url": "https://api.mobileapi.dev/devices/13676/thumb.png",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12348,7 +12149,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 12000
   },
   {
     "brand": "Realme",
@@ -12363,8 +12165,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 16965,
-    "base_resale_value": 13600,
+    "default_mrp": 36999,
+    "base_resale_value": 15000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-neo3.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12373,7 +12175,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 13600
+    "price": 15000
   },
   {
     "brand": "Realme",
@@ -12388,8 +12190,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 15465,
-    "base_resale_value": 11200,
+    "default_mrp": 29999,
+    "base_resale_value": 14000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-neo-3t.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12398,7 +12200,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 11200
+    "price": 14000
   },
   {
     "brand": "Realme",
@@ -12413,8 +12215,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 8745,
-    "base_resale_value": 5830,
+    "default_mrp": 11999,
+    "base_resale_value": 4500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-10.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12422,7 +12224,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 4500
   },
   {
     "brand": "Realme",
@@ -12461,8 +12264,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 9525,
-    "base_resale_value": 4200,
+    "default_mrp": 10499,
+    "base_resale_value": 4500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-20.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12471,7 +12274,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 4200
+    "price": 4500
   },
   {
     "brand": "Realme",
@@ -12486,8 +12289,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 9390,
-    "base_resale_value": 4900,
+    "default_mrp": 14999,
+    "base_resale_value": 5500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-20-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12496,7 +12299,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 4900
+    "price": 5500
   },
   {
     "brand": "Realme",
@@ -12511,8 +12314,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 9285,
-    "base_resale_value": 5800,
+    "default_mrp": 12499,
+    "base_resale_value": 6000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-30.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12521,7 +12324,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5800
+    "price": 6000
   },
   {
     "brand": "Realme",
@@ -12536,8 +12339,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 13695,
-    "base_resale_value": 5800,
+    "default_mrp": 16999,
+    "base_resale_value": 7000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-30-pro-5g.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12546,7 +12349,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 5800
+    "price": 7000
   },
   {
     "brand": "Realme",
@@ -12561,8 +12364,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 9795,
-    "base_resale_value": 7100,
+    "default_mrp": 12999,
+    "base_resale_value": 7500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-50.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12571,7 +12374,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7100
+    "price": 7500
   },
   {
     "brand": "Realme",
@@ -12586,8 +12389,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 14175,
-    "base_resale_value": 7100,
+    "default_mrp": 21999,
+    "base_resale_value": 9000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-50-pro-5g.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12596,56 +12399,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7100
-  },
-  {
-    "brand": "Realme",
-    "model": "Narzo 50A",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 8925,
-    "base_resale_value": 5950,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-50a.jpg",
-    "popular_tag": "Realme Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true
-  },
-  {
-    "brand": "Realme",
-    "model": "Narzo 50A Prime",
-    "release_year": 2022,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": 8775,
-    "base_resale_value": 4800,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-50a-prime.jpg",
-    "popular_tag": "Realme Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": false,
-    "is_active": true,
-    "price": 4800
+    "price": 9000
   },
   {
     "brand": "Realme",
@@ -12660,8 +12414,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 18210,
-    "base_resale_value": 7800,
+    "default_mrp": 17999,
+    "base_resale_value": 10000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-60.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12670,7 +12424,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7800
+    "price": 10000
   },
   {
     "brand": "Realme",
@@ -12685,8 +12439,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 22980,
-    "base_resale_value": 11800,
+    "default_mrp": 23999,
+    "base_resale_value": 13000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-60-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12695,7 +12449,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 11800
+    "price": 13000
   },
   {
     "brand": "Realme",
@@ -12710,8 +12464,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 15810,
-    "base_resale_value": 7800,
+    "default_mrp": 12999,
+    "base_resale_value": 8800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-60x-5g.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12720,7 +12474,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7800
+    "price": 8800
   },
   {
     "brand": "Realme",
@@ -12735,8 +12489,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 17175,
-    "base_resale_value": 7900,
+    "default_mrp": 14999,
+    "base_resale_value": 10500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-70-5g.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12745,7 +12499,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7900
+    "price": 10500
   },
   {
     "brand": "Realme",
@@ -12761,7 +12515,7 @@
       "256GB"
     ],
     "default_mrp": 19999,
-    "base_resale_value": 12400,
+    "base_resale_value": 14000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-70-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12770,7 +12524,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 12400
+    "price": 14000
   },
   {
     "brand": "Realme",
@@ -12785,8 +12539,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 17700,
-    "base_resale_value": 10800,
+    "default_mrp": 16999,
+    "base_resale_value": 12500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-70-turbo-5g.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12795,7 +12549,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 10800
+    "price": 12500
   },
   {
     "brand": "Realme",
@@ -12810,8 +12564,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 11970,
-    "base_resale_value": 7900,
+    "default_mrp": 11999,
+    "base_resale_value": 9000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-70x.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -12820,7 +12574,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7900
+    "price": 9000
   },
   {
     "brand": "Realme",
@@ -12883,8 +12637,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 11100,
-    "base_resale_value": 5600,
+    "default_mrp": 8999,
+    "base_resale_value": 6500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-n53.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12893,7 +12647,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5600
+    "price": 6500
   },
   {
     "brand": "Realme",
@@ -12908,8 +12662,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 11835,
-    "base_resale_value": 5600,
+    "default_mrp": 10999,
+    "base_resale_value": 7000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-n55.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -12918,7 +12672,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5600
+    "price": 7000
   },
   {
     "brand": "Realme",
@@ -13032,7 +12786,7 @@
       "256GB"
     ],
     "default_mrp": 15999,
-    "base_resale_value": 9900,
+    "base_resale_value": 11500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-p1.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -13041,7 +12795,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9900
+    "price": 11500
   },
   {
     "brand": "Realme",
@@ -13056,8 +12810,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 16575,
-    "base_resale_value": 11800,
+    "default_mrp": 21999,
+    "base_resale_value": 14000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-p1-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -13066,7 +12820,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 11800
+    "price": 14000
   },
   {
     "brand": "Realme",
@@ -13081,8 +12835,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 17700,
-    "base_resale_value": 13500,
+    "default_mrp": 24999,
+    "base_resale_value": 16500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-p2-pro-5g.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -13091,7 +12845,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 13500
+    "price": 16500
   },
   {
     "brand": "Realme",
@@ -13394,8 +13148,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 116175,
-    "base_resale_value": 5400,
+    "default_mrp": 16999,
+    "base_resale_value": 4500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-x.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -13404,7 +13158,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5400
+    "price": 4500
   },
   {
     "brand": "Realme",
@@ -13419,8 +13173,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 9105,
-    "base_resale_value": 6400,
+    "default_mrp": 19999,
+    "base_resale_value": 5500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-x2.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -13429,7 +13183,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 6400
+    "price": 5500
   },
   {
     "brand": "Realme",
@@ -13444,8 +13198,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 9870,
-    "base_resale_value": 7800,
+    "default_mrp": 29999,
+    "base_resale_value": 7500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-x2-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -13454,7 +13208,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 7800
+    "price": 7500
   },
   {
     "brand": "Realme",
@@ -13469,8 +13223,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 10950,
-    "base_resale_value": 7900,
+    "default_mrp": 24999,
+    "base_resale_value": 6500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-x3.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -13479,7 +13233,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7900
+    "price": 6500
   },
   {
     "brand": "Realme",
@@ -13494,8 +13248,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 10485,
-    "base_resale_value": 7900,
+    "default_mrp": 27999,
+    "base_resale_value": 7800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-x3-superzoom.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -13504,7 +13258,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 7900
+    "price": 7800
   },
   {
     "brand": "Realme",
@@ -13519,8 +13273,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 12495,
-    "base_resale_value": 9800,
+    "default_mrp": 37999,
+    "base_resale_value": 10500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-x50-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -13529,7 +13283,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 9800
+    "price": 10500
   },
   {
     "brand": "Realme",
@@ -13544,8 +13298,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 13755,
-    "base_resale_value": 9170,
+    "default_mrp": 19999,
+    "base_resale_value": 6800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-x7.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -13553,7 +13307,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 6800
   },
   {
     "brand": "Realme",
@@ -13568,8 +13323,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 15585,
-    "base_resale_value": 10390,
+    "default_mrp": 26999,
+    "base_resale_value": 9500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-x7-max-5g.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -13577,7 +13332,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9500
   },
   {
     "brand": "Realme",
@@ -13592,8 +13348,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 14835,
-    "base_resale_value": 9890,
+    "default_mrp": 29999,
+    "base_resale_value": 8500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-x7-pro.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "5G Octa-core Processor",
@@ -13601,7 +13357,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 8500
   },
   {
     "brand": "Realme",
@@ -13616,8 +13373,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 9795,
-    "base_resale_value": 5800,
+    "default_mrp": 15999,
+    "base_resale_value": 4800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-xt.jpg",
     "popular_tag": "Realme Official Model",
     "processor": "High-Efficiency Processor",
@@ -13626,7 +13383,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 5800
+    "price": 4800
   },
   {
     "brand": "Samsung",
@@ -18289,8 +18046,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 97350,
-    "base_resale_value": 3830,
+    "default_mrp": 19999,
+    "base_resale_value": 4000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-s2.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -18299,7 +18056,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 3830
+    "price": 4000
   },
   {
     "brand": "Vivo",
@@ -19005,7 +18762,7 @@
       "256GB"
     ],
     "default_mrp": 27990,
-    "base_resale_value": 15560,
+    "base_resale_value": 6200,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v19.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -19014,7 +18771,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 15560
+    "price": 6200
   },
   {
     "brand": "Vivo",
@@ -19379,8 +19136,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 27750,
-    "base_resale_value": 19860,
+    "default_mrp": 42999,
+    "base_resale_value": 19500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v29-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -19389,7 +19146,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 19860
+    "price": 19500
   },
   {
     "brand": "Vivo",
@@ -19429,8 +19186,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 34425,
-    "base_resale_value": 19530,
+    "default_mrp": 35999,
+    "base_resale_value": 19500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v30.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -19439,7 +19196,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 19530
+    "price": 19500
   },
   {
     "brand": "Vivo",
@@ -19454,8 +19211,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 34350,
-    "base_resale_value": 22420,
+    "default_mrp": 46999,
+    "base_resale_value": 24000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v30-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -19464,7 +19221,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 22420
+    "price": 24000
   },
   {
     "brand": "Vivo",
@@ -19504,8 +19261,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 44850,
-    "base_resale_value": 20910,
+    "default_mrp": 39999,
+    "base_resale_value": 22000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v40.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -19514,7 +19271,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 20910
+    "price": 22000
   },
   {
     "brand": "Vivo",
@@ -19529,8 +19286,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 44775,
-    "base_resale_value": 27460,
+    "default_mrp": 54999,
+    "base_resale_value": 31000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v40-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -19539,7 +19296,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 27460
+    "price": 31000
   },
   {
     "brand": "Vivo",
@@ -19878,8 +19635,8 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": 67425,
-    "base_resale_value": 27300,
+    "default_mrp": 58999,
+    "base_resale_value": 30000,
     "image_url": "https://api.mobileapi.dev/devices/355/thumb.png",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Efficiency Processor",
@@ -19888,7 +19645,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": false,
     "is_active": true,
-    "price": 27300
+    "price": 30000
   },
   {
     "brand": "Vivo",
@@ -19903,8 +19660,8 @@
       "512 GB",
       "256GB"
     ],
-    "default_mrp": 67425,
-    "base_resale_value": 32750,
+    "default_mrp": 69999,
+    "base_resale_value": 36000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -19913,7 +19670,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 32750
+    "price": 36000
   },
   {
     "brand": "Vivo",
@@ -21070,8 +20827,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 21510,
-    "base_resale_value": 1430,
+    "default_mrp": 14990,
+    "base_resale_value": 7500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y21-5g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21080,7 +20837,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 1430
+    "price": 7500
   },
   {
     "brand": "Vivo",
@@ -21243,8 +21000,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 13999,
-    "base_resale_value": 1220,
+    "default_mrp": 15999,
+    "base_resale_value": 11000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y28.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21253,7 +21010,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 1220
+    "price": 11000
   },
   {
     "brand": "Vivo",
@@ -21268,8 +21025,8 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": 14205,
-    "base_resale_value": 9470,
+    "default_mrp": 14999,
+    "base_resale_value": 9800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y28e-5g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21277,7 +21034,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9800
   },
   {
     "brand": "Vivo",
@@ -21292,8 +21050,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 17085,
-    "base_resale_value": 11390,
+    "default_mrp": 16999,
+    "base_resale_value": 11500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y28s-5g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21301,7 +21059,8 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 11500
   },
   {
     "brand": "Vivo",
@@ -21415,8 +21174,8 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": 18645,
-    "base_resale_value": 1530,
+    "default_mrp": 16490,
+    "base_resale_value": 8500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y31-5g.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "5G Octa-core Processor",
@@ -21425,7 +21184,7 @@
     "display_spec": "6.7\" AMOLED 120Hz",
     "is_5g": true,
     "is_active": true,
-    "price": 1530
+    "price": 8500
   },
   {
     "brand": "Vivo",
@@ -24907,8 +24666,8 @@
       "128GB",
       "256GB"
     ],
-    "default_mrp": 29999,
-    "base_resale_value": 11350,
+    "default_mrp": 27999,
+    "base_resale_value": 11000,
     "image_url": null,
     "popular_tag": "OnePlus Bestseller",
     "processor": "Octa-core Processor",
@@ -24916,7 +24675,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 11000
   },
   {
     "brand": "OnePlus",
@@ -24931,7 +24691,7 @@
       "256GB"
     ],
     "default_mrp": 28999,
-    "base_resale_value": 11350,
+    "base_resale_value": 12500,
     "image_url": null,
     "popular_tag": "OnePlus Bestseller",
     "processor": "Octa-core Processor",
@@ -24939,7 +24699,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 12500
   },
   {
     "brand": "OnePlus",
@@ -24954,7 +24715,7 @@
       "256GB"
     ],
     "default_mrp": 33999,
-    "base_resale_value": 13950,
+    "base_resale_value": 15500,
     "image_url": null,
     "popular_tag": "OnePlus Bestseller",
     "processor": "Octa-core Processor",
@@ -24962,7 +24723,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 15500
   },
   {
     "brand": "OnePlus",
@@ -24977,7 +24739,7 @@
       "256GB"
     ],
     "default_mrp": 23999,
-    "base_resale_value": 10750,
+    "base_resale_value": 10000,
     "image_url": null,
     "popular_tag": "OnePlus Bestseller",
     "processor": "Octa-core Processor",
@@ -24985,7 +24747,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 10000
   },
   {
     "brand": "OnePlus",
@@ -25000,7 +24763,7 @@
       "256GB"
     ],
     "default_mrp": 19999,
-    "base_resale_value": 10100,
+    "base_resale_value": 10500,
     "image_url": null,
     "popular_tag": "OnePlus Bestseller",
     "processor": "Octa-core Processor",
@@ -25008,7 +24771,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 10500
   },
   {
     "brand": "Apple",
@@ -25238,7 +25002,7 @@
       "256GB"
     ],
     "default_mrp": 56999,
-    "base_resale_value": 18850,
+    "base_resale_value": 30000,
     "image_url": null,
     "popular_tag": "OnePlus Bestseller",
     "processor": "Octa-core Processor",
@@ -25246,7 +25010,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 30000
   },
   {
     "brand": "OnePlus",
@@ -25261,7 +25026,7 @@
       "256GB"
     ],
     "default_mrp": 39999,
-    "base_resale_value": 20500,
+    "base_resale_value": 22000,
     "image_url": null,
     "popular_tag": "OnePlus Bestseller",
     "processor": "Octa-core Processor",
@@ -25269,7 +25034,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 22000
   },
   {
     "brand": "OnePlus",
@@ -25284,7 +25050,7 @@
       "256GB"
     ],
     "default_mrp": 29999,
-    "base_resale_value": 18400,
+    "base_resale_value": 19000,
     "image_url": null,
     "popular_tag": "OnePlus Bestseller",
     "processor": "Octa-core Processor",
@@ -25292,7 +25058,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 19000
   },
   {
     "brand": "OnePlus",
@@ -25307,7 +25074,7 @@
       "256GB"
     ],
     "default_mrp": 24999,
-    "base_resale_value": 14900,
+    "base_resale_value": 16000,
     "image_url": null,
     "popular_tag": "OnePlus Bestseller",
     "processor": "Octa-core Processor",
@@ -25315,7 +25082,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 16000
   },
   {
     "brand": "Xiaomi",
@@ -25353,7 +25121,7 @@
       "256GB"
     ],
     "default_mrp": 40999,
-    "base_resale_value": 19240,
+    "base_resale_value": 28000,
     "image_url": null,
     "popular_tag": "Realme Bestseller",
     "processor": "Octa-core Processor",
@@ -25362,7 +25130,7 @@
     "display_spec": "AMOLED Display",
     "is_5g": true,
     "is_active": true,
-    "price": 19240
+    "price": 28000
   },
   {
     "brand": "Realme",
@@ -25377,7 +25145,7 @@
       "256GB"
     ],
     "default_mrp": 30999,
-    "base_resale_value": 16450,
+    "base_resale_value": 21000,
     "image_url": null,
     "popular_tag": "Realme Bestseller",
     "processor": "Octa-core Processor",
@@ -25386,7 +25154,7 @@
     "display_spec": "AMOLED Display",
     "is_5g": true,
     "is_active": true,
-    "price": 16450
+    "price": 21000
   },
   {
     "brand": "Vivo",
@@ -25472,8 +25240,8 @@
       "128GB",
       "256GB"
     ],
-    "default_mrp": 89999,
-    "base_resale_value": 32750,
+    "default_mrp": 69999,
+    "base_resale_value": 36000,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -25482,7 +25250,7 @@
     "display_spec": "AMOLED Display",
     "is_5g": true,
     "is_active": true,
-    "price": 32750
+    "price": 36000
   },
   {
     "brand": "Vivo",
@@ -25496,8 +25264,8 @@
       "128GB",
       "256GB"
     ],
-    "default_mrp": 63999,
-    "base_resale_value": 27300,
+    "default_mrp": 58999,
+    "base_resale_value": 30000,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -25506,7 +25274,7 @@
     "display_spec": "AMOLED Display",
     "is_5g": true,
     "is_active": true,
-    "price": 27300
+    "price": 30000
   },
   {
     "brand": "Vivo",
@@ -25876,7 +25644,7 @@
       "256GB"
     ],
     "default_mrp": 39999,
-    "base_resale_value": 20910,
+    "base_resale_value": 22000,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -25885,7 +25653,7 @@
     "display_spec": "AMOLED Display",
     "is_5g": true,
     "is_active": true,
-    "price": 20910
+    "price": 22000
   },
   {
     "brand": "Vivo",
@@ -25899,8 +25667,8 @@
       "128GB",
       "256GB"
     ],
-    "default_mrp": 49999,
-    "base_resale_value": 27460,
+    "default_mrp": 54999,
+    "base_resale_value": 31000,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -25909,7 +25677,7 @@
     "display_spec": "AMOLED Display",
     "is_5g": true,
     "is_active": true,
-    "price": 27460
+    "price": 31000
   },
   {
     "brand": "Vivo",
@@ -25947,8 +25715,8 @@
       "128GB",
       "256GB"
     ],
-    "default_mrp": 41999,
-    "base_resale_value": 22420,
+    "default_mrp": 46999,
+    "base_resale_value": 24000,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -25957,7 +25725,7 @@
     "display_spec": "AMOLED Display",
     "is_5g": true,
     "is_active": true,
-    "price": 22420
+    "price": 24000
   },
   {
     "brand": "Vivo",
@@ -25971,8 +25739,8 @@
       "128GB",
       "256GB"
     ],
-    "default_mrp": 33999,
-    "base_resale_value": 19530,
+    "default_mrp": 35999,
+    "base_resale_value": 19500,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -25981,7 +25749,7 @@
     "display_spec": "AMOLED Display",
     "is_5g": true,
     "is_active": true,
-    "price": 19530
+    "price": 19500
   },
   {
     "brand": "Vivo",
@@ -26019,8 +25787,8 @@
       "128GB",
       "256GB"
     ],
-    "default_mrp": 39999,
-    "base_resale_value": 19860,
+    "default_mrp": 42999,
+    "base_resale_value": 19500,
     "image_url": null,
     "popular_tag": "Vivo Bestseller",
     "processor": "Octa-core Processor",
@@ -26029,7 +25797,7 @@
     "display_spec": "AMOLED Display",
     "is_5g": true,
     "is_active": true,
-    "price": 19860
+    "price": 19500
   },
   {
     "brand": "Vivo",
@@ -26870,7 +26638,7 @@
       "128GB",
       "256GB"
     ],
-    "default_mrp": 89999,
+    "default_mrp": 84999,
     "base_resale_value": 59000,
     "image_url": null,
     "popular_tag": "Oppo Bestseller",
@@ -26879,7 +26647,8 @@
     "battery_spec": "5000 mAh",
     "display_spec": "AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 59000
   },
   {
     "brand": "Google",
@@ -27106,7 +26875,7 @@
       "256GB"
     ],
     "default_mrp": 50999,
-    "base_resale_value": 12500,
+    "base_resale_value": 6500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-6t-mclaren.jpg",
     "popular_tag": "Salute to Speed • 10GB RAM",
     "processor": "Snapdragon 845",
@@ -27114,7 +26883,8 @@
     "battery_spec": "3700 mAh Warp Charge 30",
     "display_spec": "6.41\" Optic AMOLED FHD+",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 6500
   },
   {
     "brand": "OnePlus",
@@ -27127,7 +26897,7 @@
       "256GB"
     ],
     "default_mrp": 50999,
-    "base_resale_value": 12500,
+    "base_resale_value": 6500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-6t-mclaren.jpg",
     "popular_tag": "Salute to Speed • 10GB RAM",
     "processor": "Snapdragon 845",
@@ -27135,7 +26905,8 @@
     "battery_spec": "3700 mAh Warp Charge 30",
     "display_spec": "6.41\" Optic AMOLED FHD+",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 6500
   },
   {
     "brand": "OnePlus",
@@ -27149,8 +26920,8 @@
       "256GB",
       "512GB"
     ],
-    "default_mrp": 64999,
-    "base_resale_value": 34999,
+    "default_mrp": 54999,
+    "base_resale_value": 38000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-13.jpg",
     "popular_tag": "Flagship Killer 2025",
     "processor": "Snapdragon 8 Gen 3 / Elite",
@@ -27158,7 +26929,8 @@
     "battery_spec": "5800 mAh 100W SuperVOOC",
     "display_spec": "6.78\" 1.5K 120Hz LTPO AMOLED",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 38000
   },
   {
     "brand": "OnePlus",
@@ -27172,8 +26944,8 @@
       "256GB",
       "512GB"
     ],
-    "default_mrp": 64999,
-    "base_resale_value": 34999,
+    "default_mrp": 54999,
+    "base_resale_value": 38000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-13.jpg",
     "popular_tag": "Flagship Killer 2025",
     "processor": "Snapdragon 8 Gen 3 / Elite",
@@ -27181,7 +26953,8 @@
     "battery_spec": "5800 mAh 100W SuperVOOC",
     "display_spec": "6.78\" 1.5K 120Hz LTPO AMOLED",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 38000
   },
   {
     "brand": "OnePlus",
@@ -27194,7 +26967,7 @@
       "256GB"
     ],
     "default_mrp": 58999,
-    "base_resale_value": 14500,
+    "base_resale_value": 10000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-7t-pro.jpg",
     "popular_tag": "McLaren Papaya Orange Accent",
     "processor": "Snapdragon 855+",
@@ -27202,7 +26975,8 @@
     "battery_spec": "4085 mAh Warp Charge 30T",
     "display_spec": "6.67\" 90Hz Fluid AMOLED QHD+",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 10000
   },
   {
     "brand": "OnePlus",
@@ -27215,7 +26989,7 @@
       "256GB"
     ],
     "default_mrp": 58999,
-    "base_resale_value": 14500,
+    "base_resale_value": 10000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-7t-pro.jpg",
     "popular_tag": "McLaren Papaya Orange Accent",
     "processor": "Snapdragon 855+",
@@ -27223,7 +26997,8 @@
     "battery_spec": "4085 mAh Warp Charge 30T",
     "display_spec": "6.67\" 90Hz Fluid AMOLED QHD+",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "price": 10000
   },
   {
     "brand": "OnePlus",
@@ -27238,7 +27013,7 @@
       "256GB"
     ],
     "default_mrp": 26999,
-    "base_resale_value": 14650,
+    "base_resale_value": 14000,
     "image_url": "https://api.mobileapi.dev/devices/374/thumb.png",
     "popular_tag": "Never Settle",
     "processor": "Snapdragon 782G 5G",
@@ -27246,7 +27021,8 @@
     "battery_spec": "5000 mAh 80W SUPERVOOC",
     "display_spec": "6.7\" 120Hz Fluid AMOLED FHD+",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 14000
   },
   {
     "brand": "OnePlus",
@@ -27261,7 +27037,7 @@
       "256GB"
     ],
     "default_mrp": 26999,
-    "base_resale_value": 14650,
+    "base_resale_value": 14000,
     "image_url": "https://api.mobileapi.dev/devices/374/thumb.png",
     "popular_tag": "Never Settle",
     "processor": "Snapdragon 782G 5G",
@@ -27269,7 +27045,8 @@
     "battery_spec": "5000 mAh 80W SUPERVOOC",
     "display_spec": "6.7\" 120Hz Fluid AMOLED FHD+",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 14000
   },
   {
     "brand": "OnePlus",
@@ -27283,7 +27060,7 @@
       "256GB"
     ],
     "default_mrp": 19999,
-    "base_resale_value": 10150,
+    "base_resale_value": 10500,
     "image_url": "https://api.mobileapi.dev/devices/16320/thumb.png",
     "popular_tag": "Larger Than Life",
     "processor": "Snapdragon 695 5G",
@@ -27291,7 +27068,8 @@
     "battery_spec": "5000 mAh 67W SUPERVOOC",
     "display_spec": "6.72\" 120Hz FHD+ LCD",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 10500
   },
   {
     "brand": "OnePlus",
@@ -27314,7 +27092,8 @@
     "battery_spec": "5500 mAh 100W SUPERVOOC",
     "display_spec": "6.74\" 120Hz 1.5K AMOLED",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 18500
   },
   {
     "brand": "OnePlus",
@@ -27337,7 +27116,8 @@
     "battery_spec": "5500 mAh 100W SUPERVOOC",
     "display_spec": "6.74\" 120Hz 1.5K AMOLED",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 18500
   },
   {
     "brand": "OnePlus",
@@ -27351,7 +27131,7 @@
       "128GB"
     ],
     "default_mrp": 18999,
-    "base_resale_value": 10040,
+    "base_resale_value": 9000,
     "image_url": "https://api.mobileapi.dev/devices/815/thumb.png",
     "popular_tag": "A Little More Than You Expect",
     "processor": "Snapdragon 695 5G",
@@ -27359,7 +27139,8 @@
     "battery_spec": "5000 mAh 33W Fast Charge",
     "display_spec": "6.59\" 120Hz FHD+ Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 9000
   },
   {
     "brand": "OnePlus",
@@ -27384,7 +27165,8 @@
     "battery_spec": "5500 mAh 100W SUPERVOOC",
     "display_spec": "6.74\" 120Hz 1.5K AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 24500
   },
   {
     "brand": "OnePlus",
@@ -27409,7 +27191,8 @@
     "battery_spec": "5500 mAh 100W SUPERVOOC",
     "display_spec": "6.74\" 120Hz 1.5K AMOLED Display",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 24500
   },
   {
     "brand": "OnePlus",
@@ -27432,7 +27215,8 @@
     "battery_spec": "5500 mAh 100W SUPERVOOC",
     "display_spec": "6.74\" 120Hz AMOLED",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 21500
   },
   {
     "brand": "OnePlus",
@@ -27455,7 +27239,8 @@
     "battery_spec": "5500 mAh 100W SUPERVOOC",
     "display_spec": "6.74\" 120Hz AMOLED",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "price": 21500
   },
   {
     "brand": "Xiaomi",
@@ -27707,8 +27492,8 @@
       "12GB"
     ],
     "default_mrp": 38999,
-    "base_resale_value": 13450,
-    "price": 13450,
+    "base_resale_value": 14000,
+    "price": 14000,
     "image": "https://api.mobileapi.dev/devices/16344/thumb.png",
     "image_url": "https://api.mobileapi.dev/devices/16344/thumb.png",
     "popular_tag": "150W SUPERVOOC Endurance",
@@ -27734,8 +27519,8 @@
       "12GB"
     ],
     "default_mrp": 38999,
-    "base_resale_value": 13450,
-    "price": 13450,
+    "base_resale_value": 14000,
+    "price": 14000,
     "image": "https://api.mobileapi.dev/devices/16344/thumb.png",
     "image_url": "https://api.mobileapi.dev/devices/16344/thumb.png",
     "popular_tag": "150W SUPERVOOC Endurance",
@@ -27760,9 +27545,9 @@
       "8GB",
       "12GB"
     ],
-    "default_mrp": 41999,
-    "base_resale_value": 10450,
-    "price": 10450,
+    "default_mrp": 44999,
+    "base_resale_value": 9800,
+    "price": 9800,
     "image": "https://api.mobileapi.dev/devices/16348/thumb.png",
     "image_url": "https://api.mobileapi.dev/devices/16348/thumb.png",
     "popular_tag": "Verizon Ultra Wideband mmWave",
@@ -27787,9 +27572,9 @@
       "8GB",
       "12GB"
     ],
-    "default_mrp": 41999,
-    "base_resale_value": 10450,
-    "price": 10450,
+    "default_mrp": 44999,
+    "base_resale_value": 9800,
+    "price": 9800,
     "image": "https://api.mobileapi.dev/devices/16348/thumb.png",
     "image_url": "https://api.mobileapi.dev/devices/16348/thumb.png",
     "popular_tag": "Verizon Ultra Wideband mmWave",
@@ -27866,8 +27651,8 @@
       "12GB"
     ],
     "default_mrp": 27999,
-    "base_resale_value": 12900,
-    "price": 12900,
+    "base_resale_value": 15000,
+    "price": 15000,
     "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-pro-plus.jpg",
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-pro-plus.jpg",
     "popular_tag": "200MP OIS SuperZoom Camera",
@@ -27892,8 +27677,8 @@
       "8GB"
     ],
     "default_mrp": 20999,
-    "base_resale_value": 11600,
-    "price": 11600,
+    "base_resale_value": 14000,
+    "price": 14000,
     "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-12-plus-5g.jpg",
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-12-plus-5g.jpg",
     "popular_tag": "Sony LYT-600 OIS Master Camera",
@@ -27918,8 +27703,8 @@
       "8GB"
     ],
     "default_mrp": 20999,
-    "base_resale_value": 11600,
-    "price": 11600,
+    "base_resale_value": 14000,
+    "price": 14000,
     "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-12-plus-5g.jpg",
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-12-plus-5g.jpg",
     "popular_tag": "Sony LYT-600 OIS Master Camera",
@@ -28827,8 +28612,8 @@
     "default_ram": "16 GB",
     "storage": "512 GB",
     "default_mrp": 149999,
-    "base_resale_value": 58000,
-    "price": 58000,
+    "base_resale_value": 68000,
+    "price": 68000,
     "release_year": 2023,
     "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n3.jpg",
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n3.jpg",
@@ -28899,7 +28684,7 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 69999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Performance Processor",
@@ -28907,7 +28692,9 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.78\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 45000,
+    "price": 45000
   },
   {
     "brand": "Vivo",
@@ -28922,7 +28709,7 @@
       "512 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 64999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Performance Processor",
@@ -28930,7 +28717,9 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.78\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 36000,
+    "price": 36000
   },
   {
     "brand": "Vivo",
@@ -28945,7 +28734,7 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 54999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Performance Processor",
@@ -28953,7 +28742,9 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.78\" AMOLED 120Hz",
     "is_5g": true,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 30000,
+    "price": 30000
   },
   {
     "brand": "Vivo",
@@ -29175,7 +28966,7 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 16990,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Performance Processor",
@@ -29183,7 +28974,9 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.78\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 6800,
+    "price": 6800
   },
   {
     "brand": "Vivo",
@@ -29221,7 +29014,7 @@
       "64 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 10990,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-pro.jpg",
     "popular_tag": "Vivo Official Model",
     "processor": "High-Performance Processor",
@@ -29229,7 +29022,9 @@
     "battery_spec": "5000 mAh Fast Charging",
     "display_spec": "6.78\" AMOLED 120Hz",
     "is_5g": false,
-    "is_active": true
+    "is_active": true,
+    "base_resale_value": 6500,
+    "price": 6500
   },
   {
     "brand": "Vivo",
@@ -30809,7 +30604,7 @@
       "512 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 89999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -30818,8 +30613,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
     "is_active": true,
-    "base_resale_value": 39420,
-    "price": 39420
+    "base_resale_value": 48000,
+    "price": 48000
   },
   {
     "brand": "Oppo",
@@ -30834,7 +30629,7 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 69999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -30843,8 +30638,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
     "is_active": true,
-    "base_resale_value": 31800,
-    "price": 31800
+    "base_resale_value": 40000,
+    "price": 40000
   },
   {
     "brand": "Oppo",
@@ -30859,7 +30654,7 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 94999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -30868,8 +30663,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
     "is_active": true,
-    "base_resale_value": 22250,
-    "price": 22250
+    "base_resale_value": 42000,
+    "price": 42000
   },
   {
     "brand": "Oppo",
@@ -30884,7 +30679,7 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 89999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -30893,8 +30688,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
     "is_active": true,
-    "base_resale_value": 18880,
-    "price": 18880
+    "base_resale_value": 32000,
+    "price": 32000
   },
   {
     "brand": "Oppo",
@@ -30934,7 +30729,7 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 36999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -30943,8 +30738,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
     "is_active": true,
-    "base_resale_value": 17790,
-    "price": 17790
+    "base_resale_value": 26000,
+    "price": 26000
   },
   {
     "brand": "Oppo",
@@ -30959,7 +30754,7 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 32999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -30968,8 +30763,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
     "is_active": true,
-    "base_resale_value": 14170,
-    "price": 14170
+    "base_resale_value": 21000,
+    "price": 21000
   },
   {
     "brand": "Oppo",
@@ -30984,7 +30779,7 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 39999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -30993,8 +30788,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
     "is_active": true,
-    "base_resale_value": 16800,
-    "price": 16800
+    "base_resale_value": 22000,
+    "price": 22000
   },
   {
     "brand": "Oppo",
@@ -31009,7 +30804,7 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 29999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -31018,8 +30813,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
     "is_active": true,
-    "base_resale_value": 16610,
-    "price": 16610
+    "base_resale_value": 18000,
+    "price": 18000
   },
   {
     "brand": "Oppo",
@@ -31034,7 +30829,7 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 39999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -31043,8 +30838,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
     "is_active": true,
-    "base_resale_value": 15450,
-    "price": 15450
+    "base_resale_value": 20000,
+    "price": 20000
   },
   {
     "brand": "Oppo",
@@ -31059,7 +30854,7 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 32999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -31068,8 +30863,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
     "is_active": true,
-    "base_resale_value": 16370,
-    "price": 16370
+    "base_resale_value": 17000,
+    "price": 17000
   },
   {
     "brand": "Oppo",
@@ -31309,7 +31104,7 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 29999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -31318,8 +31113,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
     "is_active": true,
-    "base_resale_value": 14690,
-    "price": 14690
+    "base_resale_value": 17500,
+    "price": 17500
   },
   {
     "brand": "Oppo",
@@ -31334,7 +31129,7 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 22999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -31343,8 +31138,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
     "is_active": true,
-    "base_resale_value": 12870,
-    "price": 12870
+    "base_resale_value": 14000,
+    "price": 14000
   },
   {
     "brand": "Oppo",
@@ -31359,7 +31154,7 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 25999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -31368,8 +31163,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
     "is_active": true,
-    "base_resale_value": 13920,
-    "price": 13920
+    "base_resale_value": 16000,
+    "price": 16000
   },
   {
     "brand": "Oppo",
@@ -31384,7 +31179,7 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 23999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -31393,8 +31188,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
     "is_active": true,
-    "base_resale_value": 12920,
-    "price": 12920
+    "base_resale_value": 15000,
+    "price": 15000
   },
   {
     "brand": "Oppo",
@@ -31409,7 +31204,7 @@
       "256 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 19999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -31418,8 +31213,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
     "is_active": true,
-    "base_resale_value": 11640,
-    "price": 11640
+    "base_resale_value": 12000,
+    "price": 12000
   },
   {
     "brand": "Oppo",
@@ -31434,7 +31229,7 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 22999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -31443,8 +31238,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": false,
     "is_active": true,
-    "base_resale_value": 9530,
-    "price": 9530
+    "base_resale_value": 10000,
+    "price": 10000
   },
   {
     "brand": "Oppo",
@@ -31459,7 +31254,7 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 22999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -31468,8 +31263,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": false,
     "is_active": true,
-    "base_resale_value": 9340,
-    "price": 9340
+    "base_resale_value": 9500,
+    "price": 9500
   },
   {
     "brand": "Oppo",
@@ -31484,7 +31279,7 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 16999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -31493,8 +31288,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": false,
     "is_active": true,
-    "base_resale_value": 7470,
-    "price": 7470
+    "base_resale_value": 5800,
+    "price": 5800
   },
   {
     "brand": "Oppo",
@@ -31509,7 +31304,7 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 12999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -31518,8 +31313,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
     "is_active": true,
-    "base_resale_value": 10090,
-    "price": 10090
+    "base_resale_value": 11000,
+    "price": 11000
   },
   {
     "brand": "Oppo",
@@ -31534,7 +31329,7 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 14999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -31543,8 +31338,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": false,
     "is_active": true,
-    "base_resale_value": 8320,
-    "price": 8320
+    "base_resale_value": 8500,
+    "price": 8500
   },
   {
     "brand": "Oppo",
@@ -31595,31 +31390,6 @@
     "is_active": true,
     "base_resale_value": 7560,
     "price": 7560
-  },
-  {
-    "brand": "Oppo",
-    "model": "OPPO R11 Plus",
-    "release_year": 2024,
-    "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
-    ],
-    "storage_options": [
-      "64 GB",
-      "256GB"
-    ],
-    "default_mrp": null,
-    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
-    "popular_tag": "Oppo Official Model",
-    "processor": "MediaTek Dimensity / Snapdragon",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh SUPERVOOC",
-    "display_spec": "AMOLED 120Hz Display",
-    "is_5g": false,
-    "is_active": true,
-    "base_resale_value": 6000,
-    "price": 6000
   },
   {
     "brand": "Oppo",
@@ -31684,7 +31454,7 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 19999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -31693,8 +31463,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": true,
     "is_active": true,
-    "base_resale_value": 10580,
-    "price": 10580
+    "base_resale_value": 12000,
+    "price": 12000
   },
   {
     "brand": "Oppo",
@@ -31759,7 +31529,7 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 17499,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -31768,8 +31538,8 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": false,
     "is_active": true,
-    "base_resale_value": 9480,
-    "price": 9480
+    "base_resale_value": 9500,
+    "price": 9500
   },
   {
     "brand": "Oppo",
@@ -31784,7 +31554,7 @@
       "128 GB",
       "256GB"
     ],
-    "default_mrp": null,
+    "default_mrp": 14999,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro.jpg",
     "popular_tag": "Oppo Official Model",
     "processor": "MediaTek Dimensity / Snapdragon",
@@ -31793,7 +31563,7 @@
     "display_spec": "AMOLED 120Hz Display",
     "is_5g": false,
     "is_active": true,
-    "base_resale_value": 8710,
-    "price": 8710
+    "base_resale_value": 9000,
+    "price": 9000
   }
 ]

@@ -104,10 +104,18 @@ function extractPriceFromHtml(html) {
   if (uptoMatch) return parseInt(uptoMatch[1].replace(/,/g, ''), 10);
 
   return 0;
-}
+}const COMMON_RAM_BY_STORAGE = {
+  '32-gb': ['3-gb', '2-gb', '4-gb'],
+  '64-gb': ['4-gb', '6-gb', '3-gb'],
+  '128-gb': ['8-gb', '6-gb', '4-gb', '12-gb'],
+  '256-gb': ['12-gb', '8-gb', '16-gb'],
+  '512-gb': ['12-gb', '16-gb', '8-gb'],
+  '1-tb': ['16-gb', '12-gb'],
+};
 
 /**
  * Scrapes live official buyback quote directly from cashify.in
+ * Generalized across all smartphone brands, series, and models.
  */
 async function scrapeCashifyLive(brand, model, storage, ram = '') {
   const b = sanitizeSlugPart(brand);
@@ -119,21 +127,53 @@ async function scrapeCashifyLive(brand, model, storage, ram = '') {
   const s = sanitizeSlugPart(storage).replace(/gb$/, '-gb').replace(/--+/g, '-');
   const r = sanitizeSlugPart(ram).replace(/gb$/, '-gb').replace(/--+/g, '-');
 
-  const candidateSlugs = new Set();
-  
-  if (r && s) {
-    candidateSlugs.add(`used-${b}-${m}-${r}-${s}`);
-    candidateSlugs.add(`used-${m}-${r}-${s}`);
-    candidateSlugs.add(`used-${b}-${m}-5g-${r}-${s}`);
-    candidateSlugs.add(`used-${m}-5g-${r}-${s}`);
+  // Build model variations (5g/4g, word-number joins, brand prefix)
+  const baseModels = new Set();
+  baseModels.add(m);
+
+  if (m.endsWith('-5g')) baseModels.add(m.replace(/-5g$/, ''));
+  if (m.endsWith('-4g')) baseModels.add(m.replace(/-4g$/, ''));
+  if (!m.includes('5g')) baseModels.add(`${m}-5g`);
+
+  // Handle words joined with numbers (e.g. reno-11 -> reno11)
+  const joined = m.replace(/([a-z]+)-([0-9]+)/g, '$1$2');
+  if (joined !== m) {
+    baseModels.add(joined);
+    if (!joined.includes('5g')) baseModels.add(`${joined}-5g`);
+    if (joined.endsWith('-5g')) baseModels.add(joined.replace(/-5g$/, ''));
   }
-  if (s) {
-    candidateSlugs.add(`used-${b}-${m}-${s}`);
-    candidateSlugs.add(`used-${m}-${s}`);
-    candidateSlugs.add(`used-${b}-${m}-5g-${s}`);
-    candidateSlugs.add(`used-${m}-5g-${s}`);
-    candidateSlugs.add(`sell-${b}-${m}-${s}`);
-    candidateSlugs.add(`sell-${m}-${s}`);
+
+  const allModels = new Set();
+  for (const mod of baseModels) {
+    allModels.add(mod);
+    if (b === 'motorola') {
+      if (!mod.startsWith('moto-')) {
+        allModels.add(`moto-${mod}`);
+      }
+    }
+  }
+
+  const candidateSlugs = new Set();
+  const testRams = r ? [r] : (COMMON_RAM_BY_STORAGE[s] || ['8-gb', '6-gb', '12-gb', '4-gb']);
+
+  for (const mod of allModels) {
+    // 1. With RAM + Storage (standard for Android models on Cashify)
+    for (const testR of testRams) {
+      if (testR && s) {
+        candidateSlugs.add(`used-${b}-${mod}-${testR}-${s}`);
+        candidateSlugs.add(`used-${mod}-${testR}-${s}`);
+        if (b === 'motorola') {
+          candidateSlugs.add(`used-motorola-${mod}-${testR}-${s}`);
+        }
+      }
+    }
+    // 2. With Storage Only (Apple iPhones, Google Pixels, etc.)
+    if (s) {
+      candidateSlugs.add(`used-${b}-${mod}-${s}`);
+      candidateSlugs.add(`used-${mod}-${s}`);
+      candidateSlugs.add(`sell-${b}-${mod}-${s}`);
+      candidateSlugs.add(`sell-${mod}-${s}`);
+    }
   }
 
   const headers = {
@@ -142,11 +182,11 @@ async function scrapeCashifyLive(brand, model, storage, ram = '') {
     'Accept-Language': 'en-IN,en;q=0.9',
   };
 
-  // 1. Direct candidate variant slug check
+  // Step 1: Fast direct candidate variant slug check
   for (const slug of candidateSlugs) {
     const url = `https://www.cashify.in/sell-old-mobile-phone/${slug}`;
     try {
-      const res = await fetch(url, { headers, signal: AbortSignal.timeout(3500) });
+      const res = await fetch(url, { headers, signal: AbortSignal.timeout(3000) });
       if (res.ok) {
         const html = await res.text();
         const price = extractPriceFromHtml(html);
@@ -157,26 +197,26 @@ async function scrapeCashifyLive(brand, model, storage, ram = '') {
     } catch (_e) {}
   }
 
-  // 2. Discover variant via parent model landing page
-  const parentSlugs = [
-    `used-${b}-${m}`,
-    `used-${m}`,
-    `used-${b}-${m}-5g`,
-    `used-${m}-5g`,
-    `sell-${b}-${m}`,
-  ];
+  // Step 2: Discover variant via parent model landing page
+  const parentSlugs = new Set();
+  for (const mod of allModels) {
+    parentSlugs.add(`used-${b}-${mod}`);
+    parentSlugs.add(`used-${mod}`);
+    parentSlugs.add(`sell-${b}-${mod}`);
+    parentSlugs.add(`sell-${mod}`);
+  }
 
-  const mKeywords = m.split('-').filter(w => w.length >= 2 && w !== 'galaxy' && w !== 'phone');
+  const mKeywords = m.split('-').filter(w => w.length >= 2 && w !== 'galaxy' && w !== 'phone' && w !== '5g' && w !== '4g');
 
   for (const pSlug of parentSlugs) {
     const pUrl = `https://www.cashify.in/sell-old-mobile-phone/${pSlug}`;
     try {
-      const res = await fetch(pUrl, { headers, signal: AbortSignal.timeout(3500) });
+      const res = await fetch(pUrl, { headers, signal: AbortSignal.timeout(3000) });
       if (res.ok) {
         const html = await res.text();
         const links = [...html.matchAll(/href="(\/sell-old-mobile-phone\/used-[^"]+)"/g)].map(m => m[1]);
         const sMatch = s ? s.replace(/\s+/g, '-') : '';
-        
+
         const matchingLink = links.find(l => {
           if (!sMatch || !l.includes(sMatch)) return false;
           return mKeywords.every(kw => l.includes(kw));
@@ -187,7 +227,7 @@ async function scrapeCashifyLive(brand, model, storage, ram = '') {
 
         if (matchingLink) {
           const varUrl = `https://www.cashify.in${matchingLink}`;
-          const varRes = await fetch(varUrl, { headers, signal: AbortSignal.timeout(3500) });
+          const varRes = await fetch(varUrl, { headers, signal: AbortSignal.timeout(3000) });
           if (varRes.ok) {
             const varHtml = await varRes.text();
             const price = extractPriceFromHtml(varHtml);

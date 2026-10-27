@@ -963,7 +963,7 @@ router.get('/sell-pricing/competitor-radar', async (req, res, next) => {
         },
         fundu: {
           basePrice: funduBasePrice,
-          flawlessOffer: Math.round(funduBasePrice * 0.85),
+          flawlessOffer: Math.round(funduBasePrice * 0.82),
           goodOffer: Math.round(funduBasePrice * 0.70),
           fairOffer: Math.round(funduBasePrice * 0.55),
           payoutSpeed: 'Instant Spot Cash / UPI Before Handover',
