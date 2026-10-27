@@ -2150,216 +2150,195 @@
   {
     "brand": "Itel",
     "model": "A05s",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB"
     ],
     "default_mrp": 5700,
     "base_resale_value": 3800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/itel-a05s.jpg",
     "popular_tag": "Itel Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
+    "processor": "Unisoc SC9863A1",
+    "camera_spec": "8MP AI Camera",
+    "battery_spec": "4000 mAh Battery",
+    "display_spec": "6.6\" HD+ Waterdrop Display",
     "is_5g": false,
     "is_active": true
   },
   {
     "brand": "Itel",
     "model": "A60s",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
     "default_mrp": 6075,
     "base_resale_value": 4050,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/itel-a60s.jpg",
     "popular_tag": "Itel Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
+    "processor": "Unisoc SC9863A1 Octa-core",
+    "camera_spec": "8MP Dual AI Camera",
+    "battery_spec": "5000 mAh Battery",
+    "display_spec": "6.6\" HD+ IPS Display",
     "is_5g": false,
     "is_active": true
   },
   {
     "brand": "Itel",
     "model": "A70",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB"
     ],
     "storage_options": [
-      "128 GB",
+      "64GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 7050,
     "base_resale_value": 4700,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/itel-a70.jpg",
     "popular_tag": "Itel Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
+    "processor": "Unisoc T603 Octa-core",
+    "camera_spec": "13MP Dual AI Camera",
+    "battery_spec": "5000 mAh Type-C Fast Charge",
+    "display_spec": "6.6\" HD+ Dynamic Bar Display",
     "is_5g": false,
     "is_active": true
   },
   {
     "brand": "Itel",
     "model": "Color Pro 5G",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "6GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 10575,
     "base_resale_value": 7050,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/itel-color-pro-5g.jpg",
     "popular_tag": "Itel Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
+    "processor": "MediaTek Dimensity 6080 5G",
+    "camera_spec": "50MP AI Dual Camera",
+    "battery_spec": "5000 mAh 18W Fast Charging",
+    "display_spec": "6.6\" HD+ 90Hz Display",
     "is_5g": true,
     "is_active": true
   },
   {
     "brand": "Itel",
     "model": "P55",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB",
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 8250,
     "base_resale_value": 5500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/itel-p55.jpg",
     "popular_tag": "Itel Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
+    "processor": "Unisoc T606 Octa-core",
+    "camera_spec": "50MP AI Dual Camera",
+    "battery_spec": "5000 mAh 18W Fast Charging",
+    "display_spec": "6.6\" HD+ 90Hz Punch-Hole Display",
     "is_5g": false,
     "is_active": true
   },
   {
     "brand": "Itel",
     "model": "P55+",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "256 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 10200,
     "base_resale_value": 6800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/itel-p55-plus.jpg",
     "popular_tag": "Itel Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
+    "processor": "Unisoc T606 Octa-core",
+    "camera_spec": "50MP AI Dual Camera",
+    "battery_spec": "5000 mAh 45W PowerCharge",
+    "display_spec": "6.6\" HD+ 90Hz Display",
+    "is_5g": false,
     "is_active": true
   },
   {
     "brand": "Itel",
     "model": "P55T",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 8400,
     "base_resale_value": 5600,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/itel-p55t.jpg",
     "popular_tag": "Itel Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
+    "processor": "Unisoc T606 Octa-core",
+    "camera_spec": "50MP AI Camera",
+    "battery_spec": "6000 mAh Mega Battery 18W",
+    "display_spec": "6.6\" HD+ 90Hz Display",
     "is_5g": false,
     "is_active": true
   },
   {
     "brand": "Itel",
     "model": "S23+",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "256 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 13125,
     "base_resale_value": 8750,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/itel-s23-plus.jpg",
     "popular_tag": "Itel Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
+    "processor": "Unisoc T616 Octa-core",
+    "camera_spec": "50MP Dual Camera",
+    "battery_spec": "5000 mAh 18W Fast Charging",
+    "display_spec": "6.78\" FHD+ 3D Curved AMOLED Gorilla Glass 5",
+    "is_5g": false,
     "is_active": true
   },
   {
     "brand": "Itel",
     "model": "S24",
-    "release_year": 2023,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
     "default_mrp": 11250,
     "base_resale_value": 7500,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/itel-s24.jpg",
     "popular_tag": "Itel Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
+    "processor": "MediaTek Helio G91 Ultra",
+    "camera_spec": "108MP Ultra-Clear Camera",
+    "battery_spec": "5000 mAh 18W Fast Charging",
+    "display_spec": "6.6\" HD+ 90Hz Punch-Hole Display",
     "is_5g": false,
     "is_active": true
   },
@@ -17263,48 +17242,43 @@
   {
     "brand": "Tecno",
     "model": "Camon 20 Pro 5G",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
-    "default_mrp": 17850,
+    "default_mrp": 19999,
     "base_resale_value": 11900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-20-pro-5g.jpg",
     "popular_tag": "Tecno Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
+    "processor": "MediaTek Dimensity 8050 5G",
+    "camera_spec": "64MP RGBW OIS Triple Camera",
+    "battery_spec": "5000 mAh 33W Fast Charging",
+    "display_spec": "6.67\" FHD+ 120Hz AMOLED",
     "is_5g": true,
     "is_active": true
   },
   {
     "brand": "Tecno",
     "model": "Camon 30 5G",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
-    "default_mrp": 22425,
+    "default_mrp": 22999,
     "base_resale_value": 14950,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-30-5g.jpg",
     "popular_tag": "Tecno Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
+    "processor": "MediaTek Dimensity 7020 5G",
+    "camera_spec": "50MP OIS Camera with Eye-tracking AF",
+    "battery_spec": "5000 mAh 70W Fast Charging",
+    "display_spec": "6.78\" FHD+ 120Hz AMOLED",
     "is_5g": true,
     "is_active": true
   },
@@ -17313,22 +17287,19 @@
     "model": "Camon 30 Premier 5G",
     "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
       "12GB"
     ],
     "storage_options": [
-      "512 GB",
-      "256GB"
+      "512GB"
     ],
     "default_mrp": 39999,
     "base_resale_value": 24850,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-30-premier.jpg",
     "popular_tag": "Tecno Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
+    "processor": "MediaTek Dimensity 8200 Ultimate 5G",
+    "camera_spec": "50MP Triple OIS Camera with Sony IMX890",
+    "battery_spec": "5000 mAh 70W Ultra Charge",
+    "display_spec": "6.77\" 1.5K 120Hz LTPO AMOLED",
     "is_5g": true,
     "is_active": true
   },
@@ -17337,22 +17308,19 @@
     "model": "Phantom V Flip 5G",
     "release_year": 2023,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
-    "default_mrp": 49350,
+    "default_mrp": 54999,
     "base_resale_value": 32900,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-phantom-v-flip.jpg",
     "popular_tag": "Tecno Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
+    "processor": "MediaTek Dimensity 8050 5G",
+    "camera_spec": "64MP RGBW + 13MP UW Camera",
+    "battery_spec": "4000 mAh 45W Flash Charge",
+    "display_spec": "6.9\" FHD+ 120Hz Foldable LTPO AMOLED",
     "is_5g": true,
     "is_active": true
   },
@@ -17361,22 +17329,20 @@
     "model": "Phantom V Fold 5G",
     "release_year": 2023,
     "ram_options": [
-      "6GB",
-      "8GB",
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
-      "256GB"
+      "256GB",
+      "512GB"
     ],
-    "default_mrp": 70500,
+    "default_mrp": 88888,
     "base_resale_value": 47000,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-phantom-v-fold.jpg",
     "popular_tag": "Tecno Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
+    "processor": "MediaTek Dimensity 9000+ 5G (4nm)",
+    "camera_spec": "50MP + 50MP Telephoto + 13MP UW",
+    "battery_spec": "5000 mAh 66W Flash Charge",
+    "display_spec": "7.85\" 2K+ 120Hz Foldable LTPO AMOLED",
     "is_5g": true,
     "is_active": true
   },
@@ -17385,46 +17351,41 @@
     "model": "Phantom X2 Pro 5G",
     "release_year": 2022,
     "ram_options": [
-      "6GB",
-      "8GB",
       "12GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
-    "default_mrp": 37425,
+    "default_mrp": 49999,
     "base_resale_value": 24950,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-phantom-x2-pro.jpg",
     "popular_tag": "Tecno Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
+    "processor": "MediaTek Dimensity 9000 5G",
+    "camera_spec": "50MP Retractable Portrait Camera",
+    "battery_spec": "5160 mAh 45W Fast Charging",
+    "display_spec": "6.8\" FHD+ 120Hz Curved AMOLED",
     "is_5g": true,
     "is_active": true
   },
   {
     "brand": "Tecno",
     "model": "Pova 5 Pro 5G",
-    "release_year": 2022,
+    "release_year": 2023,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
-    "default_mrp": 16200,
+    "default_mrp": 14999,
     "base_resale_value": 10800,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-pova-5-pro.jpg",
     "popular_tag": "Tecno Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
+    "processor": "MediaTek Dimensity 6080 5G",
+    "camera_spec": "50MP AI Dual Camera with Turbo Light",
+    "battery_spec": "5000 mAh 68W Ultra Charge",
+    "display_spec": "6.78\" FHD+ 120Hz IPS Display",
     "is_5g": true,
     "is_active": true
   },
@@ -17433,94 +17394,85 @@
     "model": "Pova 6 Pro 5G",
     "release_year": 2024,
     "ram_options": [
-      "6GB",
       "8GB",
       "12GB"
     ],
     "storage_options": [
-      "128 GB",
+      "128GB",
       "256GB"
     ],
     "default_mrp": 19999,
-    "base_resale_value": 12900,
+    "base_resale_value": 13450,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-pova-6-pro.jpg",
     "popular_tag": "Tecno Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
+    "processor": "MediaTek Dimensity 6080 5G",
+    "camera_spec": "108MP AI Triple Camera",
+    "battery_spec": "6000 mAh Mega Battery 70W Fast Charging",
+    "display_spec": "6.78\" FHD+ 120Hz AMOLED Dynamic Light",
     "is_5g": true,
     "is_active": true
   },
   {
     "brand": "Tecno",
     "model": "Spark 20",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "128 GB",
-      "256GB"
+      "128GB"
     ],
-    "default_mrp": 11550,
+    "default_mrp": 10499,
     "base_resale_value": 7700,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-20.jpg",
     "popular_tag": "Tecno Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
+    "processor": "MediaTek Helio G85",
+    "camera_spec": "50MP Ultra Clear Dual Camera",
+    "battery_spec": "5000 mAh 18W Fast Charging",
+    "display_spec": "6.6\" 90Hz Hole Display",
     "is_5g": false,
     "is_active": true
   },
   {
     "brand": "Tecno",
     "model": "Spark 20 Pro+",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "8GB"
     ],
     "storage_options": [
-      "256 GB",
       "256GB"
     ],
-    "default_mrp": 17100,
+    "default_mrp": 16999,
     "base_resale_value": 11400,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-20-pro-plus.jpg",
     "popular_tag": "Tecno Official Model",
-    "processor": "5G Octa-core Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
-    "is_5g": true,
+    "processor": "MediaTek Helio G99 Ultimate",
+    "camera_spec": "108MP Ultra Sensing Camera",
+    "battery_spec": "5000 mAh 33W Fast Charge",
+    "display_spec": "6.78\" 120Hz 3D Curved AMOLED Gorilla Glass 5",
+    "is_5g": false,
     "is_active": true
   },
   {
     "brand": "Tecno",
     "model": "Spark Go 2024",
-    "release_year": 2022,
+    "release_year": 2024,
     "ram_options": [
-      "6GB",
-      "8GB",
-      "12GB"
+      "4GB"
     ],
     "storage_options": [
-      "64 GB",
-      "256GB"
+      "64GB",
+      "128GB"
     ],
-    "default_mrp": 8025,
+    "default_mrp": 7299,
     "base_resale_value": 5350,
     "image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-go-2024.jpg",
     "popular_tag": "Tecno Official Model",
-    "processor": "High-Efficiency Processor",
-    "camera_spec": "50MP OIS Camera",
-    "battery_spec": "5000 mAh Fast Charging",
-    "display_spec": "6.7\" AMOLED 120Hz",
+    "processor": "Unisoc T606 Octa-core",
+    "camera_spec": "13MP Dual AI Camera",
+    "battery_spec": "5000 mAh Type-C Charging",
+    "display_spec": "6.56\" 90Hz Dynamic Port Display",
     "is_5g": false,
     "is_active": true
   },
@@ -27681,7 +27633,9 @@
       "256 GB",
       "512 GB"
     ],
-    "ram_options": [],
+    "ram_options": [
+      "4GB"
+    ],
     "default_storage": "256 GB",
     "default_ram": "",
     "storage": "256 GB",
@@ -27708,7 +27662,9 @@
       "256 GB",
       "512 GB"
     ],
-    "ram_options": [],
+    "ram_options": [
+      "4GB"
+    ],
     "default_storage": "128 GB",
     "default_ram": "",
     "storage": "128 GB",
@@ -30488,5 +30444,70 @@
     "is_active": true,
     "base_resale_value": 9000,
     "price": 9000
+  },
+  {
+    "brand": "Itel",
+    "model": "P55 5G",
+    "release_year": 2024,
+    "ram_options": [
+      "4GB",
+      "6GB"
+    ],
+    "storage_options": [
+      "64GB",
+      "128GB"
+    ],
+    "default_mrp": 9999,
+    "base_resale_value": 6800,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/itel-p55.jpg",
+    "popular_tag": "Itel Official Model",
+    "processor": "MediaTek Dimensity 6080 5G",
+    "camera_spec": "50MP AI Dual Camera",
+    "battery_spec": "5000 mAh 18W Fast Charging",
+    "display_spec": "6.6\" HD+ 90Hz Display",
+    "is_5g": true,
+    "is_active": true
+  },
+  {
+    "brand": "Itel",
+    "model": "S23",
+    "release_year": 2023,
+    "ram_options": [
+      "8GB"
+    ],
+    "storage_options": [
+      "128GB"
+    ],
+    "default_mrp": 8799,
+    "base_resale_value": 5800,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/itel-s23.jpg",
+    "popular_tag": "Itel Official Model",
+    "processor": "Unisoc T606 Octa-core",
+    "camera_spec": "50MP AI Camera",
+    "battery_spec": "5000 mAh 10W Type-C",
+    "display_spec": "6.6\" HD+ 90Hz Display",
+    "is_5g": false,
+    "is_active": true
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camon 30 Pro 5G",
+    "release_year": 2024,
+    "ram_options": [
+      "12GB"
+    ],
+    "storage_options": [
+      "256GB"
+    ],
+    "default_mrp": 29999,
+    "base_resale_value": 18900,
+    "image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-30-pro.jpg",
+    "popular_tag": "Flagship Sony IMX890 Camera",
+    "processor": "MediaTek Dimensity 8200 Ultimate 5G",
+    "camera_spec": "50MP Sony IMX890 OIS + 50MP UW + 50MP Selfie",
+    "battery_spec": "5000 mAh 70W Ultra Charge",
+    "display_spec": "6.78\" 144Hz AMOLED Display",
+    "is_5g": true,
+    "is_active": true
   }
 ]

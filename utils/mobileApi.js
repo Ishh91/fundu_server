@@ -4,7 +4,7 @@ import { INDIAN_MARKET_PHONES_LAST_10_YEARS } from '../config/seedPhones.js';
 export const DEFAULT_PHONE_BRANDS = [
   'Apple', 'Samsung', 'OnePlus', 'Xiaomi', 'Realme', 'Vivo', 'Oppo',
   'Motorola', 'Google', 'Nothing', 'Poco', 'Redmi', 'iQOO', 'Asus', 'Nokia',
-  'Infinix', 'Tecno', 'Honor', 'Lava', 'Micromax',
+  'Infinix', 'Tecno', 'Itel', 'Honor', 'Lava', 'Micromax',
 ];
 
 export const mobileCache = new Map();
@@ -42,6 +42,12 @@ export const normalizePhoneQuery = (rawName = '', rawBrand = '') => {
   let name = String(rawName || '').trim();
   let brand = String(rawBrand || '').trim();
   if (brand === 'All') brand = '';
+
+  if (brand.toLowerCase() === 'techno') brand = 'Tecno';
+  if (/^techno\s+/i.test(name)) {
+    if (!brand) brand = 'Tecno';
+    name = name.replace(/^techno\s+/i, '').trim();
+  }
 
   // 1. Detect brand in name if not provided
   for (const b of DEFAULT_PHONE_BRANDS) {

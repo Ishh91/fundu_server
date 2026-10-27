@@ -169,17 +169,41 @@ const FALLBACK_MODELS = {
     { name: 'Infinix Note 40 Pro 5G', storages: ['256GB'] },
   ],
   tecno: [
-    { name: 'Tecno Camon 30 5G', storages: ['256GB', '512GB'] },
+    { name: 'Tecno Camon 30 Premier 5G', storages: ['512GB'] },
+    { name: 'Tecno Camon 30 Pro 5G', storages: ['256GB'] },
+    { name: 'Tecno Camon 30 5G', storages: ['256GB'] },
+    { name: 'Tecno Camon 20 Pro 5G', storages: ['128GB', '256GB'] },
     { name: 'Tecno Pova 6 Pro 5G', storages: ['128GB', '256GB'] },
+    { name: 'Tecno Pova 5 Pro 5G', storages: ['128GB', '256GB'] },
+    { name: 'Tecno Spark 20 Pro+', storages: ['256GB'] },
+    { name: 'Tecno Spark 20', storages: ['128GB'] },
+    { name: 'Tecno Spark Go 2024', storages: ['64GB', '128GB'] },
+    { name: 'Tecno Phantom V Fold 5G', storages: ['256GB', '512GB'] },
+    { name: 'Tecno Phantom V Flip 5G', storages: ['256GB'] },
+    { name: 'Tecno Phantom X2 Pro 5G', storages: ['256GB'] },
   ],
   honor: [
     { name: 'Honor 200 5G', storages: ['256GB', '512GB'] },
     { name: 'Honor 90 5G', storages: ['256GB', '512GB'] },
   ],
+  itel: [
+    { name: 'Itel Color Pro 5G', storages: ['128GB'] },
+    { name: 'Itel S24', storages: ['128GB'] },
+    { name: 'Itel S23+', storages: ['128GB', '256GB'] },
+    { name: 'Itel S23', storages: ['128GB'] },
+    { name: 'Itel P55 5G', storages: ['64GB', '128GB'] },
+    { name: 'Itel P55+', storages: ['128GB', '256GB'] },
+    { name: 'Itel P55', storages: ['128GB'] },
+    { name: 'Itel P55T', storages: ['128GB'] },
+    { name: 'Itel A70', storages: ['64GB', '128GB', '256GB'] },
+    { name: 'Itel A60s', storages: ['64GB', '128GB'] },
+    { name: 'Itel A05s', storages: ['64GB'] },
+  ],
 };
 
 function getFallbackModels(brand, query) {
-  const bLower = (brand || '').toLowerCase().trim();
+  let bLower = (brand || '').toLowerCase().trim();
+  if (bLower === 'techno') bLower = 'tecno';
   const qLower = (query || '').toLowerCase().trim();
 
   // 1. Pull matching models from comprehensive catalog
