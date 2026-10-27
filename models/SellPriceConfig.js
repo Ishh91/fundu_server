@@ -12,6 +12,8 @@ const sellPriceConfigSchema = createSchema({
   box_bonus: { type: Number, default: 500 },
   charger_bonus: { type: Number, default: 300 },
   is_active: { type: Boolean, default: true },
+  is_locked: { type: Boolean, default: false },
+  manual_override: { type: Boolean, default: false },
 }, { timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' } });
 
 export const SellPriceConfig = mongoose.models.SellPriceConfig || mongoose.model('SellPriceConfig', sellPriceConfigSchema);

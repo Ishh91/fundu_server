@@ -170,6 +170,12 @@ router.post('/mobileapi/import', async (req, res) => {
       if (stg.includes('256')) baseVal = Math.round(baseVal * 1.08);
       else if (stg.includes('512') || stg.includes('1TB')) baseVal = Math.round(baseVal * 1.18);
 
+      // Never overwrite manually fixed or locked radar prices
+      const existingConfig = await SellPriceConfig.findOne({ brand: payload.brand, model: payload.model, storage: stg });
+      if (existingConfig && (existingConfig.is_locked || existingConfig.manual_override)) {
+        continue;
+      }
+
       await SellPriceConfig.findOneAndUpdate(
         { brand: payload.brand, model: payload.model, storage: stg },
         {

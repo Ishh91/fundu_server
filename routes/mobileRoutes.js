@@ -734,6 +734,8 @@ router.post('/sell-pricing/config', async (req, res, next) => {
       box_bonus: Number(box_bonus) || 400,
       charger_bonus: Number(charger_bonus) || 400,
       is_active: is_active !== false,
+      is_locked: true,
+      manual_override: true,
       updated_at: new Date(),
     };
 
@@ -801,12 +803,25 @@ router.get('/sell-pricing/competitor-radar', async (req, res, next) => {
     const modelEscaped = rawModel.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const modelRegex = new RegExp(`^(${modelEscaped}|${rawBrand}\\s+${modelEscaped})$`, 'i');
 
-    // 1. Fetch Fundu Base Price from MongoDB
-    const funduConfig = await SellPriceConfig.findOne({
-      brand: brandRegex,
-      model: modelRegex,
-      is_active: { $ne: false },
-    }).sort({ updated_at: -1, _id: -1 }).lean();
+    // 1. Fetch Fundu Base Price from MongoDB (Exact storage match first)
+    let funduConfig = null;
+    if (storage) {
+      const storageClean = storage.replace(/\s+/g, '\\s*');
+      funduConfig = await SellPriceConfig.findOne({
+        brand: brandRegex,
+        model: modelRegex,
+        storage: new RegExp(`^${storageClean}$`, 'i'),
+        is_active: { $ne: false },
+      }).sort({ updated_at: -1, _id: -1 }).lean();
+    }
+
+    if (!funduConfig) {
+      funduConfig = await SellPriceConfig.findOne({
+        brand: brandRegex,
+        model: modelRegex,
+        is_active: { $ne: false },
+      }).sort({ updated_at: -1, _id: -1 }).lean();
+    }
 
     let funduBasePrice = 0;
     let configId = null;
@@ -814,10 +829,17 @@ router.get('/sell-pricing/competitor-radar', async (req, res, next) => {
     if (funduConfig && funduConfig.base_price > 0) {
       configId = funduConfig._id;
       const baseStorage = funduConfig.storage || '128 GB';
-      const baseMult = calculateHardwareVariantMultiplier(baseStorage, '', rawBrand);
-      const targetMult = calculateHardwareVariantMultiplier(storage, '', rawBrand);
-      const ratio = baseMult > 0 ? targetMult / baseMult : 1.0;
-      funduBasePrice = Math.max(500, Math.round((funduConfig.base_price * ratio) / 50) * 50);
+      const isExactStorage = baseStorage.replace(/\s+/g, '').toLowerCase() === storage.replace(/\s+/g, '').toLowerCase();
+
+      if (isExactStorage) {
+        // Exact storage match - preserve exact fixed base price without alteration
+        funduBasePrice = funduConfig.base_price;
+      } else {
+        const baseMult = calculateHardwareVariantMultiplier(baseStorage, '', rawBrand);
+        const targetMult = calculateHardwareVariantMultiplier(storage, '', rawBrand);
+        const ratio = baseMult > 0 ? targetMult / baseMult : 1.0;
+        funduBasePrice = Math.max(500, Math.round((funduConfig.base_price * ratio) / 50) * 50);
+      }
     } else {
       const mp = await MasterPhone.findOne({ brand: brandRegex, model: modelRegex }).lean();
       if (mp && (mp.base_resale_value > 0 || mp.price > 0)) {
