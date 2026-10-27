@@ -747,10 +747,14 @@ router.post('/sell-pricing/config', async (req, res, next) => {
     const modelEscaped = rawModel.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const modelRegex = new RegExp(`^(${modelEscaped}|${rawBrand}\\s+${modelEscaped})$`, 'i');
 
+    const cleanStorage = storage
+      ? String(storage).trim().replace(/(\d+)\s*(gb|tb)/i, (_, n, u) => `${n} ${u.toUpperCase()}`)
+      : null;
+
     const updateDoc = {
       brand: rawBrand,
       model: rawModel,
-      storage: storage ? String(storage).trim() : null,
+      storage: cleanStorage,
       base_price: Number(base_price),
       excellent_multiplier: Number(excellent_multiplier) || 0.85,
       good_multiplier: Number(good_multiplier) || 0.70,
@@ -767,9 +771,9 @@ router.post('/sell-pricing/config', async (req, res, next) => {
       brand: brandRegex,
       model: modelRegex,
     };
-    if (storage) {
-      const storageClean = String(storage).replace(/\s+/g, '\\s*');
-      match.storage = new RegExp(`^${storageClean}$`, 'i');
+    if (cleanStorage) {
+      const storageCleanRegex = cleanStorage.replace(/\s+/g, '\\s*');
+      match.storage = new RegExp(`^${storageCleanRegex}$`, 'i');
     }
 
     const doc = await SellPriceConfig.findOneAndUpdate(match, updateDoc, {
@@ -777,6 +781,16 @@ router.post('/sell-pricing/config', async (req, res, next) => {
       upsert: true,
       setDefaultsOnInsert: true,
     });
+
+    // Also sync MasterPhone base_resale_value in database so all queries match instantly
+    try {
+      await MasterPhone.updateMany(
+        { brand: brandRegex, model: modelRegex },
+        { $set: { base_resale_value: Number(base_price) } }
+      );
+    } catch (_mErr) {
+      // non-fatal
+    }
 
     return res.status(200).json({ data: normalizeDoc(doc), success: true });
   } catch (err) {
